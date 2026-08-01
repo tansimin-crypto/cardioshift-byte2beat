@@ -66,7 +66,7 @@ REQUIRED_FILES = (
     "KAGGLE_WRITEUP.md",
     "DEMO_SCRIPT.md",
     "CODER_DEMO.md",
-    "RELEASE_URLS.template.json",
+    "RELEASE_URLS.json",
     "MANIFEST.json",
     "app.py",
     "requirements.lock",

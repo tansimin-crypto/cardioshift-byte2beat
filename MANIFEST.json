@@ -33,9 +33,9 @@
       "bytes": 2587,
       "sha256": "4ff50a1841111726dfb4eae6b8bcc6065cfab00dc36bdb0e8ced35bf90142294"
     },
-    "RELEASE_URLS.template.json": {
-      "bytes": 198,
-      "sha256": "db6f57d0f508acd7a95cb280feaa46091e420fbb7c24706ce04c7bb5692dd402"
+    "RELEASE_URLS.json": {
+      "bytes": 500,
+      "sha256": "6d70a3d2687f00c763dc4262fe7600bf8e88d2e3e0ebf1b79e335812d1d9efcc"
     },
     "app.py": {
       "bytes": 7284,
@@ -118,8 +118,8 @@
       "sha256": "d649fbc2fcea7a29f3459f18c467f863162cb1fdb428f7817c57c52f181a7c1a"
     },
     "dist/kaggle/cardioshift-data/cardioshift_source.zip": {
-      "bytes": 106559,
-      "sha256": "492c4be99512f28e76f6d45cd047c964b61cf04d9a659e7f2a0c08ee1a4f4487"
+      "bytes": 106866,
+      "sha256": "17196dab125bac487748dd5e11a13529c19d60766856afe680b166e97035550d"
     },
     "dist/kaggle/cardioshift-data/checksums.json": {
       "bytes": 1142,
@@ -127,7 +127,7 @@
     },
     "dist/kaggle/cardioshift-data/manifest.json": {
       "bytes": 2807,
-      "sha256": "eb37d6f19b2e6f7c775339bb4955976aaedb1c3f09a8eeb35596249531758c87"
+      "sha256": "04e9d4a044866c9eacaf6a77e0a9561cbdcbcf414c0692724ad53c7fc105aafe"
     },
     "dist/kaggle/cardioshift-data/outputs/metrics/robustness_results.json": {
       "bytes": 125670,
@@ -150,8 +150,8 @@
       "sha256": "0f1c32db30f61dfa6552c692385942420b19c5313b905d38bcb725999b3a9dca"
     },
     "dist/kaggle/cardioshift-data/outputs/results.json": {
-      "bytes": 204693,
-      "sha256": "15abe301d3ee25befa930203a906e7b49afe648f5dec493649cb05e8e0847deb"
+      "bytes": 204618,
+      "sha256": "1d81f992d4a59d1d7f2c6db226dabb0d1e88c7fa65042baa973c3fad7c239d22"
     },
     "dist/kaggle/cardioshift-data/raw/processed.cleveland.data": {
       "bytes": 18461,
@@ -219,7 +219,7 @@
     },
     "evidence/g3/verification.json": {
       "bytes": 1138,
-      "sha256": "2d06bbb6d92aff6665a85d710ddc220b9c3ce143ca108c635c566fc01983fa3e"
+      "sha256": "4ae06e21749cf0c8db9f448d9beddbc476a7ab5e55ec6fb81641dc99b4fd90f5"
     },
     "evidence/g5/runtime_verification.json": {
       "bytes": 2041,
@@ -306,8 +306,8 @@
       "sha256": "0f1c32db30f61dfa6552c692385942420b19c5313b905d38bcb725999b3a9dca"
     },
     "outputs/results.json": {
-      "bytes": 204693,
-      "sha256": "15abe301d3ee25befa930203a906e7b49afe648f5dec493649cb05e8e0847deb"
+      "bytes": 204618,
+      "sha256": "1d81f992d4a59d1d7f2c6db226dabb0d1e88c7fa65042baa973c3fad7c239d22"
     },
     "report/manuscript.md": {
       "bytes": 6591,
@@ -338,8 +338,8 @@
       "sha256": "e5b3822e4ab8a2e12c330381003bca610189fc3ee399bd862b6ad3407fd043ca"
     },
     "scripts/build_public_release.py": {
-      "bytes": 21678,
-      "sha256": "dbb4a4c9b430540ce75973544d3557940deddbd8be4f9120482207181d04cbf5"
+      "bytes": 22011,
+      "sha256": "b78f68b8a6d30fb2279cf6ae3085af851e4e470f7ad4145a0b221d1dc40fdda5"
     },
     "scripts/capture_kaggle_rules.py": {
       "bytes": 7260,
@@ -398,8 +398,8 @@
       "sha256": "c1bdaa34d9ceec54539b63fecd276f7829e46c69c1823d6b95f47c6682b11921"
     },
     "scripts/verify_public_release.py": {
-      "bytes": 14818,
-      "sha256": "ad9034dfcd49a133c0174b75acbda84f5da04852b9b37697e24e9e085a6bce15"
+      "bytes": 14809,
+      "sha256": "2571be7f52d2fb50e2f177ef88cba29fb23378397da0f918683e6b6490d799e4"
     },
     "scripts/verify_robustness.py": {
       "bytes": 9631,
@@ -478,8 +478,8 @@
       "sha256": "6e888fc82d1ae211ec4e51ccd48ec49f71a5056acd66af8ee202b2fdae0ad643"
     },
     "tests/test_public_release_contract.py": {
-      "bytes": 3285,
-      "sha256": "ea5a847fe13c2c07ff263f2cb6d6773436597749e9fa4117492f662b3206577e"
+      "bytes": 3275,
+      "sha256": "14b833057435fa29b5b954a4cef1b30e2d3c1f180644258cf69f66af7df4b26d"
     },
     "tests/test_robustness_contract.py": {
       "bytes": 3518,
@@ -494,9 +494,9 @@
       "sha256": "dab9a9bddc380fea1a411e3f8f47f36837b3d497e31bda9c91fb9e8d10d94622"
     }
   },
-  "generated_at_utc": "2026-08-01T02:09:51.098382+00:00",
+  "generated_at_utc": "2026-08-01T02:56:03.151043+00:00",
   "schema_version": "1.0",
-  "source_commit_before_export": "f5c15cc3fe1113d1f9bf57656942e1c16534720a",
+  "source_commit_before_export": "79f5ae33184168141afd2c9f81c5bd6553b685e7",
   "standalone_public_release": true,
   "submission_ready_claimed": false
 }

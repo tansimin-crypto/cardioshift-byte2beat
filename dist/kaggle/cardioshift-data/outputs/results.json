@@ -3,13 +3,13 @@
     "data/gate_g1_verification.json": "e51a9b6cd8759bee80358efe6690800568e504cfa89e519e28353ed287dca1a2",
     "evidence/e3_e5/verification.json": "0ef96921da42f31e3660730febae2da3c51799d7b70cc1734002c4a2549111de",
     "evidence/g2/verification.json": "56f4b6e97d536152c420c69b3d9066e906185f147717bb1869673a36d7cc2f0f",
-    "evidence/gates/status.json": "d169b30cabc7587c40813b25f0caf02025a0d951f8993438d40bcbdef2eb241d",
+    "evidence/gates/status.json": "91fdf45b73855b929ab2b6e3df1c3140255e36d9bff22492dcef9bd6e59bb316",
     "outputs/figures/figure_manifest.json": "ea9098ada2c6d1118f1d51663c6606544c85ad79e53ff1c539dc7028c3311770",
     "outputs/metrics/results.json": "7cb40312bf91695b6085a12b71db709608ec6215bf6c6f13b8946e56d50bd3c4",
     "outputs/metrics/robustness_results.json": "11dbaf1c5f6a87e4fb36ef7d49754dca6b3befedb18aa738fb37195bb16604fc",
     "outputs/metrics/shift_safety_results.json": "f10ba94744c0afae21308202fed26f347ac93a038090f61b1bef8e6d7a8ec54c"
   },
-  "code_commit_before_canonicalization": "315dcc95d555f42aca06cf9b7ac37366fb66bd2a",
+  "code_commit_before_canonicalization": "79f5ae33184168141afd2c9f81c5bd6553b685e7",
   "data": {
     "input_sha256": "961eca9f38cd639e8d4be527326e3168d3c3c8af230fd4e154d5d6ea4da4f0e9",
     "rows": 920,
@@ -5349,18 +5349,18 @@
     "G3_single_source": {
       "command": "python scripts/verify_gate_g3.py",
       "evidence_path": "evidence/g3/verification.json",
-      "evidence_sha256": "2d06bbb6d92aff6665a85d710ddc220b9c3ce143ca108c635c566fc01983fa3e",
+      "evidence_sha256": "4ae06e21749cf0c8db9f448d9beddbc476a7ab5e55ec6fb81641dc99b4fd90f5",
       "status": "pass",
       "unresolved_blockers": [],
-      "verified_at": "2026-08-01T01:01:56.457712+00:00"
+      "verified_at": "2026-08-01T02:53:02.287492+00:00"
     },
     "G4_clean_environment": {
       "command": "python scripts/reproduce_all.py",
       "evidence_path": "evidence/g4/full_clean_reproduction.json",
-      "evidence_sha256": "e8cbe494ae7ab50f8fe4692c660a2adb3b382b298214c8479281c5b4e80eaf43",
+      "evidence_sha256": "5e35896b8c0ee3d823404b75b7b98d9edc5fc043c20b1ac3b4ee613109023669",
       "status": "pass",
       "unresolved_blockers": [],
-      "verified_at": "2026-08-01T01:14:56.727662+00:00"
+      "verified_at": "2026-08-01T02:49:39.069368+00:00"
     },
     "G5_coder": {
       "command": "python -m unittest tests.test_coder_contract -v",
@@ -5372,15 +5372,11 @@
     },
     "G6_public_links": {
       "command": "manual logged-out access verification",
-      "evidence_path": null,
-      "evidence_sha256": null,
-      "status": "fail_missing_public_links",
-      "unresolved_blockers": [
-        "Public Notebook is not verified",
-        "Public Demo or project link is not verified",
-        "Logged-out access is not verified"
-      ],
-      "verified_at": null
+      "evidence_path": "evidence/g6/public_access.json",
+      "evidence_sha256": "f3abaf9a76fd4bda28fcf7f80a37efc8964be0f9ef5588985017577819044f0c",
+      "status": "pass",
+      "unresolved_blockers": [],
+      "verified_at": "2026-08-01T02:12:53.9237935Z"
     },
     "G7_claims": {
       "command": "independent judge medical-claims scan",
@@ -5399,11 +5395,11 @@
     "G3_single_source": "pass",
     "G4_clean_environment": "pass",
     "G5_coder": "pass",
-    "G6_public_links": "fail_missing_public_links",
+    "G6_public_links": "pass",
     "G7_claims": "pass"
   },
   "gate_status_schema_version": "2.0",
-  "generated_at_utc": "2026-08-01T01:15:31.288019+00:00",
+  "generated_at_utc": "2026-08-01T02:55:43.140208+00:00",
   "independent_judge": {
     "historical_details_omitted": true,
     "review_type": "independent_final_claims_and_runtime_acceptance",

@@ -48,13 +48,13 @@ class PublicReleaseContractTests(unittest.TestCase):
 
 
 
-    def test_urls_remain_unpublished_placeholders(self) -> None:
+    def test_urls_record_published_release(self) -> None:
         urls = json.loads(
-            (self.release / "RELEASE_URLS.template.json").read_text(
+            (self.release / "RELEASE_URLS.json").read_text(
                 encoding="utf-8"
             )
         )
-        self.assertIs(urls["published"], False)
+        self.assertIs(urls["published"], True)
         for key in (
             "public_repository",
             "public_kaggle_notebook",
@@ -62,7 +62,7 @@ class PublicReleaseContractTests(unittest.TestCase):
             "public_manuscript",
             "audited_release_sha",
         ):
-            self.assertIsNone(urls[key])
+            self.assertTrue(urls[key], msg=key)
 
     def test_git_ssh_url_is_not_misclassified_as_email(self) -> None:
         text = 'repo_url="${VALUE:-git@github.com:owner/repository.git}"'

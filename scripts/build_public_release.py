@@ -588,16 +588,16 @@ def main() -> None:
         render_coder_demo(),
         encoding="utf-8",
     )
-    (DIST / "RELEASE_URLS.template.json").write_text(
+    (DIST / "RELEASE_URLS.json").write_text(
         json.dumps(
             {
                 "schema_version": "1.0",
-                "published": False,
-                "public_repository": None,
-                "public_kaggle_notebook": None,
-                "public_demo": None,
-                "public_manuscript": None,
-                "audited_release_sha": None,
+                "published": True,
+                "public_repository": "https://github.com/tansimin-crypto/cardioshift-byte2beat",
+                "public_kaggle_notebook": "https://www.kaggle.com/code/simingtan/cardioshift-know-when-not-to-predict",
+                "public_demo": "https://github.com/tansimin-crypto/cardioshift-byte2beat",
+                "public_manuscript": "https://github.com/tansimin-crypto/cardioshift-byte2beat/blob/main/report/manuscript.md",
+                "audited_release_sha": subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
             },
             indent=2,
             sort_keys=True,
