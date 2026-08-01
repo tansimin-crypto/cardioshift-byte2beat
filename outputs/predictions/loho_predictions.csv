@@ -1,0 +1,921 @@
+patient_id,site,target,num,raw_probability,calibrated_probability,experiment,repeat
+cleveland:0001,Cleveland,0,0,0.7357463643994892,0.8701250767145655,leave_one_hospital_out,0
+cleveland:0002,Cleveland,1,2,0.8200422654330477,0.9308910515607562,leave_one_hospital_out,0
+cleveland:0003,Cleveland,1,1,0.8811283342428549,0.9640895894981627,leave_one_hospital_out,0
+cleveland:0004,Cleveland,0,0,0.4081186792025392,0.4808800913312061,leave_one_hospital_out,0
+cleveland:0005,Cleveland,0,0,0.22668729515001168,0.21600808740638897,leave_one_hospital_out,0
+cleveland:0006,Cleveland,0,0,0.21479382188310706,0.19986821712114905,leave_one_hospital_out,0
+cleveland:0007,Cleveland,1,3,0.6323650068521394,0.7719487792280383,leave_one_hospital_out,0
+cleveland:0008,Cleveland,0,0,0.550833280681307,0.6769343998566459,leave_one_hospital_out,0
+cleveland:0009,Cleveland,1,2,0.7751063116505366,0.900659710697187,leave_one_hospital_out,0
+cleveland:0010,Cleveland,1,1,0.8571289594469197,0.9521347076645674,leave_one_hospital_out,0
+cleveland:0011,Cleveland,0,0,0.7628397989217076,0.8915503926468455,leave_one_hospital_out,0
+cleveland:0012,Cleveland,0,0,0.37446255783482657,0.43120777441425545,leave_one_hospital_out,0
+cleveland:0013,Cleveland,1,2,0.5153321557265058,0.6312169267164159,leave_one_hospital_out,0
+cleveland:0014,Cleveland,0,0,0.23587663924592672,0.22867560951481175,leave_one_hospital_out,0
+cleveland:0015,Cleveland,0,0,0.45375623479276816,0.5467385193352264,leave_one_hospital_out,0
+cleveland:0016,Cleveland,0,0,0.4269037332008285,0.5082485123975179,leave_one_hospital_out,0
+cleveland:0017,Cleveland,1,1,0.2291627919575877,0.21940435873310152,leave_one_hospital_out,0
+cleveland:0018,Cleveland,0,0,0.55227817298685,0.6787427866415895,leave_one_hospital_out,0
+cleveland:0019,Cleveland,0,0,0.3308946024038207,0.36639380944569655,leave_one_hospital_out,0
+cleveland:0020,Cleveland,0,0,0.23549237137305037,0.22814266093843097,leave_one_hospital_out,0
+cleveland:0021,Cleveland,0,0,0.6169969151125982,0.7551770106942485,leave_one_hospital_out,0
+cleveland:0022,Cleveland,0,0,0.454348529321556,0.5475777756573458,leave_one_hospital_out,0
+cleveland:0023,Cleveland,1,1,0.3720597136780775,0.4276401463400255,leave_one_hospital_out,0
+cleveland:0024,Cleveland,1,3,0.49052666284385743,0.5979065595885429,leave_one_hospital_out,0
+cleveland:0025,Cleveland,1,4,0.8732046946670521,0.9602992219467316,leave_one_hospital_out,0
+cleveland:0026,Cleveland,0,0,0.3868609216915138,0.44957959763134075,leave_one_hospital_out,0
+cleveland:0027,Cleveland,0,0,0.3507538064975993,0.3959467600153136,leave_one_hospital_out,0
+cleveland:0028,Cleveland,0,0,0.6031357749307962,0.739584278948129,leave_one_hospital_out,0
+cleveland:0029,Cleveland,0,0,0.5771991427672826,0.7092520050995184,leave_one_hospital_out,0
+cleveland:0030,Cleveland,1,3,0.8333520000383261,0.9389006133904165,leave_one_hospital_out,0
+cleveland:0031,Cleveland,0,0,0.49793465407011644,0.6079641663782159,leave_one_hospital_out,0
+cleveland:0032,Cleveland,1,2,0.7493603882684898,0.8811156700342987,leave_one_hospital_out,0
+cleveland:0033,Cleveland,1,1,0.406569067472932,0.4786089731580796,leave_one_hospital_out,0
+cleveland:0034,Cleveland,0,0,0.6470556645462662,0.7874653137288601,leave_one_hospital_out,0
+cleveland:0035,Cleveland,0,0,0.32910977820339277,0.3637412825099725,leave_one_hospital_out,0
+cleveland:0036,Cleveland,0,0,0.5538274971897863,0.6806771603861019,leave_one_hospital_out,0
+cleveland:0037,Cleveland,1,3,0.8838910415523675,0.9653746548138673,leave_one_hospital_out,0
+cleveland:0038,Cleveland,1,1,0.8356267647585685,0.9402263559429541,leave_one_hospital_out,0
+cleveland:0039,Cleveland,1,3,0.8480750435820202,0.9472579511790847,leave_one_hospital_out,0
+cleveland:0040,Cleveland,0,0,0.492071039254863,0.6000107484384448,leave_one_hospital_out,0
+cleveland:0041,Cleveland,1,4,0.646248820804355,0.7866263239978274,leave_one_hospital_out,0
+cleveland:0042,Cleveland,0,0,0.49176212541479564,0.5995901683534511,leave_one_hospital_out,0
+cleveland:0043,Cleveland,0,0,0.4135111366765625,0.48876830846800706,leave_one_hospital_out,0
+cleveland:0044,Cleveland,0,0,0.5238482226837491,0.6424022706380457,leave_one_hospital_out,0
+cleveland:0045,Cleveland,1,1,0.5356750116713355,0.6577110387256174,leave_one_hospital_out,0
+cleveland:0046,Cleveland,1,4,0.4893593837535953,0.5963135974410231,leave_one_hospital_out,0
+cleveland:0047,Cleveland,0,0,0.4439384937065857,0.5327630203032647,leave_one_hospital_out,0
+cleveland:0048,Cleveland,1,4,0.8180170901961402,0.9296345207960093,leave_one_hospital_out,0
+cleveland:0049,Cleveland,0,0,0.44244359113109155,0.5306247562974158,leave_one_hospital_out,0
+cleveland:0050,Cleveland,0,0,0.4938616784885651,0.6024455955980917,leave_one_hospital_out,0
+cleveland:0051,Cleveland,0,0,0.2598862308073601,0.2624773803565873,leave_one_hospital_out,0
+cleveland:0052,Cleveland,0,0,0.6712310150524192,0.8118840893200507,leave_one_hospital_out,0
+cleveland:0053,Cleveland,1,2,0.5719597307794387,0.702946400142205,leave_one_hospital_out,0
+cleveland:0054,Cleveland,0,0,0.22366462057223926,0.21187792398891667,leave_one_hospital_out,0
+cleveland:0055,Cleveland,1,1,0.8007964087166826,0.9185461227202262,leave_one_hospital_out,0
+cleveland:0056,Cleveland,1,1,0.8477358154147733,0.9470713411143584,leave_one_hospital_out,0
+cleveland:0057,Cleveland,1,1,0.40375770046822557,0.47448395009348404,leave_one_hospital_out,0
+cleveland:0058,Cleveland,1,1,0.6409544161372733,0.781082782822268,leave_one_hospital_out,0
+cleveland:0059,Cleveland,0,0,0.39224704787578607,0.45753732028615335,leave_one_hospital_out,0
+cleveland:0060,Cleveland,0,0,0.5820324898056181,0.7150164902787949,leave_one_hospital_out,0
+cleveland:0061,Cleveland,1,2,0.6301534861446235,0.7695690612946193,leave_one_hospital_out,0
+cleveland:0062,Cleveland,0,0,0.4899563804251303,0.5971285813649215,leave_one_hospital_out,0
+cleveland:0063,Cleveland,1,1,0.901032468609038,0.9729225393789501,leave_one_hospital_out,0
+cleveland:0064,Cleveland,0,0,0.4478342991073256,0.5383229113735364,leave_one_hospital_out,0
+cleveland:0065,Cleveland,1,2,0.8506678150033625,0.9486749639365154,leave_one_hospital_out,0
+cleveland:0066,Cleveland,1,2,0.87812798698148,0.9626725786672156,leave_one_hospital_out,0
+cleveland:0067,Cleveland,1,1,0.5490161393466813,0.6746541149057217,leave_one_hospital_out,0
+cleveland:0068,Cleveland,0,0,0.4083394986191933,0.4812035727550583,leave_one_hospital_out,0
+cleveland:0069,Cleveland,1,2,0.8299786531528328,0.9369114085667628,leave_one_hospital_out,0
+cleveland:0070,Cleveland,1,1,0.5100626987246837,0.6242299566914061,leave_one_hospital_out,0
+cleveland:0071,Cleveland,0,0,0.43938851850526,0.5262467663986009,leave_one_hospital_out,0
+cleveland:0072,Cleveland,1,3,0.7408455625705339,0.8742948301875642,leave_one_hospital_out,0
+cleveland:0073,Cleveland,1,1,0.8857436666159386,0.9662257900020994,leave_one_hospital_out,0
+cleveland:0074,Cleveland,1,1,0.6714785734939482,0.8121268939134474,leave_one_hospital_out,0
+cleveland:0075,Cleveland,1,1,0.5635806795674928,0.6927409582727366,leave_one_hospital_out,0
+cleveland:0076,Cleveland,0,0,0.43829451528625696,0.5246764325596376,leave_one_hospital_out,0
+cleveland:0077,Cleveland,1,1,0.8548975076098654,0.9509513650985169,leave_one_hospital_out,0
+cleveland:0078,Cleveland,0,0,0.36600717735007005,0.41864580566080045,leave_one_hospital_out,0
+cleveland:0079,Cleveland,0,0,0.2671327687540505,0.27285272044087133,leave_one_hospital_out,0
+cleveland:0080,Cleveland,1,3,0.8502174904452895,0.9484300280121505,leave_one_hospital_out,0
+cleveland:0081,Cleveland,0,0,0.7167129764257483,0.8539986536369607,leave_one_hospital_out,0
+cleveland:0082,Cleveland,0,0,0.5630259673927354,0.6920601217609693,leave_one_hospital_out,0
+cleveland:0083,Cleveland,0,0,0.28380590158269486,0.29697495490476894,leave_one_hospital_out,0
+cleveland:0084,Cleveland,1,3,0.5794958292142998,0.7119974500731423,leave_one_hospital_out,0
+cleveland:0085,Cleveland,0,0,0.2482383458705118,0.24596085395144354,leave_one_hospital_out,0
+cleveland:0086,Cleveland,0,0,0.29988294953474276,0.32050594703622964,leave_one_hospital_out,0
+cleveland:0087,Cleveland,0,0,0.3593449042466976,0.4087353631619944,leave_one_hospital_out,0
+cleveland:0088,Cleveland,0,0,0.20019822860295367,0.18049690784529657,leave_one_hospital_out,0
+cleveland:0089,Cleveland,0,0,0.5269044454054048,0.6463836965934705,leave_one_hospital_out,0
+cleveland:0090,Cleveland,0,0,0.34266242661469426,0.3839003474727314,leave_one_hospital_out,0
+cleveland:0091,Cleveland,0,0,0.6546128385503387,0.7952485526299847,leave_one_hospital_out,0
+cleveland:0092,Cleveland,1,3,0.682269548034641,0.822566916345704,leave_one_hospital_out,0
+cleveland:0093,Cleveland,0,0,0.5286167999318168,0.6486067499584375,leave_one_hospital_out,0
+cleveland:0094,Cleveland,0,0,0.39346157104216334,0.45932942643325514,leave_one_hospital_out,0
+cleveland:0095,Cleveland,0,0,0.4062288066484895,0.47811003712991984,leave_one_hospital_out,0
+cleveland:0096,Cleveland,1,1,0.7394851024083979,0.873188573830387,leave_one_hospital_out,0
+cleveland:0097,Cleveland,1,2,0.7939975107584667,0.9139692492038636,leave_one_hospital_out,0
+cleveland:0098,Cleveland,1,3,0.6684283542521362,0.8091249569764828,leave_one_hospital_out,0
+cleveland:0099,Cleveland,0,0,0.24429623458500183,0.24041989648393353,leave_one_hospital_out,0
+cleveland:0100,Cleveland,0,0,0.5616285191419191,0.690342090043764,leave_one_hospital_out,0
+cleveland:0101,Cleveland,0,0,0.5279758739929503,0.6477753207263747,leave_one_hospital_out,0
+cleveland:0102,Cleveland,0,0,0.36153895085438364,0.41200002843739697,leave_one_hospital_out,0
+cleveland:0103,Cleveland,0,0,0.5417037815126053,0.6654110777818133,leave_one_hospital_out,0
+cleveland:0104,Cleveland,0,0,0.4936024357586859,0.6020934120671593,leave_one_hospital_out,0
+cleveland:0105,Cleveland,1,3,0.505785838909839,0.618522963450363,leave_one_hospital_out,0
+cleveland:0106,Cleveland,0,0,0.2705997004074386,0.27784125057721676,leave_one_hospital_out,0
+cleveland:0107,Cleveland,1,2,0.7377661023442431,0.8717842883728165,leave_one_hospital_out,0
+cleveland:0108,Cleveland,1,1,0.4272158043768159,0.5087003947240687,leave_one_hospital_out,0
+cleveland:0109,Cleveland,1,2,0.8453358613776041,0.9457431032058149,leave_one_hospital_out,0
+cleveland:0110,Cleveland,1,3,0.6779124081279468,0.8183853463219986,leave_one_hospital_out,0
+cleveland:0111,Cleveland,1,1,0.7041915383227882,0.8429065091176423,leave_one_hospital_out,0
+cleveland:0112,Cleveland,1,1,0.7841778830068981,0.907159757533514,leave_one_hospital_out,0
+cleveland:0113,Cleveland,0,0,0.4864892231202517,0.5923874540547337,leave_one_hospital_out,0
+cleveland:0114,Cleveland,1,2,0.6849886554417803,0.8251531669127561,leave_one_hospital_out,0
+cleveland:0115,Cleveland,1,2,0.4221495231708602,0.5013524782882303,leave_one_hospital_out,0
+cleveland:0116,Cleveland,0,0,0.3760398125685107,0.4335485039986608,leave_one_hospital_out,0
+cleveland:0117,Cleveland,0,0,0.4613016442621707,0.5573955976196098,leave_one_hospital_out,0
+cleveland:0118,Cleveland,0,0,0.5142039341377579,0.6297251588396993,leave_one_hospital_out,0
+cleveland:0119,Cleveland,1,3,0.8229369413955269,0.9326697265364665,leave_one_hospital_out,0
+cleveland:0120,Cleveland,1,2,0.8323211296596545,0.9382956675162233,leave_one_hospital_out,0
+cleveland:0121,Cleveland,1,3,0.8355549084978687,0.9401846706066584,leave_one_hospital_out,0
+cleveland:0122,Cleveland,1,4,0.6668828846571688,0.8075954078285836,leave_one_hospital_out,0
+cleveland:0123,Cleveland,0,0,0.4361458586171819,0.5215883313056341,leave_one_hospital_out,0
+cleveland:0124,Cleveland,1,3,0.9033936742130498,0.9739043523137391,leave_one_hospital_out,0
+cleveland:0125,Cleveland,1,1,0.578308468900381,0.7105795087535299,leave_one_hospital_out,0
+cleveland:0126,Cleveland,0,0,0.26548532142744297,0.27048769417905466,leave_one_hospital_out,0
+cleveland:0127,Cleveland,1,3,0.7250672955516703,0.8611861983801636,leave_one_hospital_out,0
+cleveland:0128,Cleveland,1,3,0.8756134067644197,0.9614678527348927,leave_one_hospital_out,0
+cleveland:0129,Cleveland,0,0,0.2137360652868744,0.19844766666809713,leave_one_hospital_out,0
+cleveland:0130,Cleveland,0,0,0.5909630867685989,0.725533558518791,leave_one_hospital_out,0
+cleveland:0131,Cleveland,0,0,0.4036574454957744,0.4743367408269089,leave_one_hospital_out,0
+cleveland:0132,Cleveland,0,0,0.47269059322170776,0.573333360848912,leave_one_hospital_out,0
+cleveland:0133,Cleveland,0,0,0.220013674296293,0.20691461215120402,leave_one_hospital_out,0
+cleveland:0134,Cleveland,0,0,0.665552295219401,0.8062739274926253,leave_one_hospital_out,0
+cleveland:0135,Cleveland,0,0,0.32571713171715877,0.35870198586920493,leave_one_hospital_out,0
+cleveland:0136,Cleveland,0,0,0.32031414538126696,0.35068522080068076,leave_one_hospital_out,0
+cleveland:0137,Cleveland,1,4,0.8800766885773895,0.9635954506689319,leave_one_hospital_out,0
+cleveland:0138,Cleveland,1,3,0.4893691439716312,0.5963269261179038,leave_one_hospital_out,0
+cleveland:0139,Cleveland,1,1,0.8663272070805472,0.9568838996276106,leave_one_hospital_out,0
+cleveland:0140,Cleveland,0,0,0.48348466140842306,0.588263477260897,leave_one_hospital_out,0
+cleveland:0141,Cleveland,0,0,0.38616743185166347,0.4485538644323766,leave_one_hospital_out,0
+cleveland:0142,Cleveland,1,1,0.5315824481155712,0.6524437233442163,leave_one_hospital_out,0
+cleveland:0143,Cleveland,0,0,0.2824667539327173,0.2950259410090719,leave_one_hospital_out,0
+cleveland:0144,Cleveland,1,1,0.5687957697557845,0.6991102202655444,leave_one_hospital_out,0
+cleveland:0145,Cleveland,0,0,0.48793275016607085,0.5943637244030031,leave_one_hospital_out,0
+cleveland:0146,Cleveland,1,1,0.30524115336522617,0.32839549171956145,leave_one_hospital_out,0
+cleveland:0147,Cleveland,1,4,0.7663566779405215,0.8941997267395931,leave_one_hospital_out,0
+cleveland:0148,Cleveland,0,0,0.25749737630894914,0.25907327286902404,leave_one_hospital_out,0
+cleveland:0149,Cleveland,0,0,0.25259912193688777,0.2521198558050124,leave_one_hospital_out,0
+cleveland:0150,Cleveland,0,0,0.37634617590150127,0.4340030564672698,leave_one_hospital_out,0
+cleveland:0151,Cleveland,0,0,0.5645981740005481,0.6939881259639241,leave_one_hospital_out,0
+cleveland:0152,Cleveland,0,0,0.582090652424573,0.7150855494427172,leave_one_hospital_out,0
+cleveland:0153,Cleveland,0,0,0.41736121887025524,0.4943852880549493,leave_one_hospital_out,0
+cleveland:0154,Cleveland,1,4,0.8781947109399739,0.9627043332077004,leave_one_hospital_out,0
+cleveland:0155,Cleveland,1,3,0.8282971125225888,0.93590948214079,leave_one_hospital_out,0
+cleveland:0156,Cleveland,1,1,0.779788365228568,0.9040396520550379,leave_one_hospital_out,0
+cleveland:0157,Cleveland,1,1,0.7120730642457533,0.8499330392039803,leave_one_hospital_out,0
+cleveland:0158,Cleveland,1,1,0.5979973392979981,0.7336934442641008,leave_one_hospital_out,0
+cleveland:0159,Cleveland,1,2,0.6372158725692781,0.7771284967320858,leave_one_hospital_out,0
+cleveland:0160,Cleveland,0,0,0.4507362590900459,0.5424523673755907,leave_one_hospital_out,0
+cleveland:0161,Cleveland,0,0,0.26182063309231335,0.26523989860241126,leave_one_hospital_out,0
+cleveland:0162,Cleveland,1,4,0.6864925450280712,0.8265758787700349,leave_one_hospital_out,0
+cleveland:0163,Cleveland,0,0,0.39927064391373607,0.4678883592008135,leave_one_hospital_out,0
+cleveland:0164,Cleveland,0,0,0.5747295581238997,0.7062872019529912,leave_one_hospital_out,0
+cleveland:0165,Cleveland,0,0,0.397549666072218,0.46535498882820275,leave_one_hospital_out,0
+cleveland:0166,Cleveland,0,0,0.7363590040965119,0.870629414942565,leave_one_hospital_out,0
+cleveland:0167,Cleveland,0,0,0.34960092866225034,0.3942302717282183,leave_one_hospital_out,0
+cleveland:0168,Cleveland,0,0,0.38977231901225706,0.45388303683628994,leave_one_hospital_out,0
+cleveland:0169,Cleveland,1,1,0.7692772453699341,0.8963768457160514,leave_one_hospital_out,0
+cleveland:0170,Cleveland,0,0,0.3409364582161734,0.38133127967567215,leave_one_hospital_out,0
+cleveland:0171,Cleveland,1,3,0.6651635070021978,0.8058869982621677,leave_one_hospital_out,0
+cleveland:0172,Cleveland,0,0,0.8539177112742329,0.9504279323667286,leave_one_hospital_out,0
+cleveland:0173,Cleveland,1,1,0.6607342813333636,0.8014533603515476,leave_one_hospital_out,0
+cleveland:0174,Cleveland,0,0,0.59163670737384,0.726319728897061,leave_one_hospital_out,0
+cleveland:0175,Cleveland,1,4,0.8469108959840755,0.9466163798745098,leave_one_hospital_out,0
+cleveland:0176,Cleveland,1,1,0.876046977254425,0.9616766882069531,leave_one_hospital_out,0
+cleveland:0177,Cleveland,0,0,0.6644391223760124,0.8051651095594795,leave_one_hospital_out,0
+cleveland:0178,Cleveland,1,1,0.898364395489037,0.97179615343027,leave_one_hospital_out,0
+cleveland:0179,Cleveland,0,0,0.3194930327901281,0.34946793468380477,leave_one_hospital_out,0
+cleveland:0180,Cleveland,0,0,0.4348247033109651,0.5196869955345869,leave_one_hospital_out,0
+cleveland:0181,Cleveland,1,3,0.5856376010152238,0.71928306879638,leave_one_hospital_out,0
+cleveland:0182,Cleveland,1,2,0.6811573797730047,0.8215039287984738,leave_one_hospital_out,0
+cleveland:0183,Cleveland,0,0,0.3397467389530989,0.37956061339166475,leave_one_hospital_out,0
+cleveland:0184,Cleveland,0,0,0.6420997229742735,0.7822875952574722,leave_one_hospital_out,0
+cleveland:0185,Cleveland,1,1,0.5489389005602244,0.6745570421896918,leave_one_hospital_out,0
+cleveland:0186,Cleveland,0,0,0.3376816652965893,0.37648763400591195,leave_one_hospital_out,0
+cleveland:0187,Cleveland,0,0,0.4104633038233555,0.48431278259995264,leave_one_hospital_out,0
+cleveland:0188,Cleveland,1,2,0.612592645811591,0.7502700021012412,leave_one_hospital_out,0
+cleveland:0189,Cleveland,1,1,0.2861039415569836,0.30032381970301847,leave_one_hospital_out,0
+cleveland:0190,Cleveland,1,2,0.5753371226708801,0.7070178145762717,leave_one_hospital_out,0
+cleveland:0191,Cleveland,0,0,0.3436713651701867,0.3854022683908434,leave_one_hospital_out,0
+cleveland:0192,Cleveland,1,3,0.9138981465236501,0.9780998423225107,leave_one_hospital_out,0
+cleveland:0193,Cleveland,1,1,0.8622440445429832,0.9548012826736121,leave_one_hospital_out,0
+cleveland:0194,Cleveland,1,2,0.720919032050466,0.8576386279993561,leave_one_hospital_out,0
+cleveland:0195,Cleveland,0,0,0.487980780558567,0.5944294236709495,leave_one_hospital_out,0
+cleveland:0196,Cleveland,1,3,0.7584464414669363,0.8881982610439556,leave_one_hospital_out,0
+cleveland:0197,Cleveland,0,0,0.6992898192085691,0.8384600998075933,leave_one_hospital_out,0
+cleveland:0198,Cleveland,0,0,0.612056921842777,0.7496700984488132,leave_one_hospital_out,0
+cleveland:0199,Cleveland,0,0,0.22288159107574668,0.21081106819975726,leave_one_hospital_out,0
+cleveland:0200,Cleveland,1,1,0.5745975010861867,0.7061282951237772,leave_one_hospital_out,0
+cleveland:0201,Cleveland,0,0,0.5168557115440441,0.6332277676014912,leave_one_hospital_out,0
+cleveland:0202,Cleveland,0,0,0.6550693917924181,0.7957144105691749,leave_one_hospital_out,0
+cleveland:0203,Cleveland,0,0,0.4881054180849662,0.5945998942458628,leave_one_hospital_out,0
+cleveland:0204,Cleveland,0,0,0.40496699693042953,0.47625903528040364,leave_one_hospital_out,0
+cleveland:0205,Cleveland,0,0,0.6227088038238985,0.7614744941083467,leave_one_hospital_out,0
+cleveland:0206,Cleveland,1,3,0.8405888469026466,0.9430745353216134,leave_one_hospital_out,0
+cleveland:0207,Cleveland,1,3,0.8921597668636138,0.9691074432105811,leave_one_hospital_out,0
+cleveland:0208,Cleveland,1,3,0.8851421591979084,0.965950379471558,leave_one_hospital_out,0
+cleveland:0209,Cleveland,0,0,0.2502326498510625,0.24877376323223446,leave_one_hospital_out,0
+cleveland:0210,Cleveland,1,1,0.691287361581655,0.831075233003846,leave_one_hospital_out,0
+cleveland:0211,Cleveland,0,0,0.2745804639088154,0.28358759960206303,leave_one_hospital_out,0
+cleveland:0212,Cleveland,1,4,0.5063912476335592,0.619332757696952,leave_one_hospital_out,0
+cleveland:0213,Cleveland,0,0,0.3404885305176018,0.3806646046938855,leave_one_hospital_out,0
+cleveland:0214,Cleveland,1,3,0.7110009932197433,0.8489861800820424,leave_one_hospital_out,0
+cleveland:0215,Cleveland,1,1,0.5785401243512731,0.710856390061053,leave_one_hospital_out,0
+cleveland:0216,Cleveland,0,0,0.4964554672862623,0.6059631708301052,leave_one_hospital_out,0
+cleveland:0217,Cleveland,0,0,0.2574487308073601,0.2590040398498206,leave_one_hospital_out,0
+cleveland:0218,Cleveland,0,0,0.6194551971785525,0.7578965391836427,leave_one_hospital_out,0
+cleveland:0219,Cleveland,0,0,0.6738174988568866,0.8144136155697899,leave_one_hospital_out,0
+cleveland:0220,Cleveland,0,0,0.585573894012353,0.719207919232768,leave_one_hospital_out,0
+cleveland:0221,Cleveland,0,0,0.3931028014383278,0.45880013082201154,leave_one_hospital_out,0
+cleveland:0222,Cleveland,0,0,0.3396781200524622,0.3794584932362977,leave_one_hospital_out,0
+cleveland:0223,Cleveland,0,0,0.307262585880411,0.331377060712072,leave_one_hospital_out,0
+cleveland:0224,Cleveland,1,3,0.8856775853667096,0.9661955775332138,leave_one_hospital_out,0
+cleveland:0225,Cleveland,1,1,0.6612602404539907,0.8019823030677395,leave_one_hospital_out,0
+cleveland:0226,Cleveland,0,0,0.21066730536146092,0.19434072639781758,leave_one_hospital_out,0
+cleveland:0227,Cleveland,0,0,0.5948956571129382,0.7301089890702279,leave_one_hospital_out,0
+cleveland:0228,Cleveland,0,0,0.42698531717150934,0.5083666562915073,leave_one_hospital_out,0
+cleveland:0229,Cleveland,1,3,0.7553238160041073,0.8857869695772688,leave_one_hospital_out,0
+cleveland:0230,Cleveland,1,2,0.7596991607143027,0.8891589012522975,leave_one_hospital_out,0
+cleveland:0231,Cleveland,0,0,0.42648390550786436,0.5076404433548073,leave_one_hospital_out,0
+cleveland:0232,Cleveland,1,2,0.6442391625053001,0.7845298979662428,leave_one_hospital_out,0
+cleveland:0233,Cleveland,1,1,0.48213108930543136,0.586400988447993,leave_one_hospital_out,0
+cleveland:0234,Cleveland,0,0,0.4752503511963448,0.5768898203992188,leave_one_hospital_out,0
+cleveland:0235,Cleveland,0,0,0.38150946809368647,0.4416581741856317,leave_one_hospital_out,0
+cleveland:0236,Cleveland,1,3,0.779638184980915,0.9039320697554768,leave_one_hospital_out,0
+cleveland:0237,Cleveland,1,2,0.8800432140903405,0.9635796769960666,leave_one_hospital_out,0
+cleveland:0238,Cleveland,1,1,0.5813277322102689,0.7141791146240395,leave_one_hospital_out,0
+cleveland:0239,Cleveland,0,0,0.33885069958647585,0.37822716125823164,leave_one_hospital_out,0
+cleveland:0240,Cleveland,0,0,0.25026751831097455,0.2488230012582105,leave_one_hospital_out,0
+cleveland:0241,Cleveland,0,0,0.2348533035737067,0.22725693471663017,leave_one_hospital_out,0
+cleveland:0242,Cleveland,0,0,0.2742412925888016,0.2830972512090376,leave_one_hospital_out,0
+cleveland:0243,Cleveland,0,0,0.5357485924776991,0.6578054446913643,leave_one_hospital_out,0
+cleveland:0244,Cleveland,1,2,0.6398855001026054,0.7799555405319221,leave_one_hospital_out,0
+cleveland:0245,Cleveland,0,0,0.5125858982026746,0.6275817521774038,leave_one_hospital_out,0
+cleveland:0246,Cleveland,1,2,0.7657930663840992,0.8937771836730236,leave_one_hospital_out,0
+cleveland:0247,Cleveland,1,2,0.6372771859545303,0.7771936134976141,leave_one_hospital_out,0
+cleveland:0248,Cleveland,1,1,0.7158204635303177,0.8532206976900173,leave_one_hospital_out,0
+cleveland:0249,Cleveland,1,3,0.6050500594359165,0.7417636731724175,leave_one_hospital_out,0
+cleveland:0250,Cleveland,0,0,0.4069448026083278,0.47915982318517764,leave_one_hospital_out,0
+cleveland:0251,Cleveland,0,0,0.8790100431608223,0.9630914685960571,leave_one_hospital_out,0
+cleveland:0252,Cleveland,1,1,0.8953638451396279,0.9705079679519328,leave_one_hospital_out,0
+cleveland:0253,Cleveland,0,0,0.8693720050885487,0.9584102720477637,leave_one_hospital_out,0
+cleveland:0254,Cleveland,0,0,0.3247017686261108,0.3571945676645811,leave_one_hospital_out,0
+cleveland:0255,Cleveland,0,0,0.496484878799391,0.6060029933587069,leave_one_hospital_out,0
+cleveland:0256,Cleveland,0,0,0.31371695213905365,0.3409140260889048,leave_one_hospital_out,0
+cleveland:0257,Cleveland,0,0,0.613913432378871,0.7517462172116499,leave_one_hospital_out,0
+cleveland:0258,Cleveland,0,0,0.5390257021292857,0.6619993749193887,leave_one_hospital_out,0
+cleveland:0259,Cleveland,0,0,0.43328727294954567,0.5174720131685477,leave_one_hospital_out,0
+cleveland:0260,Cleveland,1,1,0.24270178852594587,0.23818624063508442,leave_one_hospital_out,0
+cleveland:0261,Cleveland,0,0,0.35207720854931013,0.39791709852212803,leave_one_hospital_out,0
+cleveland:0262,Cleveland,1,3,0.3661165581064962,0.418808437346599,leave_one_hospital_out,0
+cleveland:0263,Cleveland,0,0,0.40193686518781724,0.4718091932846057,leave_one_hospital_out,0
+cleveland:0264,Cleveland,0,0,0.25987976547151065,0.2624681561374518,leave_one_hospital_out,0
+cleveland:0265,Cleveland,1,4,0.8475757209882446,0.9469831753442312,leave_one_hospital_out,0
+cleveland:0266,Cleveland,1,2,0.8811742004736377,0.9641110784444281,leave_one_hospital_out,0
+cleveland:0267,Cleveland,1,2,0.818844986771794,0.9301494007281494,leave_one_hospital_out,0
+cleveland:0268,Cleveland,1,2,0.6057396581477952,0.7425467463738221,leave_one_hospital_out,0
+cleveland:0269,Cleveland,1,1,0.5917608679177667,0.7264645248522215,leave_one_hospital_out,0
+cleveland:0270,Cleveland,0,0,0.34630513236230315,0.38932328292328244,leave_one_hospital_out,0
+cleveland:0271,Cleveland,1,1,0.8555775037986568,0.9513132576742698,leave_one_hospital_out,0
+cleveland:0272,Cleveland,0,0,0.7635386911760268,0.8920792918054959,leave_one_hospital_out,0
+cleveland:0273,Cleveland,1,2,0.9144221634789169,0.9783017049246485,leave_one_hospital_out,0
+cleveland:0274,Cleveland,0,0,0.7244286925536926,0.8606428111413295,leave_one_hospital_out,0
+cleveland:0275,Cleveland,1,1,0.4270079081021398,0.5083993696304526,leave_one_hospital_out,0
+cleveland:0276,Cleveland,0,0,0.5868519180889554,0.7207137920035774,leave_one_hospital_out,0
+cleveland:0277,Cleveland,0,0,0.47758657808898136,0.5801272044169928,leave_one_hospital_out,0
+cleveland:0278,Cleveland,0,0,0.389990803878331,0.4542058004853257,leave_one_hospital_out,0
+cleveland:0279,Cleveland,1,1,0.3014722728266895,0.32284393679104223,leave_one_hospital_out,0
+cleveland:0280,Cleveland,0,0,0.6108059590159176,0.7482667202465517,leave_one_hospital_out,0
+cleveland:0281,Cleveland,1,2,0.8231157618992324,0.9327789361069714,leave_one_hospital_out,0
+cleveland:0282,Cleveland,0,0,0.3031268314965022,0.32527986401709874,leave_one_hospital_out,0
+cleveland:0283,Cleveland,1,3,0.6711794289144949,0.8118334752014655,leave_one_hospital_out,0
+cleveland:0284,Cleveland,0,0,0.22311207364835547,0.21112496165457276,leave_one_hospital_out,0
+cleveland:0285,Cleveland,1,2,0.6708131016838185,0.811473866183464,leave_one_hospital_out,0
+cleveland:0286,Cleveland,1,4,0.6998098438154555,0.8389345972097292,leave_one_hospital_out,0
+cleveland:0287,Cleveland,1,2,0.7608756607975359,0.8900575950638109,leave_one_hospital_out,0
+cleveland:0288,Cleveland,0,0,0.3191403364425176,0.3489451603832302,leave_one_hospital_out,0
+cleveland:0289,Cleveland,0,0,0.2448052798700866,0.24113393345629225,leave_one_hospital_out,0
+cleveland:0290,Cleveland,0,0,0.2731334570288903,0.28149658079767004,leave_one_hospital_out,0
+cleveland:0291,Cleveland,1,1,0.5412867389247241,0.6648807200863157,leave_one_hospital_out,0
+cleveland:0292,Cleveland,0,0,0.267132958555234,0.2728529931198229,leave_one_hospital_out,0
+cleveland:0293,Cleveland,1,2,0.8134919288939224,0.9267907611012705,leave_one_hospital_out,0
+cleveland:0294,Cleveland,1,2,0.8685071943516348,0.9579790533181012,leave_one_hospital_out,0
+cleveland:0295,Cleveland,1,1,0.7135598717834416,0.8512415482881865,leave_one_hospital_out,0
+cleveland:0296,Cleveland,0,0,0.25966907230966874,0.26216758896009595,leave_one_hospital_out,0
+cleveland:0297,Cleveland,1,3,0.8110576181536903,0.9252403248401067,leave_one_hospital_out,0
+cleveland:0298,Cleveland,1,1,0.6611222438338261,0.8018435877255881,leave_one_hospital_out,0
+cleveland:0299,Cleveland,1,1,0.48592821386933316,0.5916185080629063,leave_one_hospital_out,0
+cleveland:0300,Cleveland,1,2,0.8500233079097615,0.9483242574808038,leave_one_hospital_out,0
+cleveland:0301,Cleveland,1,3,0.9197121202619783,0.9802995277192931,leave_one_hospital_out,0
+cleveland:0302,Cleveland,1,1,0.321102186146012,0.3518537547821123,leave_one_hospital_out,0
+cleveland:0303,Cleveland,0,0,0.3187178724000432,0.348319049257046,leave_one_hospital_out,0
+hungary:0001,Hungary,0,0,0.24370446891284359,0.2747857717454815,leave_one_hospital_out,1
+hungary:0002,Hungary,0,0,0.2269891950920553,0.259076369536609,leave_one_hospital_out,1
+hungary:0003,Hungary,0,0,0.3545602041463195,0.37531598301003416,leave_one_hospital_out,1
+hungary:0004,Hungary,0,0,0.28945704874993194,0.3169434273638888,leave_one_hospital_out,1
+hungary:0005,Hungary,0,0,0.14660937256993328,0.18033968738545944,leave_one_hospital_out,1
+hungary:0006,Hungary,0,0,0.13215411275436134,0.1654431442235364,leave_one_hospital_out,1
+hungary:0007,Hungary,0,0,0.18701710533708182,0.22067293080732103,leave_one_hospital_out,1
+hungary:0008,Hungary,0,0,0.245582682338608,0.2765396777273828,leave_one_hospital_out,1
+hungary:0009,Hungary,0,0,0.17834120291255562,0.21215652232902993,leave_one_hospital_out,1
+hungary:0010,Hungary,0,0,0.13164433420454272,0.16491257407922943,leave_one_hospital_out,1
+hungary:0011,Hungary,0,0,0.27998540125599763,0.308305989673469,leave_one_hospital_out,1
+hungary:0012,Hungary,0,0,0.240790931095239,0.2720606890667583,leave_one_hospital_out,1
+hungary:0013,Hungary,0,0,0.16332090203814154,0.19723486427277584,leave_one_hospital_out,1
+hungary:0014,Hungary,0,0,0.4279617025457255,0.4396619878638878,leave_one_hospital_out,1
+hungary:0015,Hungary,0,0,0.1971879056137632,0.23056880710867816,leave_one_hospital_out,1
+hungary:0016,Hungary,0,0,0.25350037762396166,0.28390971336365706,leave_one_hospital_out,1
+hungary:0017,Hungary,0,0,0.23303307733320489,0.2647779685645451,leave_one_hospital_out,1
+hungary:0018,Hungary,0,0,0.279464256432197,0.3078294857470332,leave_one_hospital_out,1
+hungary:0019,Hungary,0,0,0.2367618414709976,0.26828327590856743,leave_one_hospital_out,1
+hungary:0020,Hungary,0,0,0.293270667522046,0.3204092854173384,leave_one_hospital_out,1
+hungary:0021,Hungary,0,0,0.18679377889842966,0.22045459769975034,leave_one_hospital_out,1
+hungary:0022,Hungary,0,0,0.1954806107207801,0.22891402326785676,leave_one_hospital_out,1
+hungary:0023,Hungary,0,0,0.3421672724873067,0.3643201585066677,leave_one_hospital_out,1
+hungary:0024,Hungary,0,0,0.39488859793567055,0.4108097278757809,leave_one_hospital_out,1
+hungary:0025,Hungary,0,0,0.30383242200061866,0.32997416004127533,leave_one_hospital_out,1
+hungary:0026,Hungary,0,0,0.4912210643305412,0.4944726098947966,leave_one_hospital_out,1
+hungary:0027,Hungary,0,0,0.4816758206234987,0.4862203045353969,leave_one_hospital_out,1
+hungary:0028,Hungary,0,0,0.30679948244855415,0.33265258611124776,leave_one_hospital_out,1
+hungary:0029,Hungary,0,0,0.2730326050562404,0.30193756113587206,leave_one_hospital_out,1
+hungary:0030,Hungary,0,0,0.33117734889829903,0.35452811529686185,leave_one_hospital_out,1
+hungary:0031,Hungary,0,0,0.14002618284021698,0.1735901847616039,leave_one_hospital_out,1
+hungary:0032,Hungary,0,0,0.5397220591246672,0.5363970210625367,leave_one_hospital_out,1
+hungary:0033,Hungary,0,0,0.5777756444284654,0.5693756565325703,leave_one_hospital_out,1
+hungary:0034,Hungary,0,0,0.2983524005714071,0.32501744509699976,leave_one_hospital_out,1
+hungary:0035,Hungary,0,0,0.500292232125193,0.5023126935474709,leave_one_hospital_out,1
+hungary:0036,Hungary,0,0,0.48418787568577953,0.48839242270148947,leave_one_hospital_out,1
+hungary:0037,Hungary,0,0,0.2024980565481987,0.2356998173320262,leave_one_hospital_out,1
+hungary:0038,Hungary,0,0,0.36347190356796855,0.3831950877880256,leave_one_hospital_out,1
+hungary:0039,Hungary,0,0,0.546200765169761,0.5420030855000203,leave_one_hospital_out,1
+hungary:0040,Hungary,0,0,0.5401156313120804,0.5367375076761909,leave_one_hospital_out,1
+hungary:0041,Hungary,0,0,0.2742593513033926,0.30306298209490445,leave_one_hospital_out,1
+hungary:0042,Hungary,0,0,0.23667573327338845,0.2682024314943608,leave_one_hospital_out,1
+hungary:0043,Hungary,0,0,0.3309761199058241,0.35434843863683974,leave_one_hospital_out,1
+hungary:0044,Hungary,0,0,0.24142925566352513,0.2726581843370946,leave_one_hospital_out,1
+hungary:0045,Hungary,0,0,0.3489089498788642,0.37030763829272606,leave_one_hospital_out,1
+hungary:0046,Hungary,0,0,0.17628917212001255,0.21013159212249286,leave_one_hospital_out,1
+hungary:0047,Hungary,0,0,0.14607396805521444,0.1797928365632236,leave_one_hospital_out,1
+hungary:0048,Hungary,0,0,0.17704881460625546,0.21088168768107948,leave_one_hospital_out,1
+hungary:0049,Hungary,0,0,0.24705507695911916,0.27791309895755767,leave_one_hospital_out,1
+hungary:0050,Hungary,0,0,0.21800603207901412,0.25055449695551535,leave_one_hospital_out,1
+hungary:0051,Hungary,0,0,0.2857361904309704,0.3135553819578704,leave_one_hospital_out,1
+hungary:0052,Hungary,0,0,0.5409939468998077,0.5374973875261716,leave_one_hospital_out,1
+hungary:0053,Hungary,0,0,0.2069280532395056,0.23996253172121676,leave_one_hospital_out,1
+hungary:0054,Hungary,0,0,0.2988789039097119,0.32549423213501827,leave_one_hospital_out,1
+hungary:0055,Hungary,0,0,0.28702383630047457,0.314728589357158,leave_one_hospital_out,1
+hungary:0056,Hungary,0,0,0.3419212533573745,0.36410139063951114,leave_one_hospital_out,1
+hungary:0057,Hungary,0,0,0.6366242393385656,0.6207773433463029,leave_one_hospital_out,1
+hungary:0058,Hungary,0,0,0.39344075631005354,0.4095420491414645,leave_one_hospital_out,1
+hungary:0059,Hungary,0,0,0.46089756411559885,0.4682404550927935,leave_one_hospital_out,1
+hungary:0060,Hungary,0,0,0.20202240090962062,0.2352411694460407,leave_one_hospital_out,1
+hungary:0061,Hungary,0,0,0.1616676806967877,0.19557785133804784,leave_one_hospital_out,1
+hungary:0062,Hungary,0,0,0.15033909121960254,0.1841392182461643,leave_one_hospital_out,1
+hungary:0063,Hungary,0,0,0.14054489635372622,0.1741240552292256,leave_one_hospital_out,1
+hungary:0064,Hungary,0,0,0.21825613806499483,0.2507925533343981,leave_one_hospital_out,1
+hungary:0065,Hungary,0,0,0.21324974060263466,0.24601843285826047,leave_one_hospital_out,1
+hungary:0066,Hungary,0,0,0.2702248470848742,0.299358782386747,leave_one_hospital_out,1
+hungary:0067,Hungary,0,0,0.3561745010669647,0.3767449028051965,leave_one_hospital_out,1
+hungary:0068,Hungary,0,0,0.5047258613205944,0.5061441831277573,leave_one_hospital_out,1
+hungary:0069,Hungary,0,0,0.4811038619684542,0.485725706409879,leave_one_hospital_out,1
+hungary:0070,Hungary,0,0,0.34520729105475084,0.3670218475405457,leave_one_hospital_out,1
+hungary:0071,Hungary,0,0,0.4565751839419989,0.4644963329788766,leave_one_hospital_out,1
+hungary:0072,Hungary,0,0,0.1570407022611817,0.19092394870537327,leave_one_hospital_out,1
+hungary:0073,Hungary,0,0,0.2946574681360883,0.3216679882633812,leave_one_hospital_out,1
+hungary:0074,Hungary,0,0,0.3998273358229281,0.41513070916974865,leave_one_hospital_out,1
+hungary:0075,Hungary,0,0,0.40591291721360484,0.4204485490889965,leave_one_hospital_out,1
+hungary:0076,Hungary,0,0,0.5598392952528124,0.5538146650529268,leave_one_hospital_out,1
+hungary:0077,Hungary,0,0,0.5842476594328232,0.575000027855771,leave_one_hospital_out,1
+hungary:0078,Hungary,0,0,0.6055112597207435,0.5935225357119662,leave_one_hospital_out,1
+hungary:0079,Hungary,0,0,0.5713508349664387,0.5637975671364981,leave_one_hospital_out,1
+hungary:0080,Hungary,0,0,0.4231531837514796,0.4354783772168741,leave_one_hospital_out,1
+hungary:0081,Hungary,0,0,0.3001431182237355,0.326638578770172,leave_one_hospital_out,1
+hungary:0082,Hungary,0,0,0.623633351304722,0.6093722076309155,leave_one_hospital_out,1
+hungary:0083,Hungary,0,0,0.8397694139989895,0.8084304549432987,leave_one_hospital_out,1
+hungary:0084,Hungary,0,0,0.5822531310621356,0.5732661267714366,leave_one_hospital_out,1
+hungary:0085,Hungary,0,0,0.7091036699099298,0.6853128943335077,leave_one_hospital_out,1
+hungary:0086,Hungary,0,0,0.24593104226411155,0.27686474154966484,leave_one_hospital_out,1
+hungary:0087,Hungary,0,0,0.5451118940271935,0.5410606889018914,leave_one_hospital_out,1
+hungary:0088,Hungary,0,0,0.31931658453568806,0.34391294746453543,leave_one_hospital_out,1
+hungary:0089,Hungary,0,0,0.28522622403013687,0.31309052125194364,leave_one_hospital_out,1
+hungary:0090,Hungary,0,0,0.7847198580223648,0.7551036354704107,leave_one_hospital_out,1
+hungary:0091,Hungary,0,0,0.3449722207448625,0.3668130428139466,leave_one_hospital_out,1
+hungary:0092,Hungary,0,0,0.3166472136115991,0.3415167332672082,leave_one_hospital_out,1
+hungary:0093,Hungary,0,0,0.2197579210192453,0.2522210120686584,leave_one_hospital_out,1
+hungary:0094,Hungary,0,0,0.2459075327781223,0.2768428065835928,leave_one_hospital_out,1
+hungary:0095,Hungary,0,0,0.467151557692033,0.4736551257866794,leave_one_hospital_out,1
+hungary:0096,Hungary,0,0,0.5132159802527831,0.5134811511693858,leave_one_hospital_out,1
+hungary:0097,Hungary,0,0,0.7956541195473342,0.7654917463880624,leave_one_hospital_out,1
+hungary:0098,Hungary,0,0,0.5349311555983174,0.5322530040736645,leave_one_hospital_out,1
+hungary:0099,Hungary,0,0,0.2862741944208157,0.3140456665987943,leave_one_hospital_out,1
+hungary:0100,Hungary,0,0,0.40420674803582657,0.4189583305224766,leave_one_hospital_out,1
+hungary:0101,Hungary,0,0,0.4392558860484871,0.4494759087255514,leave_one_hospital_out,1
+hungary:0102,Hungary,0,0,0.25770973690652016,0.2878128270922963,leave_one_hospital_out,1
+hungary:0103,Hungary,0,0,0.25770973690652016,0.2878128270922963,leave_one_hospital_out,1
+hungary:0104,Hungary,0,0,0.1779851145557387,0.21180543465468268,leave_one_hospital_out,1
+hungary:0105,Hungary,0,0,0.2450897522736662,0.27607958361787444,leave_one_hospital_out,1
+hungary:0106,Hungary,0,0,0.22120801266703413,0.25359873433833907,leave_one_hospital_out,1
+hungary:0107,Hungary,0,0,0.3044763900244307,0.3305557950850978,leave_one_hospital_out,1
+hungary:0108,Hungary,0,0,0.8371713627075364,0.8058498059260223,leave_one_hospital_out,1
+hungary:0109,Hungary,0,0,0.7678712958277988,0.7392629214489361,leave_one_hospital_out,1
+hungary:0110,Hungary,0,0,0.19674958035626103,0.23014420264890892,leave_one_hospital_out,1
+hungary:0111,Hungary,0,0,0.7690507583537901,0.7403656592915923,leave_one_hospital_out,1
+hungary:0112,Hungary,0,0,0.11203229280325307,0.14419984105280567,leave_one_hospital_out,1
+hungary:0113,Hungary,0,0,0.30019238803517034,0.3266831630309289,leave_one_hospital_out,1
+hungary:0114,Hungary,0,0,0.4899134194114163,0.4933422735610733,leave_one_hospital_out,1
+hungary:0115,Hungary,0,0,0.6858896073130671,0.6644475480545375,leave_one_hospital_out,1
+hungary:0116,Hungary,0,0,0.7856408120175439,0.7559751774867448,leave_one_hospital_out,1
+hungary:0117,Hungary,0,0,0.21056167770245632,0.24344720444643775,leave_one_hospital_out,1
+hungary:0118,Hungary,0,0,0.2531249280213837,0.28356107860262714,leave_one_hospital_out,1
+hungary:0119,Hungary,0,0,0.4233010984465197,0.43560711989131834,leave_one_hospital_out,1
+hungary:0120,Hungary,0,0,0.2963125445975119,0.32316906135438817,leave_one_hospital_out,1
+hungary:0121,Hungary,0,0,0.3470435709384783,0.3686523571714938,leave_one_hospital_out,1
+hungary:0122,Hungary,0,0,0.3262322732892247,0.35010854817159787,leave_one_hospital_out,1
+hungary:0123,Hungary,0,0,0.8615120337432766,0.830329664613692,leave_one_hospital_out,1
+hungary:0124,Hungary,0,0,0.20361769443141017,0.23677868540112734,leave_one_hospital_out,1
+hungary:0125,Hungary,0,0,0.3515923997442849,0.3726869954743285,leave_one_hospital_out,1
+hungary:0126,Hungary,0,0,0.20769539206963986,0.24069928619907707,leave_one_hospital_out,1
+hungary:0127,Hungary,0,0,0.8066443909753379,0.7760267692249685,leave_one_hospital_out,1
+hungary:0128,Hungary,0,0,0.3644493420836509,0.3840579299329266,leave_one_hospital_out,1
+hungary:0129,Hungary,0,0,0.600592828661632,0.5892315773815794,leave_one_hospital_out,1
+hungary:0130,Hungary,0,0,0.34924866871691895,0.3706089800131413,leave_one_hospital_out,1
+hungary:0131,Hungary,0,0,0.29713029688610376,0.3239102744768635,leave_one_hospital_out,1
+hungary:0132,Hungary,0,0,0.2635791285933771,0.29323838889688286,leave_one_hospital_out,1
+hungary:0133,Hungary,0,0,0.6141390117161858,0.6010602837382036,leave_one_hospital_out,1
+hungary:0134,Hungary,0,0,0.21993536880918035,0.25238968647708326,leave_one_hospital_out,1
+hungary:0135,Hungary,0,0,0.4985688616920375,0.5008233231269339,leave_one_hospital_out,1
+hungary:0136,Hungary,0,0,0.2779485940826463,0.30644288882255927,leave_one_hospital_out,1
+hungary:0137,Hungary,0,0,0.3595462642859601,0.37972706184578786,leave_one_hospital_out,1
+hungary:0138,Hungary,0,0,0.9368559651277911,0.9120684311488848,leave_one_hospital_out,1
+hungary:0139,Hungary,0,0,0.6251766319785356,0.6107250944098889,leave_one_hospital_out,1
+hungary:0140,Hungary,0,0,0.5936667609690548,0.5831960557709661,leave_one_hospital_out,1
+hungary:0141,Hungary,0,0,0.24668549787093794,0.2775684878673148,leave_one_hospital_out,1
+hungary:0142,Hungary,0,0,0.22600351618376865,0.25814412026571293,leave_one_hospital_out,1
+hungary:0143,Hungary,0,0,0.33479592836564376,0.35775675029896525,leave_one_hospital_out,1
+hungary:0144,Hungary,0,0,0.2001680882901014,0.23345136693449534,leave_one_hospital_out,1
+hungary:0145,Hungary,0,0,0.3517432024177795,0.37282064476529275,leave_one_hospital_out,1
+hungary:0146,Hungary,0,0,0.2703972295906317,0.2995172252982848,leave_one_hospital_out,1
+hungary:0147,Hungary,0,0,0.25112274779739374,0.28170049139130854,leave_one_hospital_out,1
+hungary:0148,Hungary,0,0,0.536373071168569,0.5335000991891875,leave_one_hospital_out,1
+hungary:0149,Hungary,0,0,0.3324449828450293,0.35565965851235093,leave_one_hospital_out,1
+hungary:0150,Hungary,0,0,0.30562644148018653,0.33159409576364174,leave_one_hospital_out,1
+hungary:0151,Hungary,0,0,0.40896006780196464,0.42310869781613475,leave_one_hospital_out,1
+hungary:0152,Hungary,0,0,0.49095077798964465,0.49423897672475325,leave_one_hospital_out,1
+hungary:0153,Hungary,0,0,0.28477084300634636,0.31267531328574993,leave_one_hospital_out,1
+hungary:0154,Hungary,0,0,0.3597890252856003,0.379941648019379,leave_one_hospital_out,1
+hungary:0155,Hungary,0,0,0.5813896080874894,0.5725156091950903,leave_one_hospital_out,1
+hungary:0156,Hungary,0,0,0.6503926484595365,0.6329103803864943,leave_one_hospital_out,1
+hungary:0157,Hungary,0,0,0.14975136724567814,0.18354163372347804,leave_one_hospital_out,1
+hungary:0158,Hungary,0,0,0.16709443999873708,0.20100585969362972,leave_one_hospital_out,1
+hungary:0159,Hungary,0,0,0.1729726608525205,0.20684998693959122,leave_one_hospital_out,1
+hungary:0160,Hungary,0,0,0.5558986503448093,0.550400300821437,leave_one_hospital_out,1
+hungary:0161,Hungary,0,0,0.5680726285054178,0.5609532513820298,leave_one_hospital_out,1
+hungary:0162,Hungary,0,0,0.3029062543013971,0.3291373349608692,leave_one_hospital_out,1
+hungary:0163,Hungary,0,0,0.2703914655016809,0.2995119275706511,leave_one_hospital_out,1
+hungary:0164,Hungary,0,0,0.3889251780376292,0.40558553653341495,leave_one_hospital_out,1
+hungary:0165,Hungary,0,0,0.5944352904292403,0.5838653849077312,leave_one_hospital_out,1
+hungary:0166,Hungary,0,0,0.8885611579344914,0.8584512238491394,leave_one_hospital_out,1
+hungary:0167,Hungary,0,0,0.5306338829622816,0.52853692988996,leave_one_hospital_out,1
+hungary:0168,Hungary,0,0,0.4883534184965387,0.4919937317704362,leave_one_hospital_out,1
+hungary:0169,Hungary,0,0,0.5772000373111605,0.5688757019052301,leave_one_hospital_out,1
+hungary:0170,Hungary,0,0,0.6861915990240341,0.6647176538879631,leave_one_hospital_out,1
+hungary:0171,Hungary,0,0,0.6827748503588834,0.6616635840309011,leave_one_hospital_out,1
+hungary:0172,Hungary,0,0,0.48602853095685544,0.4899838344843434,leave_one_hospital_out,1
+hungary:0173,Hungary,0,0,0.8114190056592651,0.780634794765813,leave_one_hospital_out,1
+hungary:0174,Hungary,0,0,0.4971557619885245,0.4996020623084214,leave_one_hospital_out,1
+hungary:0175,Hungary,0,0,0.34419113762540293,0.36611910928460395,leave_one_hospital_out,1
+hungary:0176,Hungary,0,0,0.4351313779069742,0.44589389632080945,leave_one_hospital_out,1
+hungary:0177,Hungary,0,0,0.3628133861378276,0.38261362978273983,leave_one_hospital_out,1
+hungary:0178,Hungary,0,0,0.7389942157930495,0.712525682724159,leave_one_hospital_out,1
+hungary:0179,Hungary,0,0,0.4339278629758128,0.44484827481545963,leave_one_hospital_out,1
+hungary:0180,Hungary,0,0,0.33596449739890566,0.3587984398498325,leave_one_hospital_out,1
+hungary:0181,Hungary,0,0,0.7063677888070523,0.6828425100714659,leave_one_hospital_out,1
+hungary:0182,Hungary,0,0,0.5691266509530628,0.5618676367788799,leave_one_hospital_out,1
+hungary:0183,Hungary,0,0,0.48728819275239754,0.4910728527256429,leave_one_hospital_out,1
+hungary:0184,Hungary,0,0,0.3897295918596736,0.4062906765512875,leave_one_hospital_out,1
+hungary:0185,Hungary,0,0,0.8058280676554452,0.775240865569777,leave_one_hospital_out,1
+hungary:0186,Hungary,0,0,0.8090091981395034,0.7783066287051397,leave_one_hospital_out,1
+hungary:0187,Hungary,0,0,0.4015937552106191,0.4166750076274359,leave_one_hospital_out,1
+hungary:0188,Hungary,0,0,0.3788958525243587,0.39678178427956917,leave_one_hospital_out,1
+hungary:0189,Hungary,1,1,0.8028020806826712,0.7723324737606672,leave_one_hospital_out,1
+hungary:0190,Hungary,1,1,0.6428509466919008,0.6262583574434818,leave_one_hospital_out,1
+hungary:0191,Hungary,1,1,0.2955466141987271,0.32247455151709703,leave_one_hospital_out,1
+hungary:0192,Hungary,1,1,0.2639464226488956,0.29357727272726586,leave_one_hospital_out,1
+hungary:0193,Hungary,1,1,0.5221965594264023,0.5212428360331585,leave_one_hospital_out,1
+hungary:0194,Hungary,1,1,0.8790348791384189,0.8484223791015446,leave_one_hospital_out,1
+hungary:0195,Hungary,1,1,0.4911374393486086,0.49440032540300527,leave_one_hospital_out,1
+hungary:0196,Hungary,1,1,0.4536126922715576,0.4619292188564672,leave_one_hospital_out,1
+hungary:0197,Hungary,1,1,0.8946810023006259,0.8649738364083728,leave_one_hospital_out,1
+hungary:0198,Hungary,1,1,0.8928397867907939,0.8630045465779919,leave_one_hospital_out,1
+hungary:0199,Hungary,1,1,0.5621008205504581,0.5557748097996443,leave_one_hospital_out,1
+hungary:0200,Hungary,1,1,0.9061116841748978,0.8773414216162033,leave_one_hospital_out,1
+hungary:0201,Hungary,1,1,0.9006103711306179,0.8713578091236746,leave_one_hospital_out,1
+hungary:0202,Hungary,1,1,0.7125640592085042,0.6884420840468115,leave_one_hospital_out,1
+hungary:0203,Hungary,1,1,0.8045377756077333,0.7739997901238945,leave_one_hospital_out,1
+hungary:0204,Hungary,1,1,0.8493297603503516,0.8179908915613359,leave_one_hospital_out,1
+hungary:0205,Hungary,1,1,0.6777266248847624,0.6571587730215417,leave_one_hospital_out,1
+hungary:0206,Hungary,1,1,0.8844586322033473,0.8541143470853759,leave_one_hospital_out,1
+hungary:0207,Hungary,1,1,0.644333866789599,0.6275651471113352,leave_one_hospital_out,1
+hungary:0208,Hungary,1,1,0.8222145402396323,0.7911279736384703,leave_one_hospital_out,1
+hungary:0209,Hungary,1,1,0.9059989976497711,0.8772182453741723,leave_one_hospital_out,1
+hungary:0210,Hungary,1,1,0.37559285483246974,0.39387726577245336,leave_one_hospital_out,1
+hungary:0211,Hungary,1,1,0.23586976155100756,0.2674454929472414,leave_one_hospital_out,1
+hungary:0212,Hungary,1,1,0.54396240433038,0.5400659145330904,leave_one_hospital_out,1
+hungary:0213,Hungary,1,1,0.5482168374024315,0.5437481745852587,leave_one_hospital_out,1
+hungary:0214,Hungary,1,1,0.5945404808218206,0.5839570047949815,leave_one_hospital_out,1
+hungary:0215,Hungary,1,1,0.7499112155629384,0.7225771919761993,leave_one_hospital_out,1
+hungary:0216,Hungary,1,1,0.9125263463294034,0.8843973893273147,leave_one_hospital_out,1
+hungary:0217,Hungary,1,1,0.6247109938614448,0.6103168468666901,leave_one_hospital_out,1
+hungary:0218,Hungary,1,1,0.8376305323074128,0.8063053750484305,leave_one_hospital_out,1
+hungary:0219,Hungary,1,1,0.93731307298653,0.912604332719645,leave_one_hospital_out,1
+hungary:0220,Hungary,1,1,0.6810248128047567,0.6601009206816421,leave_one_hospital_out,1
+hungary:0221,Hungary,1,1,0.5100335664111121,0.5107309474781456,leave_one_hospital_out,1
+hungary:0222,Hungary,1,1,0.8053941649874323,0.7748233589109986,leave_one_hospital_out,1
+hungary:0223,Hungary,1,1,0.7622044098257611,0.7339769716318015,leave_one_hospital_out,1
+hungary:0224,Hungary,1,1,0.7392049189551645,0.7127190724512574,leave_one_hospital_out,1
+hungary:0225,Hungary,1,1,0.9354992324336945,0.9104817472286573,leave_one_hospital_out,1
+hungary:0226,Hungary,1,1,0.41390409119811966,0.42742132459126475,leave_one_hospital_out,1
+hungary:0227,Hungary,1,1,0.8770810803877077,0.8463831305186942,leave_one_hospital_out,1
+hungary:0228,Hungary,1,1,0.6116356737365253,0.5988717512051254,leave_one_hospital_out,1
+hungary:0229,Hungary,1,1,0.7373379253283756,0.7110063006691398,leave_one_hospital_out,1
+hungary:0230,Hungary,1,1,0.302709627134497,0.3289596287730381,leave_one_hospital_out,1
+hungary:0231,Hungary,1,1,0.8689919946845398,0.8380001396420266,leave_one_hospital_out,1
+hungary:0232,Hungary,1,1,0.7835944114095581,0.7540394007731793,leave_one_hospital_out,1
+hungary:0233,Hungary,1,1,0.6730440540173006,0.6529880571258087,leave_one_hospital_out,1
+hungary:0234,Hungary,1,1,0.8253881504526785,0.7942332307920892,leave_one_hospital_out,1
+hungary:0235,Hungary,1,1,0.9550058482167504,0.9339254556654402,leave_one_hospital_out,1
+hungary:0236,Hungary,1,1,0.9181606400157476,0.8906704008409527,leave_one_hospital_out,1
+hungary:0237,Hungary,1,1,0.9204190771394117,0.8932059407046014,leave_one_hospital_out,1
+hungary:0238,Hungary,1,1,0.9576086040622407,0.937171763015263,leave_one_hospital_out,1
+hungary:0239,Hungary,1,1,0.6017209093211836,0.5902153688550351,leave_one_hospital_out,1
+hungary:0240,Hungary,1,1,0.9502364682133541,0.9280567632244804,leave_one_hospital_out,1
+hungary:0241,Hungary,1,1,0.792267301815888,0.7622644909376319,leave_one_hospital_out,1
+hungary:0242,Hungary,1,1,0.772317018045051,0.74342415861177,leave_one_hospital_out,1
+hungary:0243,Hungary,1,1,0.9114755916632882,0.8832355018679116,leave_one_hospital_out,1
+hungary:0244,Hungary,1,1,0.7870416688755303,0.7573020532661622,leave_one_hospital_out,1
+hungary:0245,Hungary,1,1,0.8878933572112523,0.857743372376242,leave_one_hospital_out,1
+hungary:0246,Hungary,1,1,0.9335267504329848,0.908185175539442,leave_one_hospital_out,1
+hungary:0247,Hungary,1,1,0.8928792167080307,0.8630466560550124,leave_one_hospital_out,1
+hungary:0248,Hungary,1,1,0.9041803761795427,0.875233914149832,leave_one_hospital_out,1
+hungary:0249,Hungary,1,1,0.9565616903873786,0.9358620984103058,leave_one_hospital_out,1
+hungary:0250,Hungary,1,1,0.5830143866638955,0.5739278438994995,leave_one_hospital_out,1
+hungary:0251,Hungary,1,1,0.8942737416090516,0.8645377248828631,leave_one_hospital_out,1
+hungary:0252,Hungary,1,1,0.8275616572275403,0.7963655296823728,leave_one_hospital_out,1
+hungary:0253,Hungary,1,1,0.9412102039889947,0.9172011459524583,leave_one_hospital_out,1
+hungary:0254,Hungary,1,1,0.756106622392466,0.7283111757049069,leave_one_hospital_out,1
+hungary:0255,Hungary,1,1,0.9106487817509077,0.8823229522480638,leave_one_hospital_out,1
+hungary:0256,Hungary,1,1,0.5318651709552275,0.5296016039664587,leave_one_hospital_out,1
+hungary:0257,Hungary,1,1,0.17346938022201122,0.2073421865879721,leave_one_hospital_out,1
+hungary:0258,Hungary,1,1,0.8454612402411503,0.8141099115557909,leave_one_hospital_out,1
+hungary:0259,Hungary,1,1,0.8530036244474037,0.8216928047436786,leave_one_hospital_out,1
+hungary:0260,Hungary,1,1,0.8610957444681578,0.8299049561583011,leave_one_hospital_out,1
+hungary:0261,Hungary,1,1,0.601584198039803,0.5900961322154864,leave_one_hospital_out,1
+hungary:0262,Hungary,1,1,0.8791147887083841,0.8485059072483705,leave_one_hospital_out,1
+hungary:0263,Hungary,1,1,0.8798220778424389,0.8492456525027707,leave_one_hospital_out,1
+hungary:0264,Hungary,1,1,0.881608598974106,0.8511176049210117,leave_one_hospital_out,1
+hungary:0265,Hungary,1,1,0.9728121594060145,0.9568904168841629,leave_one_hospital_out,1
+hungary:0266,Hungary,1,1,0.2773655202993901,0.3059091613326364,leave_one_hospital_out,1
+hungary:0267,Hungary,1,1,0.9206504891035114,0.8934664530465499,leave_one_hospital_out,1
+hungary:0268,Hungary,1,1,0.855356368689464,0.824072043415588,leave_one_hospital_out,1
+hungary:0269,Hungary,1,1,0.39243591174538417,0.40866198658492325,leave_one_hospital_out,1
+hungary:0270,Hungary,1,1,0.7604270580222937,0.732323209867176,leave_one_hospital_out,1
+hungary:0271,Hungary,1,1,0.9364685224586837,0.9116147267040791,leave_one_hospital_out,1
+hungary:0272,Hungary,1,1,0.3038060438119389,0.3299503314209695,leave_one_hospital_out,1
+hungary:0273,Hungary,1,1,0.9141497719205539,0.8861973637660971,leave_one_hospital_out,1
+hungary:0274,Hungary,1,1,0.9133914016667587,0.8853557815230805,leave_one_hospital_out,1
+hungary:0275,Hungary,1,1,0.8522566887280844,0.8209388624077577,leave_one_hospital_out,1
+hungary:0276,Hungary,1,1,0.7887627557796708,0.7589342137068743,leave_one_hospital_out,1
+hungary:0277,Hungary,1,1,0.835541598950786,0.8042346206751662,leave_one_hospital_out,1
+hungary:0278,Hungary,1,1,0.9450504932123546,0.9217823071098703,leave_one_hospital_out,1
+hungary:0279,Hungary,1,1,0.9579135145176949,0.9375542082014903,leave_one_hospital_out,1
+hungary:0280,Hungary,1,1,0.9044604121378237,0.8755390300894372,leave_one_hospital_out,1
+hungary:0281,Hungary,1,1,0.8812334795754678,0.8507241343215797,leave_one_hospital_out,1
+hungary:0282,Hungary,1,1,0.4858612434097652,0.4898392046905946,leave_one_hospital_out,1
+hungary:0283,Hungary,1,1,0.9110396721318583,0.8827541914801622,leave_one_hospital_out,1
+hungary:0284,Hungary,1,1,0.9086876292925783,0.8801643471340472,leave_one_hospital_out,1
+hungary:0285,Hungary,1,1,0.8345665762693809,0.8032696509905098,leave_one_hospital_out,1
+hungary:0286,Hungary,1,1,0.8506333917923463,0.8193026414149956,leave_one_hospital_out,1
+hungary:0287,Hungary,1,1,0.9588670889463999,0.9387532608421605,leave_one_hospital_out,1
+hungary:0288,Hungary,1,1,0.9090871051268871,0.8806033744985203,leave_one_hospital_out,1
+hungary:0289,Hungary,1,1,0.8982591304558558,0.8688184448275954,leave_one_hospital_out,1
+hungary:0290,Hungary,1,1,0.9192595866669252,0.891902631355879,leave_one_hospital_out,1
+hungary:0291,Hungary,1,1,0.5363380271196414,0.5334697887694225,leave_one_hospital_out,1
+hungary:0292,Hungary,1,1,0.9153153829145821,0.8874934269009525,leave_one_hospital_out,1
+hungary:0293,Hungary,1,1,0.7834452542570148,0.7538984241540525,leave_one_hospital_out,1
+hungary:0294,Hungary,1,1,0.9006206009476274,0.8713688804957948,leave_one_hospital_out,1
+switzerland:0001,Switzerland,1,1,0.4823735597026071,0.4672602321324068,leave_one_hospital_out,2
+switzerland:0002,Switzerland,1,1,0.46705602080474434,0.44480469823772256,leave_one_hospital_out,2
+switzerland:0003,Switzerland,1,3,0.74051667402005,0.8202884908358348,leave_one_hospital_out,2
+switzerland:0004,Switzerland,1,1,0.7566931755311224,0.838216563923337,leave_one_hospital_out,2
+switzerland:0005,Switzerland,1,2,0.30043698561130094,0.2187671850221874,leave_one_hospital_out,2
+switzerland:0006,Switzerland,1,1,0.19219399663100334,0.10496060176196809,leave_one_hospital_out,2
+switzerland:0007,Switzerland,0,0,0.32456363631316265,0.24837478147351985,leave_one_hospital_out,2
+switzerland:0008,Switzerland,1,1,0.5321045176229,0.5404932912493381,leave_one_hospital_out,2
+switzerland:0009,Switzerland,1,2,0.3976769179430417,0.3454630755338497,leave_one_hospital_out,2
+switzerland:0010,Switzerland,1,1,0.6677164101689056,0.7313192958589969,leave_one_hospital_out,2
+switzerland:0011,Switzerland,1,2,0.3872028066986372,0.3309729688608692,leave_one_hospital_out,2
+switzerland:0012,Switzerland,1,2,0.49517676455496873,0.4860966655398826,leave_one_hospital_out,2
+switzerland:0013,Switzerland,1,1,0.7466586736118801,0.8271813210402872,leave_one_hospital_out,2
+switzerland:0014,Switzerland,1,2,0.670447711806469,0.7348765580312678,leave_one_hospital_out,2
+switzerland:0015,Switzerland,1,3,0.6902664154353217,0.7602133066632014,leave_one_hospital_out,2
+switzerland:0016,Switzerland,1,4,0.8388941615659884,0.9171767420317104,leave_one_hospital_out,2
+switzerland:0017,Switzerland,1,2,0.6885409013007453,0.7580416850979587,leave_one_hospital_out,2
+switzerland:0018,Switzerland,0,0,0.33618412598329755,0.26310762624426137,leave_one_hospital_out,2
+switzerland:0019,Switzerland,1,1,0.3914230940088029,0.3367913049940926,leave_one_hospital_out,2
+switzerland:0020,Switzerland,1,1,0.8626714960521078,0.935903678688958,leave_one_hospital_out,2
+switzerland:0021,Switzerland,1,1,0.5344070334629157,0.5438775198230709,leave_one_hospital_out,2
+switzerland:0022,Switzerland,1,3,0.5590788190988855,0.5799870127431277,leave_one_hospital_out,2
+switzerland:0023,Switzerland,1,2,0.5930895016352009,0.6290304392310297,leave_one_hospital_out,2
+switzerland:0024,Switzerland,1,1,0.7171865584135757,0.7931860666461854,leave_one_hospital_out,2
+switzerland:0025,Switzerland,1,2,0.599564268415088,0.638232600894185,leave_one_hospital_out,2
+switzerland:0026,Switzerland,1,1,0.24585825255841925,0.15722104646174198,leave_one_hospital_out,2
+switzerland:0027,Switzerland,1,3,0.7390151993785915,0.8185877619900557,leave_one_hospital_out,2
+switzerland:0028,Switzerland,1,3,0.6058967515642829,0.647182701647798,leave_one_hospital_out,2
+switzerland:0029,Switzerland,1,1,0.7646028170929243,0.8467131031780192,leave_one_hospital_out,2
+switzerland:0030,Switzerland,1,2,0.5129691193514081,0.5123172582766604,leave_one_hospital_out,2
+switzerland:0031,Switzerland,1,4,0.5495592635184993,0.5660931557682227,leave_one_hospital_out,2
+switzerland:0032,Switzerland,1,3,0.6463296210609987,0.7029570470895314,leave_one_hospital_out,2
+switzerland:0033,Switzerland,1,2,0.4356195307859372,0.39918925340308026,leave_one_hospital_out,2
+switzerland:0034,Switzerland,1,1,0.5259199073259542,0.5313950977406154,leave_one_hospital_out,2
+switzerland:0035,Switzerland,1,2,0.4576261681693834,0.4310437577549844,leave_one_hospital_out,2
+switzerland:0036,Switzerland,1,2,0.7960764801036769,0.8786846832256392,leave_one_hospital_out,2
+switzerland:0037,Switzerland,1,2,0.574763743574869,0.6027364578809459,leave_one_hospital_out,2
+switzerland:0038,Switzerland,1,2,0.9002579737518798,0.9614052488326912,leave_one_hospital_out,2
+switzerland:0039,Switzerland,1,2,0.761811167881286,0.8437349113323005,leave_one_hospital_out,2
+switzerland:0040,Switzerland,1,2,0.7392446015382158,0.8188480035698474,leave_one_hospital_out,2
+switzerland:0041,Switzerland,1,3,0.202749183679643,0.11454809954080397,leave_one_hospital_out,2
+switzerland:0042,Switzerland,0,0,0.32887318505386937,0.25380411465378727,leave_one_hospital_out,2
+switzerland:0043,Switzerland,1,1,0.4408077205173567,0.4066613335522827,leave_one_hospital_out,2
+switzerland:0044,Switzerland,1,1,0.6196094044993663,0.6663793227942495,leave_one_hospital_out,2
+switzerland:0045,Switzerland,1,1,0.6130827395430584,0.6572752934407986,leave_one_hospital_out,2
+switzerland:0046,Switzerland,1,4,0.6873708373014417,0.7565652957558723,leave_one_hospital_out,2
+switzerland:0047,Switzerland,1,2,0.8821871309268944,0.9497884618444983,leave_one_hospital_out,2
+switzerland:0048,Switzerland,0,0,0.8496078125009683,0.9258562296792416,leave_one_hospital_out,2
+switzerland:0049,Switzerland,1,2,0.5500096341133955,0.5667517218398666,leave_one_hospital_out,2
+switzerland:0050,Switzerland,1,3,0.9181114841294993,0.9716644686073674,leave_one_hospital_out,2
+switzerland:0051,Switzerland,1,1,0.7125465070775825,0.787628320113418,leave_one_hospital_out,2
+switzerland:0052,Switzerland,0,0,0.1962246869174051,0.10858063374657315,leave_one_hospital_out,2
+switzerland:0053,Switzerland,1,1,0.49385206552385236,0.4841458351429151,leave_one_hospital_out,2
+switzerland:0054,Switzerland,1,4,0.4814870158223345,0.4659577807238582,leave_one_hospital_out,2
+switzerland:0055,Switzerland,1,2,0.5413698280097579,0.5540991894356737,leave_one_hospital_out,2
+switzerland:0056,Switzerland,0,0,0.4260389783899189,0.3854622439661144,leave_one_hospital_out,2
+switzerland:0057,Switzerland,1,2,0.43210445458039515,0.3941417585321977,leave_one_hospital_out,2
+switzerland:0058,Switzerland,1,2,0.40599646938076284,0.35708708168640857,leave_one_hospital_out,2
+switzerland:0059,Switzerland,1,1,0.4227419555268426,0.3807612144784485,leave_one_hospital_out,2
+switzerland:0060,Switzerland,1,2,0.7035683977650894,0.7767235170907795,leave_one_hospital_out,2
+switzerland:0061,Switzerland,1,2,0.3718792607580725,0.3100900036514974,leave_one_hospital_out,2
+switzerland:0062,Switzerland,1,3,0.8829317019795583,0.9502909704682333,leave_one_hospital_out,2
+switzerland:0063,Switzerland,1,1,0.8341591249718412,0.9132165860452306,leave_one_hospital_out,2
+switzerland:0064,Switzerland,1,1,0.4150377019898031,0.36982566046068666,leave_one_hospital_out,2
+switzerland:0065,Switzerland,1,3,0.7872368301886621,0.8700088304766125,leave_one_hospital_out,2
+switzerland:0066,Switzerland,1,2,0.8429546378237813,0.9205123499908099,leave_one_hospital_out,2
+switzerland:0067,Switzerland,1,3,0.662872270691204,0.7249730129210725,leave_one_hospital_out,2
+switzerland:0068,Switzerland,1,2,0.8629511305941461,0.9361122223884839,leave_one_hospital_out,2
+switzerland:0069,Switzerland,1,1,0.5122085755444087,0.5111962872022894,leave_one_hospital_out,2
+switzerland:0070,Switzerland,1,1,0.6134066334264676,0.6577285278425465,leave_one_hospital_out,2
+switzerland:0071,Switzerland,1,4,0.7786191680942095,0.8613201604230374,leave_one_hospital_out,2
+switzerland:0072,Switzerland,1,1,0.6570102497601291,0.7172310324340997,leave_one_hospital_out,2
+switzerland:0073,Switzerland,1,1,0.5895581549673787,0.6239910898915662,leave_one_hospital_out,2
+switzerland:0074,Switzerland,1,3,0.5792954274579645,0.6092700172873621,leave_one_hospital_out,2
+switzerland:0075,Switzerland,1,2,0.5398892140510265,0.5519272692801149,leave_one_hospital_out,2
+switzerland:0076,Switzerland,1,1,0.8415689018762792,0.9193802859579501,leave_one_hospital_out,2
+switzerland:0077,Switzerland,1,1,0.8614920986737158,0.935021085914177,leave_one_hospital_out,2
+switzerland:0078,Switzerland,1,1,0.6712898415943326,0.7359702524513777,leave_one_hospital_out,2
+switzerland:0079,Switzerland,1,3,0.587690941940614,0.6213209315525214,leave_one_hospital_out,2
+switzerland:0080,Switzerland,1,1,0.88086132844006,0.9488886703999139,leave_one_hospital_out,2
+switzerland:0081,Switzerland,1,3,0.6689105811887106,0.732876473865543,leave_one_hospital_out,2
+switzerland:0082,Switzerland,1,3,0.7409198362803612,0.8207441100614515,leave_one_hospital_out,2
+switzerland:0083,Switzerland,1,1,0.43065539880193865,0.39206465078884445,leave_one_hospital_out,2
+switzerland:0084,Switzerland,1,3,0.41003706088256825,0.362766874664567,leave_one_hospital_out,2
+switzerland:0085,Switzerland,1,1,0.8269513208071129,0.9070441418105558,leave_one_hospital_out,2
+switzerland:0086,Switzerland,1,1,0.7753420464598193,0.8579571630506826,leave_one_hospital_out,2
+switzerland:0087,Switzerland,1,3,0.7140909099751012,0.7894841527491423,leave_one_hospital_out,2
+switzerland:0088,Switzerland,1,3,0.6353755264416575,0.6881045033119205,leave_one_hospital_out,2
+switzerland:0089,Switzerland,1,3,0.7927676575149346,0.8754655189644803,leave_one_hospital_out,2
+switzerland:0090,Switzerland,1,1,0.684787890414017,0.7532952817513,leave_one_hospital_out,2
+switzerland:0091,Switzerland,1,2,0.8812934078059862,0.9491826169546899,leave_one_hospital_out,2
+switzerland:0092,Switzerland,1,2,0.8089648392148391,0.8908956293137589,leave_one_hospital_out,2
+switzerland:0093,Switzerland,1,2,0.1901074262314963,0.10310671433311308,leave_one_hospital_out,2
+switzerland:0094,Switzerland,1,1,0.6860661023937389,0.7549153587198778,leave_one_hospital_out,2
+switzerland:0095,Switzerland,1,1,0.4580253376386921,0.43162508985047054,leave_one_hospital_out,2
+switzerland:0096,Switzerland,1,3,0.5924547216667636,0.628125624445566,leave_one_hospital_out,2
+switzerland:0097,Switzerland,1,2,0.9422332393759508,0.9834939838238179,leave_one_hospital_out,2
+switzerland:0098,Switzerland,1,1,0.7682926325956533,0.8506146602680672,leave_one_hospital_out,2
+switzerland:0099,Switzerland,1,3,0.8214450014137514,0.9022127084545767,leave_one_hospital_out,2
+switzerland:0100,Switzerland,1,1,0.5583860328573668,0.5789778696675254,leave_one_hospital_out,2
+switzerland:0101,Switzerland,1,2,0.6234306147911659,0.6716804485064546,leave_one_hospital_out,2
+switzerland:0102,Switzerland,1,3,0.9157066300749134,0.9703550597045912,leave_one_hospital_out,2
+switzerland:0103,Switzerland,1,3,0.5829716969767652,0.6145557691310194,leave_one_hospital_out,2
+switzerland:0104,Switzerland,1,1,0.6336180737835148,0.6857025141683458,leave_one_hospital_out,2
+switzerland:0105,Switzerland,1,3,0.6773003434288465,0.7437331087521175,leave_one_hospital_out,2
+switzerland:0106,Switzerland,1,1,0.2928303048057818,0.20972252671221978,leave_one_hospital_out,2
+switzerland:0107,Switzerland,1,1,0.8998128677364544,0.9611337989077804,leave_one_hospital_out,2
+switzerland:0108,Switzerland,1,1,0.7155101307325576,0.7911843077407404,leave_one_hospital_out,2
+switzerland:0109,Switzerland,1,3,0.6829502684595293,0.7509598378139766,leave_one_hospital_out,2
+switzerland:0110,Switzerland,0,0,0.5610131412568726,0.582802852191151,leave_one_hospital_out,2
+switzerland:0111,Switzerland,1,3,0.834003090262351,0.9130848025850203,leave_one_hospital_out,2
+switzerland:0112,Switzerland,1,1,0.4939318054289587,0.4842632551094745,leave_one_hospital_out,2
+switzerland:0113,Switzerland,1,3,0.8776152961141551,0.9466586604705559,leave_one_hospital_out,2
+switzerland:0114,Switzerland,1,2,0.4626656784825381,0.438390915300861,leave_one_hospital_out,2
+switzerland:0115,Switzerland,1,3,0.6895975703468932,0.7593723409238828,leave_one_hospital_out,2
+switzerland:0116,Switzerland,1,1,0.6823514514450987,0.7501971917274627,leave_one_hospital_out,2
+switzerland:0117,Switzerland,1,1,0.5586755392265816,0.5793996177211608,leave_one_hospital_out,2
+switzerland:0118,Switzerland,1,3,0.7662244401309114,0.848432684404056,leave_one_hospital_out,2
+switzerland:0119,Switzerland,1,1,0.7152449514673783,0.7908670197469221,leave_one_hospital_out,2
+switzerland:0120,Switzerland,1,3,0.8178953652556595,0.8990453579039847,leave_one_hospital_out,2
+switzerland:0121,Switzerland,0,0,0.6648936265160961,0.7276269157946313,leave_one_hospital_out,2
+switzerland:0122,Switzerland,1,1,0.18212811215329258,0.09614460414271826,leave_one_hospital_out,2
+switzerland:0123,Switzerland,1,1,0.37452779734502917,0.31367112205298714,leave_one_hospital_out,2
+va_long_beach:0001,VA Long Beach,1,2,0.8829560646378465,0.9656081727864222,leave_one_hospital_out,3
+va_long_beach:0002,VA Long Beach,0,0,0.40449836581557874,0.20750616675298247,leave_one_hospital_out,3
+va_long_beach:0003,VA Long Beach,1,2,0.8027836457754499,0.8944412731207549,leave_one_hospital_out,3
+va_long_beach:0004,VA Long Beach,1,1,0.7607536825993451,0.8398830185285938,leave_one_hospital_out,3
+va_long_beach:0005,VA Long Beach,0,0,0.6164189919717922,0.5822858168960573,leave_one_hospital_out,3
+va_long_beach:0006,VA Long Beach,0,0,0.5716312393094823,0.4928104630772579,leave_one_hospital_out,3
+va_long_beach:0007,VA Long Beach,1,3,0.7017388773208322,0.7450581962595891,leave_one_hospital_out,3
+va_long_beach:0008,VA Long Beach,0,0,0.7116170699231381,0.7622351550701572,leave_one_hospital_out,3
+va_long_beach:0009,VA Long Beach,1,3,0.6721943329516151,0.6911476380628686,leave_one_hospital_out,3
+va_long_beach:0010,VA Long Beach,1,1,0.3443752100874904,0.13713725039967295,leave_one_hospital_out,3
+va_long_beach:0011,VA Long Beach,0,0,0.11720766450166634,0.010880228402232687,leave_one_hospital_out,3
+va_long_beach:0012,VA Long Beach,1,1,0.8997949112409135,0.9752351018878721,leave_one_hospital_out,3
+va_long_beach:0013,VA Long Beach,1,1,0.8699846333151448,0.9569795144037077,leave_one_hospital_out,3
+va_long_beach:0014,VA Long Beach,1,1,0.49099101168472,0.3409674977058795,leave_one_hospital_out,3
+va_long_beach:0015,VA Long Beach,1,1,0.8578090558129255,0.9478912313212503,leave_one_hospital_out,3
+va_long_beach:0016,VA Long Beach,0,0,0.5053879785097722,0.366525959772299,leave_one_hospital_out,3
+va_long_beach:0017,VA Long Beach,1,4,0.9077862556694418,0.9792005064954146,leave_one_hospital_out,3
+va_long_beach:0018,VA Long Beach,1,1,0.857228222105221,0.9474333727725689,leave_one_hospital_out,3
+va_long_beach:0019,VA Long Beach,0,0,0.8237518274011406,0.9172290614634001,leave_one_hospital_out,3
+va_long_beach:0020,VA Long Beach,0,0,0.9065299345996702,0.9786022894141972,leave_one_hospital_out,3
+va_long_beach:0021,VA Long Beach,1,2,0.7779727383226309,0.8636406815811015,leave_one_hospital_out,3
+va_long_beach:0022,VA Long Beach,1,1,0.8593004630157478,0.9490566796974362,leave_one_hospital_out,3
+va_long_beach:0023,VA Long Beach,1,3,0.6424577328023554,0.6339065001432926,leave_one_hospital_out,3
+va_long_beach:0024,VA Long Beach,0,0,0.47724973723853586,0.31738097629944245,leave_one_hospital_out,3
+va_long_beach:0025,VA Long Beach,1,2,0.4944117095864625,0.3469642694660269,leave_one_hospital_out,3
+va_long_beach:0026,VA Long Beach,1,2,0.86744151417764,0.9551611360378498,leave_one_hospital_out,3
+va_long_beach:0027,VA Long Beach,1,2,0.6185422082277694,0.5865253145373154,leave_one_hospital_out,3
+va_long_beach:0028,VA Long Beach,1,1,0.7524766985713849,0.8277936696342266,leave_one_hospital_out,3
+va_long_beach:0029,VA Long Beach,1,1,0.947577310317341,0.9935153300509039,leave_one_hospital_out,3
+va_long_beach:0030,VA Long Beach,1,3,0.16975118183906995,0.02480786545974152,leave_one_hospital_out,3
+va_long_beach:0031,VA Long Beach,1,3,0.6204668109043573,0.5903649858986423,leave_one_hospital_out,3
+va_long_beach:0032,VA Long Beach,1,3,0.8195415368451197,0.9128934826619611,leave_one_hospital_out,3
+va_long_beach:0033,VA Long Beach,1,3,0.901000908333282,0.975858016055758,leave_one_hospital_out,3
+va_long_beach:0034,VA Long Beach,1,3,0.5568148016396477,0.4636181595982049,leave_one_hospital_out,3
+va_long_beach:0035,VA Long Beach,1,2,0.6848915753670175,0.7147443316672287,leave_one_hospital_out,3
+va_long_beach:0036,VA Long Beach,1,3,0.9030558918219986,0.9768993054480762,leave_one_hospital_out,3
+va_long_beach:0037,VA Long Beach,1,2,0.4191115205268439,0.2274330205350865,leave_one_hospital_out,3
+va_long_beach:0038,VA Long Beach,0,0,0.9204353758405283,0.9847104513626406,leave_one_hospital_out,3
+va_long_beach:0039,VA Long Beach,1,1,0.42192256578781195,0.23139298295519367,leave_one_hospital_out,3
+va_long_beach:0040,VA Long Beach,0,0,0.8360114180949746,0.9291672304706908,leave_one_hospital_out,3
+va_long_beach:0041,VA Long Beach,1,3,0.6959138951749436,0.7347159030029072,leave_one_hospital_out,3
+va_long_beach:0042,VA Long Beach,1,1,0.7301375121723583,0.7931072844175666,leave_one_hospital_out,3
+va_long_beach:0043,VA Long Beach,1,3,0.9099954356186691,0.9802298756801752,leave_one_hospital_out,3
+va_long_beach:0044,VA Long Beach,0,0,0.6635321344938842,0.6747300612651669,leave_one_hospital_out,3
+va_long_beach:0045,VA Long Beach,1,4,0.39927354588309394,0.20065067522684027,leave_one_hospital_out,3
+va_long_beach:0046,VA Long Beach,1,2,0.9064583201849205,0.9785679078053806,leave_one_hospital_out,3
+va_long_beach:0047,VA Long Beach,1,1,0.8365018065137239,0.9296235660041361,leave_one_hospital_out,3
+va_long_beach:0048,VA Long Beach,0,0,0.669804714046994,0.6866427861846447,leave_one_hospital_out,3
+va_long_beach:0049,VA Long Beach,1,2,0.6983957260208391,0.7391410775170536,leave_one_hospital_out,3
+va_long_beach:0050,VA Long Beach,0,0,0.23310295665878392,0.05207977062007366,leave_one_hospital_out,3
+va_long_beach:0051,VA Long Beach,1,1,0.8095271435929103,0.902096179361702,leave_one_hospital_out,3
+va_long_beach:0052,VA Long Beach,0,0,0.3316386232470531,0.12457348187763864,leave_one_hospital_out,3
+va_long_beach:0053,VA Long Beach,1,2,0.9045431826164864,0.977637174079661,leave_one_hospital_out,3
+va_long_beach:0054,VA Long Beach,0,0,0.38303976635999715,0.18025603170891946,leave_one_hospital_out,3
+va_long_beach:0055,VA Long Beach,1,1,0.6872765810233195,0.7191083120698839,leave_one_hospital_out,3
+va_long_beach:0056,VA Long Beach,1,2,0.92625031356132,0.9869364485046973,leave_one_hospital_out,3
+va_long_beach:0057,VA Long Beach,1,2,0.8829576858986945,0.965609184441679,leave_one_hospital_out,3
+va_long_beach:0058,VA Long Beach,1,3,0.2788580819494635,0.0806154075224787,leave_one_hospital_out,3
+va_long_beach:0059,VA Long Beach,0,0,0.376986445386079,0.17300098037982392,leave_one_hospital_out,3
+va_long_beach:0060,VA Long Beach,1,1,0.9082281961984576,0.9794087273760449,leave_one_hospital_out,3
+va_long_beach:0061,VA Long Beach,0,0,0.38339464710021864,0.1806872458624194,leave_one_hospital_out,3
+va_long_beach:0062,VA Long Beach,1,2,0.908858975847943,0.9797039266441068,leave_one_hospital_out,3
+va_long_beach:0063,VA Long Beach,1,1,0.8650584160646214,0.9534190468253723,leave_one_hospital_out,3
+va_long_beach:0064,VA Long Beach,1,4,0.7052266688353802,0.751176308481656,leave_one_hospital_out,3
+va_long_beach:0065,VA Long Beach,1,2,0.6999391709068107,0.7418791765112873,leave_one_hospital_out,3
+va_long_beach:0066,VA Long Beach,1,2,0.6953454644191542,0.7336985452432081,leave_one_hospital_out,3
+va_long_beach:0067,VA Long Beach,1,3,0.4892940170101278,0.33801065313082734,leave_one_hospital_out,3
+va_long_beach:0068,VA Long Beach,1,1,0.9517037364892857,0.9945106957093486,leave_one_hospital_out,3
+va_long_beach:0069,VA Long Beach,1,1,0.6467529520936663,0.642313806335706,leave_one_hospital_out,3
+va_long_beach:0070,VA Long Beach,1,1,0.16557939876944705,0.0234415302713249,leave_one_hospital_out,3
+va_long_beach:0071,VA Long Beach,0,0,0.09793478493643583,0.007386774134941228,leave_one_hospital_out,3
+va_long_beach:0072,VA Long Beach,1,2,0.8586909394921185,0.9485821442974066,leave_one_hospital_out,3
+va_long_beach:0073,VA Long Beach,0,0,0.2939251172355192,0.09188532465798943,leave_one_hospital_out,3
+va_long_beach:0074,VA Long Beach,1,3,0.8576361828184542,0.9477551921583725,leave_one_hospital_out,3
+va_long_beach:0075,VA Long Beach,1,3,0.603630023921044,0.5566963851748148,leave_one_hospital_out,3
+va_long_beach:0076,VA Long Beach,1,1,0.6648828342034763,0.6773056529758683,leave_one_hospital_out,3
+va_long_beach:0077,VA Long Beach,1,2,0.6480213238520196,0.6447888257421588,leave_one_hospital_out,3
+va_long_beach:0078,VA Long Beach,1,3,0.1972416973360998,0.03507287309678398,leave_one_hospital_out,3
+va_long_beach:0079,VA Long Beach,1,2,0.9076908716694545,0.9791554150333243,leave_one_hospital_out,3
+va_long_beach:0080,VA Long Beach,1,1,0.8267729517996995,0.9202657557050479,leave_one_hospital_out,3
+va_long_beach:0081,VA Long Beach,0,0,0.643702489170443,0.6363469231554395,leave_one_hospital_out,3
+va_long_beach:0082,VA Long Beach,1,2,0.8433724554872936,0.935846425140794,leave_one_hospital_out,3
+va_long_beach:0083,VA Long Beach,1,2,0.7715238124155596,0.8549669185342094,leave_one_hospital_out,3
+va_long_beach:0084,VA Long Beach,1,2,0.8710825504211444,0.9577516102078031,leave_one_hospital_out,3
+va_long_beach:0085,VA Long Beach,1,4,0.8475104652697576,0.9394410788029042,leave_one_hospital_out,3
+va_long_beach:0086,VA Long Beach,1,2,0.880430971960335,0.964012416859382,leave_one_hospital_out,3
+va_long_beach:0087,VA Long Beach,1,3,0.7653738374327973,0.8464443920854977,leave_one_hospital_out,3
+va_long_beach:0088,VA Long Beach,0,0,0.36696550956520424,0.16140547809830824,leave_one_hospital_out,3
+va_long_beach:0089,VA Long Beach,1,1,0.8939611156774194,0.9720974327280884,leave_one_hospital_out,3
+va_long_beach:0090,VA Long Beach,1,1,0.18272235450318985,0.029371750272845183,leave_one_hospital_out,3
+va_long_beach:0091,VA Long Beach,1,3,0.9043985027043463,0.977565975416523,leave_one_hospital_out,3
+va_long_beach:0092,VA Long Beach,0,0,0.6086086477256736,0.5666658190169377,leave_one_hospital_out,3
+va_long_beach:0093,VA Long Beach,1,3,0.7614912275110599,0.8409395116163071,leave_one_hospital_out,3
+va_long_beach:0094,VA Long Beach,1,1,0.4997074357144717,0.35634253056040205,leave_one_hospital_out,3
+va_long_beach:0095,VA Long Beach,0,0,0.42770393703499066,0.23966506181304056,leave_one_hospital_out,3
+va_long_beach:0096,VA Long Beach,1,3,0.8437032080216482,0.9361379723364152,leave_one_hospital_out,3
+va_long_beach:0097,VA Long Beach,0,0,0.16301686296894113,0.022626058213641505,leave_one_hospital_out,3
+va_long_beach:0098,VA Long Beach,1,1,0.508167007404627,0.3715530762722301,leave_one_hospital_out,3
+va_long_beach:0099,VA Long Beach,1,1,0.7522356478941151,0.8274352422411937,leave_one_hospital_out,3
+va_long_beach:0100,VA Long Beach,0,0,0.6401193869469095,0.6293136874302957,leave_one_hospital_out,3
+va_long_beach:0101,VA Long Beach,1,1,0.3847020772184084,0.18228152816486415,leave_one_hospital_out,3
+va_long_beach:0102,VA Long Beach,1,3,0.9077971491826144,0.9792056528365667,leave_one_hospital_out,3
+va_long_beach:0103,VA Long Beach,1,1,0.6771889795933178,0.7005000649682002,leave_one_hospital_out,3
+va_long_beach:0104,VA Long Beach,1,1,0.7560574642268344,0.8330759477044493,leave_one_hospital_out,3
+va_long_beach:0105,VA Long Beach,0,0,0.598312867364845,0.546046239315074,leave_one_hospital_out,3
+va_long_beach:0106,VA Long Beach,1,3,0.8613373570816676,0.9506247358390201,leave_one_hospital_out,3
+va_long_beach:0107,VA Long Beach,1,1,0.8594656643279461,0.9491848731593239,leave_one_hospital_out,3
+va_long_beach:0108,VA Long Beach,1,1,0.8475619484578657,0.9394850790897882,leave_one_hospital_out,3
+va_long_beach:0109,VA Long Beach,0,0,0.3907419117048394,0.18976159862280997,leave_one_hospital_out,3
+va_long_beach:0110,VA Long Beach,0,0,0.1298844475313079,0.013621943464712554,leave_one_hospital_out,3
+va_long_beach:0111,VA Long Beach,1,3,0.426463133350065,0.23787524548618763,leave_one_hospital_out,3
+va_long_beach:0112,VA Long Beach,0,0,0.16482729383759306,0.023200324071502246,leave_one_hospital_out,3
+va_long_beach:0113,VA Long Beach,1,3,0.19915065533954784,0.03587092732818969,leave_one_hospital_out,3
+va_long_beach:0114,VA Long Beach,1,1,0.43223279409808635,0.2462645461293439,leave_one_hospital_out,3
+va_long_beach:0115,VA Long Beach,1,1,0.3787423099027418,0.17508593290300922,leave_one_hospital_out,3
+va_long_beach:0116,VA Long Beach,1,3,0.42954920560284066,0.24234136492012426,leave_one_hospital_out,3
+va_long_beach:0117,VA Long Beach,1,2,0.4859445437953921,0.33221037390003644,leave_one_hospital_out,3
+va_long_beach:0118,VA Long Beach,1,2,0.8105656900767247,0.9032476371298435,leave_one_hospital_out,3
+va_long_beach:0119,VA Long Beach,1,3,0.8410158895664753,0.9337478959040746,leave_one_hospital_out,3
+va_long_beach:0120,VA Long Beach,1,1,0.6345194434575565,0.6182737386166134,leave_one_hospital_out,3
+va_long_beach:0121,VA Long Beach,1,2,0.49732970720005165,0.3521177774938688,leave_one_hospital_out,3
+va_long_beach:0122,VA Long Beach,1,3,0.8719774176096429,0.9583751597749641,leave_one_hospital_out,3
+va_long_beach:0123,VA Long Beach,1,1,0.9001685721114994,0.9754290399844646,leave_one_hospital_out,3
+va_long_beach:0124,VA Long Beach,0,0,0.4965479062626248,0.3507336362594185,leave_one_hospital_out,3
+va_long_beach:0125,VA Long Beach,1,1,0.24795850737904457,0.060452551243854825,leave_one_hospital_out,3
+va_long_beach:0126,VA Long Beach,1,4,0.45920111843676387,0.28769429928356594,leave_one_hospital_out,3
+va_long_beach:0127,VA Long Beach,1,1,0.7387650802164838,0.8068490425342684,leave_one_hospital_out,3
+va_long_beach:0128,VA Long Beach,1,2,0.8751130823255457,0.9605194680562165,leave_one_hospital_out,3
+va_long_beach:0129,VA Long Beach,0,0,0.5584311183829632,0.4667836310573193,leave_one_hospital_out,3
+va_long_beach:0130,VA Long Beach,0,0,0.363607650093628,0.15763501743208386,leave_one_hospital_out,3
+va_long_beach:0131,VA Long Beach,1,1,0.2741302430200107,0.07727869576497524,leave_one_hospital_out,3
+va_long_beach:0132,VA Long Beach,1,3,0.49540600529986306,0.3487164100317784,leave_one_hospital_out,3
+va_long_beach:0133,VA Long Beach,1,1,0.5325148187310768,0.4167596529570035,leave_one_hospital_out,3
+va_long_beach:0134,VA Long Beach,0,0,0.30696543671622395,0.10244625205389167,leave_one_hospital_out,3
+va_long_beach:0135,VA Long Beach,1,3,0.5932545883616234,0.5359183968465382,leave_one_hospital_out,3
+va_long_beach:0136,VA Long Beach,0,0,0.30324885808793905,0.09935830727931368,leave_one_hospital_out,3
+va_long_beach:0137,VA Long Beach,1,3,0.2233061046623516,0.04699765479562537,leave_one_hospital_out,3
+va_long_beach:0138,VA Long Beach,1,3,0.2944539463377928,0.09229882755548298,leave_one_hospital_out,3
+va_long_beach:0139,VA Long Beach,0,0,0.31292036401843093,0.10752574148979725,leave_one_hospital_out,3
+va_long_beach:0140,VA Long Beach,1,2,0.5181242943544563,0.38979793382359224,leave_one_hospital_out,3
+va_long_beach:0141,VA Long Beach,0,0,0.9249446947942233,0.9864531797413777,leave_one_hospital_out,3
+va_long_beach:0142,VA Long Beach,1,4,0.20481235516269447,0.03830613521990658,leave_one_hospital_out,3
+va_long_beach:0143,VA Long Beach,1,2,0.23423303134538906,0.05268809121531289,leave_one_hospital_out,3
+va_long_beach:0144,VA Long Beach,1,4,0.8925034928215672,0.9712810160942775,leave_one_hospital_out,3
+va_long_beach:0145,VA Long Beach,0,0,0.16819073234369003,0.024291126462667668,leave_one_hospital_out,3
+va_long_beach:0146,VA Long Beach,0,0,0.078431382920657,0.004616791852386448,leave_one_hospital_out,3
+va_long_beach:0147,VA Long Beach,0,0,0.8375939230588226,0.9306340033112631,leave_one_hospital_out,3
+va_long_beach:0148,VA Long Beach,1,1,0.3985685145382686,0.1997364788685821,leave_one_hospital_out,3
+va_long_beach:0149,VA Long Beach,1,3,0.7985434000435809,0.8894700956411993,leave_one_hospital_out,3
+va_long_beach:0150,VA Long Beach,1,3,0.42463022122788346,0.2352457731055818,leave_one_hospital_out,3
+va_long_beach:0151,VA Long Beach,0,0,0.9027934037669474,0.9767677090438192,leave_one_hospital_out,3
+va_long_beach:0152,VA Long Beach,1,3,0.6847699720061806,0.7145212208957337,leave_one_hospital_out,3
+va_long_beach:0153,VA Long Beach,1,1,0.8444577301890399,0.9368003076294573,leave_one_hospital_out,3
+va_long_beach:0154,VA Long Beach,1,1,0.9203052653437445,0.9846584614648455,leave_one_hospital_out,3
+va_long_beach:0155,VA Long Beach,1,2,0.8473909909632039,0.939338901331099,leave_one_hospital_out,3
+va_long_beach:0156,VA Long Beach,1,2,0.42204783865978834,0.23157040465444628,leave_one_hospital_out,3
+va_long_beach:0157,VA Long Beach,1,2,0.7636555488590498,0.8440199481215173,leave_one_hospital_out,3
+va_long_beach:0158,VA Long Beach,1,2,0.5591152616006313,0.4681250376881772,leave_one_hospital_out,3
+va_long_beach:0159,VA Long Beach,1,2,0.43902650574696933,0.2563597866647298,leave_one_hospital_out,3
+va_long_beach:0160,VA Long Beach,1,1,0.4010695862428154,0.20299124204782884,leave_one_hospital_out,3
+va_long_beach:0161,VA Long Beach,1,4,0.8188641734092105,0.9121846928308852,leave_one_hospital_out,3
+va_long_beach:0162,VA Long Beach,1,3,0.4268073454719594,0.23837096920871576,leave_one_hospital_out,3
+va_long_beach:0163,VA Long Beach,1,3,0.890452943831522,0.970110364707373,leave_one_hospital_out,3
+va_long_beach:0164,VA Long Beach,1,3,0.43264633051739987,0.24687236254052128,leave_one_hospital_out,3
+va_long_beach:0165,VA Long Beach,1,1,0.5889340748712305,0.5272753908806584,leave_one_hospital_out,3
+va_long_beach:0166,VA Long Beach,1,3,0.6862165891868405,0.7171715920454697,leave_one_hospital_out,3
+va_long_beach:0167,VA Long Beach,1,2,0.8096620018878947,0.9022461138745093,leave_one_hospital_out,3
+va_long_beach:0168,VA Long Beach,0,0,0.2593735147431111,0.06745600607422121,leave_one_hospital_out,3
+va_long_beach:0169,VA Long Beach,1,2,0.4155410338506445,0.22246204424801116,leave_one_hospital_out,3
+va_long_beach:0170,VA Long Beach,1,1,0.23311159439558524,0.05208440278113699,leave_one_hospital_out,3
+va_long_beach:0171,VA Long Beach,1,1,0.9404853552036602,0.991597877773683,leave_one_hospital_out,3
+va_long_beach:0172,VA Long Beach,0,0,0.24341947934515937,0.05780698230885409,leave_one_hospital_out,3
+va_long_beach:0173,VA Long Beach,1,3,0.930104095562478,0.9883076642974389,leave_one_hospital_out,3
+va_long_beach:0174,VA Long Beach,1,1,0.3040448485059653,0.10001438126671916,leave_one_hospital_out,3
+va_long_beach:0175,VA Long Beach,0,0,0.16929381537455146,0.02465570474300359,leave_one_hospital_out,3
+va_long_beach:0176,VA Long Beach,0,0,0.4902240124977896,0.33962957694273505,leave_one_hospital_out,3
+va_long_beach:0177,VA Long Beach,1,4,0.8605192099605996,0.9499981818977854,leave_one_hospital_out,3
+va_long_beach:0178,VA Long Beach,1,2,0.600346377280119,0.5501192130358666,leave_one_hospital_out,3
+va_long_beach:0179,VA Long Beach,1,3,0.8143690900354723,0.9074019015309188,leave_one_hospital_out,3
+va_long_beach:0180,VA Long Beach,1,1,0.7547216325686377,0.8311146051724025,leave_one_hospital_out,3
+va_long_beach:0181,VA Long Beach,1,1,0.48516015195371603,0.33085899127682816,leave_one_hospital_out,3
+va_long_beach:0182,VA Long Beach,0,0,0.1662771125186639,0.023666684804205817,leave_one_hospital_out,3
+va_long_beach:0183,VA Long Beach,1,1,0.9061659710696455,0.9784272377173366,leave_one_hospital_out,3
+va_long_beach:0184,VA Long Beach,1,1,0.7878982776300408,0.8764560879915939,leave_one_hospital_out,3
+va_long_beach:0185,VA Long Beach,0,0,0.8684640925847354,0.9558973385866352,leave_one_hospital_out,3
+va_long_beach:0186,VA Long Beach,1,1,0.2549626430587519,0.06468959620449749,leave_one_hospital_out,3
+va_long_beach:0187,VA Long Beach,1,3,0.5194070981108895,0.3921738716682951,leave_one_hospital_out,3
+va_long_beach:0188,VA Long Beach,1,2,0.5181242943544563,0.38979793382359224,leave_one_hospital_out,3
+va_long_beach:0189,VA Long Beach,1,2,0.8869546598396602,0.9680531264766427,leave_one_hospital_out,3
+va_long_beach:0190,VA Long Beach,0,0,0.48310753432397463,0.3273352676004713,leave_one_hospital_out,3
+va_long_beach:0191,VA Long Beach,0,0,0.40155649642384683,0.20362866631913593,leave_one_hospital_out,3
+va_long_beach:0192,VA Long Beach,1,4,0.9098387512867212,0.9801578133724399,leave_one_hospital_out,3
+va_long_beach:0193,VA Long Beach,1,3,0.8925383095129592,0.9713006691388183,leave_one_hospital_out,3
+va_long_beach:0194,VA Long Beach,1,1,0.6738224631391155,0.6942058745664241,leave_one_hospital_out,3
+va_long_beach:0195,VA Long Beach,1,2,0.43432289222764114,0.2493454764822337,leave_one_hospital_out,3
+va_long_beach:0196,VA Long Beach,1,1,0.27269400748688355,0.0762835446256721,leave_one_hospital_out,3
+va_long_beach:0197,VA Long Beach,0,0,0.3274281133960896,0.12059349366166641,leave_one_hospital_out,3
+va_long_beach:0198,VA Long Beach,1,2,0.5758726165019133,0.5012293088323734,leave_one_hospital_out,3
+va_long_beach:0199,VA Long Beach,0,0,0.4167473877037016,0.22413420625168226,leave_one_hospital_out,3
+va_long_beach:0200,VA Long Beach,1,1,0.4738669246499734,0.31170234037961786,leave_one_hospital_out,3

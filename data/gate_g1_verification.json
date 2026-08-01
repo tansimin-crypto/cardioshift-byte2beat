@@ -1,0 +1,37 @@
+{
+  "checks": [
+    "exists: data\\audit.json",
+    "exists: data\\checksums.json",
+    "exists: data\\processed\\cardioshift_cohort.csv",
+    "exists: competition-contract.yaml",
+    "competition mode is judge_based",
+    "eligibility and submission ambiguities are recorded",
+    "canonical data audit passes",
+    "schema is exact",
+    "row count matches audit",
+    "site mapping and order are exact",
+    "patient_id is globally unique",
+    "binary target is exactly num > 0",
+    "missing counts match audit",
+    "raw missing values are retained",
+    "processed cohort SHA-256 matches manifest and audit",
+    "exists: data/raw/processed.cleveland.data",
+    "SHA-256 matches: data/raw/processed.cleveland.data",
+    "exists: data/raw/processed.hungarian.data",
+    "SHA-256 matches: data/raw/processed.hungarian.data",
+    "exists: data/raw/processed.switzerland.data",
+    "SHA-256 matches: data/raw/processed.switzerland.data",
+    "exists: data/raw/processed.va.data",
+    "SHA-256 matches: data/raw/processed.va.data"
+  ],
+  "cohort_sha256": "961eca9f38cd639e8d4be527326e3168d3c3c8af230fd4e154d5d6ea4da4f0e9",
+  "gate": "G1",
+  "rows": 920,
+  "sites": {
+    "Cleveland": 303,
+    "Hungary": 294,
+    "Switzerland": 123,
+    "VA Long Beach": 200
+  },
+  "status": "pass"
+}

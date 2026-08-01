@@ -1,0 +1,132 @@
+[
+  {
+    "repeat": 0,
+    "selected_candidate": {
+      "family": "logistic_regression",
+      "parameters": {
+        "C": 0.1,
+        "class_weight": null,
+        "max_iter": 2000
+      },
+      "inner_mean_brier": 0.12277182235844217,
+      "inner_mean_auroc": 0.911702888098552
+    }
+  },
+  {
+    "repeat": 1,
+    "selected_candidate": {
+      "family": "hist_gradient_boosting",
+      "parameters": {
+        "learning_rate": 0.08,
+        "max_leaf_nodes": 7,
+        "l2_regularization": 1.0
+      },
+      "inner_mean_brier": 0.12329451007435706,
+      "inner_mean_auroc": 0.8971502110255496
+    }
+  },
+  {
+    "repeat": 2,
+    "selected_candidate": {
+      "family": "logistic_regression",
+      "parameters": {
+        "C": 0.1,
+        "class_weight": null,
+        "max_iter": 2000
+      },
+      "inner_mean_brier": 0.12835012935816276,
+      "inner_mean_auroc": 0.8951594325578066
+    }
+  },
+  {
+    "repeat": 3,
+    "selected_candidate": {
+      "family": "logistic_regression",
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "max_iter": 2000
+      },
+      "inner_mean_brier": 0.12142007509860808,
+      "inner_mean_auroc": 0.9053876475827696
+    }
+  },
+  {
+    "repeat": 4,
+    "selected_candidate": {
+      "family": "logistic_regression",
+      "parameters": {
+        "C": 0.1,
+        "class_weight": null,
+        "max_iter": 2000
+      },
+      "inner_mean_brier": 0.12948342197112012,
+      "inner_mean_auroc": 0.8914258069542621
+    }
+  },
+  {
+    "repeat": 5,
+    "selected_candidate": {
+      "family": "logistic_regression",
+      "parameters": {
+        "C": 0.1,
+        "class_weight": null,
+        "max_iter": 2000
+      },
+      "inner_mean_brier": 0.12911557301386564,
+      "inner_mean_auroc": 0.89515218195435
+    }
+  },
+  {
+    "repeat": 6,
+    "selected_candidate": {
+      "family": "logistic_regression",
+      "parameters": {
+        "C": 0.1,
+        "class_weight": null,
+        "max_iter": 2000
+      },
+      "inner_mean_brier": 0.12537557667718727,
+      "inner_mean_auroc": 0.9013987347591683
+    }
+  },
+  {
+    "repeat": 7,
+    "selected_candidate": {
+      "family": "logistic_regression",
+      "parameters": {
+        "C": 0.1,
+        "class_weight": null,
+        "max_iter": 2000
+      },
+      "inner_mean_brier": 0.12710333222865788,
+      "inner_mean_auroc": 0.8972811009125371
+    }
+  },
+  {
+    "repeat": 8,
+    "selected_candidate": {
+      "family": "logistic_regression",
+      "parameters": {
+        "C": 0.1,
+        "class_weight": null,
+        "max_iter": 2000
+      },
+      "inner_mean_brier": 0.12040777451151981,
+      "inner_mean_auroc": 0.9119964919151912
+    }
+  },
+  {
+    "repeat": 9,
+    "selected_candidate": {
+      "family": "hist_gradient_boosting",
+      "parameters": {
+        "learning_rate": 0.08,
+        "max_leaf_nodes": 7,
+        "l2_regularization": 0.0
+      },
+      "inner_mean_brier": 0.12928001501191982,
+      "inner_mean_auroc": 0.8880900801497006
+    }
+  }
+]

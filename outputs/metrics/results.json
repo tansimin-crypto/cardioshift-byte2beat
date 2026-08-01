@@ -1,0 +1,589 @@
+{
+  "E1_repeated_random_split": {
+    "metrics_by_repeat": [
+      {
+        "accuracy": 0.7880434782608695,
+        "auprc": 0.8708365011933092,
+        "auroc": 0.8738641798182688,
+        "brier": 0.13906322188182854,
+        "calibration_intercept": -0.04185596832582839,
+        "calibration_slope": 0.7986331115169076,
+        "ece_10": 0.075219512802087,
+        "events": 102,
+        "f1": 0.8097560975609757,
+        "log_loss": 0.44600427280528776,
+        "n": 184,
+        "npv": 0.7654320987654321,
+        "ppv": 0.8058252427184466,
+        "sensitivity": 0.8137254901960784,
+        "specificity": 0.7560975609756098,
+        "threshold": 0.5
+      },
+      {
+        "accuracy": 0.8097826086956522,
+        "auprc": 0.8942739695087761,
+        "auroc": 0.8841463414634146,
+        "brier": 0.13509124525779123,
+        "calibration_intercept": 0.046670392009633015,
+        "calibration_slope": 0.8864559507465058,
+        "ece_10": 0.04309852763472079,
+        "events": 102,
+        "f1": 0.8341232227488151,
+        "log_loss": 0.4290327368777919,
+        "n": 184,
+        "npv": 0.8133333333333334,
+        "ppv": 0.8073394495412844,
+        "sensitivity": 0.8627450980392157,
+        "specificity": 0.7439024390243902,
+        "threshold": 0.5
+      },
+      {
+        "accuracy": 0.8260869565217391,
+        "auprc": 0.8915793367251259,
+        "auroc": 0.902678144428503,
+        "brier": 0.12022195445149908,
+        "calibration_intercept": -0.01969498004001732,
+        "calibration_slope": 1.0395416979181085,
+        "ece_10": 0.06501474749936763,
+        "events": 102,
+        "f1": 0.8476190476190476,
+        "log_loss": 0.38850246239301195,
+        "n": 184,
+        "npv": 0.8289473684210527,
+        "ppv": 0.8240740740740741,
+        "sensitivity": 0.8725490196078431,
+        "specificity": 0.7682926829268293,
+        "threshold": 0.5
+      },
+      {
+        "accuracy": 0.8097826086956522,
+        "auprc": 0.8698464357979846,
+        "auroc": 0.8809182209469153,
+        "brier": 0.1325012953356016,
+        "calibration_intercept": 0.14963699741428568,
+        "calibration_slope": 0.848384864863849,
+        "ece_10": 0.04912083116469191,
+        "events": 102,
+        "f1": 0.8292682926829268,
+        "log_loss": 0.433887888050713,
+        "n": 184,
+        "npv": 0.7901234567901234,
+        "ppv": 0.8252427184466019,
+        "sensitivity": 0.8333333333333334,
+        "specificity": 0.7804878048780488,
+        "threshold": 0.5
+      },
+      {
+        "accuracy": 0.8315217391304348,
+        "auprc": 0.9370007713145512,
+        "auroc": 0.915351506456241,
+        "brier": 0.11931241575292707,
+        "calibration_intercept": 0.45404307704429847,
+        "calibration_slope": 1.0998131884614466,
+        "ece_10": 0.06838607228334673,
+        "events": 102,
+        "f1": 0.837696335078534,
+        "log_loss": 0.3789431914785033,
+        "n": 184,
+        "npv": 0.7684210526315789,
+        "ppv": 0.898876404494382,
+        "sensitivity": 0.7843137254901961,
+        "specificity": 0.8902439024390244,
+        "threshold": 0.5
+      },
+      {
+        "accuracy": 0.8315217391304348,
+        "auprc": 0.9001314845603778,
+        "auroc": 0.9006456241032998,
+        "brier": 0.12261379068042631,
+        "calibration_intercept": -0.018792954486274466,
+        "calibration_slope": 1.0454982423980055,
+        "ece_10": 0.04660283512813783,
+        "events": 102,
+        "f1": 0.845771144278607,
+        "log_loss": 0.39547315143353073,
+        "n": 184,
+        "npv": 0.8,
+        "ppv": 0.8585858585858586,
+        "sensitivity": 0.8333333333333334,
+        "specificity": 0.8292682926829268,
+        "threshold": 0.5
+      },
+      {
+        "accuracy": 0.8206521739130435,
+        "auprc": 0.9055123203380429,
+        "auroc": 0.8931133428981349,
+        "brier": 0.12872952216249334,
+        "calibration_intercept": -0.1913031334815716,
+        "calibration_slope": 0.9859146643056336,
+        "ece_10": 0.0628116831676942,
+        "events": 102,
+        "f1": 0.8465116279069768,
+        "log_loss": 0.414227935828609,
+        "n": 184,
+        "npv": 0.8450704225352113,
+        "ppv": 0.8053097345132744,
+        "sensitivity": 0.8921568627450981,
+        "specificity": 0.7317073170731707,
+        "threshold": 0.5
+      },
+      {
+        "accuracy": 0.8478260869565217,
+        "auprc": 0.9191919979265186,
+        "auroc": 0.9051889048302247,
+        "brier": 0.122951776570754,
+        "calibration_intercept": 0.18629948923090217,
+        "calibration_slope": 0.9900643228704246,
+        "ece_10": 0.05849501737099802,
+        "events": 102,
+        "f1": 0.8613861386138614,
+        "log_loss": 0.3940582339763419,
+        "n": 184,
+        "npv": 0.8214285714285714,
+        "ppv": 0.87,
+        "sensitivity": 0.8529411764705882,
+        "specificity": 0.8414634146341463,
+        "threshold": 0.5
+      },
+      {
+        "accuracy": 0.8206521739130435,
+        "auprc": 0.8531779503792127,
+        "auroc": 0.8493543758967,
+        "brier": 0.14951004920606656,
+        "calibration_intercept": 0.1700013062391934,
+        "calibration_slope": 0.6937959075344738,
+        "ece_10": 0.07410165523347967,
+        "events": 102,
+        "f1": 0.835820895522388,
+        "log_loss": 0.4969640475110846,
+        "n": 184,
+        "npv": 0.788235294117647,
+        "ppv": 0.8484848484848485,
+        "sensitivity": 0.8235294117647058,
+        "specificity": 0.8170731707317073,
+        "threshold": 0.5
+      },
+      {
+        "accuracy": 0.8478260869565217,
+        "auprc": 0.9311329454802874,
+        "auroc": 0.9142754662840746,
+        "brier": 0.11929766663611273,
+        "calibration_intercept": 0.44135074163081395,
+        "calibration_slope": 1.1669424214733517,
+        "ece_10": 0.0869084724566084,
+        "events": 102,
+        "f1": 0.8571428571428571,
+        "log_loss": 0.3808706460752891,
+        "n": 184,
+        "npv": 0.8,
+        "ppv": 0.8936170212765957,
+        "sensitivity": 0.8235294117647058,
+        "specificity": 0.8780487804878049,
+        "threshold": 0.5
+      }
+    ],
+    "repeats": 10,
+    "summary": {
+      "auprc": {
+        "max": 0.9370007713145512,
+        "mean": 0.8972683713224188,
+        "min": 0.8531779503792127,
+        "repeat_percentile_2_5": 0.8569283595984364,
+        "repeat_percentile_97_5": 0.9356805105018419,
+        "standard_deviation": 0.0273215047384094
+      },
+      "auroc": {
+        "max": 0.915351506456241,
+        "mean": 0.8919536107125777,
+        "min": 0.8493543758967,
+        "repeat_percentile_2_5": 0.854869081779053,
+        "repeat_percentile_97_5": 0.9151093974175035,
+        "standard_deviation": 0.02037827565517513
+      },
+      "brier": {
+        "max": 0.14951004920606656,
+        "mean": 0.12892929379355006,
+        "min": 0.11929766663611273,
+        "repeat_percentile_2_5": 0.11930098518739596,
+        "repeat_percentile_97_5": 0.147159513058113,
+        "standard_deviation": 0.010075930486413393
+      },
+      "ece_10": {
+        "max": 0.0869084724566084,
+        "mean": 0.0629759354741132,
+        "min": 0.04309852763472079,
+        "repeat_percentile_2_5": 0.04388699682073962,
+        "repeat_percentile_97_5": 0.08427845653434109,
+        "standard_deviation": 0.013964792100860607
+      },
+      "log_loss": {
+        "max": 0.4969640475110846,
+        "mean": 0.4157964566430163,
+        "min": 0.3789431914785033,
+        "repeat_percentile_2_5": 0.3793768687627801,
+        "repeat_percentile_97_5": 0.4854980982022803,
+        "standard_deviation": 0.03683925111670915
+      }
+    },
+    "test_n_each": [
+      184,
+      184,
+      184,
+      184,
+      184,
+      184,
+      184,
+      184,
+      184,
+      184
+    ]
+  },
+  "E2_leave_one_hospital_out": {
+    "by_site": [
+      {
+        "held_out_site": "Cleveland",
+        "metrics": {
+          "accuracy": 0.6996699669966997,
+          "auprc": 0.8514411343199061,
+          "auroc": 0.8628268117213547,
+          "bootstrap": {
+            "confidence_level": 0.95,
+            "invalid_single_class_replicates": 0,
+            "method": "patient-level percentile bootstrap",
+            "metrics": {
+              "auprc": {
+                "high": 0.9033146411374088,
+                "low": 0.7928605111154149,
+                "valid_replicates": 2000
+              },
+              "auroc": {
+                "high": 0.9030069641353474,
+                "low": 0.819421110778841,
+                "valid_replicates": 2000
+              },
+              "brier": {
+                "high": 0.21881016763816824,
+                "low": 0.17013356030458807,
+                "valid_replicates": 2000
+              },
+              "ece_10": {
+                "high": 0.2353904645551545,
+                "low": 0.14931324045750144,
+                "valid_replicates": 2000
+              },
+              "log_loss": {
+                "high": 0.6300085898506836,
+                "low": 0.5065231624122203,
+                "valid_replicates": 2000
+              }
+            },
+            "requested_replicates": 2000
+          },
+          "brier": 0.19415251393902344,
+          "calibration_intercept": -1.3573202527986523,
+          "calibration_slope": 1.3642342959292524,
+          "ece_10": 0.1869688121406827,
+          "events": 139,
+          "f1": 0.7392550143266475,
+          "log_loss": 0.5674780725866143,
+          "n": 303,
+          "npv": 0.8924731182795699,
+          "ppv": 0.6142857142857143,
+          "sensitivity": 0.9280575539568345,
+          "specificity": 0.5060975609756098,
+          "threshold": 0.5
+        },
+        "selected_candidate": {
+          "family": "random_forest",
+          "inner_mean_auroc": 0.7736960800365225,
+          "inner_mean_brier": 0.1680146767049131,
+          "parameters": {
+            "class_weight": "balanced",
+            "max_depth": null,
+            "min_samples_leaf": 2,
+            "n_estimators": 400
+          }
+        }
+      },
+      {
+        "held_out_site": "Hungary",
+        "metrics": {
+          "accuracy": 0.782312925170068,
+          "auprc": 0.849355638244434,
+          "auroc": 0.8911581694098756,
+          "bootstrap": {
+            "confidence_level": 0.95,
+            "invalid_single_class_replicates": 0,
+            "method": "patient-level percentile bootstrap",
+            "metrics": {
+              "auprc": {
+                "high": 0.906642609627579,
+                "low": 0.779178580457123,
+                "valid_replicates": 2000
+              },
+              "auroc": {
+                "high": 0.9281686177760579,
+                "low": 0.8458070989699443,
+                "valid_replicates": 2000
+              },
+              "brier": {
+                "high": 0.18051544934362987,
+                "low": 0.14266449189736266,
+                "valid_replicates": 2000
+              },
+              "ece_10": {
+                "high": 0.22860004676430115,
+                "low": 0.15169280842099434,
+                "valid_replicates": 2000
+              },
+              "log_loss": {
+                "high": 0.5401483238052007,
+                "low": 0.45291930093346483,
+                "valid_replicates": 2000
+              }
+            },
+            "requested_replicates": 2000
+          },
+          "brier": 0.1607318308613374,
+          "calibration_intercept": -1.217407905236023,
+          "calibration_slope": 1.7751789398608298,
+          "ece_10": 0.1859832799852184,
+          "events": 106,
+          "f1": 0.744,
+          "log_loss": 0.4948678437971766,
+          "n": 294,
+          "npv": 0.9133333333333333,
+          "ppv": 0.6458333333333334,
+          "sensitivity": 0.8773584905660378,
+          "specificity": 0.7287234042553191,
+          "threshold": 0.5
+        },
+        "selected_candidate": {
+          "family": "logistic_regression",
+          "inner_mean_auroc": 0.746495438205219,
+          "inner_mean_brier": 0.1658715892839445,
+          "parameters": {
+            "C": 0.1,
+            "class_weight": null,
+            "max_iter": 2000
+          }
+        }
+      },
+      {
+        "held_out_site": "Switzerland",
+        "metrics": {
+          "accuracy": 0.7398373983739838,
+          "auprc": 0.9693801039634838,
+          "auroc": 0.7369565217391304,
+          "bootstrap": {
+            "confidence_level": 0.95,
+            "invalid_single_class_replicates": 0,
+            "method": "patient-level percentile bootstrap",
+            "metrics": {
+              "auprc": {
+                "high": 0.9966074050285346,
+                "low": 0.9286497623891549,
+                "valid_replicates": 2000
+              },
+              "auroc": {
+                "high": 0.9298128675283848,
+                "low": 0.49173028435355093,
+                "valid_replicates": 2000
+              },
+              "brier": {
+                "high": 0.20978746632723938,
+                "low": 0.13830470036401232,
+                "valid_replicates": 2000
+              },
+              "ece_10": {
+                "high": 0.34523533980547144,
+                "low": 0.24508492191928496,
+                "valid_replicates": 2000
+              },
+              "log_loss": {
+                "high": 0.6176235763911607,
+                "low": 0.43468796721991837,
+                "valid_replicates": 2000
+              }
+            },
+            "requested_replicates": 2000
+          },
+          "brier": 0.17350197191661076,
+          "calibration_intercept": 2.458020292255657,
+          "calibration_slope": 0.6691905064712438,
+          "ece_10": 0.28905017721351073,
+          "events": 115,
+          "f1": 0.8431372549019608,
+          "log_loss": 0.5246361783733328,
+          "n": 123,
+          "npv": 0.14705882352941177,
+          "ppv": 0.9662921348314607,
+          "sensitivity": 0.7478260869565218,
+          "specificity": 0.625,
+          "threshold": 0.5
+        },
+        "selected_candidate": {
+          "family": "random_forest",
+          "inner_mean_auroc": 0.8307906028128685,
+          "inner_mean_brier": 0.1670201724096284,
+          "parameters": {
+            "class_weight": "balanced",
+            "max_depth": null,
+            "min_samples_leaf": 2,
+            "n_estimators": 400
+          }
+        }
+      },
+      {
+        "held_out_site": "VA Long Beach",
+        "metrics": {
+          "accuracy": 0.665,
+          "auprc": 0.8605464934093076,
+          "auroc": 0.7270693512304252,
+          "bootstrap": {
+            "confidence_level": 0.95,
+            "invalid_single_class_replicates": 0,
+            "method": "patient-level percentile bootstrap",
+            "metrics": {
+              "auprc": {
+                "high": 0.9235409933814385,
+                "low": 0.7925238922849535,
+                "valid_replicates": 2000
+              },
+              "auroc": {
+                "high": 0.8063956999956462,
+                "low": 0.6414973391388485,
+                "valid_replicates": 2000
+              },
+              "brier": {
+                "high": 0.2847795353390491,
+                "low": 0.19569988619765186,
+                "valid_replicates": 2000
+              },
+              "ece_10": {
+                "high": 0.296648516488826,
+                "low": 0.1829980962559182,
+                "valid_replicates": 2000
+              },
+              "log_loss": {
+                "high": 0.8987737368227272,
+                "low": 0.6090917129794015,
+                "valid_replicates": 2000
+              }
+            },
+            "requested_replicates": 2000
+          },
+          "brier": 0.23888388736847,
+          "calibration_intercept": 1.0467848729618028,
+          "calibration_slope": 0.36149980044334235,
+          "ece_10": 0.22898419534390993,
+          "events": 149,
+          "f1": 0.7452471482889734,
+          "log_loss": 0.7493067975103549,
+          "n": 200,
+          "npv": 0.4069767441860465,
+          "ppv": 0.8596491228070176,
+          "sensitivity": 0.6577181208053692,
+          "specificity": 0.6862745098039216,
+          "threshold": 0.5
+        },
+        "selected_candidate": {
+          "family": "random_forest",
+          "inner_mean_auroc": 0.8442993391527213,
+          "inner_mean_brier": 0.18342143458685703,
+          "parameters": {
+            "class_weight": "balanced",
+            "max_depth": null,
+            "min_samples_leaf": 8,
+            "n_estimators": 400
+          }
+        }
+      }
+    ],
+    "pooled": {
+      "accuracy": 0.7239130434782609,
+      "auprc": 0.8268546637329571,
+      "auroc": 0.7894731810381502,
+      "bootstrap": {
+        "confidence_level": 0.95,
+        "invalid_single_class_replicates": 0,
+        "method": "patient-level percentile bootstrap",
+        "metrics": {
+          "auprc": {
+            "high": 0.8607818616061058,
+            "low": 0.7897248543432334,
+            "valid_replicates": 2000
+          },
+          "auroc": {
+            "high": 0.8181253806868829,
+            "low": 0.7579080290984118,
+            "valid_replicates": 2000
+          },
+          "brier": {
+            "high": 0.20594468411616196,
+            "low": 0.17578581483915312,
+            "valid_replicates": 2000
+          },
+          "ece_10": {
+            "high": 0.11339971931337055,
+            "low": 0.062095181600965256,
+            "valid_replicates": 2000
+          },
+          "log_loss": {
+            "high": 0.6226774275276622,
+            "low": 0.538281504811494,
+            "valid_replicates": 2000
+          }
+        },
+        "requested_replicates": 2000
+      },
+      "brier": 0.19043575001760263,
+      "calibration_intercept": -0.1391970403951529,
+      "calibration_slope": 0.7484002413907445,
+      "ece_10": 0.0843003107874289,
+      "events": 509,
+      "f1": 0.7617260787992496,
+      "log_loss": 0.5780745777305489,
+      "n": 920,
+      "npv": 0.7162534435261708,
+      "ppv": 0.7289048473967684,
+      "sensitivity": 0.7976424361493124,
+      "specificity": 0.6326034063260341,
+      "threshold": 0.5
+    }
+  },
+  "comparison": {
+    "note": "Random-split repeat variation and LOHO patient bootstrap answer different uncertainty questions; no paired causal claim is made.",
+    "random_mean_minus_loho_pooled": {
+      "auprc": 0.07041370758946164,
+      "auroc": 0.1024804296744275,
+      "brier": -0.06150645622405257,
+      "ece_10": -0.0213243753133157,
+      "log_loss": -0.16227812108753265
+    }
+  },
+  "generated_at_utc": "2026-07-29T12:14:30.742055+00:00",
+  "reproducibility": {
+    "candidate_count": 18,
+    "config_sha256": "f065d2a867ad30bfc2de92fccba7d8d7a31dc62a853fd91ef2a7cad177e5647e",
+    "input_path": "data/processed/cardioshift_cohort.csv",
+    "input_sha256": "961eca9f38cd639e8d4be527326e3168d3c3c8af230fd4e154d5d6ea4da4f0e9",
+    "pandas": "3.0.5",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "root_seed": 20260729,
+    "sklearn": "1.9.0"
+  },
+  "schema_version": "1.0",
+  "status": "core_experiments_complete",
+  "study": {
+    "not_future_risk": true,
+    "outcome": "angiographic heart-disease presence status",
+    "rows": 920,
+    "sites": [
+      "Cleveland",
+      "Hungary",
+      "Switzerland",
+      "VA Long Beach"
+    ]
+  }
+}

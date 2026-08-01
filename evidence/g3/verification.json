@@ -1,0 +1,25 @@
+{
+  "artifact_hashes": {
+    "README.md": "10a08aa152d036e27cac2225b9c5d37bf9bbd173f33ed870c2473888cd496f3e",
+    "app": "1f9ca54807fdefc00aa7a8ceb53c1b676f9b2d44ec8e63322ce344af2442233e",
+    "notebook": "0599e8d89caa34170c06cc7686f7994794847d83f125451b542fccb06b821884",
+    "report/manuscript.md": "f50c8ed292af7f6b7f47845430d6d69f5d6985f7963eed6bdb27362b7ba5ac80",
+    "src/results_access.py": "1e57db8d6ddd10223435a4d12e6bc7d904a136bb3fc75d07bbb3b36f423c46b8"
+  },
+  "checks": {
+    "headline_metrics_not_hardcoded": true,
+    "medical_nonuse_language": true,
+    "notebook_code_compiles": true,
+    "notebook_executed_offline": true,
+    "notebook_schema": true,
+    "numeric_consistency": true,
+    "shared_results_accessor": true
+  },
+  "notebook_execution_evidence": "cb9298dfa3b95c93989107381d90e324099cdb2e6a8c1f198e5ce127a9c57603",
+  "results_semantic_sha256": "ff4677329c6af6c4266458f97b3d4f28f8e5538ece9fdfee305785bf72303a00",
+  "schema_version": "1.0",
+  "status": "pass",
+  "unresolved_blockers": [],
+  "verified_at_utc": "2026-08-01T01:01:56.457712+00:00",
+  "verified_head": "6b7aadd9806f13ebedd6a3be4b09e5d8a48c440b"
+}

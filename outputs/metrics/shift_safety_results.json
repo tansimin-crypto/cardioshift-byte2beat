@@ -1,0 +1,1277 @@
+{
+  "E3_shift": {
+    "missingness_by_site": {
+      "Cleveland": {
+        "age": 0.0,
+        "ca": 0.013201320132013201,
+        "chol": 0.0,
+        "cp": 0.0,
+        "exang": 0.0,
+        "fbs": 0.0,
+        "oldpeak": 0.0,
+        "restecg": 0.0,
+        "sex": 0.0,
+        "slope": 0.0,
+        "thal": 0.006600660066006601,
+        "thalach": 0.0,
+        "trestbps": 0.0
+      },
+      "Hungary": {
+        "age": 0.0,
+        "ca": 0.9897959183673469,
+        "chol": 0.0782312925170068,
+        "cp": 0.0,
+        "exang": 0.003401360544217687,
+        "fbs": 0.027210884353741496,
+        "oldpeak": 0.0,
+        "restecg": 0.003401360544217687,
+        "sex": 0.0,
+        "slope": 0.6462585034013606,
+        "thal": 0.9047619047619048,
+        "thalach": 0.003401360544217687,
+        "trestbps": 0.003401360544217687
+      },
+      "Switzerland": {
+        "age": 0.0,
+        "ca": 0.959349593495935,
+        "chol": 0.0,
+        "cp": 0.0,
+        "exang": 0.008130081300813009,
+        "fbs": 0.6097560975609756,
+        "oldpeak": 0.04878048780487805,
+        "restecg": 0.008130081300813009,
+        "sex": 0.0,
+        "slope": 0.13821138211382114,
+        "thal": 0.42276422764227645,
+        "thalach": 0.008130081300813009,
+        "trestbps": 0.016260162601626018
+      },
+      "VA Long Beach": {
+        "age": 0.0,
+        "ca": 0.99,
+        "chol": 0.035,
+        "cp": 0.0,
+        "exang": 0.265,
+        "fbs": 0.035,
+        "oldpeak": 0.28,
+        "restecg": 0.0,
+        "sex": 0.0,
+        "slope": 0.51,
+        "thal": 0.83,
+        "thalach": 0.265,
+        "trestbps": 0.28
+      }
+    },
+    "site_predictability": {
+      "balanced_accuracy": 0.9106529671757619,
+      "chance_balanced_accuracy": 0.25,
+      "confusion_matrix": [
+        [
+          300,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          267,
+          2,
+          24
+        ],
+        [
+          0,
+          0,
+          118,
+          5
+        ],
+        [
+          2,
+          25,
+          16,
+          157
+        ]
+      ],
+      "labels": [
+        "Cleveland",
+        "Hungary",
+        "Switzerland",
+        "VA Long Beach"
+      ],
+      "method": "5-fold stratified OOF RandomForest site classifier",
+      "n": 920,
+      "recall_by_site": {
+        "Cleveland": 0.9900990099009901,
+        "Hungary": 0.9081632653061225,
+        "Switzerland": 0.959349593495935,
+        "VA Long Beach": 0.785
+      }
+    },
+    "standardized_mean_differences": {
+      "Cleveland": {
+        "age": {
+          "other_n_nonmissing": 617,
+          "site_n_nonmissing": 303,
+          "smd_site_vs_rest": 0.14710241759838963
+        },
+        "ca": {
+          "other_n_nonmissing": 10,
+          "site_n_nonmissing": 299,
+          "smd_site_vs_rest": -0.13636358690622524
+        },
+        "chol": {
+          "other_n_nonmissing": 587,
+          "site_n_nonmissing": 303,
+          "smd_site_vs_rest": 0.6839859318422753
+        },
+        "oldpeak": {
+          "other_n_nonmissing": 555,
+          "site_n_nonmissing": 303,
+          "smd_site_vs_rest": 0.2290596614034032
+        },
+        "thalach": {
+          "other_n_nonmissing": 562,
+          "site_n_nonmissing": 303,
+          "smd_site_vs_rest": 0.7614996463475067
+        },
+        "trestbps": {
+          "other_n_nonmissing": 558,
+          "site_n_nonmissing": 303,
+          "smd_site_vs_rest": -0.03580673516754212
+        }
+      },
+      "Hungary": {
+        "age": {
+          "other_n_nonmissing": 626,
+          "site_n_nonmissing": 294,
+          "smd_site_vs_rest": -0.9730176257207472
+        },
+        "ca": {
+          "other_n_nonmissing": 306,
+          "site_n_nonmissing": 3,
+          "smd_site_vs_rest": -0.73067266327279
+        },
+        "chol": {
+          "other_n_nonmissing": 619,
+          "site_n_nonmissing": 271,
+          "smd_site_vs_rest": 0.7054033715082701
+        },
+        "oldpeak": {
+          "other_n_nonmissing": 564,
+          "site_n_nonmissing": 294,
+          "smd_site_vs_rest": -0.41574274819435364
+        },
+        "thalach": {
+          "other_n_nonmissing": 572,
+          "site_n_nonmissing": 293,
+          "smd_site_vs_rest": 0.09242882432847495
+        },
+        "trestbps": {
+          "other_n_nonmissing": 568,
+          "site_n_nonmissing": 293,
+          "smd_site_vs_rest": 0.035857992034611805
+        }
+      },
+      "Switzerland": {
+        "age": {
+          "other_n_nonmissing": 797,
+          "site_n_nonmissing": 123,
+          "smd_site_vs_rest": 0.22173212983113028
+        },
+        "ca": {
+          "other_n_nonmissing": 304,
+          "site_n_nonmissing": 5,
+          "smd_site_vs_rest": 1.0099022329926222
+        },
+        "chol": {
+          "other_n_nonmissing": 767,
+          "site_n_nonmissing": 123,
+          "smd_site_vs_rest": -3.004900111714088
+        },
+        "oldpeak": {
+          "other_n_nonmissing": 741,
+          "site_n_nonmissing": 117,
+          "smd_site_vs_rest": -0.239350477527055
+        },
+        "thalach": {
+          "other_n_nonmissing": 743,
+          "site_n_nonmissing": 122,
+          "smd_site_vs_rest": -0.7410642928528027
+        },
+        "trestbps": {
+          "other_n_nonmissing": 740,
+          "site_n_nonmissing": 121,
+          "smd_site_vs_rest": -0.11755202182331796
+        }
+      },
+      "VA Long Beach": {
+        "age": {
+          "other_n_nonmissing": 720,
+          "site_n_nonmissing": 200,
+          "smd_site_vs_rest": 0.8371660543465066
+        },
+        "ca": {
+          "other_n_nonmissing": 307,
+          "site_n_nonmissing": 2,
+          "smd_site_vs_rest": -0.7276622424054294
+        },
+        "chol": {
+          "other_n_nonmissing": 697,
+          "site_n_nonmissing": 193,
+          "smd_site_vs_rest": -0.2359338126618284
+        },
+        "oldpeak": {
+          "other_n_nonmissing": 714,
+          "site_n_nonmissing": 144,
+          "smd_site_vs_rest": 0.4947713547277842
+        },
+        "thalach": {
+          "other_n_nonmissing": 718,
+          "site_n_nonmissing": 147,
+          "smd_site_vs_rest": -0.708909053776691
+        },
+        "trestbps": {
+          "other_n_nonmissing": 717,
+          "site_n_nonmissing": 144,
+          "smd_site_vs_rest": 0.10277160176083219
+        }
+      }
+    }
+  },
+  "E5_safety": {
+    "by_site": [
+      {
+        "held_out_site": "Cleveland",
+        "metrics": {
+          "accepted_case_fnr": 0.015384615384615385,
+          "accepted_n": 78,
+          "bootstrap": {
+            "confidence_level": 0.95,
+            "method": "patient-level percentile bootstrap",
+            "metrics": {
+              "accepted_case_fnr": {
+                "high": 0.052649122807017446,
+                "invalid_replicates": 0,
+                "low": 0.0,
+                "valid_replicates": 2000
+              },
+              "coverage": {
+                "high": 0.3069306930693069,
+                "invalid_replicates": 0,
+                "low": 0.2079207920792079,
+                "valid_replicates": 2000
+              },
+              "empirical_conformal_coverage": {
+                "high": 0.9504950495049505,
+                "invalid_replicates": 0,
+                "low": 0.8910891089108911,
+                "valid_replicates": 2000
+              },
+              "mean_prediction_set_size": {
+                "high": 1.4752475247524752,
+                "invalid_replicates": 0,
+                "low": 1.3663366336633664,
+                "valid_replicates": 2000
+              },
+              "selective_risk": {
+                "high": 0.19736842105263158,
+                "invalid_replicates": 0,
+                "low": 0.047619047619047616,
+                "valid_replicates": 2000
+              }
+            },
+            "requested_replicates": 2000
+          },
+          "coverage": 0.25742574257425743,
+          "deferral_rate": 0.7425742574257426,
+          "empirical_conformal_coverage": 0.9207920792079208,
+          "events": 139,
+          "mean_prediction_set_size": 1.4191419141914192,
+          "n": 303,
+          "selective_risk": 0.11538461538461539
+        },
+        "n_training": 617,
+        "risk_coverage_curve": [
+          {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 30,
+            "empirical_coverage": 0.09900990099009901,
+            "requested_coverage": 0.1,
+            "selective_risk": 0.03333333333333333
+          },
+          {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 45,
+            "empirical_coverage": 0.1485148514851485,
+            "requested_coverage": 0.15000000000000002,
+            "selective_risk": 0.06666666666666667
+          },
+          {
+            "accepted_case_fnr": 0.018867924528301886,
+            "accepted_n": 60,
+            "empirical_coverage": 0.19801980198019803,
+            "requested_coverage": 0.2,
+            "selective_risk": 0.1
+          },
+          {
+            "accepted_case_fnr": 0.016129032258064516,
+            "accepted_n": 75,
+            "empirical_coverage": 0.24752475247524752,
+            "requested_coverage": 0.25,
+            "selective_risk": 0.10666666666666667
+          },
+          {
+            "accepted_case_fnr": 0.027777777777777776,
+            "accepted_n": 90,
+            "empirical_coverage": 0.297029702970297,
+            "requested_coverage": 0.30000000000000004,
+            "selective_risk": 0.13333333333333333
+          },
+          {
+            "accepted_case_fnr": 0.0379746835443038,
+            "accepted_n": 106,
+            "empirical_coverage": 0.34983498349834985,
+            "requested_coverage": 0.35,
+            "selective_risk": 0.1320754716981132
+          },
+          {
+            "accepted_case_fnr": 0.04938271604938271,
+            "accepted_n": 121,
+            "empirical_coverage": 0.39933993399339934,
+            "requested_coverage": 0.4,
+            "selective_risk": 0.12396694214876033
+          },
+          {
+            "accepted_case_fnr": 0.06666666666666667,
+            "accepted_n": 136,
+            "empirical_coverage": 0.44884488448844884,
+            "requested_coverage": 0.45000000000000007,
+            "selective_risk": 0.1323529411764706
+          },
+          {
+            "accepted_case_fnr": 0.07368421052631578,
+            "accepted_n": 151,
+            "empirical_coverage": 0.49834983498349833,
+            "requested_coverage": 0.5,
+            "selective_risk": 0.16556291390728478
+          },
+          {
+            "accepted_case_fnr": 0.08163265306122448,
+            "accepted_n": 166,
+            "empirical_coverage": 0.5478547854785478,
+            "requested_coverage": 0.55,
+            "selective_risk": 0.21084337349397592
+          },
+          {
+            "accepted_case_fnr": 0.08653846153846154,
+            "accepted_n": 181,
+            "empirical_coverage": 0.5973597359735974,
+            "requested_coverage": 0.6,
+            "selective_risk": 0.23204419889502761
+          },
+          {
+            "accepted_case_fnr": 0.08333333333333333,
+            "accepted_n": 196,
+            "empirical_coverage": 0.6468646864686468,
+            "requested_coverage": 0.65,
+            "selective_risk": 0.23979591836734693
+          },
+          {
+            "accepted_case_fnr": 0.08035714285714286,
+            "accepted_n": 212,
+            "empirical_coverage": 0.6996699669966997,
+            "requested_coverage": 0.7000000000000001,
+            "selective_risk": 0.2641509433962264
+          },
+          {
+            "accepted_case_fnr": 0.07692307692307693,
+            "accepted_n": 227,
+            "empirical_coverage": 0.7491749174917491,
+            "requested_coverage": 0.75,
+            "selective_risk": 0.2643171806167401
+          },
+          {
+            "accepted_case_fnr": 0.075,
+            "accepted_n": 242,
+            "empirical_coverage": 0.7986798679867987,
+            "requested_coverage": 0.8,
+            "selective_risk": 0.2727272727272727
+          },
+          {
+            "accepted_case_fnr": 0.07258064516129033,
+            "accepted_n": 257,
+            "empirical_coverage": 0.8481848184818482,
+            "requested_coverage": 0.85,
+            "selective_risk": 0.2840466926070039
+          },
+          {
+            "accepted_case_fnr": 0.07142857142857142,
+            "accepted_n": 272,
+            "empirical_coverage": 0.8976897689768977,
+            "requested_coverage": 0.9,
+            "selective_risk": 0.29044117647058826
+          },
+          {
+            "accepted_case_fnr": 0.06818181818181818,
+            "accepted_n": 287,
+            "empirical_coverage": 0.9471947194719472,
+            "requested_coverage": 0.9500000000000001,
+            "selective_risk": 0.2926829268292683
+          },
+          {
+            "accepted_case_fnr": 0.07194244604316546,
+            "accepted_n": 303,
+            "empirical_coverage": 1.0,
+            "requested_coverage": 1.0,
+            "selective_risk": 0.30033003300330036
+          }
+        ],
+        "selected_candidate": {
+          "family": "random_forest",
+          "parameters": {
+            "class_weight": "balanced",
+            "max_depth": null,
+            "min_samples_leaf": 2,
+            "n_estimators": 400
+          }
+        },
+        "thresholds": {
+          "conformal_alpha": 0.1,
+          "conformal_class_0": 0.7919234779264124,
+          "conformal_class_1": 0.5653140929405849,
+          "missing_fraction_quantile": 0.975,
+          "missing_fraction_threshold": 0.5384615384615384,
+          "ood_quantile": 0.975,
+          "ood_threshold": 0.5714219222922821,
+          "ood_threshold_source": "outer-training in-sample score quantile",
+          "probability_ambiguity_band": [
+            0.4,
+            0.6
+          ]
+        }
+      },
+      {
+        "held_out_site": "Hungary",
+        "metrics": {
+          "accepted_case_fnr": 0.25925925925925924,
+          "accepted_n": 124,
+          "bootstrap": {
+            "confidence_level": 0.95,
+            "method": "patient-level percentile bootstrap",
+            "metrics": {
+              "accepted_case_fnr": {
+                "high": 0.43478260869565216,
+                "invalid_replicates": 0,
+                "low": 0.10714285714285714,
+                "valid_replicates": 2000
+              },
+              "coverage": {
+                "high": 0.47959183673469385,
+                "invalid_replicates": 0,
+                "low": 0.37066326530612265,
+                "valid_replicates": 2000
+              },
+              "empirical_conformal_coverage": {
+                "high": 0.9829931972789115,
+                "invalid_replicates": 0,
+                "low": 0.9387755102040817,
+                "valid_replicates": 2000
+              },
+              "mean_prediction_set_size": {
+                "high": 1.5476190476190477,
+                "invalid_replicates": 0,
+                "low": 1.435374149659864,
+                "valid_replicates": 2000
+              },
+              "selective_risk": {
+                "high": 0.1111111111111111,
+                "invalid_replicates": 0,
+                "low": 0.024793388429752067,
+                "valid_replicates": 2000
+              }
+            },
+            "requested_replicates": 2000
+          },
+          "coverage": 0.4217687074829932,
+          "deferral_rate": 0.5782312925170068,
+          "empirical_conformal_coverage": 0.9625850340136054,
+          "events": 106,
+          "mean_prediction_set_size": 1.4931972789115646,
+          "n": 294,
+          "selective_risk": 0.06451612903225806
+        },
+        "n_training": 626,
+        "risk_coverage_curve": [
+          {
+            "accepted_case_fnr": 0.10526315789473684,
+            "accepted_n": 29,
+            "empirical_coverage": 0.09863945578231292,
+            "requested_coverage": 0.1,
+            "selective_risk": 0.10344827586206896
+          },
+          {
+            "accepted_case_fnr": 0.10526315789473684,
+            "accepted_n": 44,
+            "empirical_coverage": 0.14965986394557823,
+            "requested_coverage": 0.15000000000000002,
+            "selective_risk": 0.06818181818181818
+          },
+          {
+            "accepted_case_fnr": 0.10526315789473684,
+            "accepted_n": 58,
+            "empirical_coverage": 0.19727891156462585,
+            "requested_coverage": 0.2,
+            "selective_risk": 0.05172413793103448
+          },
+          {
+            "accepted_case_fnr": 0.10526315789473684,
+            "accepted_n": 73,
+            "empirical_coverage": 0.24829931972789115,
+            "requested_coverage": 0.25,
+            "selective_risk": 0.0410958904109589
+          },
+          {
+            "accepted_case_fnr": 0.10526315789473684,
+            "accepted_n": 88,
+            "empirical_coverage": 0.29931972789115646,
+            "requested_coverage": 0.30000000000000004,
+            "selective_risk": 0.03409090909090909
+          },
+          {
+            "accepted_case_fnr": 0.2962962962962963,
+            "accepted_n": 102,
+            "empirical_coverage": 0.3469387755102041,
+            "requested_coverage": 0.35,
+            "selective_risk": 0.08823529411764706
+          },
+          {
+            "accepted_case_fnr": 0.3103448275862069,
+            "accepted_n": 117,
+            "empirical_coverage": 0.3979591836734694,
+            "requested_coverage": 0.4,
+            "selective_risk": 0.08547008547008547
+          },
+          {
+            "accepted_case_fnr": 0.3103448275862069,
+            "accepted_n": 132,
+            "empirical_coverage": 0.4489795918367347,
+            "requested_coverage": 0.45000000000000007,
+            "selective_risk": 0.07575757575757576
+          },
+          {
+            "accepted_case_fnr": 0.3333333333333333,
+            "accepted_n": 147,
+            "empirical_coverage": 0.5,
+            "requested_coverage": 0.5,
+            "selective_risk": 0.07482993197278912
+          },
+          {
+            "accepted_case_fnr": 0.3333333333333333,
+            "accepted_n": 161,
+            "empirical_coverage": 0.5476190476190477,
+            "requested_coverage": 0.55,
+            "selective_risk": 0.11180124223602485
+          },
+          {
+            "accepted_case_fnr": 0.3333333333333333,
+            "accepted_n": 176,
+            "empirical_coverage": 0.5986394557823129,
+            "requested_coverage": 0.6,
+            "selective_risk": 0.16477272727272727
+          },
+          {
+            "accepted_case_fnr": 0.3333333333333333,
+            "accepted_n": 191,
+            "empirical_coverage": 0.6496598639455783,
+            "requested_coverage": 0.65,
+            "selective_risk": 0.21465968586387435
+          },
+          {
+            "accepted_case_fnr": 0.3333333333333333,
+            "accepted_n": 205,
+            "empirical_coverage": 0.6972789115646258,
+            "requested_coverage": 0.7000000000000001,
+            "selective_risk": 0.25853658536585367
+          },
+          {
+            "accepted_case_fnr": 0.3125,
+            "accepted_n": 220,
+            "empirical_coverage": 0.7482993197278912,
+            "requested_coverage": 0.75,
+            "selective_risk": 0.2772727272727273
+          },
+          {
+            "accepted_case_fnr": 0.2553191489361702,
+            "accepted_n": 235,
+            "empirical_coverage": 0.7993197278911565,
+            "requested_coverage": 0.8,
+            "selective_risk": 0.2680851063829787
+          },
+          {
+            "accepted_case_fnr": 0.19672131147540983,
+            "accepted_n": 249,
+            "empirical_coverage": 0.8469387755102041,
+            "requested_coverage": 0.85,
+            "selective_risk": 0.25301204819277107
+          },
+          {
+            "accepted_case_fnr": 0.15789473684210525,
+            "accepted_n": 264,
+            "empirical_coverage": 0.8979591836734694,
+            "requested_coverage": 0.9,
+            "selective_risk": 0.23863636363636365
+          },
+          {
+            "accepted_case_fnr": 0.13186813186813187,
+            "accepted_n": 279,
+            "empirical_coverage": 0.9489795918367347,
+            "requested_coverage": 0.9500000000000001,
+            "selective_risk": 0.22580645161290322
+          },
+          {
+            "accepted_case_fnr": 0.12264150943396226,
+            "accepted_n": 294,
+            "empirical_coverage": 1.0,
+            "requested_coverage": 1.0,
+            "selective_risk": 0.21768707482993196
+          }
+        ],
+        "selected_candidate": {
+          "family": "logistic_regression",
+          "parameters": {
+            "C": 0.1,
+            "class_weight": null,
+            "max_iter": 2000
+          }
+        },
+        "thresholds": {
+          "conformal_alpha": 0.1,
+          "conformal_class_0": 0.8851605799000407,
+          "conformal_class_1": 0.5715299607643776,
+          "missing_fraction_quantile": 0.975,
+          "missing_fraction_threshold": 0.5384615384615384,
+          "ood_quantile": 0.975,
+          "ood_threshold": 0.5721910658925309,
+          "ood_threshold_source": "outer-training in-sample score quantile",
+          "probability_ambiguity_band": [
+            0.4,
+            0.6
+          ]
+        }
+      },
+      {
+        "held_out_site": "Switzerland",
+        "metrics": {
+          "accepted_case_fnr": 0.06779661016949153,
+          "accepted_n": 62,
+          "bootstrap": {
+            "confidence_level": 0.95,
+            "method": "patient-level percentile bootstrap",
+            "metrics": {
+              "accepted_case_fnr": {
+                "high": 0.13793103448275862,
+                "invalid_replicates": 0,
+                "low": 0.015618990384615396,
+                "valid_replicates": 2000
+              },
+              "coverage": {
+                "high": 0.5934959349593496,
+                "invalid_replicates": 0,
+                "low": 0.4146341463414634,
+                "valid_replicates": 2000
+              },
+              "empirical_conformal_coverage": {
+                "high": 0.967479674796748,
+                "invalid_replicates": 0,
+                "low": 0.8780487804878049,
+                "valid_replicates": 2000
+              },
+              "mean_prediction_set_size": {
+                "high": 1.4390243902439024,
+                "invalid_replicates": 0,
+                "low": 1.2682926829268293,
+                "valid_replicates": 2000
+              },
+              "selective_risk": {
+                "high": 0.15791562238930648,
+                "invalid_replicates": 0,
+                "low": 0.016129032258064516,
+                "valid_replicates": 2000
+              }
+            },
+            "requested_replicates": 2000
+          },
+          "coverage": 0.5040650406504065,
+          "deferral_rate": 0.49593495934959353,
+          "empirical_conformal_coverage": 0.926829268292683,
+          "events": 115,
+          "mean_prediction_set_size": 1.3495934959349594,
+          "n": 123,
+          "selective_risk": 0.08064516129032258
+        },
+        "n_training": 797,
+        "risk_coverage_curve": [
+          {
+            "accepted_case_fnr": 0.16666666666666666,
+            "accepted_n": 12,
+            "empirical_coverage": 0.0975609756097561,
+            "requested_coverage": 0.1,
+            "selective_risk": 0.16666666666666666
+          },
+          {
+            "accepted_case_fnr": 0.1111111111111111,
+            "accepted_n": 18,
+            "empirical_coverage": 0.14634146341463414,
+            "requested_coverage": 0.15000000000000002,
+            "selective_risk": 0.1111111111111111
+          },
+          {
+            "accepted_case_fnr": 0.08333333333333333,
+            "accepted_n": 24,
+            "empirical_coverage": 0.1951219512195122,
+            "requested_coverage": 0.2,
+            "selective_risk": 0.08333333333333333
+          },
+          {
+            "accepted_case_fnr": 0.06666666666666667,
+            "accepted_n": 30,
+            "empirical_coverage": 0.24390243902439024,
+            "requested_coverage": 0.25,
+            "selective_risk": 0.06666666666666667
+          },
+          {
+            "accepted_case_fnr": 0.05555555555555555,
+            "accepted_n": 36,
+            "empirical_coverage": 0.2926829268292683,
+            "requested_coverage": 0.30000000000000004,
+            "selective_risk": 0.05555555555555555
+          },
+          {
+            "accepted_case_fnr": 0.06976744186046512,
+            "accepted_n": 43,
+            "empirical_coverage": 0.34959349593495936,
+            "requested_coverage": 0.35,
+            "selective_risk": 0.06976744186046512
+          },
+          {
+            "accepted_case_fnr": 0.0625,
+            "accepted_n": 49,
+            "empirical_coverage": 0.3983739837398374,
+            "requested_coverage": 0.4,
+            "selective_risk": 0.08163265306122448
+          },
+          {
+            "accepted_case_fnr": 0.05660377358490566,
+            "accepted_n": 55,
+            "empirical_coverage": 0.44715447154471544,
+            "requested_coverage": 0.45000000000000007,
+            "selective_risk": 0.07272727272727272
+          },
+          {
+            "accepted_case_fnr": 0.06896551724137931,
+            "accepted_n": 61,
+            "empirical_coverage": 0.4959349593495935,
+            "requested_coverage": 0.5,
+            "selective_risk": 0.08196721311475409
+          },
+          {
+            "accepted_case_fnr": 0.08064516129032258,
+            "accepted_n": 67,
+            "empirical_coverage": 0.5447154471544715,
+            "requested_coverage": 0.55,
+            "selective_risk": 0.1044776119402985
+          },
+          {
+            "accepted_case_fnr": 0.1044776119402985,
+            "accepted_n": 73,
+            "empirical_coverage": 0.5934959349593496,
+            "requested_coverage": 0.6,
+            "selective_risk": 0.1232876712328767
+          },
+          {
+            "accepted_case_fnr": 0.0958904109589041,
+            "accepted_n": 79,
+            "empirical_coverage": 0.6422764227642277,
+            "requested_coverage": 0.65,
+            "selective_risk": 0.11392405063291139
+          },
+          {
+            "accepted_case_fnr": 0.15,
+            "accepted_n": 86,
+            "empirical_coverage": 0.6991869918699187,
+            "requested_coverage": 0.7000000000000001,
+            "selective_risk": 0.16279069767441862
+          },
+          {
+            "accepted_case_fnr": 0.1511627906976744,
+            "accepted_n": 92,
+            "empirical_coverage": 0.7479674796747967,
+            "requested_coverage": 0.75,
+            "selective_risk": 0.16304347826086957
+          },
+          {
+            "accepted_case_fnr": 0.17391304347826086,
+            "accepted_n": 98,
+            "empirical_coverage": 0.7967479674796748,
+            "requested_coverage": 0.8,
+            "selective_risk": 0.1836734693877551
+          },
+          {
+            "accepted_case_fnr": 0.20618556701030927,
+            "accepted_n": 104,
+            "empirical_coverage": 0.8455284552845529,
+            "requested_coverage": 0.85,
+            "selective_risk": 0.21153846153846154
+          },
+          {
+            "accepted_case_fnr": 0.22330097087378642,
+            "accepted_n": 110,
+            "empirical_coverage": 0.8943089430894309,
+            "requested_coverage": 0.9,
+            "selective_risk": 0.22727272727272727
+          },
+          {
+            "accepted_case_fnr": 0.23853211009174313,
+            "accepted_n": 116,
+            "empirical_coverage": 0.943089430894309,
+            "requested_coverage": 0.9500000000000001,
+            "selective_risk": 0.2413793103448276
+          },
+          {
+            "accepted_case_fnr": 0.25217391304347825,
+            "accepted_n": 123,
+            "empirical_coverage": 1.0,
+            "requested_coverage": 1.0,
+            "selective_risk": 0.2601626016260163
+          }
+        ],
+        "selected_candidate": {
+          "family": "random_forest",
+          "parameters": {
+            "class_weight": "balanced",
+            "max_depth": null,
+            "min_samples_leaf": 2,
+            "n_estimators": 400
+          }
+        },
+        "thresholds": {
+          "conformal_alpha": 0.1,
+          "conformal_class_0": 0.6366594644078735,
+          "conformal_class_1": 0.6994753297612746,
+          "missing_fraction_quantile": 0.975,
+          "missing_fraction_threshold": 0.5384615384615384,
+          "ood_quantile": 0.975,
+          "ood_threshold": 0.5780911500946656,
+          "ood_threshold_source": "outer-training in-sample score quantile",
+          "probability_ambiguity_band": [
+            0.4,
+            0.6
+          ]
+        }
+      },
+      {
+        "held_out_site": "VA Long Beach",
+        "metrics": {
+          "accepted_case_fnr": 0.06666666666666667,
+          "accepted_n": 109,
+          "bootstrap": {
+            "confidence_level": 0.95,
+            "method": "patient-level percentile bootstrap",
+            "metrics": {
+              "accepted_case_fnr": {
+                "high": 0.11956521739130435,
+                "invalid_replicates": 0,
+                "low": 0.021739130434782608,
+                "valid_replicates": 2000
+              },
+              "coverage": {
+                "high": 0.615,
+                "invalid_replicates": 0,
+                "low": 0.475,
+                "valid_replicates": 2000
+              },
+              "empirical_conformal_coverage": {
+                "high": 0.835,
+                "invalid_replicates": 0,
+                "low": 0.72,
+                "valid_replicates": 2000
+              },
+              "mean_prediction_set_size": {
+                "high": 1.265,
+                "invalid_replicates": 0,
+                "low": 1.155,
+                "valid_replicates": 2000
+              },
+              "selective_risk": {
+                "high": 0.21297869471413153,
+                "invalid_replicates": 0,
+                "low": 0.08490166293572114,
+                "valid_replicates": 2000
+              }
+            },
+            "requested_replicates": 2000
+          },
+          "coverage": 0.545,
+          "deferral_rate": 0.45499999999999996,
+          "empirical_conformal_coverage": 0.78,
+          "events": 149,
+          "mean_prediction_set_size": 1.21,
+          "n": 200,
+          "selective_risk": 0.14678899082568808
+        },
+        "n_training": 720,
+        "risk_coverage_curve": [
+          {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 20,
+            "empirical_coverage": 0.1,
+            "requested_coverage": 0.1,
+            "selective_risk": 0.05
+          },
+          {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 30,
+            "empirical_coverage": 0.15,
+            "requested_coverage": 0.15000000000000002,
+            "selective_risk": 0.1
+          },
+          {
+            "accepted_case_fnr": 0.029411764705882353,
+            "accepted_n": 40,
+            "empirical_coverage": 0.2,
+            "requested_coverage": 0.2,
+            "selective_risk": 0.125
+          },
+          {
+            "accepted_case_fnr": 0.023255813953488372,
+            "accepted_n": 50,
+            "empirical_coverage": 0.25,
+            "requested_coverage": 0.25,
+            "selective_risk": 0.12
+          },
+          {
+            "accepted_case_fnr": 0.019230769230769232,
+            "accepted_n": 60,
+            "empirical_coverage": 0.3,
+            "requested_coverage": 0.30000000000000004,
+            "selective_risk": 0.11666666666666667
+          },
+          {
+            "accepted_case_fnr": 0.03333333333333333,
+            "accepted_n": 70,
+            "empirical_coverage": 0.35,
+            "requested_coverage": 0.35,
+            "selective_risk": 0.14285714285714285
+          },
+          {
+            "accepted_case_fnr": 0.029411764705882353,
+            "accepted_n": 80,
+            "empirical_coverage": 0.4,
+            "requested_coverage": 0.4,
+            "selective_risk": 0.125
+          },
+          {
+            "accepted_case_fnr": 0.025974025974025976,
+            "accepted_n": 90,
+            "empirical_coverage": 0.45,
+            "requested_coverage": 0.45000000000000007,
+            "selective_risk": 0.12222222222222222
+          },
+          {
+            "accepted_case_fnr": 0.07142857142857142,
+            "accepted_n": 100,
+            "empirical_coverage": 0.5,
+            "requested_coverage": 0.5,
+            "selective_risk": 0.16
+          },
+          {
+            "accepted_case_fnr": 0.07608695652173914,
+            "accepted_n": 110,
+            "empirical_coverage": 0.55,
+            "requested_coverage": 0.55,
+            "selective_risk": 0.15454545454545454
+          },
+          {
+            "accepted_case_fnr": 0.09375,
+            "accepted_n": 120,
+            "empirical_coverage": 0.6,
+            "requested_coverage": 0.6,
+            "selective_risk": 0.16666666666666666
+          },
+          {
+            "accepted_case_fnr": 0.14423076923076922,
+            "accepted_n": 130,
+            "empirical_coverage": 0.65,
+            "requested_coverage": 0.65,
+            "selective_risk": 0.2076923076923077
+          },
+          {
+            "accepted_case_fnr": 0.16216216216216217,
+            "accepted_n": 140,
+            "empirical_coverage": 0.7,
+            "requested_coverage": 0.7000000000000001,
+            "selective_risk": 0.21428571428571427
+          },
+          {
+            "accepted_case_fnr": 0.18421052631578946,
+            "accepted_n": 150,
+            "empirical_coverage": 0.75,
+            "requested_coverage": 0.75,
+            "selective_risk": 0.24666666666666667
+          },
+          {
+            "accepted_case_fnr": 0.22950819672131148,
+            "accepted_n": 160,
+            "empirical_coverage": 0.8,
+            "requested_coverage": 0.8,
+            "selective_risk": 0.275
+          },
+          {
+            "accepted_case_fnr": 0.2578125,
+            "accepted_n": 170,
+            "empirical_coverage": 0.85,
+            "requested_coverage": 0.85,
+            "selective_risk": 0.28823529411764703
+          },
+          {
+            "accepted_case_fnr": 0.3014705882352941,
+            "accepted_n": 180,
+            "empirical_coverage": 0.9,
+            "requested_coverage": 0.9,
+            "selective_risk": 0.31666666666666665
+          },
+          {
+            "accepted_case_fnr": 0.32167832167832167,
+            "accepted_n": 190,
+            "empirical_coverage": 0.95,
+            "requested_coverage": 0.9500000000000001,
+            "selective_risk": 0.3263157894736842
+          },
+          {
+            "accepted_case_fnr": 0.3422818791946309,
+            "accepted_n": 200,
+            "empirical_coverage": 1.0,
+            "requested_coverage": 1.0,
+            "selective_risk": 0.335
+          }
+        ],
+        "selected_candidate": {
+          "family": "random_forest",
+          "parameters": {
+            "class_weight": "balanced",
+            "max_depth": null,
+            "min_samples_leaf": 8,
+            "n_estimators": 400
+          }
+        },
+        "thresholds": {
+          "conformal_alpha": 0.1,
+          "conformal_class_0": 0.678439181239001,
+          "conformal_class_1": 0.738684844019911,
+          "missing_fraction_quantile": 0.975,
+          "missing_fraction_threshold": 0.3076923076923077,
+          "ood_quantile": 0.975,
+          "ood_threshold": 0.5795455408208261,
+          "ood_threshold_source": "outer-training in-sample score quantile",
+          "probability_ambiguity_band": [
+            0.4,
+            0.6
+          ]
+        }
+      }
+    ],
+    "conformal_claim": "Empirical coverage only. Exchangeability does not hold automatically under hospital shift.",
+    "ood_limitation": "The IsolationForest threshold is an outer-training in-sample quantile and may under-detect subtle shift.",
+    "pooled": {
+      "accepted_case_fnr": 0.07468879668049792,
+      "accepted_n": 373,
+      "bootstrap": {
+        "confidence_level": 0.95,
+        "method": "patient-level percentile bootstrap",
+        "metrics": {
+          "accepted_case_fnr": {
+            "high": 0.1097572931611669,
+            "invalid_replicates": 0,
+            "low": 0.043473981513180424,
+            "valid_replicates": 2000
+          },
+          "coverage": {
+            "high": 0.4369565217391304,
+            "invalid_replicates": 0,
+            "low": 0.37282608695652175,
+            "valid_replicates": 2000
+          },
+          "empirical_conformal_coverage": {
+            "high": 0.9228260869565217,
+            "invalid_replicates": 0,
+            "low": 0.8847554347826088,
+            "valid_replicates": 2000
+          },
+          "mean_prediction_set_size": {
+            "high": 1.4184782608695652,
+            "invalid_replicates": 0,
+            "low": 1.3564945652173912,
+            "valid_replicates": 2000
+          },
+          "selective_risk": {
+            "high": 0.13333333333333333,
+            "invalid_replicates": 0,
+            "low": 0.07272360703812317,
+            "valid_replicates": 2000
+          }
+        },
+        "requested_replicates": 2000
+      },
+      "coverage": 0.40543478260869564,
+      "deferral_rate": 0.5945652173913043,
+      "empirical_conformal_coverage": 0.9043478260869565,
+      "events": 509,
+      "mean_prediction_set_size": 1.3880434782608695,
+      "n": 920,
+      "selective_risk": 0.10187667560321716
+    },
+    "risk_coverage_curve_pooled": [
+      {
+        "accepted_case_fnr": 0.038461538461538464,
+        "accepted_n": 92,
+        "empirical_coverage": 0.1,
+        "requested_coverage": 0.1,
+        "selective_risk": 0.09782608695652174
+      },
+      {
+        "accepted_case_fnr": 0.041666666666666664,
+        "accepted_n": 138,
+        "empirical_coverage": 0.15,
+        "requested_coverage": 0.15000000000000002,
+        "selective_risk": 0.08695652173913043
+      },
+      {
+        "accepted_case_fnr": 0.03896103896103896,
+        "accepted_n": 184,
+        "empirical_coverage": 0.2,
+        "requested_coverage": 0.2,
+        "selective_risk": 0.10869565217391304
+      },
+      {
+        "accepted_case_fnr": 0.03896103896103896,
+        "accepted_n": 230,
+        "empirical_coverage": 0.25,
+        "requested_coverage": 0.25,
+        "selective_risk": 0.08695652173913043
+      },
+      {
+        "accepted_case_fnr": 0.07777777777777778,
+        "accepted_n": 276,
+        "empirical_coverage": 0.3,
+        "requested_coverage": 0.30000000000000004,
+        "selective_risk": 0.10144927536231885
+      },
+      {
+        "accepted_case_fnr": 0.07352941176470588,
+        "accepted_n": 322,
+        "empirical_coverage": 0.35,
+        "requested_coverage": 0.35,
+        "selective_risk": 0.09627329192546584
+      },
+      {
+        "accepted_case_fnr": 0.08260869565217391,
+        "accepted_n": 368,
+        "empirical_coverage": 0.4,
+        "requested_coverage": 0.4,
+        "selective_risk": 0.10326086956521739
+      },
+      {
+        "accepted_case_fnr": 0.09615384615384616,
+        "accepted_n": 414,
+        "empirical_coverage": 0.45,
+        "requested_coverage": 0.45000000000000007,
+        "selective_risk": 0.11835748792270531
+      },
+      {
+        "accepted_case_fnr": 0.10469314079422383,
+        "accepted_n": 460,
+        "empirical_coverage": 0.5,
+        "requested_coverage": 0.5,
+        "selective_risk": 0.11521739130434783
+      },
+      {
+        "accepted_case_fnr": 0.10884353741496598,
+        "accepted_n": 506,
+        "empirical_coverage": 0.55,
+        "requested_coverage": 0.55,
+        "selective_risk": 0.14031620553359683
+      },
+      {
+        "accepted_case_fnr": 0.10679611650485436,
+        "accepted_n": 552,
+        "empirical_coverage": 0.6,
+        "requested_coverage": 0.6,
+        "selective_risk": 0.16485507246376813
+      },
+      {
+        "accepted_case_fnr": 0.102803738317757,
+        "accepted_n": 598,
+        "empirical_coverage": 0.65,
+        "requested_coverage": 0.65,
+        "selective_risk": 0.18227424749163879
+      },
+      {
+        "accepted_case_fnr": 0.10149253731343283,
+        "accepted_n": 644,
+        "empirical_coverage": 0.7,
+        "requested_coverage": 0.7000000000000001,
+        "selective_risk": 0.19875776397515527
+      },
+      {
+        "accepted_case_fnr": 0.10119047619047619,
+        "accepted_n": 690,
+        "empirical_coverage": 0.75,
+        "requested_coverage": 0.75,
+        "selective_risk": 0.23333333333333334
+      },
+      {
+        "accepted_case_fnr": 0.1005586592178771,
+        "accepted_n": 736,
+        "empirical_coverage": 0.8,
+        "requested_coverage": 0.8,
+        "selective_risk": 0.24456521739130435
+      },
+      {
+        "accepted_case_fnr": 0.09158415841584158,
+        "accepted_n": 782,
+        "empirical_coverage": 0.85,
+        "requested_coverage": 0.85,
+        "selective_risk": 0.23145780051150894
+      },
+      {
+        "accepted_case_fnr": 0.12472160356347439,
+        "accepted_n": 828,
+        "empirical_coverage": 0.9,
+        "requested_coverage": 0.9,
+        "selective_risk": 0.24154589371980675
+      },
+      {
+        "accepted_case_fnr": 0.15756302521008403,
+        "accepted_n": 874,
+        "empirical_coverage": 0.95,
+        "requested_coverage": 0.9500000000000001,
+        "selective_risk": 0.2585812356979405
+      },
+      {
+        "accepted_case_fnr": 0.20235756385068762,
+        "accepted_n": 920,
+        "empirical_coverage": 1.0,
+        "requested_coverage": 1.0,
+        "selective_risk": 0.27608695652173915
+      }
+    ]
+  },
+  "generated_at_utc": "2026-07-29T12:20:22.700706+00:00",
+  "reproducibility": {
+    "core_predictions_reproduced_exactly": true,
+    "core_results_sha256": "7cb40312bf91695b6085a12b71db709608ec6215bf6c6f13b8946e56d50bd3c4",
+    "input_sha256": "961eca9f38cd639e8d4be527326e3168d3c3c8af230fd4e154d5d6ea4da4f0e9",
+    "root_seed": 20260729
+  },
+  "schema_version": "1.0",
+  "status": "shift_safety_complete"
+}

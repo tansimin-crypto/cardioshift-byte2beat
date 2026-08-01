@@ -1,0 +1,124 @@
+name: CI
+
+on:
+  push:
+    branches: ["main", "codex/submission-closure"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  core:
+    name: Core / Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: .
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: |
+            requirements.lock
+            requirements-notebook.lock
+
+      - name: Install locked core and Notebook dependencies
+        run: python -m pip install -r requirements.lock -r requirements-notebook.lock
+
+      - name: Compile Python sources
+        run: python -m compileall -q scripts src tests
+
+      - name: Restore offline raw inputs and rebuild cohort
+        run: |
+          mkdir -p data/raw
+          cp dist/kaggle/cardioshift-data/raw/*.data data/raw/
+          python scripts/build_cohort.py
+
+      - name: Run machine gate verifiers
+        run: |
+          python scripts/verify_gate_g1.py
+          python scripts/verify_gate_g2.py
+          python scripts/run_shift_safety.py
+          python scripts/run_robustness.py
+          python scripts/verify_shift_safety.py
+          python scripts/verify_robustness.py --regenerated-inputs
+          python scripts/verify_coder.py
+
+      - name: Notebook and canonical contracts
+        run: |
+          python scripts/gate_status.py
+          python scripts/build_canonical_results.py
+          python scripts/build_kaggle_notebook.py
+          python scripts/execute_notebook.py --data-dir . --output notebooks/CardioShift_Research_Report.executed.ipynb
+          python scripts/verify_gate_g3.py
+          python -m pytest -q \
+            tests/test_notebook_contract.py \
+            tests/test_figure_contract.py \
+            tests/test_canonical_results.py
+
+      - name: Core test suite
+        run: >-
+          python -m pytest -q
+          --ignore=tests/test_app_contract.py
+          --deselect=tests/test_gate_status_evidence.py::GateStatusEvidenceTests::test_frozen_e1_e5_hashes_are_unchanged
+
+  demo:
+    name: Demo import smoke
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-demo.lock
+
+      - name: Install locked Demo dependencies
+        run: python -m pip install -r requirements-demo.lock
+
+      - name: Import and contract smoke test
+        run: |
+          python -c "import app; assert len(app.PAGES) == 5"
+          python -m pytest -q tests/test_app_contract.py
+
+  coder-preflight:
+    name: Coder Terraform and Docker preflight
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.12.2"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Terraform format
+        run: terraform -chdir=coder fmt -check
+
+      - name: Terraform init without backend
+        run: terraform -chdir=coder init -backend=false -input=false
+
+      - name: Terraform validate
+        run: terraform -chdir=coder validate -no-color
+
+      - name: Static Coder contract
+        run: python scripts/verify_coder.py
+
+      - name: Build Coder Docker image
+        run: docker build -f coder/Dockerfile -t cardioshift-coder:ci .

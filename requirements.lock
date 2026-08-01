@@ -1,0 +1,9 @@
+numpy==2.4.6 ; python_version < "3.12"
+numpy==2.5.1 ; python_version >= "3.12"
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.17.1 ; python_version < "3.12"
+scipy==1.18.0 ; python_version >= "3.12"
+matplotlib==3.11.0
+PyYAML==6.0.3
+pytest==9.0.2

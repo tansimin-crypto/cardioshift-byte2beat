@@ -1,0 +1,24 @@
+{
+  "artifact_hashes": {
+    "robustness_predictions": "3500b24c47423a3ef684a43e669998b3269dad34cfa8d4554f88c9e62f709e7e",
+    "robustness_results": "11dbaf1c5f6a87e4fb36ef7d49754dca6b3befedb18aa738fb37195bb16604fc"
+  },
+  "checks": [
+    "no model reselection",
+    "accepted Git blobs match all frozen E1-E5 hashes",
+    "current checkout matches all frozen E1-E5 canonical hashes",
+    "every perturbation has the full outer-test patient universe",
+    "all pooled metrics recompute from patient-level predictions",
+    "baseline probabilities equal accepted E2 probabilities",
+    "MCAR seeds and row-level feature masks reproduce exactly",
+    "grouped masks match config exactly",
+    "OOD, conformal, ambiguity, and missingness thresholds are frozen"
+  ],
+  "rows": 17480,
+  "scenario_groups": 19,
+  "schema_version": "1.0",
+  "status": "pass",
+  "unresolved_blockers": [],
+  "verified_at_utc": "2026-07-31T23:30:14.873614+00:00",
+  "verified_head": "7bf7d19eebbe7db6c619ffe143a1c89e405f2964"
+}

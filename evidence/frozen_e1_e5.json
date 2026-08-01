@@ -1,0 +1,63 @@
+{
+  "accepted_commit": "59bf64211654b7496b0d96454ab9ac5a32c08f86",
+  "artifacts": {
+    "evidence/e3_e5/verification.json": {
+      "bytes": 2848,
+      "canonical_source": "git blob at accepted_commit (LF-normalized)",
+      "checkout_eol_may_differ": true,
+      "checkout_sha256": "0204bc14fe2c720e88bd5969f6204c80ec29dfa78a2b94e003dc5f2586cf06e6",
+      "sha256": "0ef96921da42f31e3660730febae2da3c51799d7b70cc1734002c4a2549111de"
+    },
+    "evidence/g2/verification.json": {
+      "bytes": 3578,
+      "canonical_source": "git blob at accepted_commit (LF-normalized)",
+      "checkout_eol_may_differ": true,
+      "checkout_sha256": "a9612c9a0f8d4ae5d9f5f763bedd9f098696481a4501e93875f47628a345e304",
+      "sha256": "56f4b6e97d536152c420c69b3d9066e906185f147717bb1869673a36d7cc2f0f"
+    },
+    "outputs/audit/loho_training_ledgers.json": {
+      "bytes": 294497,
+      "canonical_source": "git blob at accepted_commit (LF-normalized)",
+      "checkout_eol_may_differ": true,
+      "checkout_sha256": "0be913ef1183d42555a92334c4334a33b3d681353efcbf2eea625b23cdc7af8f",
+      "sha256": "58f7b37e5e43ad7bfc963c5ca59f87c9f0a9f7e3e96f0ed9aee66ced1a481993"
+    },
+    "outputs/metrics/results.json": {
+      "bytes": 19213,
+      "canonical_source": "git blob at accepted_commit (LF-normalized)",
+      "checkout_eol_may_differ": true,
+      "checkout_sha256": "8b23d71c1d8d8e70a177818a63a8683c7cfeba48751325d89a6534456b9839d2",
+      "sha256": "7cb40312bf91695b6085a12b71db709608ec6215bf6c6f13b8946e56d50bd3c4"
+    },
+    "outputs/metrics/shift_safety_results.json": {
+      "bytes": 42059,
+      "canonical_source": "git blob at accepted_commit (LF-normalized)",
+      "checkout_eol_may_differ": true,
+      "checkout_sha256": "7c45ca02b3d24c7eb28311403ebd31d476b7bdddb7b06d9e4a50a997df470ab9",
+      "sha256": "f10ba94744c0afae21308202fed26f347ac93a038090f61b1bef8e6d7a8ec54c"
+    },
+    "outputs/predictions/loho_predictions.csv": {
+      "bytes": 85863,
+      "canonical_source": "git blob at accepted_commit (LF-normalized)",
+      "checkout_eol_may_differ": true,
+      "checkout_sha256": "a2ca0a405b6edbddbc0ec6423ff2563806684ceeaed3ddbf2fa7a86befdb9c80",
+      "sha256": "6386e073db2be6158bd4d89c3d697c53430f88025a072c4e875ea44ac6eda04e"
+    },
+    "outputs/predictions/random_split_predictions.csv": {
+      "bytes": 170527,
+      "canonical_source": "git blob at accepted_commit (LF-normalized)",
+      "checkout_eol_may_differ": true,
+      "checkout_sha256": "ed1c746b907493708f4bcb1ed9a72f58154371d4856f309668a8a89af059908a",
+      "sha256": "75bc39fcd5d789c88cef4efa99ba8d60667b4690b5e592b396fd32b957332167"
+    },
+    "outputs/predictions/safety_loho_predictions.csv": {
+      "bytes": 147806,
+      "canonical_source": "git blob at accepted_commit (LF-normalized)",
+      "checkout_eol_may_differ": true,
+      "checkout_sha256": "332ecdb30a8e016326ae7be486da5aa0c202081b08d9865caa0cb32a7b84df2c",
+      "sha256": "0f1c32db30f61dfa6552c692385942420b19c5313b905d38bcb725999b3a9dca"
+    }
+  },
+  "frozen_at_utc": "2026-07-31T23:07:25.092604+00:00",
+  "schema_version": "2.0"
+}

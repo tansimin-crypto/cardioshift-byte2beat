@@ -1,0 +1,64 @@
+{
+  "accepted_metrics": {
+    "accepted_case_fnr": 0.07468879668049792,
+    "coverage": 0.40543478260869564,
+    "empirical_conformal_coverage": 0.9043478260869565,
+    "selective_risk": 0.10187667560321716,
+    "site_balanced_accuracy": 0.9106529671757619
+  },
+  "artifacts": {
+    "outputs/metrics/shift_safety_results.json": {
+      "bytes": 43336,
+      "sha256": "f10ba94744c0afae21308202fed26f347ac93a038090f61b1bef8e6d7a8ec54c"
+    },
+    "outputs/predictions/safety_loho_predictions.csv": {
+      "bytes": 149648,
+      "sha256": "0f1c32db30f61dfa6552c692385942420b19c5313b905d38bcb725999b3a9dca"
+    }
+  },
+  "checks": [
+    "exists: data\\processed\\cardioshift_cohort.csv",
+    "exists: outputs\\metrics\\results.json",
+    "exists: outputs\\predictions\\loho_predictions.csv",
+    "exists: outputs\\metrics\\shift_safety_results.json",
+    "exists: outputs\\predictions\\safety_loho_predictions.csv",
+    "shift/safety result status is complete",
+    "shift/safety input hash matches cohort",
+    "shift/safety core result hash matches",
+    "core LOHO probabilities were reproduced before safety analysis",
+    "safety predictions cover every cohort row once",
+    "safety patient universe matches cohort",
+    "safety calibrated probabilities match accepted G2 probabilities",
+    "accepted flag exactly follows prespecified safety gate",
+    "pooled n recomputes from patient predictions",
+    "pooled events recomputes from patient predictions",
+    "pooled accepted_n recomputes from patient predictions",
+    "pooled coverage recomputes from patient predictions",
+    "pooled deferral_rate recomputes from patient predictions",
+    "pooled selective_risk recomputes from patient predictions",
+    "pooled accepted_case_fnr recomputes from patient predictions",
+    "pooled empirical_conformal_coverage recomputes from patient predictions",
+    "pooled mean_prediction_set_size recomputes from patient predictions",
+    "site balanced accuracy is finite",
+    "site classifier exceeds balanced chance",
+    "conformal claim is limited to empirical coverage",
+    "OOD threshold limitation is explicit",
+    "Cleveland: OOD threshold source is training-only",
+    "Cleveland: safety metrics use 2,000 bootstraps",
+    "Cleveland: risk-coverage curve has 19 points",
+    "Hungary: OOD threshold source is training-only",
+    "Hungary: safety metrics use 2,000 bootstraps",
+    "Hungary: risk-coverage curve has 19 points",
+    "Switzerland: OOD threshold source is training-only",
+    "Switzerland: safety metrics use 2,000 bootstraps",
+    "Switzerland: risk-coverage curve has 19 points",
+    "VA Long Beach: OOD threshold source is training-only",
+    "VA Long Beach: safety metrics use 2,000 bootstraps",
+    "VA Long Beach: risk-coverage curve has 19 points"
+  ],
+  "experiments": [
+    "E3",
+    "E5"
+  ],
+  "status": "pass"
+}

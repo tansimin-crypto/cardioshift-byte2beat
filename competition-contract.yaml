@@ -1,0 +1,194 @@
+competition:
+  name: Byte2Beat
+  slug: byte-2-beat
+  mode: judge_based
+  track: General
+  deadline:
+    value: "2026-08-01 15:00"
+    timezone: "GMT+8"
+  final_action: "Submit the Kaggle Writeup; a saved draft is not a valid submission."
+
+evaluation:
+  total_points: 60
+  rubric:
+    - name: Usefulness
+      points: 15
+      evidence_required:
+        - meaningful purpose
+        - connection to a real cardiovascular-model failure mode
+    - name: Informativeness
+      points: 15
+      evidence_required:
+        - detailed and accurate analysis
+        - results with sample sizes and uncertainty
+    - name: Documentation Quality
+      points: 15
+      evidence_required:
+        - reproducible public notebook
+        - manuscript and project documentation
+    - name: Novelty
+      points: 15
+      evidence_required:
+        - surprising or new research use case
+  individualized_feedback_expected: false
+
+data:
+  official_sources:
+    - name: UCI Heart Disease
+      doi: "10.24432/C52P4X"
+      url: "https://archive.ics.uci.edu/dataset/45/heart%2Bdisease"
+      centers:
+        - Cleveland
+        - Hungary
+        - Switzerland
+        - VA Long Beach
+      license: CC BY 4.0
+  auxiliary_sources_allowed: allowed_with_conditions
+  licensing_requirements:
+    - cite the UCI dataset and DOI
+    - include CC BY 4.0 attribution
+  network_allowed_in_kaggle_notebook: unknown
+  target:
+    source_column: num
+    supported_meaning: angiographic heart-disease presence status
+    binary_definition: "0 if num == 0; 1 if num is in {1,2,3,4}"
+    forbidden_claims:
+      - future cardiovascular risk
+      - ten-year risk
+      - clinical diagnosis
+
+artifacts:
+  writeup:
+    required: true
+    title_required: true
+    subtitle_required: true
+    track_selection_required: true
+    final_submit_required: true
+  notebook:
+    required: true
+    visibility: public
+    reviewer_access: "No login or paywall."
+  project_link:
+    required: true
+    reviewer_access: "Public working product, or public source repository with setup instructions."
+  manuscript:
+    required: true
+  demo:
+    coder_required_for_cash_prize: true
+    status: rules_confirmed_runtime_verified
+
+research_constraints:
+  primary_validation: leave-one-hospital-out
+  prediction_features:
+    - age
+    - sex
+    - cp
+    - trestbps
+    - chol
+    - fbs
+    - restecg
+    - thalach
+    - exang
+    - oldpeak
+    - slope
+    - ca
+    - thal
+  validation_only_columns:
+    - site
+    - patient_id
+  forbidden:
+    - fit preprocessing on all data before splitting
+    - use the held-out hospital for tuning, calibration, conformal thresholds, or abstention thresholds
+    - use site as a disease-prediction feature
+    - tune rules after inspecting held-out-hospital outcomes
+    - fabricate metrics, figures, cases, or completion claims
+    - provide treatment or medication advice
+
+submission:
+  save_draft_is_final: false
+  irreversible_actions_require_user_authorization:
+    - publish external resource
+    - submit final writeup
+    - message organizer
+
+gates:
+  G1:
+    description: Four-center data, labels, missingness, provenance, and hashes audited.
+    machine_checks:
+      - expected source files exist
+      - standardized schema is exact
+      - site has four expected values
+      - target is binary and derived only from num
+      - raw missing values remain missing
+      - source and output SHA-256 hashes recorded
+  G2:
+    description: LOHO is reproducible and the held-out hospital never participates in training decisions.
+  G3:
+    description: All displayed numbers are generated from one results.json source.
+  G4:
+    description: Automated tests pass and a clean Run All succeeds.
+  G5:
+    description: Coder workspace creates, tests, and starts the application.
+  G6:
+    description: All submission links work without authentication.
+  G7:
+    description: Claims remain within the dataset and study design.
+
+ambiguities:
+  - id: eligibility
+    question: "Do current Kaggle Rules restrict entrants to students, and what proof is required?"
+    impact: eligibility_and_prize
+    status: resolved_no_student_only_restriction
+    resolution: "Current Kaggle competition-specific rules do not restrict entrants to students. The abstract names students as the intended audience, not an eligibility condition. Kaggle foundational age, account, region, sanctions, and possible winner-document requirements still apply."
+  - id: team_and_external_data
+    question: "What are the current team-size and external-data restrictions?"
+    impact: compliance
+    status: resolved
+    resolution: "Maximum team size is five. External data is allowed when publicly and equally accessible at no cost, or otherwise reasonable under the host's accessibility and minimal-cost standard, with licenses and winner obligations satisfied."
+  - id: coder_cash_prize
+    question: "What evidence counts as utilizing Coder in the submission demo?"
+    impact: cash_prize_eligibility
+    status: requirement_resolved_acceptance_evidence_undefined
+    resolution: "Current rules require Coder to be integrated into the submission demo for cash-prize eligibility. They do not define the evidence threshold, so the project conservatively requires a real Coder workspace running the application; static Terraform files alone are not claimed as sufficient."
+  - id: kaggle_network
+    question: "May the final public notebook use internet access, or must data be attached?"
+    impact: reproducibility
+    status: resolved_conservative_offline_policy
+    resolution: "No competition-specific notebook-network restriction was found. The release notebook keeps Internet disabled and uses attached data to maximize reproducibility."
+
+sources:
+  - authority: current_signed_in_kaggle_api_via_official_cli
+    location: "https://www.kaggle.com/competitions/byte-2-beat/rules"
+    captured_at: "2026-07-30T01:34:10.2341177Z"
+    evidence: "evidence/kaggle/current_rules.json"
+    supports:
+      - eligibility
+      - team limit
+      - submission limit
+      - external data
+      - Coder cash-prize requirement
+      - required public artifacts
+      - final-submit mechanics
+  - authority: official_overview_capture
+    location: "user attachment: Kaggle Byte2Beat overview"
+    captured_at: "2026-07-29"
+    supports:
+      - deadline
+      - evaluation rubric
+      - required artifacts
+      - public access
+      - final-submit mechanics
+      - overview-level Coder statement
+  - authority: official_dataset
+    location: "https://archive.ics.uci.edu/dataset/45/heart%2Bdisease"
+    captured_at: "2026-07-29"
+    supports:
+      - four centers
+      - feature and target definitions
+      - missing values
+      - license and DOI
+  - authority: historical_secondary_page
+    location: "https://byte-2-beat.devpost.com/"
+    captured_at: "reported in user research attachment"
+    supports:
+      - unresolved eligibility warning only

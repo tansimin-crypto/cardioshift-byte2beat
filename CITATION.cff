@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use CardioShift, cite this software and the UCI Heart Disease dataset."
+title: "CardioShift: Know When Not to Predict"
+type: software
+version: 0.1.0
+date-released: 2026-07-29
+license: MIT
+authors:
+  - family-names: "CardioShift contributors"
+keywords:
+  - external validation
+  - calibration
+  - selective prediction
+  - dataset shift
+references:
+  - type: dataset
+    title: "Heart Disease"
+    authors:
+      - family-names: "Janosi"
+        given-names: "Andras"
+      - family-names: "Steinbrunn"
+        given-names: "William"
+      - family-names: "Pfisterer"
+        given-names: "Matthias"
+      - family-names: "Detrano"
+        given-names: "Robert"
+    doi: "10.24432/C52P4X"

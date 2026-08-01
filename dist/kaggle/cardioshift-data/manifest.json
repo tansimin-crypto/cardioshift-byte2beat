@@ -1,0 +1,80 @@
+{
+  "dataset_doi": "10.24432/C52P4X",
+  "files": {
+    "DOI.txt": {
+      "bytes": 47,
+      "sha256": "6f5aada4ba2c06a202c37b2eca0aa938ce7ea9bc27faaa702768f8519eb8708e"
+    },
+    "LICENSE": {
+      "bytes": 1081,
+      "sha256": "410eddb5978c46bd0de5c98a25207137cc86a2cffbd1368a4de6db360fa256ca"
+    },
+    "SOFTWARE_LICENSE.md": {
+      "bytes": 188,
+      "sha256": "4d7b05bed1acc0a4a677edb1d338eb491ad2f2c4c59f9e5d2707c6d87619e2e7"
+    },
+    "UCI_LICENSE.md": {
+      "bytes": 187,
+      "sha256": "d649fbc2fcea7a29f3459f18c467f863162cb1fdb428f7817c57c52f181a7c1a"
+    },
+    "cardioshift_source.zip": {
+      "bytes": 106559,
+      "sha256": "492c4be99512f28e76f6d45cd047c964b61cf04d9a659e7f2a0c08ee1a4f4487"
+    },
+    "checksums.json": {
+      "bytes": 1142,
+      "sha256": "8d0836c82433263db7e630af0826509df7d239b55f7c24e5ec5a8e5beb88f459"
+    },
+    "outputs/metrics/robustness_results.json": {
+      "bytes": 125670,
+      "sha256": "11dbaf1c5f6a87e4fb36ef7d49754dca6b3befedb18aa738fb37195bb16604fc"
+    },
+    "outputs/predictions/loho_predictions.csv": {
+      "bytes": 85863,
+      "sha256": "6386e073db2be6158bd4d89c3d697c53430f88025a072c4e875ea44ac6eda04e"
+    },
+    "outputs/predictions/random_split_predictions.csv": {
+      "bytes": 170527,
+      "sha256": "75bc39fcd5d789c88cef4efa99ba8d60667b4690b5e592b396fd32b957332167"
+    },
+    "outputs/predictions/robustness_predictions.csv": {
+      "bytes": 2935572,
+      "sha256": "3500b24c47423a3ef684a43e669998b3269dad34cfa8d4554f88c9e62f709e7e"
+    },
+    "outputs/predictions/safety_loho_predictions.csv": {
+      "bytes": 147806,
+      "sha256": "0f1c32db30f61dfa6552c692385942420b19c5313b905d38bcb725999b3a9dca"
+    },
+    "outputs/results.json": {
+      "bytes": 204693,
+      "sha256": "15abe301d3ee25befa930203a906e7b49afe648f5dec493649cb05e8e0847deb"
+    },
+    "raw/processed.cleveland.data": {
+      "bytes": 18461,
+      "sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+    },
+    "raw/processed.hungarian.data": {
+      "bytes": 10263,
+      "sha256": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796"
+    },
+    "raw/processed.switzerland.data": {
+      "bytes": 4109,
+      "sha256": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314"
+    },
+    "raw/processed.va.data": {
+      "bytes": 6737,
+      "sha256": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f"
+    },
+    "source/src/__init__.py": {
+      "bytes": 36,
+      "sha256": "430f162ed8db1e3d0c1d903458b3528775dccc030b35014d5bc3a8b77518a634"
+    },
+    "source/src/results_access.py": {
+      "bytes": 3464,
+      "sha256": "1e57db8d6ddd10223435a4d12e6bc7d904a136bb3fc75d07bbb3b36f423c46b8"
+    }
+  },
+  "internet_required": false,
+  "license": "CC BY 4.0",
+  "schema_version": "1.0"
+}

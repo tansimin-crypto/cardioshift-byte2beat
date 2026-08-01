@@ -1,0 +1,82 @@
+{
+  "accepted_core_metrics": {
+    "loho_pooled_auroc": 0.7894731810381502,
+    "loho_pooled_brier": 0.19043575001760263,
+    "random_minus_loho_auroc": 0.1024804296744275,
+    "random_split_mean_auroc": 0.8919536107125777,
+    "random_split_mean_brier": 0.12892929379355006
+  },
+  "artifacts": {
+    "outputs/audit/loho_training_ledgers.json": {
+      "bytes": 306543,
+      "sha256": "0be913ef1183d42555a92334c4334a33b3d681353efcbf2eea625b23cdc7af8f"
+    },
+    "outputs/metrics/results.json": {
+      "bytes": 19802,
+      "sha256": "8b23d71c1d8d8e70a177818a63a8683c7cfeba48751325d89a6534456b9839d2"
+    },
+    "outputs/predictions/loho_predictions.csv": {
+      "bytes": 86784,
+      "sha256": "a2ca0a405b6edbddbc0ec6423ff2563806684ceeaed3ddbf2fa7a86befdb9c80"
+    },
+    "outputs/predictions/random_split_predictions.csv": {
+      "bytes": 172368,
+      "sha256": "ed1c746b907493708f4bcb1ed9a72f58154371d4856f309668a8a89af059908a"
+    }
+  },
+  "checks": [
+    "exists: data\\processed\\cardioshift_cohort.csv",
+    "exists: outputs\\metrics\\results.json",
+    "exists: outputs\\predictions\\loho_predictions.csv",
+    "exists: outputs\\predictions\\random_split_predictions.csv",
+    "exists: outputs\\audit\\loho_training_ledgers.json",
+    "results status is core_experiments_complete",
+    "all 18 prespecified candidates were evaluated",
+    "results input hash matches canonical cohort",
+    "four LOHO training ledgers exist",
+    "LOHO predicts every cohort row once",
+    "LOHO patient IDs are unique",
+    "LOHO patient universe exactly matches cohort",
+    "LOHO site values are present",
+    "raw_probability is finite",
+    "raw_probability is within [0,1]",
+    "calibrated_probability is finite",
+    "calibrated_probability is within [0,1]",
+    "Cleveland: outer test contains only held-out site",
+    "Cleveland: held-out site absent from outer training sites",
+    "Cleveland: ledger test IDs match cohort site",
+    "Cleveland: test IDs absent from tuning",
+    "Cleveland: test IDs absent from calibration",
+    "Cleveland: test IDs absent from final_fit",
+    "Hungary: outer test contains only held-out site",
+    "Hungary: held-out site absent from outer training sites",
+    "Hungary: ledger test IDs match cohort site",
+    "Hungary: test IDs absent from tuning",
+    "Hungary: test IDs absent from calibration",
+    "Hungary: test IDs absent from final_fit",
+    "Switzerland: outer test contains only held-out site",
+    "Switzerland: held-out site absent from outer training sites",
+    "Switzerland: ledger test IDs match cohort site",
+    "Switzerland: test IDs absent from tuning",
+    "Switzerland: test IDs absent from calibration",
+    "Switzerland: test IDs absent from final_fit",
+    "VA Long Beach: outer test contains only held-out site",
+    "VA Long Beach: held-out site absent from outer training sites",
+    "VA Long Beach: ledger test IDs match cohort site",
+    "VA Long Beach: test IDs absent from tuning",
+    "VA Long Beach: test IDs absent from calibration",
+    "VA Long Beach: test IDs absent from final_fit",
+    "ten random-split repeats exist",
+    "random prediction file contains every repeat",
+    "random repeat test sizes are consistent",
+    "pooled LOHO n matches cohort",
+    "four per-site metric records exist",
+    "pooled LOHO uses 2,000 bootstrap replicates",
+    "Cleveland: uses 2,000 bootstrap replicates",
+    "Hungary: uses 2,000 bootstrap replicates",
+    "Switzerland: uses 2,000 bootstrap replicates",
+    "VA Long Beach: uses 2,000 bootstrap replicates"
+  ],
+  "gate": "G2",
+  "status": "pass"
+}

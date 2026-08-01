@@ -1,0 +1,35 @@
+{
+  "figures": {
+    "01_same_model_two_realities.png": {
+      "bytes": 108497,
+      "sha256": "4bb736b2cc4f86256b1694218ac398ea8552b83db9aebcbb38c0cfadc1838b0c"
+    },
+    "02_prevalence_missingness.png": {
+      "bytes": 127279,
+      "sha256": "31de3ae7337f7f43bf9ee927447f1b258b775b8487c721823731225f11c363bc"
+    },
+    "03_per_site_reliability.png": {
+      "bytes": 171013,
+      "sha256": "0b255479684eae73823961f2b3a0df00cd0fa163b5690e821bd844ac1f1e2477"
+    },
+    "04_risk_coverage.png": {
+      "bytes": 80193,
+      "sha256": "fd28238d08e5dcab01ee78edbab1fe37c6f06427f789464f5940135052070ca5"
+    },
+    "05_confident_error_deferred.png": {
+      "bytes": 91243,
+      "sha256": "a03542fdc9bb3bcdd19290e2f86387efae09336da927ec0265a0853d16034e17"
+    },
+    "06_worst_hospital_vs_pooled.png": {
+      "bytes": 62026,
+      "sha256": "dd49dca8ad0bd9abf1f136428dccfaca6d20c6ee4882be653d4e0284c7efb1a1"
+    }
+  },
+  "source_artifacts": {
+    "data/processed/cardioshift_cohort.csv": "8eba2eaee4d44c6bb8ccbdc832764b8963efd1cae17e461bd51b546292775995",
+    "outputs/metrics/results.json": "7cb40312bf91695b6085a12b71db709608ec6215bf6c6f13b8946e56d50bd3c4",
+    "outputs/metrics/shift_safety_results.json": "f10ba94744c0afae21308202fed26f347ac93a038090f61b1bef8e6d7a8ec54c",
+    "outputs/predictions/loho_predictions.csv": "6386e073db2be6158bd4d89c3d697c53430f88025a072c4e875ea44ac6eda04e",
+    "outputs/predictions/safety_loho_predictions.csv": "0f1c32db30f61dfa6552c692385942420b19c5313b905d38bcb725999b3a9dca"
+  }
+}

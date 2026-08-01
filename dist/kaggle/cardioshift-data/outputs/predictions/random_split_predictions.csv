@@ -1,0 +1,1841 @@
+patient_id,site,target,num,raw_probability,calibrated_probability,experiment,repeat
+hungary:0094,Hungary,0,0,0.0978685352018857,0.06748573461764028,repeated_random_split,0
+cleveland:0103,Cleveland,0,0,0.237703516128697,0.19968431807463896,repeated_random_split,0
+hungary:0144,Hungary,0,0,0.05700865149521299,0.03518180468642109,repeated_random_split,0
+cleveland:0027,Cleveland,0,0,0.027287713226902578,0.014608017217389,repeated_random_split,0
+cleveland:0150,Cleveland,0,0,0.06776270287184825,0.043297886562331536,repeated_random_split,0
+cleveland:0002,Cleveland,1,2,0.9874905764180428,0.9939342461861803,repeated_random_split,0
+cleveland:0082,Cleveland,0,0,0.2487842674399354,0.21120236574985832,repeated_random_split,0
+hungary:0261,Hungary,1,1,0.5152250842735933,0.51229556372624,repeated_random_split,0
+hungary:0025,Hungary,0,0,0.14689882723462908,0.11062401082753986,repeated_random_split,0
+switzerland:0088,Switzerland,1,3,0.91971509887421,0.9446068970341639,repeated_random_split,0
+cleveland:0058,Cleveland,1,1,0.39761065321105676,0.3753778884118516,repeated_random_split,0
+cleveland:0300,Cleveland,1,2,0.9839508192531158,0.9918592922282824,repeated_random_split,0
+va_long_beach:0064,VA Long Beach,1,4,0.8275206608237444,0.8600934003463827,repeated_random_split,0
+hungary:0191,Hungary,1,1,0.12773319532180671,0.09327309177021847,repeated_random_split,0
+va_long_beach:0077,VA Long Beach,1,2,0.7324708525538112,0.7610551856450414,repeated_random_split,0
+hungary:0282,Hungary,1,1,0.3199260336921093,0.2877707378581842,repeated_random_split,0
+cleveland:0069,Cleveland,1,2,0.9283681234742788,0.951707313010544,repeated_random_split,0
+va_long_beach:0066,VA Long Beach,1,2,0.857146756436227,0.8887685691607978,repeated_random_split,0
+switzerland:0094,Switzerland,1,1,0.9019357571695311,0.9294931923356433,repeated_random_split,0
+cleveland:0144,Cleveland,1,1,0.7249858923353686,0.7528899657692574,repeated_random_split,0
+hungary:0107,Hungary,0,0,0.14760738941322038,0.11127649677405763,repeated_random_split,0
+cleveland:0024,Cleveland,1,3,0.829757948843289,0.8623012361001813,repeated_random_split,0
+cleveland:0040,Cleveland,0,0,0.5773304922643848,0.5849963190593891,repeated_random_split,0
+hungary:0051,Hungary,0,0,0.10598686893736883,0.07433340174967713,repeated_random_split,0
+va_long_beach:0143,VA Long Beach,1,2,0.4352126600113385,0.41879334751087277,repeated_random_split,0
+va_long_beach:0070,VA Long Beach,1,1,0.4655700725357368,0.4541491538160907,repeated_random_split,0
+va_long_beach:0005,VA Long Beach,0,0,0.8813009203880292,0.9111642711329495,repeated_random_split,0
+hungary:0216,Hungary,1,1,0.9098211986421814,0.9362792299733286,repeated_random_split,0
+va_long_beach:0041,VA Long Beach,1,3,0.7879393639549216,0.8200117770188228,repeated_random_split,0
+va_long_beach:0092,VA Long Beach,0,0,0.7044594815982174,0.7302779118563216,repeated_random_split,0
+hungary:0155,Hungary,0,0,0.24123596809710138,0.203342803141957,repeated_random_split,0
+hungary:0199,Hungary,1,1,0.4218881448324103,0.4033527542875595,repeated_random_split,0
+hungary:0041,Hungary,0,0,0.09849950681499246,0.06801334481948118,repeated_random_split,0
+hungary:0067,Hungary,0,0,0.1351875476932032,0.09995194144552322,repeated_random_split,0
+va_long_beach:0197,VA Long Beach,0,0,0.530753034479155,0.5305029517743016,repeated_random_split,0
+hungary:0045,Hungary,0,0,0.09369598842813984,0.06401675718458667,repeated_random_split,0
+switzerland:0096,Switzerland,1,3,0.8607212900355139,0.8921418644214654,repeated_random_split,0
+va_long_beach:0120,VA Long Beach,1,1,0.7882583846731758,0.8203420565881677,repeated_random_split,0
+switzerland:0106,Switzerland,1,1,0.6581033624051168,0.6781837456404244,repeated_random_split,0
+va_long_beach:0061,VA Long Beach,0,0,0.7830833116113867,0.814970864916697,repeated_random_split,0
+va_long_beach:0020,VA Long Beach,0,0,0.9279360288398436,0.9513570083601723,repeated_random_split,0
+cleveland:0186,Cleveland,0,0,0.11524986775271867,0.08229815198615731,repeated_random_split,0
+hungary:0187,Hungary,0,0,0.18100348193415805,0.14284954855104812,repeated_random_split,0
+cleveland:0288,Cleveland,0,0,0.5197378607362044,0.5175874411386551,repeated_random_split,0
+va_long_beach:0027,VA Long Beach,1,2,0.8131277585475476,0.8457362446238393,repeated_random_split,0
+hungary:0120,Hungary,0,0,0.16180892663660812,0.12451097158053623,repeated_random_split,0
+hungary:0028,Hungary,0,0,0.10446563619897258,0.07304061377819511,repeated_random_split,0
+hungary:0128,Hungary,0,0,0.16161954583184507,0.1243325650448414,repeated_random_split,0
+hungary:0212,Hungary,1,1,0.33580803102435874,0.3053946336105741,repeated_random_split,0
+switzerland:0113,Switzerland,1,3,0.9846155736698805,0.9922561696428818,repeated_random_split,0
+va_long_beach:0004,VA Long Beach,1,1,0.866158740853643,0.8972350010262033,repeated_random_split,0
+cleveland:0137,Cleveland,1,4,0.923454418701609,0.947697011811665,repeated_random_split,0
+switzerland:0004,Switzerland,1,1,0.9654377439343625,0.9797906243955687,repeated_random_split,0
+hungary:0153,Hungary,0,0,0.10146081095084702,0.07050001226296312,repeated_random_split,0
+switzerland:0063,Switzerland,1,1,0.9519302658810476,0.9700540567472965,repeated_random_split,0
+va_long_beach:0142,VA Long Beach,1,4,0.5330272948478522,0.5331690108334463,repeated_random_split,0
+cleveland:0301,Cleveland,1,3,0.9523908696109384,0.970396488488599,repeated_random_split,0
+cleveland:0020,Cleveland,0,0,0.058670938284652,0.03641605323898046,repeated_random_split,0
+va_long_beach:0119,VA Long Beach,1,3,0.8852496832051253,0.9147323185618729,repeated_random_split,0
+switzerland:0110,Switzerland,0,0,0.833065819557552,0.8655533901025486,repeated_random_split,0
+hungary:0165,Hungary,0,0,0.4168797800055565,0.39756388293804523,repeated_random_split,0
+va_long_beach:0141,VA Long Beach,0,0,0.9788421311498685,0.9887117795832847,repeated_random_split,0
+va_long_beach:0171,VA Long Beach,1,1,0.9631707758981728,0.9782033953186644,repeated_random_split,0
+hungary:0122,Hungary,0,0,0.12683431955654353,0.09247392701279733,repeated_random_split,0
+switzerland:0112,Switzerland,1,1,0.8744593894191276,0.9049182650557195,repeated_random_split,0
+hungary:0059,Hungary,0,0,0.2683226584813384,0.2318004630617181,repeated_random_split,0
+va_long_beach:0149,VA Long Beach,1,3,0.9170577824157531,0.9423914653830078,repeated_random_split,0
+hungary:0167,Hungary,0,0,0.35243784773968656,0.3240209361624123,repeated_random_split,0
+va_long_beach:0089,VA Long Beach,1,1,0.9587394756611112,0.9750440878998524,repeated_random_split,0
+switzerland:0093,Switzerland,1,2,0.3569379849297048,0.32908955800837786,repeated_random_split,0
+switzerland:0006,Switzerland,1,1,0.3632904132345342,0.3362637901009227,repeated_random_split,0
+cleveland:0036,Cleveland,0,0,0.16237323674247173,0.12504288209625497,repeated_random_split,0
+hungary:0088,Hungary,0,0,0.17227548491138717,0.13444882804899796,repeated_random_split,0
+hungary:0009,Hungary,0,0,0.07816595750571532,0.05142638078306537,repeated_random_split,0
+cleveland:0189,Cleveland,1,1,0.23936362380778906,0.2014020761165584,repeated_random_split,0
+hungary:0281,Hungary,1,1,0.8700859183566482,0.9008841463400805,repeated_random_split,0
+va_long_beach:0133,VA Long Beach,1,1,0.6495408321207539,0.6684290705071778,repeated_random_split,0
+cleveland:0081,Cleveland,0,0,0.8262596375405555,0.8588460830978598,repeated_random_split,0
+hungary:0005,Hungary,0,0,0.03731711557530659,0.02119880255525171,repeated_random_split,0
+hungary:0237,Hungary,1,1,0.9185951489210296,0.9436751286985734,repeated_random_split,0
+hungary:0089,Hungary,0,0,0.09647852180503177,0.06632621676886903,repeated_random_split,0
+va_long_beach:0139,VA Long Beach,0,0,0.6475485510952808,0.666154269503331,repeated_random_split,0
+va_long_beach:0177,VA Long Beach,1,4,0.9242157036965154,0.9483221213369131,repeated_random_split,0
+va_long_beach:0121,VA Long Beach,1,2,0.6366706014686401,0.6537014423617726,repeated_random_split,0
+hungary:0069,Hungary,0,0,0.29262072469605294,0.2578903597903466,repeated_random_split,0
+va_long_beach:0189,VA Long Beach,1,2,0.8982710327055983,0.9262967694287279,repeated_random_split,0
+switzerland:0105,Switzerland,1,3,0.8564622983655378,0.888120411584772,repeated_random_split,0
+cleveland:0009,Cleveland,1,2,0.8809450895898325,0.910841400331724,repeated_random_split,0
+hungary:0233,Hungary,1,1,0.48899775822073205,0.4815535793180496,repeated_random_split,0
+switzerland:0049,Switzerland,1,2,0.8199891710758337,0.852613277007977,repeated_random_split,0
+hungary:0138,Hungary,0,0,0.94706229855758,0.9663940373745975,repeated_random_split,0
+hungary:0255,Hungary,1,1,0.90969333938494,0.9361702239089802,repeated_random_split,0
+hungary:0260,Hungary,1,1,0.8335696925333325,0.8660474887725126,repeated_random_split,0
+va_long_beach:0186,VA Long Beach,1,1,0.40323184963071673,0.38183504834171667,repeated_random_split,0
+cleveland:0254,Cleveland,0,0,0.050009185064866776,0.030071587009844348,repeated_random_split,0
+cleveland:0218,Cleveland,0,0,0.35644040220682627,0.3285285511500042,repeated_random_split,0
+switzerland:0032,Switzerland,1,3,0.8455933838683334,0.877734270668388,repeated_random_split,0
+cleveland:0057,Cleveland,1,1,0.4806104568923677,0.4717339555874344,repeated_random_split,0
+hungary:0054,Hungary,0,0,0.10930127373738979,0.07716514141588313,repeated_random_split,0
+hungary:0050,Hungary,0,0,0.07482687955410335,0.04878932521091294,repeated_random_split,0
+va_long_beach:0131,VA Long Beach,1,1,0.3771439127221305,0.35198385254113984,repeated_random_split,0
+switzerland:0103,Switzerland,1,3,0.9427854088634189,0.9631191861187799,repeated_random_split,0
+switzerland:0121,Switzerland,0,0,0.9354979326611681,0.9574196532442831,repeated_random_split,0
+hungary:0072,Hungary,0,0,0.03746086955152286,0.02129617349884794,repeated_random_split,0
+va_long_beach:0037,VA Long Beach,1,2,0.6941712422076819,0.7188314472433182,repeated_random_split,0
+cleveland:0268,Cleveland,1,2,0.7692993034901747,0.8005284645823806,repeated_random_split,0
+switzerland:0012,Switzerland,1,2,0.7334541128420226,0.7621244474495813,repeated_random_split,0
+cleveland:0197,Cleveland,0,0,0.6400887943885952,0.6576202425943414,repeated_random_split,0
+switzerland:0100,Switzerland,1,1,0.8322951341406946,0.8647969936028238,repeated_random_split,0
+va_long_beach:0183,VA Long Beach,1,1,0.9509561700768423,0.9693276270130027,repeated_random_split,0
+hungary:0083,Hungary,0,0,0.852997630960798,0.8848286325786476,repeated_random_split,0
+cleveland:0184,Cleveland,0,0,0.7586051942257264,0.7891937468573991,repeated_random_split,0
+hungary:0084,Hungary,0,0,0.4583172667441132,0.4456833041485379,repeated_random_split,0
+va_long_beach:0042,VA Long Beach,1,1,0.7123464293782027,0.7390029805552729,repeated_random_split,0
+switzerland:0117,Switzerland,1,1,0.8684273905782113,0.8993460832448118,repeated_random_split,0
+cleveland:0097,Cleveland,1,2,0.937342629329758,0.958876104475096,repeated_random_split,0
+hungary:0244,Hungary,1,1,0.8434842993182669,0.8756989299159763,repeated_random_split,0
+hungary:0241,Hungary,1,1,0.6948312049472085,0.7195678371528396,repeated_random_split,0
+switzerland:0064,Switzerland,1,1,0.6029225077301509,0.6147638820896699,repeated_random_split,0
+hungary:0116,Hungary,0,0,0.6547771101673718,0.6743987220720371,repeated_random_split,0
+cleveland:0250,Cleveland,0,0,0.15798941163752106,0.12092267284486864,repeated_random_split,0
+cleveland:0294,Cleveland,1,2,0.9883987885848369,0.9944503002121393,repeated_random_split,0
+hungary:0267,Hungary,1,1,0.9124340517384353,0.9384992034787115,repeated_random_split,0
+hungary:0101,Hungary,0,0,0.31323386711005435,0.2803964255936364,repeated_random_split,0
+hungary:0096,Hungary,0,0,0.289316316550782,0.25431326679123545,repeated_random_split,0
+hungary:0192,Hungary,1,1,0.0962237697150065,0.0661141270144428,repeated_random_split,0
+cleveland:0132,Cleveland,0,0,0.493028451471732,0.48627522407001567,repeated_random_split,0
+hungary:0201,Hungary,1,1,0.8876853597936885,0.916919298285081,repeated_random_split,0
+hungary:0070,Hungary,0,0,0.13450888631070396,0.09934013738590805,repeated_random_split,0
+cleveland:0003,Cleveland,1,1,0.9887256352355683,0.9946342274083863,repeated_random_split,0
+cleveland:0227,Cleveland,0,0,0.2399623326280045,0.20202226492207237,repeated_random_split,0
+hungary:0174,Hungary,0,0,0.3578936670644657,0.3301674461939773,repeated_random_split,0
+switzerland:0047,Switzerland,1,2,0.9652987341604208,0.9796938847920552,repeated_random_split,0
+hungary:0060,Hungary,0,0,0.07697662311838176,0.05048413158273227,repeated_random_split,0
+cleveland:0295,Cleveland,1,1,0.422316540047521,0.40384830570711894,repeated_random_split,0
+cleveland:0177,Cleveland,0,0,0.9192042013488819,0.9441821976272686,repeated_random_split,0
+cleveland:0211,Cleveland,0,0,0.022860743830812148,0.01184071365296626,repeated_random_split,0
+hungary:0143,Hungary,0,0,0.16073425066342562,0.12349924640062894,repeated_random_split,0
+cleveland:0271,Cleveland,1,1,0.9401829296253053,0.961100616607859,repeated_random_split,0
+va_long_beach:0093,VA Long Beach,1,3,0.8072742297920633,0.8398238746170341,repeated_random_split,0
+switzerland:0041,Switzerland,1,3,0.48749911781750555,0.4797984385570038,repeated_random_split,0
+switzerland:0030,Switzerland,1,2,0.8417004367646179,0.8739725087846069,repeated_random_split,0
+hungary:0017,Hungary,0,0,0.07328156345644081,0.04757774964473185,repeated_random_split,0
+switzerland:0069,Switzerland,1,1,0.6965954198671709,0.7215349466346754,repeated_random_split,0
+hungary:0127,Hungary,0,0,0.7278424822853334,0.7560114551921494,repeated_random_split,0
+cleveland:0088,Cleveland,0,0,0.06225689335734119,0.03910436553232177,repeated_random_split,0
+hungary:0197,Hungary,1,1,0.8901400729573951,0.9191124717605822,repeated_random_split,0
+cleveland:0063,Cleveland,1,1,0.9931023607681224,0.9969921127870174,repeated_random_split,0
+hungary:0222,Hungary,1,1,0.8180619450492127,0.8506875814103234,repeated_random_split,0
+hungary:0238,Hungary,1,1,0.9630235451150159,0.978099613805222,repeated_random_split,0
+va_long_beach:0085,VA Long Beach,1,4,0.9391110474923433,0.9602637206561082,repeated_random_split,0
+switzerland:0122,Switzerland,1,1,0.315326485752521,0.28269892488452475,repeated_random_split,0
+cleveland:0299,Cleveland,1,1,0.4147547517103034,0.39511032555858816,repeated_random_split,0
+hungary:0245,Hungary,1,1,0.6987603976605524,0.7239460762848758,repeated_random_split,0
+switzerland:0089,Switzerland,1,3,0.9714070149811096,0.9838678813873805,repeated_random_split,0
+switzerland:0050,Switzerland,1,3,0.9937521695238138,0.9973226875293136,repeated_random_split,0
+cleveland:0213,Cleveland,0,0,0.25575466334167485,0.21850965358445176,repeated_random_split,0
+va_long_beach:0111,VA Long Beach,1,3,0.7331937638559203,0.7618414039533686,repeated_random_split,0
+hungary:0058,Hungary,0,0,0.19470981799719153,0.15624075434264725,repeated_random_split,0
+va_long_beach:0096,VA Long Beach,1,3,0.9449489466117481,0.9647825480257785,repeated_random_split,0
+hungary:0135,Hungary,0,0,0.14165881337381026,0.1058225256226095,repeated_random_split,0
+hungary:0258,Hungary,1,1,0.7835479285859208,0.8154542550321986,repeated_random_split,0
+hungary:0169,Hungary,0,0,0.25125715067676163,0.21378941090706033,repeated_random_split,0
+hungary:0014,Hungary,0,0,0.1774331057218544,0.13940084779707204,repeated_random_split,0
+va_long_beach:0075,VA Long Beach,1,3,0.7935278488592754,0.8257814243611545,repeated_random_split,0
+hungary:0109,Hungary,0,0,0.4344176871195816,0.41787061208947646,repeated_random_split,0
+switzerland:0010,Switzerland,1,1,0.9458760696391437,0.9654911424812292,repeated_random_split,0
+cleveland:0094,Cleveland,0,0,0.054104684062523535,0.03304430277775918,repeated_random_split,0
+va_long_beach:0049,VA Long Beach,1,2,0.7915284139974046,0.8237211093563174,repeated_random_split,0
+va_long_beach:0165,VA Long Beach,1,1,0.8996643542552332,0.9275151566709129,repeated_random_split,0
+hungary:0126,Hungary,0,0,0.0820123257036402,0.054495694852945226,repeated_random_split,0
+cleveland:0071,Cleveland,0,0,0.07225335967155468,0.04677476008453909,repeated_random_split,0
+hungary:0034,Hungary,0,0,0.10864779441494682,0.07660520556868404,repeated_random_split,0
+cleveland:0244,Cleveland,1,2,0.7961471885809063,0.828473795763823,repeated_random_split,0
+va_long_beach:0104,VA Long Beach,1,1,0.8057176843928748,0.8382447901601863,repeated_random_split,0
+cleveland:0297,Cleveland,1,3,0.9744010162456352,0.9858522246802404,repeated_random_split,0
+cleveland:0207,Cleveland,1,3,0.9884436452169323,0.994475599737355,repeated_random_split,0
+hungary:0184,Hungary,0,0,0.2675989818533276,0.23103124904714492,repeated_random_split,0
+switzerland:0081,Switzerland,1,3,0.967661046404131,0.9813270892733669,repeated_random_split,0
+cleveland:0242,Cleveland,0,0,0.01638643126258548,0.007983474947625736,repeated_random_split,0
+cleveland:0104,Cleveland,0,0,0.21728515422556685,0.17879401088542848,repeated_random_split,0
+va_long_beach:0036,VA Long Beach,1,3,0.9307114115726458,0.9535989838717226,repeated_random_split,0
+cleveland:0240,Cleveland,0,0,0.04167047346091819,0.024180696925254222,repeated_random_split,0
+cleveland:0272,Cleveland,0,0,0.7533318988417299,0.783564829352662,repeated_random_split,0
+hungary:0192,Hungary,1,1,0.039446006880474054,0.05486631259410311,repeated_random_split,1
+switzerland:0121,Switzerland,0,0,0.8973028839934399,0.8785001460191513,repeated_random_split,1
+hungary:0201,Hungary,1,1,0.8410147136298236,0.8215111947311793,repeated_random_split,1
+switzerland:0117,Switzerland,1,1,0.9214670475503661,0.9041047913050343,repeated_random_split,1
+cleveland:0198,Cleveland,0,0,0.09970349498826457,0.12417501219140364,repeated_random_split,1
+cleveland:0111,Cleveland,1,1,0.8050456971714285,0.7864564323252041,repeated_random_split,1
+hungary:0105,Hungary,0,0,0.05290593953056759,0.07112934746136756,repeated_random_split,1
+hungary:0153,Hungary,0,0,0.034554181861851885,0.04879151346258647,repeated_random_split,1
+cleveland:0295,Cleveland,1,1,0.2784975959910301,0.30372837579688244,repeated_random_split,1
+va_long_beach:0064,VA Long Beach,1,4,0.9026257020446555,0.8840681691890407,repeated_random_split,1
+hungary:0001,Hungary,0,0,0.04349547576299244,0.05982388301683303,repeated_random_split,1
+hungary:0071,Hungary,0,0,0.3028281500257041,0.326657954143652,repeated_random_split,1
+hungary:0278,Hungary,1,1,0.9482817928236082,0.9337324643644788,repeated_random_split,1
+switzerland:0004,Switzerland,1,1,0.9779802493442802,0.9689862454380671,repeated_random_split,1
+cleveland:0039,Cleveland,1,3,0.949131880225889,0.934698820144868,repeated_random_split,1
+cleveland:0208,Cleveland,1,3,0.9229218432510022,0.9056754656827706,repeated_random_split,1
+hungary:0270,Hungary,1,1,0.6503054186987232,0.6423632529297022,repeated_random_split,1
+cleveland:0002,Cleveland,1,2,0.9718224053903309,0.9613644132513561,repeated_random_split,1
+cleveland:0035,Cleveland,0,0,0.02229637970047564,0.03305806526435343,repeated_random_split,1
+cleveland:0213,Cleveland,0,0,0.06291386766028437,0.08287096464481603,repeated_random_split,1
+hungary:0238,Hungary,1,1,0.9593298828657816,0.9464562596815943,repeated_random_split,1
+va_long_beach:0095,VA Long Beach,0,0,0.6672645175447536,0.6578111559391869,repeated_random_split,1
+cleveland:0238,Cleveland,1,1,0.7712980004058313,0.7542565081785685,repeated_random_split,1
+cleveland:0214,Cleveland,1,3,0.8057115427554297,0.7870978804082139,repeated_random_split,1
+cleveland:0072,Cleveland,1,3,0.8875248049072063,0.8683647754900976,repeated_random_split,1
+hungary:0281,Hungary,1,1,0.9312006788228482,0.9146868548405561,repeated_random_split,1
+cleveland:0206,Cleveland,1,3,0.9685270208586642,0.9573674312894849,repeated_random_split,1
+hungary:0085,Hungary,0,0,0.6971419093737306,0.6851770629121248,repeated_random_split,1
+cleveland:0104,Cleveland,0,0,0.19154873298275532,0.2194449493228226,repeated_random_split,1
+hungary:0101,Hungary,0,0,0.2816666247089749,0.30672835872621135,repeated_random_split,1
+switzerland:0057,Switzerland,1,2,0.8406098161779025,0.8211115866698979,repeated_random_split,1
+va_long_beach:0103,VA Long Beach,1,1,0.7540316004237843,0.7379910140006178,repeated_random_split,1
+va_long_beach:0185,VA Long Beach,0,0,0.9170890960641791,0.8993998062688293,repeated_random_split,1
+va_long_beach:0192,VA Long Beach,1,4,0.9744409575262645,0.9645792572541094,repeated_random_split,1
+cleveland:0233,Cleveland,1,1,0.5460686262101487,0.5482408460478568,repeated_random_split,1
+hungary:0160,Hungary,0,0,0.14816268162856355,0.17550085940205173,repeated_random_split,1
+hungary:0099,Hungary,0,0,0.04604693685551198,0.06291742977777345,repeated_random_split,1
+cleveland:0040,Cleveland,0,0,0.7574585582807045,0.7412092820320266,repeated_random_split,1
+cleveland:0141,Cleveland,0,0,0.13859929228831327,0.16558591128665917,repeated_random_split,1
+va_long_beach:0102,VA Long Beach,1,3,0.920849014246456,0.9034386362533314,repeated_random_split,1
+cleveland:0212,Cleveland,1,4,0.6187845818981066,0.6137804864219731,repeated_random_split,1
+hungary:0208,Hungary,1,1,0.8033036181515317,0.7847793975072953,repeated_random_split,1
+va_long_beach:0120,VA Long Beach,1,1,0.8344847892971466,0.8150815383636977,repeated_random_split,1
+switzerland:0080,Switzerland,1,1,0.9460784221781301,0.9312366700327209,repeated_random_split,1
+va_long_beach:0125,VA Long Beach,1,1,0.582589135807318,0.5811101582538051,repeated_random_split,1
+hungary:0063,Hungary,0,0,0.007038894887190831,0.011802075761647325,repeated_random_split,1
+switzerland:0005,Switzerland,1,2,0.8953884626529194,0.8765065216484287,repeated_random_split,1
+hungary:0051,Hungary,0,0,0.01718923993749288,0.026218636228672636,repeated_random_split,1
+cleveland:0185,Cleveland,1,1,0.03993833836267885,0.05547233433917351,repeated_random_split,1
+switzerland:0059,Switzerland,1,1,0.933592643076799,0.9173150581444987,repeated_random_split,1
+cleveland:0258,Cleveland,0,0,0.23071339520801062,0.25792959315820246,repeated_random_split,1
+cleveland:0190,Cleveland,1,2,0.8674750274541688,0.8479172567930453,repeated_random_split,1
+hungary:0240,Hungary,1,1,0.8682969042540059,0.8487473894929535,repeated_random_split,1
+cleveland:0173,Cleveland,1,1,0.37065981418724325,0.3895327662884714,repeated_random_split,1
+hungary:0113,Hungary,0,0,0.04611557621166879,0.0630003472965042,repeated_random_split,1
+va_long_beach:0019,VA Long Beach,0,0,0.944879934349168,0.9298843884532491,repeated_random_split,1
+cleveland:0292,Cleveland,0,0,0.021985813769026176,0.03264782348981078,repeated_random_split,1
+cleveland:0045,Cleveland,1,1,0.030770469236999862,0.04402030818424619,repeated_random_split,1
+switzerland:0044,Switzerland,1,1,0.8123264051955048,0.7934845915675937,repeated_random_split,1
+cleveland:0100,Cleveland,0,0,0.12263827786517958,0.14881938029077826,repeated_random_split,1
+va_long_beach:0191,VA Long Beach,0,0,0.2222810741596379,0.24972413055109763,repeated_random_split,1
+va_long_beach:0124,VA Long Beach,0,0,0.6156479705285621,0.6109438882086387,repeated_random_split,1
+switzerland:0032,Switzerland,1,3,0.9386101977668565,0.9228670083764379,repeated_random_split,1
+cleveland:0302,Cleveland,1,1,0.10547794112441101,0.13044775508271303,repeated_random_split,1
+hungary:0141,Hungary,0,0,0.034875097800035164,0.049193145883160296,repeated_random_split,1
+va_long_beach:0117,VA Long Beach,1,2,0.8216475822929741,0.8025299962789633,repeated_random_split,1
+cleveland:0234,Cleveland,0,0,0.4174298564350308,0.4322180288796289,repeated_random_split,1
+va_long_beach:0063,VA Long Beach,1,1,0.9044625677402264,0.8859984784348429,repeated_random_split,1
+hungary:0237,Hungary,1,1,0.9386457660922585,0.9229065605027509,repeated_random_split,1
+hungary:0247,Hungary,1,1,0.8552216174943116,0.8356146663574135,repeated_random_split,1
+va_long_beach:0180,VA Long Beach,1,1,0.9221623169552318,0.9048549820966998,repeated_random_split,1
+va_long_beach:0006,VA Long Beach,0,0,0.7996732566782939,0.7812901367034812,repeated_random_split,1
+hungary:0070,Hungary,0,0,0.01628547886364974,0.024985465258189204,repeated_random_split,1
+hungary:0014,Hungary,0,0,0.3255786623008554,0.34790182334377634,repeated_random_split,1
+cleveland:0174,Cleveland,0,0,0.1602858745487308,0.1879419786946305,repeated_random_split,1
+va_long_beach:0196,VA Long Beach,1,1,0.21268411997512504,0.24033402083872166,repeated_random_split,1
+cleveland:0243,Cleveland,0,0,0.07994785268805818,0.1023135384634511,repeated_random_split,1
+cleveland:0009,Cleveland,1,2,0.9418618984085957,0.926494842282022,repeated_random_split,1
+cleveland:0261,Cleveland,0,0,0.06967576681590368,0.09066379706017381,repeated_random_split,1
+hungary:0096,Hungary,0,0,0.1296120778315517,0.15618053784707112,repeated_random_split,1
+hungary:0235,Hungary,1,1,0.9817970273293927,0.9738310690667826,repeated_random_split,1
+va_long_beach:0183,VA Long Beach,1,1,0.9280637287203292,0.9112572238171284,repeated_random_split,1
+cleveland:0019,Cleveland,0,0,0.04377474546635528,0.06016358192656241,repeated_random_split,1
+cleveland:0204,Cleveland,0,0,0.3354420453491065,0.3570594699006614,repeated_random_split,1
+cleveland:0197,Cleveland,0,0,0.7884011973210601,0.7705021444604363,repeated_random_split,1
+hungary:0116,Hungary,0,0,0.7272523384693782,0.7129968799387809,repeated_random_split,1
+cleveland:0158,Cleveland,1,1,0.8362929611419391,0.8168587875276279,repeated_random_split,1
+cleveland:0297,Cleveland,1,3,0.9742446842193004,0.9643370106666996,repeated_random_split,1
+hungary:0234,Hungary,1,1,0.8588262941638483,0.8392198245565714,repeated_random_split,1
+va_long_beach:0099,VA Long Beach,1,1,0.8535095644583615,0.8339063064345603,repeated_random_split,1
+cleveland:0121,Cleveland,1,3,0.951353707801674,0.9372339293493249,repeated_random_split,1
+va_long_beach:0178,VA Long Beach,1,2,0.7911668150800489,0.7731427447763479,repeated_random_split,1
+cleveland:0278,Cleveland,0,0,0.02681220548367139,0.03895190012994493,repeated_random_split,1
+cleveland:0085,Cleveland,0,0,0.03522414567115069,0.04962947031224298,repeated_random_split,1
+cleveland:0242,Cleveland,0,0,0.014683789121392182,0.022780417550803345,repeated_random_split,1
+hungary:0273,Hungary,1,1,0.9148268632186488,0.8969808871432935,repeated_random_split,1
+cleveland:0296,Cleveland,0,0,0.031406480684836466,0.04482709323436858,repeated_random_split,1
+va_long_beach:0200,VA Long Beach,1,1,0.38922047414495137,0.4065246910591308,repeated_random_split,1
+cleveland:0115,Cleveland,1,2,0.5280659212786115,0.532051682674118,repeated_random_split,1
+switzerland:0078,Switzerland,1,1,0.8255960099198099,0.8063785526077216,repeated_random_split,1
+va_long_beach:0086,VA Long Beach,1,2,0.9029413746362015,0.8843995712865017,repeated_random_split,1
+cleveland:0201,Cleveland,0,0,0.10488797970006472,0.12980910254957265,repeated_random_split,1
+switzerland:0050,Switzerland,1,3,0.9710622219016586,0.9604377535923184,repeated_random_split,1
+switzerland:0090,Switzerland,1,1,0.951840758196334,0.937791517029692,repeated_random_split,1
+cleveland:0221,Cleveland,0,0,0.012902431997035755,0.020295636710907495,repeated_random_split,1
+hungary:0288,Hungary,1,1,0.9439535759475656,0.9288416286553065,repeated_random_split,1
+va_long_beach:0184,VA Long Beach,1,1,0.9212630730857319,0.903884862449794,repeated_random_split,1
+cleveland:0289,Cleveland,0,0,0.08825462416935745,0.11158636779052065,repeated_random_split,1
+hungary:0029,Hungary,0,0,0.050855634875661096,0.06868976063754834,repeated_random_split,1
+cleveland:0169,Cleveland,1,1,0.9395974087041506,0.9239658485489903,repeated_random_split,1
+va_long_beach:0133,VA Long Beach,1,1,0.6412433881390672,0.6341301682378877,repeated_random_split,1
+cleveland:0228,Cleveland,0,0,0.11665155828329789,0.14245343126614826,repeated_random_split,1
+cleveland:0028,Cleveland,0,0,0.5423145690199744,0.5448647169031283,repeated_random_split,1
+hungary:0145,Hungary,0,0,0.031187229259548022,0.04454919743931553,repeated_random_split,1
+va_long_beach:0169,VA Long Beach,1,2,0.8659621321776462,0.8463908456445856,repeated_random_split,1
+cleveland:0038,Cleveland,1,1,0.932414148003757,0.9160187257490008,repeated_random_split,1
+va_long_beach:0005,VA Long Beach,0,0,0.9028095325249478,0.8842611431675197,repeated_random_split,1
+switzerland:0088,Switzerland,1,3,0.9355029148438124,0.919422436650403,repeated_random_split,1
+hungary:0127,Hungary,0,0,0.7307777757013897,0.7162726294615376,repeated_random_split,1
+va_long_beach:0187,VA Long Beach,1,3,0.6931345104785901,0.6814939427412998,repeated_random_split,1
+switzerland:0054,Switzerland,1,4,0.9361460346194548,0.9201336471977194,repeated_random_split,1
+cleveland:0246,Cleveland,1,2,0.5021215547043195,0.5087155914605055,repeated_random_split,1
+hungary:0055,Hungary,0,0,0.01301398839840169,0.020452327617857834,repeated_random_split,1
+hungary:0054,Hungary,0,0,0.015659366865256895,0.02412657265166389,repeated_random_split,1
+hungary:0266,Hungary,1,1,0.2548055606246947,0.281159962875553,repeated_random_split,1
+cleveland:0216,Cleveland,0,0,0.2358875885565999,0.2629446580900335,repeated_random_split,1
+cleveland:0080,Cleveland,1,3,0.9026398777467722,0.8840830483367439,repeated_random_split,1
+va_long_beach:0077,VA Long Beach,1,2,0.7674847402573914,0.7506531837971776,repeated_random_split,1
+va_long_beach:0038,VA Long Beach,0,0,0.9630553884374667,0.950836520414324,repeated_random_split,1
+hungary:0230,Hungary,1,1,0.12826726785491507,0.15476543313489538,repeated_random_split,1
+hungary:0187,Hungary,0,0,0.259188121420718,0.2853541601491094,repeated_random_split,1
+va_long_beach:0199,VA Long Beach,0,0,0.9155255615175916,0.8977271069149027,repeated_random_split,1
+va_long_beach:0036,VA Long Beach,1,3,0.9373231398763159,0.9214376859527953,repeated_random_split,1
+va_long_beach:0097,VA Long Beach,0,0,0.12133971809122784,0.1474423175288933,repeated_random_split,1
+cleveland:0273,Cleveland,1,2,0.9598525444886962,0.9470677861816859,repeated_random_split,1
+hungary:0182,Hungary,0,0,0.5783590978705409,0.5772995070172282,repeated_random_split,1
+va_long_beach:0130,VA Long Beach,0,0,0.5781317494037513,0.5770947328391062,repeated_random_split,1
+cleveland:0150,Cleveland,0,0,0.10020521082414789,0.12472197297068925,repeated_random_split,1
+hungary:0246,Hungary,1,1,0.8449693374497856,0.8254207903992361,repeated_random_split,1
+hungary:0129,Hungary,0,0,0.12870382960479368,0.15522504103523163,repeated_random_split,1
+hungary:0260,Hungary,1,1,0.819875273491538,0.8008058574794942,repeated_random_split,1
+hungary:0152,Hungary,0,0,0.10462847758729042,0.12952802580652434,repeated_random_split,1
+hungary:0049,Hungary,0,0,0.043085181523618434,0.05932430857994325,repeated_random_split,1
+va_long_beach:0126,VA Long Beach,1,4,0.7815622301561732,0.7639890413087865,repeated_random_split,1
+cleveland:0165,Cleveland,0,0,0.3333925964812357,0.3551591133351919,repeated_random_split,1
+va_long_beach:0112,VA Long Beach,0,0,0.6260781536755358,0.6203812952881644,repeated_random_split,1
+hungary:0151,Hungary,0,0,0.039350713542591266,0.05474890524998126,repeated_random_split,1
+switzerland:0024,Switzerland,1,1,0.9614596574720169,0.9489541782648315,repeated_random_split,1
+hungary:0229,Hungary,1,1,0.7447231332178388,0.7292729564543985,repeated_random_split,1
+cleveland:0269,Cleveland,1,1,0.32110588707777643,0.3437390047128923,repeated_random_split,1
+va_long_beach:0118,VA Long Beach,1,2,0.8744935204583606,0.8550274987881504,repeated_random_split,1
+cleveland:0157,Cleveland,1,1,0.6194385691487675,0.6143720745772768,repeated_random_split,1
+hungary:0211,Hungary,1,1,0.17132359094744468,0.19915469974327904,repeated_random_split,1
+cleveland:0187,Cleveland,0,0,0.060857532117455315,0.08047964837418375,repeated_random_split,1
+switzerland:0022,Switzerland,1,3,0.8450296238891638,0.8254804846478969,repeated_random_split,1
+cleveland:0250,Cleveland,0,0,0.1727197749932934,0.2005656974421533,repeated_random_split,1
+cleveland:0062,Cleveland,0,0,0.09170908635654916,0.11540708021841783,repeated_random_split,1
+cleveland:0052,Cleveland,0,0,0.5367972253772905,0.5399031519121708,repeated_random_split,1
+va_long_beach:0093,VA Long Beach,1,3,0.908797443704876,0.8905726353804888,repeated_random_split,1
+hungary:0042,Hungary,0,0,0.05004041593203809,0.06771627083474988,repeated_random_split,1
+switzerland:0076,Switzerland,1,1,0.9502860871436796,0.9360140519755258,repeated_random_split,1
+hungary:0205,Hungary,1,1,0.3829495998457626,0.40079223517097035,repeated_random_split,1
+cleveland:0063,Cleveland,1,1,0.9699808299215401,0.9591244084999252,repeated_random_split,1
+cleveland:0177,Cleveland,0,0,0.7794488417871482,0.7619810341818223,repeated_random_split,1
+switzerland:0062,Switzerland,1,3,0.9737000244668407,0.9636658865179761,repeated_random_split,1
+cleveland:0223,Cleveland,0,0,0.006942972731857615,0.011657898056626875,repeated_random_split,1
+va_long_beach:0042,VA Long Beach,1,1,0.9299215399058994,0.9132860670478181,repeated_random_split,1
+va_long_beach:0066,VA Long Beach,1,2,0.9284069512552215,0.9116315468873036,repeated_random_split,1
+hungary:0189,Hungary,1,1,0.773790381404447,0.7566152386347319,repeated_random_split,1
+cleveland:0147,Cleveland,1,4,0.9802044940239728,0.971796818598048,repeated_random_split,1
+cleveland:0172,Cleveland,0,0,0.8083164994075593,0.7896098799559588,repeated_random_split,1
+switzerland:0079,Switzerland,1,3,0.9514096705052244,0.9372979622699892,repeated_random_split,1
+va_long_beach:0057,VA Long Beach,1,2,0.8701813335497314,0.8506532069271757,repeated_random_split,1
+hungary:0079,Hungary,0,0,0.20683384887024087,0.2345816710085366,repeated_random_split,1
+hungary:0174,Hungary,0,0,0.30356854197016636,0.32735215487774033,repeated_random_split,1
+cleveland:0084,Cleveland,1,3,0.7174047771080492,0.703868344045893,repeated_random_split,1
+switzerland:0060,Switzerland,1,2,0.951626659245573,0.9375463271470225,repeated_random_split,1
+cleveland:0054,Cleveland,0,0,0.013170032693440317,0.020671253439815986,repeated_random_split,1
+va_long_beach:0013,VA Long Beach,1,1,0.9373192142402854,0.9214333319862137,repeated_random_split,1
+cleveland:0241,Cleveland,0,0,0.030680803302257868,0.043906404337868035,repeated_random_split,1
+switzerland:0119,Switzerland,1,1,0.9517642321407929,0.9377038628753249,repeated_random_split,1
+hungary:0221,Hungary,1,1,0.3528816018475682,0.3731812509714451,repeated_random_split,1
+cleveland:0227,Cleveland,0,0,0.16784881188573925,0.1956360407199103,repeated_random_split,1
+cleveland:0135,Cleveland,0,0,0.017242205370714456,0.026290672947363914,repeated_random_split,1
+va_long_beach:0200,VA Long Beach,1,1,0.35575166727294266,0.32718651407373667,repeated_random_split,2
+cleveland:0144,Cleveland,1,1,0.7210814536066962,0.7409035184703808,repeated_random_split,2
+hungary:0087,Hungary,0,0,0.2774751569681064,0.24273764907824588,repeated_random_split,2
+hungary:0196,Hungary,1,1,0.2770464667115696,0.24228663313305043,repeated_random_split,2
+cleveland:0162,Cleveland,1,4,0.8991734848746954,0.9221366453924968,repeated_random_split,2
+cleveland:0023,Cleveland,1,1,0.18529618235245196,0.14944975961293527,repeated_random_split,2
+va_long_beach:0139,VA Long Beach,0,0,0.7398086149495189,0.7613071452907879,repeated_random_split,2
+hungary:0070,Hungary,0,0,0.13416972700570506,0.10162549718266918,repeated_random_split,2
+hungary:0078,Hungary,0,0,0.40743264089083153,0.38478160874554157,repeated_random_split,2
+va_long_beach:0102,VA Long Beach,1,3,0.903704789658717,0.9262374218293157,repeated_random_split,2
+switzerland:0001,Switzerland,1,1,0.5060163215421408,0.4970538421514509,repeated_random_split,2
+cleveland:0081,Cleveland,0,0,0.7691550186263136,0.7927930915168615,repeated_random_split,2
+hungary:0154,Hungary,0,0,0.20774517471408913,0.17141744022604433,repeated_random_split,2
+cleveland:0202,Cleveland,0,0,0.2950007965590337,0.26129315674780945,repeated_random_split,2
+switzerland:0058,Switzerland,1,2,0.6395278197156546,0.6498910658053255,repeated_random_split,2
+hungary:0124,Hungary,0,0,0.057004457750558915,0.036982349450468945,repeated_random_split,2
+cleveland:0243,Cleveland,0,0,0.1012093974660064,0.07271531809551711,repeated_random_split,2
+cleveland:0049,Cleveland,0,0,0.16597673010370181,0.13099547077694718,repeated_random_split,2
+switzerland:0056,Switzerland,0,0,0.7763995379391402,0.8004639865175561,repeated_random_split,2
+cleveland:0251,Cleveland,0,0,0.8310817745419352,0.8568243438926717,repeated_random_split,2
+cleveland:0039,Cleveland,1,3,0.9113354005331508,0.9330602170526684,repeated_random_split,2
+va_long_beach:0074,VA Long Beach,1,3,0.9191921920803676,0.9399706508001365,repeated_random_split,2
+cleveland:0111,Cleveland,1,1,0.6752297426217008,0.6901028402597263,repeated_random_split,2
+cleveland:0184,Cleveland,0,0,0.8106330542915975,0.8360909277340257,repeated_random_split,2
+va_long_beach:0057,VA Long Beach,1,2,0.9546867900282557,0.9694801821492569,repeated_random_split,2
+switzerland:0020,Switzerland,1,1,0.9658114016493827,0.9780110259655463,repeated_random_split,2
+hungary:0146,Hungary,0,0,0.07820302751571606,0.05362239463002802,repeated_random_split,2
+hungary:0153,Hungary,0,0,0.11788569835675365,0.08713169496756333,repeated_random_split,2
+cleveland:0055,Cleveland,1,1,0.8912890274314185,0.9149182599527885,repeated_random_split,2
+va_long_beach:0071,VA Long Beach,0,0,0.33645942388277117,0.306021073104411,repeated_random_split,2
+hungary:0132,Hungary,0,0,0.0726766236246054,0.049189043522148715,repeated_random_split,2
+va_long_beach:0007,VA Long Beach,1,3,0.8257657059543934,0.851477272883503,repeated_random_split,2
+hungary:0013,Hungary,0,0,0.07014559697792613,0.04718013602431367,repeated_random_split,2
+va_long_beach:0087,VA Long Beach,1,3,0.8426759209273719,0.8683749512411955,repeated_random_split,2
+hungary:0183,Hungary,0,0,0.23460950201737135,0.1983787061925784,repeated_random_split,2
+va_long_beach:0064,VA Long Beach,1,4,0.7971677610582045,0.8222062358239205,repeated_random_split,2
+cleveland:0151,Cleveland,0,0,0.5650860328983023,0.5649027831317175,repeated_random_split,2
+cleveland:0067,Cleveland,1,1,0.4649558864471529,0.4500317921472547,repeated_random_split,2
+cleveland:0007,Cleveland,1,3,0.8063227138921564,0.831665488292885,repeated_random_split,2
+va_long_beach:0099,VA Long Beach,1,1,0.6251045841731048,0.633522007013029,repeated_random_split,2
+switzerland:0007,Switzerland,0,0,0.22288776658197082,0.18652910750554885,repeated_random_split,2
+hungary:0028,Hungary,0,0,0.08566147599012522,0.059703406149868264,repeated_random_split,2
+va_long_beach:0137,VA Long Beach,1,3,0.5183936708509936,0.5112659559160071,repeated_random_split,2
+switzerland:0057,Switzerland,1,2,0.7536368442487139,0.7762224601858754,repeated_random_split,2
+hungary:0057,Hungary,0,0,0.5865270957979036,0.5894868572948023,repeated_random_split,2
+hungary:0010,Hungary,0,0,0.036063408195533275,0.021662118320920576,repeated_random_split,2
+va_long_beach:0088,VA Long Beach,0,0,0.7756431058772978,0.7996650475782521,repeated_random_split,2
+hungary:0251,Hungary,1,1,0.8773196127318974,0.9018855829374282,repeated_random_split,2
+cleveland:0032,Cleveland,1,2,0.9592948255890058,0.9730640398106422,repeated_random_split,2
+cleveland:0018,Cleveland,0,0,0.36583406825526305,0.3383262622999582,repeated_random_split,2
+hungary:0062,Hungary,0,0,0.039829868161793514,0.024321049768999622,repeated_random_split,2
+cleveland:0203,Cleveland,0,0,0.588460120977189,0.5917002379327733,repeated_random_split,2
+va_long_beach:0027,VA Long Beach,1,2,0.8471227227403357,0.8727629745870092,repeated_random_split,2
+cleveland:0149,Cleveland,0,0,0.047893121090955566,0.030162229764210107,repeated_random_split,2
+switzerland:0013,Switzerland,1,1,0.7760081990778155,0.8000507161323476,repeated_random_split,2
+cleveland:0215,Cleveland,1,1,0.38647637022124837,0.3612856142997099,repeated_random_split,2
+hungary:0162,Hungary,0,0,0.12188426016097807,0.09065401539451255,repeated_random_split,2
+hungary:0126,Hungary,0,0,0.08446186994926487,0.05871800759551064,repeated_random_split,2
+switzerland:0008,Switzerland,1,1,0.8060871043858662,0.8314230590622986,repeated_random_split,2
+cleveland:0167,Cleveland,0,0,0.24253104686089985,0.20645817344607426,repeated_random_split,2
+hungary:0283,Hungary,1,1,0.8846424161758647,0.9087548680788434,repeated_random_split,2
+hungary:0294,Hungary,1,1,0.8664871509053318,0.8915803519199617,repeated_random_split,2
+hungary:0269,Hungary,1,1,0.25481049709059317,0.21909152734870121,repeated_random_split,2
+hungary:0220,Hungary,1,1,0.5192188759939058,0.5122138209054753,repeated_random_split,2
+va_long_beach:0107,VA Long Beach,1,1,0.8937300665055806,0.9171640829537697,repeated_random_split,2
+hungary:0103,Hungary,0,0,0.043507523207062915,0.026961060500002278,repeated_random_split,2
+hungary:0076,Hungary,0,0,0.2273321761018807,0.19100682167972033,repeated_random_split,2
+switzerland:0016,Switzerland,1,4,0.9619107175902988,0.9750676923677606,repeated_random_split,2
+hungary:0226,Hungary,1,1,0.22125187370474378,0.18488570899801857,repeated_random_split,2
+cleveland:0281,Cleveland,1,2,0.9473044171009923,0.9636052288892675,repeated_random_split,2
+hungary:0133,Hungary,0,0,0.4056101761795297,0.3827314486113487,repeated_random_split,2
+va_long_beach:0190,VA Long Beach,0,0,0.5590249003879963,0.5579445522466974,repeated_random_split,2
+cleveland:0004,Cleveland,0,0,0.27499462870810315,0.24012988864697227,repeated_random_split,2
+cleveland:0015,Cleveland,0,0,0.42730195538778865,0.4072093082697346,repeated_random_split,2
+va_long_beach:0045,VA Long Beach,1,4,0.7751449637414976,0.7991386537435076,repeated_random_split,2
+switzerland:0070,Switzerland,1,1,0.7725357330077464,0.796378104483191,repeated_random_split,2
+va_long_beach:0026,VA Long Beach,1,2,0.9451644012037963,0.9618735768019544,repeated_random_split,2
+hungary:0102,Hungary,0,0,0.043507523207062915,0.026961060500002278,repeated_random_split,2
+hungary:0096,Hungary,0,0,0.24117405283763113,0.20507013467562768,repeated_random_split,2
+switzerland:0078,Switzerland,1,1,0.7160290364195283,0.7353615068945949,repeated_random_split,2
+switzerland:0022,Switzerland,1,3,0.8071832048765939,0.8325504239333793,repeated_random_split,2
+hungary:0011,Hungary,0,0,0.10320547309699048,0.0744167478322902,repeated_random_split,2
+switzerland:0083,Switzerland,1,1,0.8711448409409395,0.896031756061813,repeated_random_split,2
+cleveland:0071,Cleveland,0,0,0.08639809237790035,0.060309852969834606,repeated_random_split,2
+switzerland:0096,Switzerland,1,3,0.8446110171803458,0.8702874097086464,repeated_random_split,2
+va_long_beach:0013,VA Long Beach,1,1,0.9023168120966099,0.9249851219323584,repeated_random_split,2
+hungary:0271,Hungary,1,1,0.91748796813536,0.93848196385858,repeated_random_split,2
+va_long_beach:0180,VA Long Beach,1,1,0.8819447831441406,0.9062337251259072,repeated_random_split,2
+hungary:0135,Hungary,0,0,0.14023452941397582,0.10712146692590307,repeated_random_split,2
+hungary:0182,Hungary,0,0,0.36720034177795124,0.33983972068141405,repeated_random_split,2
+hungary:0050,Hungary,0,0,0.08053771359169605,0.055514094655251284,repeated_random_split,2
+hungary:0042,Hungary,0,0,0.08922110406174524,0.06264349949310351,repeated_random_split,2
+cleveland:0223,Cleveland,0,0,0.025783913370346138,0.01466479256789093,repeated_random_split,2
+hungary:0231,Hungary,1,1,0.8215141543207016,0.847178748908256,repeated_random_split,2
+cleveland:0094,Cleveland,0,0,0.07088047656698665,0.04776199581506318,repeated_random_split,2
+va_long_beach:0152,VA Long Beach,1,3,0.7348154071180336,0.755889063008375,repeated_random_split,2
+va_long_beach:0189,VA Long Beach,1,2,0.8960687263328441,0.9193065290761622,repeated_random_split,2
+va_long_beach:0084,VA Long Beach,1,2,0.8424980766835225,0.8681989621485846,repeated_random_split,2
+cleveland:0298,Cleveland,1,1,0.6538966932059003,0.6661323711015714,repeated_random_split,2
+cleveland:0221,Cleveland,0,0,0.05761764672887863,0.03744906307341474,repeated_random_split,2
+hungary:0254,Hungary,1,1,0.6531788135507537,0.665322657584401,repeated_random_split,2
+hungary:0229,Hungary,1,1,0.6673209697498395,0.6812378105850146,repeated_random_split,2
+va_long_beach:0092,VA Long Beach,0,0,0.6529627980979179,0.6650789718472953,repeated_random_split,2
+cleveland:0119,Cleveland,1,3,0.985942374111519,0.9921440904617772,repeated_random_split,2
+hungary:0131,Hungary,0,0,0.16928238433782897,0.1341218520012349,repeated_random_split,2
+cleveland:0101,Cleveland,0,0,0.16799123059377485,0.1328991463917538,repeated_random_split,2
+cleveland:0060,Cleveland,0,0,0.6140817986262216,0.6209733524981234,repeated_random_split,2
+hungary:0038,Hungary,0,0,0.28596815995416724,0.25170154230707387,repeated_random_split,2
+cleveland:0077,Cleveland,1,1,0.9582902328961955,0.972288508806184,repeated_random_split,2
+cleveland:0115,Cleveland,1,2,0.5423861841593614,0.5388319995345608,repeated_random_split,2
+va_long_beach:0073,VA Long Beach,0,0,0.5409573627657709,0.5371902872141724,repeated_random_split,2
+va_long_beach:0014,VA Long Beach,1,1,0.5980818536189416,0.6027081978909175,repeated_random_split,2
+switzerland:0032,Switzerland,1,3,0.8478529066348577,0.8734812056321746,repeated_random_split,2
+switzerland:0107,Switzerland,1,1,0.9472361082981058,0.9635501467707764,repeated_random_split,2
+switzerland:0101,Switzerland,1,2,0.8792390360200979,0.9036939154085935,repeated_random_split,2
+switzerland:0033,Switzerland,1,2,0.6127217592720648,0.6194229542665092,repeated_random_split,2
+hungary:0064,Hungary,0,0,0.055851904605756474,0.03610766192533492,repeated_random_split,2
+cleveland:0186,Cleveland,0,0,0.1399492573533224,0.10686180472649305,repeated_random_split,2
+hungary:0291,Hungary,1,1,0.353890196970668,0.3251355232389664,repeated_random_split,2
+va_long_beach:0062,VA Long Beach,1,2,0.9596156980569003,0.9733110499511881,repeated_random_split,2
+hungary:0086,Hungary,0,0,0.1023980097594134,0.07372765987707301,repeated_random_split,2
+switzerland:0005,Switzerland,1,2,0.6460199676373946,0.657237961076949,repeated_random_split,2
+cleveland:0035,Cleveland,0,0,0.17735565458985816,0.14181212610863003,repeated_random_split,2
+switzerland:0048,Switzerland,0,0,0.9284690500858938,0.9479692798732409,repeated_random_split,2
+switzerland:0054,Switzerland,1,4,0.8770647316338933,0.9016450445422979,repeated_random_split,2
+cleveland:0183,Cleveland,0,0,0.43173442849723126,0.4122301437863239,repeated_random_split,2
+cleveland:0010,Cleveland,1,1,0.9393111202366621,0.9570759508374554,repeated_random_split,2
+hungary:0008,Hungary,0,0,0.08745527897089776,0.06118202132259965,repeated_random_split,2
+va_long_beach:0065,VA Long Beach,1,2,0.8440118219750531,0.8696957056491794,repeated_random_split,2
+switzerland:0044,Switzerland,1,1,0.8824167580160245,0.906675623419451,repeated_random_split,2
+hungary:0228,Hungary,1,1,0.48230638893210337,0.46987084814723723,repeated_random_split,2
+hungary:0214,Hungary,1,1,0.4038130913997344,0.3807110587884161,repeated_random_split,2
+hungary:0104,Hungary,0,0,0.05008821395345347,0.03178502796598119,repeated_random_split,2
+hungary:0197,Hungary,1,1,0.8734951250674299,0.8982663526673198,repeated_random_split,2
+cleveland:0093,Cleveland,0,0,0.9263527900707573,0.9461606645058235,repeated_random_split,2
+va_long_beach:0053,VA Long Beach,1,2,0.9619450128353034,0.9750938061016584,repeated_random_split,2
+hungary:0262,Hungary,1,1,0.8247193737458036,0.850421187798481,repeated_random_split,2
+cleveland:0063,Cleveland,1,1,0.9899654355864064,0.9946759466062816,repeated_random_split,2
+va_long_beach:0162,VA Long Beach,1,3,0.6799556516656005,0.695387184986884,repeated_random_split,2
+va_long_beach:0157,VA Long Beach,1,2,0.8570648562972902,0.8824850444089881,repeated_random_split,2
+cleveland:0050,Cleveland,0,0,0.31554128132915477,0.28331559750447344,repeated_random_split,2
+hungary:0151,Hungary,0,0,0.16497470205365344,0.13005040874824286,repeated_random_split,2
+cleveland:0092,Cleveland,1,3,0.9901478415334021,0.9947873838169683,repeated_random_split,2
+hungary:0107,Hungary,0,0,0.18018130535942714,0.14452173400674637,repeated_random_split,2
+va_long_beach:0003,VA Long Beach,1,2,0.8499640265184102,0.8755540647458705,repeated_random_split,2
+hungary:0285,Hungary,1,1,0.690620666589515,0.7072745506164174,repeated_random_split,2
+va_long_beach:0103,VA Long Beach,1,1,0.8068240848048167,0.8321811904162837,repeated_random_split,2
+switzerland:0116,Switzerland,1,1,0.893744079681162,0.9171769473470444,repeated_random_split,2
+switzerland:0066,Switzerland,1,2,0.9706037179028303,0.9815484484440877,repeated_random_split,2
+switzerland:0026,Switzerland,1,1,0.6319398242263756,0.6412870491835669,repeated_random_split,2
+cleveland:0021,Cleveland,0,0,0.5764723932992575,0.5779651680175083,repeated_random_split,2
+cleveland:0194,Cleveland,1,2,0.9258132248180089,0.9456979865873428,repeated_random_split,2
+cleveland:0138,Cleveland,1,3,0.6377534071859016,0.6478806570610515,repeated_random_split,2
+switzerland:0102,Switzerland,1,3,0.9598478669954044,0.9734895625052498,repeated_random_split,2
+va_long_beach:0034,VA Long Beach,1,3,0.36607631856182193,0.3385945429959088,repeated_random_split,2
+va_long_beach:0165,VA Long Beach,1,1,0.9094806684760388,0.931411657218004,repeated_random_split,2
+hungary:0112,Hungary,0,0,0.04861320409151347,0.03069310250654289,repeated_random_split,2
+cleveland:0102,Cleveland,0,0,0.09015744934816167,0.06342082050132934,repeated_random_split,2
+cleveland:0034,Cleveland,0,0,0.6462442939917976,0.6574915705757932,repeated_random_split,2
+hungary:0059,Hungary,0,0,0.28555665016972953,0.25126597752297225,repeated_random_split,2
+cleveland:0232,Cleveland,1,2,0.7574282281874432,0.7802878800496256,repeated_random_split,2
+cleveland:0047,Cleveland,0,0,0.1598715381406217,0.1252565699205188,repeated_random_split,2
+hungary:0201,Hungary,1,1,0.8768238499260972,0.9014176300638537,repeated_random_split,2
+switzerland:0062,Switzerland,1,3,0.980371152713839,0.988444523887232,repeated_random_split,2
+hungary:0115,Hungary,0,0,0.4952359910807823,0.4846860603769471,repeated_random_split,2
+cleveland:0088,Cleveland,0,0,0.05239723542415409,0.03350623433047501,repeated_random_split,2
+va_long_beach:0177,VA Long Beach,1,4,0.9281079037619305,0.9476613249976417,repeated_random_split,2
+va_long_beach:0046,VA Long Beach,1,2,0.9393059055796803,0.9570716379623476,repeated_random_split,2
+cleveland:0076,Cleveland,0,0,0.07312214717340206,0.04954408134559541,repeated_random_split,2
+hungary:0256,Hungary,1,1,0.6010805957968511,0.6061355430047906,repeated_random_split,2
+cleveland:0210,Cleveland,1,1,0.528586668057544,0.5229759450686335,repeated_random_split,2
+switzerland:0021,Switzerland,1,1,0.6694171613928049,0.6835900297572649,repeated_random_split,2
+va_long_beach:0171,VA Long Beach,1,1,0.9585502206782881,0.9724895316692639,repeated_random_split,2
+hungary:0152,Hungary,0,0,0.30366514983795256,0.270547876735794,repeated_random_split,2
+hungary:0127,Hungary,0,0,0.7158889706616915,0.7352076536230561,repeated_random_split,2
+va_long_beach:0015,VA Long Beach,1,1,0.9225123605743166,0.9428540389601425,repeated_random_split,2
+hungary:0234,Hungary,1,1,0.8722109427593492,0.8970463566790392,repeated_random_split,2
+va_long_beach:0056,VA Long Beach,1,2,0.9615720693595824,0.9748096141914353,repeated_random_split,2
+hungary:0060,Hungary,0,0,0.08569548667827623,0.059731383927870405,repeated_random_split,2
+va_long_beach:0141,VA Long Beach,0,0,0.9814386958727428,0.9891684356508366,repeated_random_split,2
+va_long_beach:0113,VA Long Beach,1,3,0.46686566558571835,0.4522127411777913,repeated_random_split,2
+cleveland:0090,Cleveland,0,0,0.05403205379612319,0.03473342855947612,repeated_random_split,2
+hungary:0260,Hungary,1,1,0.8234623907706361,0.8491509227146331,repeated_random_split,2
+hungary:0114,Hungary,0,0,0.21038006347962815,0.174030527049717,repeated_random_split,2
+va_long_beach:0135,VA Long Beach,1,3,0.7248680598948324,0.7238531228783205,repeated_random_split,3
+cleveland:0143,Cleveland,0,0,0.03194059082910154,0.03717641549621931,repeated_random_split,3
+va_long_beach:0044,VA Long Beach,0,0,0.5396020980680125,0.54578922380051,repeated_random_split,3
+va_long_beach:0029,VA Long Beach,1,1,0.8635617140742802,0.85907559716433,repeated_random_split,3
+va_long_beach:0041,VA Long Beach,1,3,0.748733789222545,0.7469147554123448,repeated_random_split,3
+cleveland:0262,Cleveland,1,3,0.1452775412901647,0.15767192203067676,repeated_random_split,3
+switzerland:0076,Switzerland,1,1,0.9648355549282307,0.9615805301707911,repeated_random_split,3
+switzerland:0044,Switzerland,1,1,0.9243428188800579,0.9198964727446655,repeated_random_split,3
+cleveland:0037,Cleveland,1,3,0.8775838860613303,0.8729803947474304,repeated_random_split,3
+cleveland:0248,Cleveland,1,1,0.8446186496629199,0.8403832565321085,repeated_random_split,3
+va_long_beach:0060,VA Long Beach,1,1,0.9465689755728132,0.9426084653760918,repeated_random_split,3
+cleveland:0148,Cleveland,0,0,0.035779863853956706,0.04144469555806626,repeated_random_split,3
+cleveland:0273,Cleveland,1,2,0.9850620394416287,0.9831166308689815,repeated_random_split,3
+switzerland:0052,Switzerland,0,0,0.5545645629150384,0.560163053983488,repeated_random_split,3
+cleveland:0169,Cleveland,1,1,0.46832941742676465,0.47718108725991687,repeated_random_split,3
+switzerland:0048,Switzerland,0,0,0.9714858087416709,0.9685832784934171,repeated_random_split,3
+va_long_beach:0193,VA Long Beach,1,3,0.9400573752343787,0.9359184495061382,repeated_random_split,3
+cleveland:0281,Cleveland,1,2,0.9597868490796523,0.9563021271381148,repeated_random_split,3
+switzerland:0089,Switzerland,1,3,0.9853263326631698,0.9834038099486416,repeated_random_split,3
+cleveland:0086,Cleveland,0,0,0.05052936300791265,0.05765773216491848,repeated_random_split,3
+hungary:0222,Hungary,1,1,0.811351434889335,0.8077681302385924,repeated_random_split,3
+switzerland:0027,Switzerland,1,3,0.9529989287848302,0.949249166947266,repeated_random_split,3
+cleveland:0232,Cleveland,1,2,0.5662339328605406,0.5713691742451226,repeated_random_split,3
+va_long_beach:0134,VA Long Beach,0,0,0.7077111767361263,0.7073067716270729,repeated_random_split,3
+cleveland:0190,Cleveland,1,2,0.9838463717962477,0.9817982779806994,repeated_random_split,3
+va_long_beach:0167,VA Long Beach,1,2,0.9273373796915746,0.9229374937771229,repeated_random_split,3
+va_long_beach:0003,VA Long Beach,1,2,0.8737748639701447,0.8691969884684507,repeated_random_split,3
+cleveland:0159,Cleveland,1,2,0.9718112898631014,0.9689276535703437,repeated_random_split,3
+cleveland:0188,Cleveland,1,2,0.9567944936029,0.953187137003835,repeated_random_split,3
+cleveland:0228,Cleveland,0,0,0.07024819216148857,0.07897443523278298,repeated_random_split,3
+hungary:0093,Hungary,0,0,0.023437963700719506,0.027634469319530987,repeated_random_split,3
+va_long_beach:0150,VA Long Beach,1,3,0.7761181022297363,0.7734566521844658,repeated_random_split,3
+hungary:0003,Hungary,0,0,0.04068427548702496,0.04686611797255565,repeated_random_split,3
+va_long_beach:0136,VA Long Beach,0,0,0.268136257596047,0.2816927895553079,repeated_random_split,3
+hungary:0285,Hungary,1,1,0.6626430251331518,0.6639378152363067,repeated_random_split,3
+cleveland:0065,Cleveland,1,2,0.9088637245078911,0.9042558677029974,repeated_random_split,3
+hungary:0185,Hungary,0,0,0.7406985294096312,0.739143710468064,repeated_random_split,3
+hungary:0135,Hungary,0,0,0.0632602432104604,0.07146043684141688,repeated_random_split,3
+va_long_beach:0130,VA Long Beach,0,0,0.7403889246464982,0.7388444248181707,repeated_random_split,3
+va_long_beach:0163,VA Long Beach,1,3,0.9352718113971897,0.9310219430457386,repeated_random_split,3
+va_long_beach:0058,VA Long Beach,1,3,0.5558075071442432,0.5613568096470456,repeated_random_split,3
+cleveland:0076,Cleveland,0,0,0.02749447691362075,0.03220350691559958,repeated_random_split,3
+hungary:0143,Hungary,0,0,0.11517692254697191,0.12646804712591367,repeated_random_split,3
+cleveland:0246,Cleveland,1,2,0.5362840687925121,0.5426007418392267,repeated_random_split,3
+va_long_beach:0160,VA Long Beach,1,1,0.806974945185411,0.8034945351609772,repeated_random_split,3
+hungary:0241,Hungary,1,1,0.6402016866267677,0.6423779492141898,repeated_random_split,3
+hungary:0258,Hungary,1,1,0.7454491438554423,0.7437372647853912,repeated_random_split,3
+va_long_beach:0018,VA Long Beach,1,1,0.903028564237646,0.898390680407541,repeated_random_split,3
+cleveland:0295,Cleveland,1,1,0.2737798960709944,0.28729285457022813,repeated_random_split,3
+hungary:0157,Hungary,0,0,0.022488169724546165,0.026559767316174814,repeated_random_split,3
+cleveland:0227,Cleveland,0,0,0.1685878853104617,0.18157255416171467,repeated_random_split,3
+va_long_beach:0050,VA Long Beach,0,0,0.45584357885403615,0.46512856801545177,repeated_random_split,3
+hungary:0144,Hungary,0,0,0.02872561175914527,0.03358396113589189,repeated_random_split,3
+hungary:0293,Hungary,1,1,0.4410471064114127,0.4508288881606468,repeated_random_split,3
+cleveland:0192,Cleveland,1,3,0.998391639532813,0.9980215269632612,repeated_random_split,3
+va_long_beach:0071,VA Long Beach,0,0,0.5085809065864528,0.5159614946397688,repeated_random_split,3
+cleveland:0302,Cleveland,1,1,0.0662910492825436,0.07472442388994077,repeated_random_split,3
+switzerland:0120,Switzerland,1,3,0.9883563433801751,0.9867121194037405,repeated_random_split,3
+cleveland:0049,Cleveland,0,0,0.11386449027122877,0.1250976153124901,repeated_random_split,3
+hungary:0067,Hungary,0,0,0.08417773688586754,0.09383915362005993,repeated_random_split,3
+cleveland:0133,Cleveland,0,0,0.01615438320458995,0.019337187505048734,repeated_random_split,3
+hungary:0014,Hungary,0,0,0.16953730257180274,0.18254166584478138,repeated_random_split,3
+cleveland:0210,Cleveland,1,1,0.36664402092125414,0.3785815491189093,repeated_random_split,3
+hungary:0193,Hungary,1,1,0.34917361963679633,0.36151647250407765,repeated_random_split,3
+va_long_beach:0082,VA Long Beach,1,2,0.9105950272101755,0.9059991482115892,repeated_random_split,3
+cleveland:0057,Cleveland,1,1,0.6108189737783993,0.6141679479670168,repeated_random_split,3
+va_long_beach:0064,VA Long Beach,1,4,0.7098630684110963,0.7093807836104237,repeated_random_split,3
+va_long_beach:0105,VA Long Beach,0,0,0.8310830057260146,0.8270833064755984,repeated_random_split,3
+hungary:0008,Hungary,0,0,0.05708201911552598,0.06478155937338298,repeated_random_split,3
+cleveland:0129,Cleveland,0,0,0.018815520769656643,0.02238444417986737,repeated_random_split,3
+switzerland:0008,Switzerland,1,1,0.8112429771560867,0.8076621786892152,repeated_random_split,3
+hungary:0106,Hungary,0,0,0.06335302340393915,0.0715604729953917,repeated_random_split,3
+hungary:0203,Hungary,1,1,0.6884790746984154,0.6887852469022644,repeated_random_split,3
+hungary:0079,Hungary,0,0,0.20685377846819317,0.2203922467656376,repeated_random_split,3
+hungary:0088,Hungary,0,0,0.18850168271253606,0.20183387146779336,repeated_random_split,3
+hungary:0201,Hungary,1,1,0.9117190037283477,0.907131678839831,repeated_random_split,3
+hungary:0020,Hungary,0,0,0.15694209901281947,0.16965815227286066,repeated_random_split,3
+va_long_beach:0027,VA Long Beach,1,2,0.8754280608863326,0.8708384716024024,repeated_random_split,3
+cleveland:0115,Cleveland,1,2,0.43639374758616856,0.44632773634891404,repeated_random_split,3
+hungary:0054,Hungary,0,0,0.07336736127149829,0.08231560369689199,repeated_random_split,3
+cleveland:0061,Cleveland,1,2,0.5045128026666024,0.5120465315978847,repeated_random_split,3
+va_long_beach:0094,VA Long Beach,1,1,0.5063763454952037,0.5138400324942463,repeated_random_split,3
+cleveland:0198,Cleveland,0,0,0.24376715467014037,0.2574293465938694,repeated_random_split,3
+cleveland:0040,Cleveland,0,0,0.41722497012969784,0.4277638723477984,repeated_random_split,3
+va_long_beach:0183,VA Long Beach,1,1,0.9468909425531182,0.9429401329037647,repeated_random_split,3
+hungary:0259,Hungary,1,1,0.868578961072375,0.8640436847773239,repeated_random_split,3
+va_long_beach:0090,VA Long Beach,1,1,0.5636936501894899,0.5689299930416285,repeated_random_split,3
+hungary:0128,Hungary,0,0,0.08381000354099559,0.09344852234614377,repeated_random_split,3
+cleveland:0255,Cleveland,0,0,0.32102944737401323,0.3339269835802975,repeated_random_split,3
+switzerland:0034,Switzerland,1,1,0.943134269748851,0.9390755240410669,repeated_random_split,3
+cleveland:0287,Cleveland,1,2,0.9820555743156707,0.9798634403961036,repeated_random_split,3
+hungary:0048,Hungary,0,0,0.02086713380998581,0.024720861378333205,repeated_random_split,3
+cleveland:0288,Cleveland,0,0,0.5080918407038488,0.5154908857983916,repeated_random_split,3
+hungary:0105,Hungary,0,0,0.06769670387839617,0.07623558406173002,repeated_random_split,3
+cleveland:0043,Cleveland,0,0,0.1368749713738832,0.1490027820232822,repeated_random_split,3
+hungary:0059,Hungary,0,0,0.35397943597691767,0.3662152070285184,repeated_random_split,3
+cleveland:0270,Cleveland,0,0,0.04903833856105434,0.05603050727871872,repeated_random_split,3
+va_long_beach:0168,VA Long Beach,0,0,0.5225327188556854,0.5293817629861826,repeated_random_split,3
+hungary:0183,Hungary,0,0,0.1191325892310547,0.1305931962509542,repeated_random_split,3
+cleveland:0064,Cleveland,0,0,0.020163547771190064,0.023920785020795064,repeated_random_split,3
+va_long_beach:0119,VA Long Beach,1,3,0.890652549140761,0.8859999574906007,repeated_random_split,3
+switzerland:0066,Switzerland,1,2,0.9770919482963136,0.9745395004903225,repeated_random_split,3
+cleveland:0217,Cleveland,0,0,0.00531559524317283,0.006645761659644162,repeated_random_split,3
+cleveland:0055,Cleveland,1,1,0.8890835850792432,0.8844335504806996,repeated_random_split,3
+va_long_beach:0004,VA Long Beach,1,1,0.8726349751413669,0.8680657004064404,repeated_random_split,3
+cleveland:0173,Cleveland,1,1,0.28535831809429896,0.2987607929071006,repeated_random_split,3
+hungary:0292,Hungary,1,1,0.955896264944902,0.9522539190326426,repeated_random_split,3
+cleveland:0220,Cleveland,0,0,0.19825809447414067,0.21171285138823473,repeated_random_split,3
+cleveland:0079,Cleveland,0,0,0.05447115941426188,0.06194830788063796,repeated_random_split,3
+va_long_beach:0080,VA Long Beach,1,1,0.8763613649181523,0.8717655647600384,repeated_random_split,3
+va_long_beach:0152,VA Long Beach,1,3,0.7536304519986231,0.7516539456602744,repeated_random_split,3
+cleveland:0034,Cleveland,0,0,0.6381065702273085,0.64036590779438,repeated_random_split,3
+cleveland:0197,Cleveland,0,0,0.663859211451395,0.6651067520097502,repeated_random_split,3
+hungary:0072,Hungary,0,0,0.021089490378750915,0.024973464520356512,repeated_random_split,3
+hungary:0130,Hungary,0,0,0.09783037337873837,0.10827956264186725,repeated_random_split,3
+hungary:0223,Hungary,1,1,0.7994210108753703,0.7961264456465683,repeated_random_split,3
+switzerland:0007,Switzerland,0,0,0.4730751887080571,0.48175902361387546,repeated_random_split,3
+cleveland:0028,Cleveland,0,0,0.09610461176601494,0.10646066201284358,repeated_random_split,3
+va_long_beach:0116,VA Long Beach,1,3,0.8404111278179132,0.8362442832687924,repeated_random_split,3
+switzerland:0121,Switzerland,0,0,0.9806979392782501,0.9784018780680479,repeated_random_split,3
+switzerland:0058,Switzerland,1,2,0.6295733406307708,0.6321720815342783,repeated_random_split,3
+va_long_beach:0075,VA Long Beach,1,3,0.764274368548855,0.761965479079676,repeated_random_split,3
+va_long_beach:0070,VA Long Beach,1,1,0.4035135375212506,0.4144616260708807,repeated_random_split,3
+cleveland:0134,Cleveland,0,0,0.30310360214098153,0.31628456678409883,repeated_random_split,3
+cleveland:0093,Cleveland,0,0,0.9772288299770681,0.9746856318742291,repeated_random_split,3
+cleveland:0260,Cleveland,1,1,0.06990847916459514,0.07861007998484959,repeated_random_split,3
+va_long_beach:0072,VA Long Beach,1,2,0.9687444337113026,0.9656891017599161,repeated_random_split,3
+cleveland:0202,Cleveland,0,0,0.1403382310532847,0.15257957663032504,repeated_random_split,3
+cleveland:0162,Cleveland,1,4,0.9730986040811378,0.9702913391429222,repeated_random_split,3
+cleveland:0207,Cleveland,1,3,0.9929245619960312,0.9917694735266459,repeated_random_split,3
+hungary:0227,Hungary,1,1,0.788320342630145,0.7853166748410565,repeated_random_split,3
+cleveland:0271,Cleveland,1,1,0.9285337600637998,0.9241539411357912,repeated_random_split,3
+va_long_beach:0139,VA Long Beach,0,0,0.8761539492851672,0.8715595041501111,repeated_random_split,3
+hungary:0289,Hungary,1,1,0.916696474556905,0.9121546336341795,repeated_random_split,3
+cleveland:0063,Cleveland,1,1,0.9977323201895626,0.9972461595753337,repeated_random_split,3
+va_long_beach:0179,VA Long Beach,1,3,0.8867807665246628,0.8821361858355966,repeated_random_split,3
+hungary:0127,Hungary,0,0,0.7401486137325781,0.7386121303662776,repeated_random_split,3
+hungary:0068,Hungary,0,0,0.20510314790602788,0.21862635889141654,repeated_random_split,3
+cleveland:0111,Cleveland,1,1,0.5824457125346137,0.5869331795543317,repeated_random_split,3
+hungary:0041,Hungary,0,0,0.06558176328330274,0.07396127159672902,repeated_random_split,3
+cleveland:0023,Cleveland,1,1,0.10100334237280091,0.11161916452913404,repeated_random_split,3
+hungary:0228,Hungary,1,1,0.542729419048058,0.5487940929261548,repeated_random_split,3
+hungary:0154,Hungary,0,0,0.18583246415288773,0.19912582544553412,repeated_random_split,3
+cleveland:0283,Cleveland,1,3,0.8837959088528715,0.8791613386098001,repeated_random_split,3
+cleveland:0022,Cleveland,0,0,0.05209789689683826,0.05936698196595996,repeated_random_split,3
+cleveland:0035,Cleveland,0,0,0.09124633438994155,0.10133040483497636,repeated_random_split,3
+cleveland:0016,Cleveland,0,0,0.10539714704564539,0.11623412001008288,repeated_random_split,3
+cleveland:0222,Cleveland,0,0,0.015089677997321584,0.018112147422208475,repeated_random_split,3
+hungary:0240,Hungary,1,1,0.8914490553957167,0.8867955308750692,repeated_random_split,3
+hungary:0242,Hungary,1,1,0.6469607109633387,0.6488697707547562,repeated_random_split,3
+cleveland:0177,Cleveland,0,0,0.9781083665973072,0.9756254756914157,repeated_random_split,3
+switzerland:0118,Switzerland,1,3,0.9452775015032572,0.9412789392942547,repeated_random_split,3
+hungary:0091,Hungary,0,0,0.030217508493685912,0.03525320143613574,repeated_random_split,3
+switzerland:0015,Switzerland,1,3,0.934514789080907,0.9302488341445041,repeated_random_split,3
+cleveland:0170,Cleveland,0,0,0.015156651773008142,0.018189312528208875,repeated_random_split,3
+cleveland:0195,Cleveland,0,0,0.09563677840120938,0.10596727030051566,repeated_random_split,3
+switzerland:0099,Switzerland,1,3,0.9947935425264596,0.9938724603846368,repeated_random_split,3
+hungary:0219,Hungary,1,1,0.9482775800885105,0.9443695436208498,repeated_random_split,3
+hungary:0253,Hungary,1,1,0.9519564584844817,0.9481700114362718,repeated_random_split,3
+switzerland:0069,Switzerland,1,1,0.9164250009683639,0.9118803516887374,repeated_random_split,3
+switzerland:0107,Switzerland,1,1,0.9766328495080677,0.9740496399024644,repeated_random_split,3
+va_long_beach:0174,VA Long Beach,1,1,0.37380158128676805,0.3855606657634266,repeated_random_split,3
+hungary:0294,Hungary,1,1,0.9191403788151487,0.9146255758839671,repeated_random_split,3
+hungary:0016,Hungary,0,0,0.06324811753233843,0.07144736230633698,repeated_random_split,3
+switzerland:0095,Switzerland,1,1,0.9515259516013248,0.9477246485609997,repeated_random_split,3
+hungary:0257,Hungary,1,1,0.07091993448512275,0.07969463368148005,repeated_random_split,3
+hungary:0276,Hungary,1,1,0.4181243178316572,0.42863567140423237,repeated_random_split,3
+cleveland:0257,Cleveland,0,0,0.5463004600241246,0.5522249147861659,repeated_random_split,3
+switzerland:0043,Switzerland,1,1,0.73652210111567,0.7351073173492244,repeated_random_split,3
+cleveland:0303,Cleveland,0,0,0.19642797710031773,0.20986201525551365,repeated_random_split,3
+va_long_beach:0102,VA Long Beach,1,3,0.9316772963516537,0.9273544473878547,repeated_random_split,3
+cleveland:0051,Cleveland,0,0,0.018798225845341507,0.022364702839529644,repeated_random_split,3
+hungary:0009,Hungary,0,0,0.10340999319703002,0.11414830583430738,repeated_random_split,3
+hungary:0058,Hungary,0,0,0.19622799840130617,0.20965970985004231,repeated_random_split,3
+cleveland:0291,Cleveland,1,1,0.4424075525129529,0.45214446026389066,repeated_random_split,3
+va_long_beach:0085,VA Long Beach,1,4,0.9366455631456415,0.9324258888349473,repeated_random_split,3
+switzerland:0112,Switzerland,1,1,0.8879448178645228,0.8832972297542973,repeated_random_split,3
+hungary:0055,Hungary,0,0,0.07190728684855856,0.0807525606874485,repeated_random_split,3
+hungary:0197,Hungary,1,1,0.9120014157251086,0.9074163376689972,repeated_random_split,3
+cleveland:0200,Cleveland,1,1,0.10482997596874842,0.11563901559372972,repeated_random_split,3
+hungary:0246,Hungary,1,1,0.9431652157591006,0.9391073132519133,repeated_random_split,3
+cleveland:0231,Cleveland,0,0,0.04353333364491211,0.05000094612551003,repeated_random_split,3
+hungary:0038,Hungary,0,0,0.2450519497327125,0.2587120680356683,repeated_random_split,3
+cleveland:0031,Cleveland,0,0,0.44173937048521966,0.4514983390269645,repeated_random_split,3
+hungary:0216,Hungary,1,1,0.8991435929207283,0.9213810251972585,repeated_random_split,4
+cleveland:0077,Cleveland,1,1,0.9491888315721322,0.9644364326180129,repeated_random_split,4
+hungary:0196,Hungary,1,1,0.2569197948182913,0.22716545524931525,repeated_random_split,4
+va_long_beach:0145,VA Long Beach,0,0,0.49256240999412576,0.4865911585220003,repeated_random_split,4
+hungary:0239,Hungary,1,1,0.39681693664732587,0.3787603563094838,repeated_random_split,4
+hungary:0008,Hungary,0,0,0.0810324663916468,0.05874523111661788,repeated_random_split,4
+cleveland:0050,Cleveland,0,0,0.2600391719962086,0.23042225345736564,repeated_random_split,4
+hungary:0046,Hungary,0,0,0.06125142512530144,0.0424701611781412,repeated_random_split,4
+cleveland:0170,Cleveland,0,0,0.06205740875029757,0.04311736667512144,repeated_random_split,4
+switzerland:0081,Switzerland,1,3,0.9509371598699209,0.9658425333169779,repeated_random_split,4
+cleveland:0174,Cleveland,0,0,0.28444744315884934,0.2561381082071843,repeated_random_split,4
+hungary:0264,Hungary,1,1,0.8492416152643782,0.8744190363740918,repeated_random_split,4
+va_long_beach:0200,VA Long Beach,1,1,0.39986361324402064,0.3821586262150782,repeated_random_split,4
+hungary:0194,Hungary,1,1,0.8590105136899842,0.8838657888025306,repeated_random_split,4
+hungary:0266,Hungary,1,1,0.10320662418553087,0.07784611920419483,repeated_random_split,4
+cleveland:0119,Cleveland,1,3,0.9745825175645856,0.9839480983712569,repeated_random_split,4
+va_long_beach:0001,VA Long Beach,1,2,0.9527008112800618,0.9672527172179556,repeated_random_split,4
+cleveland:0064,Cleveland,0,0,0.04605567101701286,0.0305564878516151,repeated_random_split,4
+hungary:0275,Hungary,1,1,0.8011842983452214,0.8264584461634955,repeated_random_split,4
+cleveland:0089,Cleveland,0,0,0.17497739889363115,0.14447031779968017,repeated_random_split,4
+switzerland:0068,Switzerland,1,2,0.9882809592372455,0.9933709118396875,repeated_random_split,4
+va_long_beach:0019,VA Long Beach,0,0,0.8660438187041242,0.890595915394938,repeated_random_split,4
+hungary:0128,Hungary,0,0,0.1293792711107431,0.10137328251450892,repeated_random_split,4
+va_long_beach:0101,VA Long Beach,1,1,0.36775572581724264,0.34650533974345693,repeated_random_split,4
+hungary:0023,Hungary,0,0,0.20485561116814474,0.17393096103978453,repeated_random_split,4
+hungary:0001,Hungary,0,0,0.10179555727736712,0.07660646022781123,repeated_random_split,4
+va_long_beach:0174,VA Long Beach,1,1,0.36278757649839855,0.3410229669142783,repeated_random_split,4
+va_long_beach:0189,VA Long Beach,1,2,0.8753598932593203,0.8994137157006685,repeated_random_split,4
+cleveland:0047,Cleveland,0,0,0.15655294610058648,0.1267638185377136,repeated_random_split,4
+va_long_beach:0143,VA Long Beach,1,2,0.4865678429178066,0.4797973437518533,repeated_random_split,4
+va_long_beach:0091,VA Long Beach,1,3,0.9510541955153173,0.9659363716687246,repeated_random_split,4
+hungary:0152,Hungary,0,0,0.3699609082833725,0.348941931026921,repeated_random_split,4
+cleveland:0081,Cleveland,0,0,0.8099540921013967,0.8353793725705131,repeated_random_split,4
+switzerland:0122,Switzerland,1,1,0.3505399478510479,0.32755168587630407,repeated_random_split,4
+hungary:0278,Hungary,1,1,0.9425128958218909,0.9589959705315716,repeated_random_split,4
+switzerland:0026,Switzerland,1,1,0.6118668859281469,0.6215913449038716,repeated_random_split,4
+cleveland:0068,Cleveland,0,0,0.32500987479716037,0.29969125189728757,repeated_random_split,4
+va_long_beach:0167,VA Long Beach,1,2,0.8975148435350587,0.9199034184580179,repeated_random_split,4
+hungary:0068,Hungary,0,0,0.3200515458645508,0.29431788068660936,repeated_random_split,4
+hungary:0014,Hungary,0,0,0.22367281049554302,0.19291289105537046,repeated_random_split,4
+switzerland:0002,Switzerland,1,1,0.7524904210781602,0.7757671260752137,repeated_random_split,4
+hungary:0051,Hungary,0,0,0.0960678355834382,0.07160699854591392,repeated_random_split,4
+cleveland:0195,Cleveland,0,0,0.24268338117168228,0.21239297290531337,repeated_random_split,4
+cleveland:0017,Cleveland,1,1,0.1515010122439592,0.12197548176676387,repeated_random_split,4
+switzerland:0094,Switzerland,1,1,0.933255260060296,0.9512782385036563,repeated_random_split,4
+switzerland:0030,Switzerland,1,2,0.8799948651780858,0.9037579308373995,repeated_random_split,4
+hungary:0164,Hungary,0,0,0.21980718416708336,0.18898822738266266,repeated_random_split,4
+hungary:0117,Hungary,0,0,0.06085947253837757,0.04215594706130497,repeated_random_split,4
+va_long_beach:0093,VA Long Beach,1,3,0.8296838172801844,0.8551833229597797,repeated_random_split,4
+va_long_beach:0186,VA Long Beach,1,1,0.39755179102401567,0.37957974579774106,repeated_random_split,4
+cleveland:0086,Cleveland,0,0,0.09023218649164366,0.06656863233218337,repeated_random_split,4
+switzerland:0042,Switzerland,0,0,0.6571676616455335,0.6721805834715037,repeated_random_split,4
+switzerland:0015,Switzerland,1,3,0.8713156070514925,0.8955996152351144,repeated_random_split,4
+va_long_beach:0010,VA Long Beach,1,1,0.4038467360978312,0.3866057619573278,repeated_random_split,4
+va_long_beach:0123,VA Long Beach,1,1,0.9314396224663616,0.9497426032059966,repeated_random_split,4
+cleveland:0101,Cleveland,0,0,0.2070532873921007,0.176131646517012,repeated_random_split,4
+cleveland:0116,Cleveland,0,0,0.18415654072290688,0.1534270674979772,repeated_random_split,4
+va_long_beach:0198,VA Long Beach,1,2,0.7004285131972702,0.7197753528670136,repeated_random_split,4
+hungary:0236,Hungary,1,1,0.891600933364584,0.914503978448859,repeated_random_split,4
+hungary:0048,Hungary,0,0,0.049387829970401816,0.03311942975370001,repeated_random_split,4
+va_long_beach:0110,VA Long Beach,0,0,0.3778784771125257,0.3577058420721158,repeated_random_split,4
+va_long_beach:0173,VA Long Beach,1,3,0.960457453901266,0.9733505334930782,repeated_random_split,4
+cleveland:0254,Cleveland,0,0,0.05861220008405949,0.0403610990096803,repeated_random_split,4
+hungary:0044,Hungary,0,0,0.10429020606776285,0.07880018175089563,repeated_random_split,4
+cleveland:0085,Cleveland,0,0,0.04822102966017574,0.03221862446029655,repeated_random_split,4
+cleveland:0166,Cleveland,0,0,0.5984048946495327,0.6064485865239868,repeated_random_split,4
+va_long_beach:0045,VA Long Beach,1,4,0.7804820132240651,0.8051346583732102,repeated_random_split,4
+hungary:0241,Hungary,1,1,0.6347950430911746,0.6472757248054216,repeated_random_split,4
+switzerland:0111,Switzerland,1,3,0.9269676888925071,0.9459312379560392,repeated_random_split,4
+cleveland:0020,Cleveland,0,0,0.06549736059141684,0.04589567745175582,repeated_random_split,4
+hungary:0137,Hungary,0,0,0.17666083820705464,0.14610644567930772,repeated_random_split,4
+va_long_beach:0122,VA Long Beach,1,3,0.9652800841294433,0.977048734175631,repeated_random_split,4
+va_long_beach:0049,VA Long Beach,1,2,0.8255923055810603,0.8511079796768407,repeated_random_split,4
+hungary:0107,Hungary,0,0,0.14384069376924985,0.1147725458752603,repeated_random_split,4
+cleveland:0056,Cleveland,1,1,0.9486937717374628,0.9640368297232932,repeated_random_split,4
+cleveland:0029,Cleveland,0,0,0.3280496611398158,0.3029917839964959,repeated_random_split,4
+cleveland:0297,Cleveland,1,3,0.9573031727857009,0.9708920404245924,repeated_random_split,4
+hungary:0230,Hungary,1,1,0.16219776098876348,0.13214878526355522,repeated_random_split,4
+hungary:0033,Hungary,0,0,0.4338411205276092,0.4202361783057086,repeated_random_split,4
+cleveland:0105,Cleveland,1,3,0.8509057276395902,0.8760361676718186,repeated_random_split,4
+hungary:0037,Hungary,0,0,0.08341670653058116,0.06075827609864988,repeated_random_split,4
+hungary:0192,Hungary,1,1,0.08900560477753569,0.0655169543555717,repeated_random_split,4
+cleveland:0070,Cleveland,1,1,0.4077422867863753,0.3909597461677564,repeated_random_split,4
+cleveland:0284,Cleveland,0,0,0.050296446063490985,0.033823363193727016,repeated_random_split,4
+va_long_beach:0190,VA Long Beach,0,0,0.3440274069432831,0.3204153169778589,repeated_random_split,4
+switzerland:0024,Switzerland,1,1,0.92989316080656,0.9484292005070541,repeated_random_split,4
+switzerland:0096,Switzerland,1,3,0.8090955483419744,0.8345091289111886,repeated_random_split,4
+va_long_beach:0013,VA Long Beach,1,1,0.8906296242326359,0.9136121245405404,repeated_random_split,4
+hungary:0004,Hungary,0,0,0.11981827359397787,0.09266561213505484,repeated_random_split,4
+hungary:0238,Hungary,1,1,0.9324745228959216,0.9506187561654779,repeated_random_split,4
+switzerland:0076,Switzerland,1,1,0.9385049422177304,0.9556783507307829,repeated_random_split,4
+va_long_beach:0088,VA Long Beach,0,0,0.7894405094765882,0.8144061385811248,repeated_random_split,4
+hungary:0095,Hungary,0,0,0.4152793535117656,0.3993961793992048,repeated_random_split,4
+hungary:0155,Hungary,0,0,0.20924208500268948,0.1783278000161015,repeated_random_split,4
+switzerland:0007,Switzerland,0,0,0.26971850409261616,0.24057181328960298,repeated_random_split,4
+cleveland:0286,Cleveland,1,4,0.9650431161276966,0.9768688173322834,repeated_random_split,4
+hungary:0199,Hungary,1,1,0.3144739013497499,0.2882889562285264,repeated_random_split,4
+hungary:0156,Hungary,0,0,0.6142060561277274,0.624218205026014,repeated_random_split,4
+va_long_beach:0160,VA Long Beach,1,1,0.7266858136536463,0.748215866170042,repeated_random_split,4
+va_long_beach:0004,VA Long Beach,1,1,0.8801915317851035,0.9039416116466725,repeated_random_split,4
+cleveland:0279,Cleveland,1,1,0.17047509719507714,0.14010926181477662,repeated_random_split,4
+cleveland:0241,Cleveland,0,0,0.055877006611267196,0.03819230266257901,repeated_random_split,4
+hungary:0242,Hungary,1,1,0.526025369888273,0.5245465353529235,repeated_random_split,4
+cleveland:0012,Cleveland,0,0,0.10004602871580678,0.07507380719287612,repeated_random_split,4
+va_long_beach:0195,VA Long Beach,1,2,0.33563218434482633,0.31124498404724465,repeated_random_split,4
+va_long_beach:0082,VA Long Beach,1,2,0.8921491918640768,0.9150067680029222,repeated_random_split,4
+hungary:0002,Hungary,0,0,0.07491117854655367,0.05362544605797128,repeated_random_split,4
+hungary:0268,Hungary,1,1,0.8116595675720062,0.8371060599905357,repeated_random_split,4
+va_long_beach:0041,VA Long Beach,1,3,0.7866609785044065,0.8115365082351987,repeated_random_split,4
+hungary:0093,Hungary,0,0,0.06159035602936111,0.042742146749196054,repeated_random_split,4
+va_long_beach:0022,VA Long Beach,1,1,0.940025243098689,0.9569411593750718,repeated_random_split,4
+cleveland:0212,Cleveland,1,4,0.6691974629397396,0.6854963985889776,repeated_random_split,4
+hungary:0232,Hungary,1,1,0.6249625150499034,0.6362792280666167,repeated_random_split,4
+switzerland:0028,Switzerland,1,3,0.8504151706451847,0.8755597915793878,repeated_random_split,4
+va_long_beach:0044,VA Long Beach,0,0,0.6185553369026427,0.6290986919703164,repeated_random_split,4
+cleveland:0146,Cleveland,1,1,0.08069996324499427,0.05846532184753521,repeated_random_split,4
+hungary:0032,Hungary,0,0,0.298067270486041,0.2706553646024977,repeated_random_split,4
+cleveland:0202,Cleveland,0,0,0.3028842582903071,0.27581656668333226,repeated_random_split,4
+cleveland:0192,Cleveland,1,3,0.9895376501229723,0.9941748215607916,repeated_random_split,4
+va_long_beach:0138,VA Long Beach,1,3,0.5872849949875251,0.5939114440423077,repeated_random_split,4
+cleveland:0108,Cleveland,1,1,0.5041159969214493,0.4996918271493383,repeated_random_split,4
+va_long_beach:0155,VA Long Beach,1,2,0.8988389358996024,0.9211049552146598,repeated_random_split,4
+hungary:0120,Hungary,0,0,0.19875853672802277,0.16784886303438418,repeated_random_split,4
+va_long_beach:0033,VA Long Beach,1,3,0.9246076142101013,0.9439035878173222,repeated_random_split,4
+switzerland:0021,Switzerland,1,1,0.5987425683646709,0.6068289113129418,repeated_random_split,4
+switzerland:0073,Switzerland,1,1,0.778950728499086,0.8035434063867924,repeated_random_split,4
+cleveland:0274,Cleveland,0,0,0.4766962962810249,0.46861663322694286,repeated_random_split,4
+cleveland:0222,Cleveland,0,0,0.045437057051536583,0.03008397129577227,repeated_random_split,4
+cleveland:0258,Cleveland,0,0,0.2611267960938378,0.23155943158330203,repeated_random_split,4
+va_long_beach:0096,VA Long Beach,1,3,0.9142780095618964,0.9349043228248919,repeated_random_split,4
+hungary:0085,Hungary,0,0,0.5280634891389442,0.5268586630437392,repeated_random_split,4
+cleveland:0046,Cleveland,1,4,0.6391583242365554,0.6521460696250766,repeated_random_split,4
+va_long_beach:0159,VA Long Beach,1,2,0.8322329218585682,0.8577136696692925,repeated_random_split,4
+va_long_beach:0011,VA Long Beach,0,0,0.18758371941343951,0.15679317865959852,repeated_random_split,4
+switzerland:0006,Switzerland,1,1,0.42733742867651014,0.4129246541205768,repeated_random_split,4
+hungary:0003,Hungary,0,0,0.07459473855518615,0.05336272598730494,repeated_random_split,4
+hungary:0141,Hungary,0,0,0.1307991542672499,0.10267694580449967,repeated_random_split,4
+hungary:0272,Hungary,1,1,0.15580828169230007,0.12605614686214622,repeated_random_split,4
+cleveland:0076,Cleveland,0,0,0.08115307340184347,0.05884681142200088,repeated_random_split,4
+cleveland:0154,Cleveland,1,4,0.8986621755607274,0.920944714101457,repeated_random_split,4
+va_long_beach:0178,VA Long Beach,1,2,0.6475466383384116,0.661491720118818,repeated_random_split,4
+cleveland:0152,Cleveland,0,0,0.28596088606857284,0.25774558455505575,repeated_random_split,4
+hungary:0240,Hungary,1,1,0.8902372647505361,0.9132514643889568,repeated_random_split,4
+cleveland:0061,Cleveland,1,2,0.6118989358080955,0.621627345720796,repeated_random_split,4
+hungary:0016,Hungary,0,0,0.08197244767498814,0.05953763042775617,repeated_random_split,4
+hungary:0185,Hungary,0,0,0.7814618958755231,0.8061519374035162,repeated_random_split,4
+va_long_beach:0120,VA Long Beach,1,1,0.8476888790542365,0.8729072750659916,repeated_random_split,4
+va_long_beach:0132,VA Long Beach,1,3,0.693211860094001,0.7118948918932998,repeated_random_split,4
+va_long_beach:0071,VA Long Beach,0,0,0.2669295353796726,0.2376406631811491,repeated_random_split,4
+cleveland:0290,Cleveland,0,0,0.0674298662554689,0.04746762585802729,repeated_random_split,4
+cleveland:0125,Cleveland,1,1,0.4831424865959272,0.47591664083235774,repeated_random_split,4
+cleveland:0225,Cleveland,1,1,0.7710378973181063,0.7952915529096598,repeated_random_split,4
+cleveland:0102,Cleveland,0,0,0.10051469534842845,0.07548390132074247,repeated_random_split,4
+cleveland:0187,Cleveland,0,0,0.17999047616045888,0.1493511946443115,repeated_random_split,4
+va_long_beach:0107,VA Long Beach,1,1,0.8625563754937179,0.8872664523091409,repeated_random_split,4
+cleveland:0252,Cleveland,1,1,0.8937698539801724,0.9164903870602996,repeated_random_split,4
+switzerland:0020,Switzerland,1,1,0.9527365446203265,0.9672812018831212,repeated_random_split,4
+switzerland:0066,Switzerland,1,2,0.9611761495627691,0.9739064225936199,repeated_random_split,4
+cleveland:0107,Cleveland,1,2,0.7794500246699188,0.8040624596108074,repeated_random_split,4
+cleveland:0003,Cleveland,1,1,0.9775282190615778,0.9860587787615679,repeated_random_split,4
+hungary:0189,Hungary,1,1,0.7744771444565778,0.7988840910739216,repeated_random_split,4
+cleveland:0250,Cleveland,0,0,0.14769458190234286,0.11838750451004294,repeated_random_split,4
+va_long_beach:0089,VA Long Beach,1,1,0.946835786196719,0.962531505589745,repeated_random_split,4
+hungary:0061,Hungary,0,0,0.046767297968492764,0.031101342761368472,repeated_random_split,4
+switzerland:0043,Switzerland,1,1,0.6181131873224709,0.6286027646879059,repeated_random_split,4
+cleveland:0150,Cleveland,0,0,0.06558613854202819,0.04596771820201822,repeated_random_split,4
+va_long_beach:0059,VA Long Beach,0,0,0.5017777771662627,0.49703994238802884,repeated_random_split,4
+hungary:0283,Hungary,1,1,0.8708809225017292,0.8951883916508723,repeated_random_split,4
+cleveland:0113,Cleveland,0,0,0.23055688917892722,0.199933147207595,repeated_random_split,4
+hungary:0112,Hungary,0,0,0.057969681515248436,0.03985006037083893,repeated_random_split,4
+va_long_beach:0069,VA Long Beach,1,1,0.8294109178125016,0.8549120338477494,repeated_random_split,4
+va_long_beach:0043,VA Long Beach,1,3,0.9722641781699342,0.9822602807256903,repeated_random_split,4
+cleveland:0066,Cleveland,1,2,0.9737963140941465,0.9833782540125667,repeated_random_split,4
+cleveland:0209,Cleveland,0,0,0.06707312665681858,0.04717685232833623,repeated_random_split,4
+cleveland:0110,Cleveland,1,3,0.607488301979702,0.6166706534342845,repeated_random_split,4
+hungary:0135,Hungary,0,0,0.12653967589377138,0.098774158539291,repeated_random_split,4
+hungary:0012,Hungary,0,0,0.0830479282676015,0.06044623543923686,repeated_random_split,4
+hungary:0203,Hungary,1,1,0.5580405000526341,0.560843647929022,repeated_random_split,4
+cleveland:0123,Cleveland,0,0,0.3556063858955693,0.33311651011374194,repeated_random_split,4
+cleveland:0191,Cleveland,0,0,0.09354164939757226,0.06941895785935606,repeated_random_split,4
+cleveland:0263,Cleveland,0,0,0.07749231624220508,0.05577562550008942,repeated_random_split,4
+va_long_beach:0116,VA Long Beach,1,3,0.7830789413297423,0.8078290162898695,repeated_random_split,4
+hungary:0249,Hungary,1,1,0.9489044906476921,0.9642069954287166,repeated_random_split,4
+hungary:0142,Hungary,0,0,0.07981802085038722,0.0577238723599115,repeated_random_split,4
+cleveland:0118,Cleveland,0,0,0.13484014233298172,0.11179114759312969,repeated_random_split,5
+switzerland:0072,Switzerland,1,1,0.92919349726529,0.94542184132564,repeated_random_split,5
+hungary:0256,Hungary,1,1,0.5126127043688383,0.5120825076760475,repeated_random_split,5
+cleveland:0283,Cleveland,1,3,0.8740565404094165,0.8951378631641278,repeated_random_split,5
+hungary:0160,Hungary,0,0,0.34525948457177047,0.32770349384781344,repeated_random_split,5
+va_long_beach:0141,VA Long Beach,0,0,0.9751073406297309,0.9831568244324065,repeated_random_split,5
+hungary:0193,Hungary,1,1,0.3658768947395008,0.35009575055946607,repeated_random_split,5
+hungary:0066,Hungary,0,0,0.06112507171901395,0.045552469037593496,repeated_random_split,5
+switzerland:0009,Switzerland,1,2,0.6514863288954161,0.665344598479955,repeated_random_split,5
+va_long_beach:0062,VA Long Beach,1,2,0.9632745215783747,0.9739478352182539,repeated_random_split,5
+hungary:0199,Hungary,1,1,0.3590886755128097,0.3427079208320085,repeated_random_split,5
+hungary:0180,Hungary,0,0,0.14841910459583152,0.12472619337802963,repeated_random_split,5
+cleveland:0056,Cleveland,1,1,0.9498512704292761,0.9630171300104835,repeated_random_split,5
+hungary:0097,Hungary,0,0,0.7027746569979189,0.720755973075971,repeated_random_split,5
+va_long_beach:0006,VA Long Beach,0,0,0.4486786994552563,0.4411341175219402,repeated_random_split,5
+cleveland:0012,Cleveland,0,0,0.0984689720881281,0.07816743553441295,repeated_random_split,5
+va_long_beach:0186,VA Long Beach,1,1,0.48101810330988726,0.4769914162917557,repeated_random_split,5
+cleveland:0038,Cleveland,1,1,0.9006440062906215,0.9199026102392514,repeated_random_split,5
+cleveland:0057,Cleveland,1,1,0.4915623663898811,0.48869933345114597,repeated_random_split,5
+switzerland:0070,Switzerland,1,1,0.830501362622393,0.8529109520835304,repeated_random_split,5
+hungary:0289,Hungary,1,1,0.8872215340491891,0.9075082602921395,repeated_random_split,5
+hungary:0165,Hungary,0,0,0.40668061943670075,0.394774752534543,repeated_random_split,5
+hungary:0045,Hungary,0,0,0.09479545148428362,0.07486439255706384,repeated_random_split,5
+va_long_beach:0182,VA Long Beach,0,0,0.4610248592791651,0.454811595570957,repeated_random_split,5
+switzerland:0018,Switzerland,0,0,0.46260380447205096,0.45656198563139183,repeated_random_split,5
+va_long_beach:0087,VA Long Beach,1,3,0.854049674816526,0.8759727784018505,repeated_random_split,5
+hungary:0011,Hungary,0,0,0.0894950392865331,0.07013200695536058,repeated_random_split,5
+va_long_beach:0112,VA Long Beach,0,0,0.40065538900882797,0.38815122514217987,repeated_random_split,5
+switzerland:0043,Switzerland,1,1,0.7052141199729584,0.7233657304235996,repeated_random_split,5
+va_long_beach:0051,VA Long Beach,1,1,0.9329337856049899,0.9486680604570991,repeated_random_split,5
+cleveland:0142,Cleveland,1,1,0.42055615564433896,0.41005700583599614,repeated_random_split,5
+hungary:0049,Hungary,0,0,0.08387860427417522,0.06516234736575413,repeated_random_split,5
+va_long_beach:0153,VA Long Beach,1,1,0.7602385482230399,0.7814578318078428,repeated_random_split,5
+hungary:0262,Hungary,1,1,0.856612730071018,0.8784511038651357,repeated_random_split,5
+va_long_beach:0044,VA Long Beach,0,0,0.5069619989969127,0.5058050884389728,repeated_random_split,5
+cleveland:0129,Cleveland,0,0,0.05868704592167049,0.04350651086800533,repeated_random_split,5
+va_long_beach:0117,VA Long Beach,1,2,0.6107928780909725,0.6207849479051026,repeated_random_split,5
+cleveland:0220,Cleveland,0,0,0.27909281014584064,0.25695299247614767,repeated_random_split,5
+va_long_beach:0093,VA Long Beach,1,3,0.8445822574585757,0.8667628108217835,repeated_random_split,5
+cleveland:0218,Cleveland,0,0,0.3375799463037945,0.31939993937786265,repeated_random_split,5
+cleveland:0227,Cleveland,0,0,0.27845142981570264,0.25627700030388,repeated_random_split,5
+switzerland:0113,Switzerland,1,3,0.9846124113224946,0.9901650236413992,repeated_random_split,5
+cleveland:0131,Cleveland,0,0,0.3441713917658842,0.32652570262330477,repeated_random_split,5
+va_long_beach:0105,VA Long Beach,0,0,0.7765171817731292,0.798318876312904,repeated_random_split,5
+hungary:0103,Hungary,0,0,0.04075009730924948,0.02884573971345421,repeated_random_split,5
+hungary:0196,Hungary,1,1,0.24254781070814288,0.21879559201740528,repeated_random_split,5
+cleveland:0263,Cleveland,0,0,0.09003078862688829,0.07060850491282948,repeated_random_split,5
+va_long_beach:0031,VA Long Beach,1,3,0.8185084452661137,0.8409772064212341,repeated_random_split,5
+cleveland:0068,Cleveland,0,0,0.3549607498429991,0.33822252482888365,repeated_random_split,5
+cleveland:0137,Cleveland,1,4,0.9259366957384707,0.9425754097016145,repeated_random_split,5
+cleveland:0159,Cleveland,1,2,0.8970737350917155,0.9166284897735216,repeated_random_split,5
+hungary:0009,Hungary,0,0,0.07016861334896371,0.05323961790848303,repeated_random_split,5
+hungary:0219,Hungary,1,1,0.9360228995468779,0.9513300779040739,repeated_random_split,5
+va_long_beach:0147,VA Long Beach,0,0,0.8855513992626634,0.905950246514739,repeated_random_split,5
+hungary:0058,Hungary,0,0,0.1923518873943363,0.16776499344843693,repeated_random_split,5
+hungary:0025,Hungary,0,0,0.13247282570140495,0.10955587794285354,repeated_random_split,5
+hungary:0136,Hungary,0,0,0.11037828612113557,0.08899960219803925,repeated_random_split,5
+va_long_beach:0175,VA Long Beach,0,0,0.4869014571771002,0.48352340514931447,repeated_random_split,5
+hungary:0233,Hungary,1,1,0.4502968031701884,0.44292569699996825,repeated_random_split,5
+cleveland:0208,Cleveland,1,3,0.8522956704102153,0.8742730115470394,repeated_random_split,5
+cleveland:0015,Cleveland,0,0,0.34681303337092306,0.3293858312434609,repeated_random_split,5
+hungary:0245,Hungary,1,1,0.6542590616127605,0.6683639072102169,repeated_random_split,5
+cleveland:0181,Cleveland,1,3,0.54567554860422,0.5487955141822997,repeated_random_split,5
+cleveland:0261,Cleveland,0,0,0.12542241613341673,0.10293514053388854,repeated_random_split,5
+va_long_beach:0132,VA Long Beach,1,3,0.6880165316070311,0.7049137470690442,repeated_random_split,5
+switzerland:0053,Switzerland,1,1,0.8403287334630962,0.8625973743946852,repeated_random_split,5
+va_long_beach:0195,VA Long Beach,1,2,0.42003258614786676,0.4094796730388204,repeated_random_split,5
+hungary:0290,Hungary,1,1,0.8508809922911783,0.8728998849606494,repeated_random_split,5
+va_long_beach:0086,VA Long Beach,1,2,0.8980271531891786,0.9175044745516348,repeated_random_split,5
+hungary:0021,Hungary,0,0,0.042627679405040426,0.03034501415443284,repeated_random_split,5
+cleveland:0190,Cleveland,1,2,0.9282178045703057,0.9445709948614353,repeated_random_split,5
+switzerland:0075,Switzerland,1,2,0.8235631531164157,0.8460216428484526,repeated_random_split,5
+cleveland:0160,Cleveland,0,0,0.5074743714304918,0.5063742871853175,repeated_random_split,5
+va_long_beach:0110,VA Long Beach,0,0,0.39949518513847343,0.3868767498485252,repeated_random_split,5
+va_long_beach:0188,VA Long Beach,1,2,0.45875283690593077,0.45229331282702023,repeated_random_split,5
+cleveland:0025,Cleveland,1,4,0.9782772007875766,0.9855390480817843,repeated_random_split,5
+cleveland:0029,Cleveland,0,0,0.3401224897472218,0.32214672486421236,repeated_random_split,5
+hungary:0141,Hungary,0,0,0.13341380002579037,0.11044364129838283,repeated_random_split,5
+switzerland:0080,Switzerland,1,1,0.9269371027672291,0.9434516851519016,repeated_random_split,5
+switzerland:0034,Switzerland,1,1,0.8320897073029911,0.8544822981347197,repeated_random_split,5
+va_long_beach:0196,VA Long Beach,1,1,0.23247105846736899,0.20841334664882624,repeated_random_split,5
+hungary:0064,Hungary,0,0,0.054658395629215484,0.04015186251134773,repeated_random_split,5
+cleveland:0156,Cleveland,1,1,0.9645909701654476,0.9749942064377112,repeated_random_split,5
+cleveland:0139,Cleveland,1,1,0.7972511338901579,0.8195424566609871,repeated_random_split,5
+va_long_beach:0122,VA Long Beach,1,3,0.9688735117621596,0.9783622590025339,repeated_random_split,5
+cleveland:0071,Cleveland,0,0,0.10248612050018605,0.08180047897766259,repeated_random_split,5
+cleveland:0193,Cleveland,1,1,0.9034610900660115,0.9224739391980489,repeated_random_split,5
+cleveland:0060,Cleveland,0,0,0.5862876016325327,0.5937688613574147,repeated_random_split,5
+cleveland:0048,Cleveland,1,4,0.8307638413247289,0.8531707728034615,repeated_random_split,5
+hungary:0238,Hungary,1,1,0.953464017523274,0.9660027847710315,repeated_random_split,5
+switzerland:0010,Switzerland,1,1,0.8986191339785873,0.9180477741203593,repeated_random_split,5
+cleveland:0224,Cleveland,1,3,0.9723024343654462,0.9810164578991869,repeated_random_split,5
+va_long_beach:0187,VA Long Beach,1,3,0.40797805831677847,0.39620206216586185,repeated_random_split,5
+cleveland:0215,Cleveland,1,1,0.406878755327368,0.39499269810213367,repeated_random_split,5
+va_long_beach:0074,VA Long Beach,1,3,0.9241665637702661,0.9410208090667784,repeated_random_split,5
+hungary:0261,Hungary,1,1,0.5516901441155898,0.555467375928257,repeated_random_split,5
+cleveland:0262,Cleveland,1,3,0.1793820662820721,0.1548844700746007,repeated_random_split,5
+hungary:0162,Hungary,0,0,0.12455787094127095,0.10212711384012269,repeated_random_split,5
+cleveland:0164,Cleveland,0,0,0.3409479434975493,0.3230389935908747,repeated_random_split,5
+hungary:0135,Hungary,0,0,0.1382249605540632,0.11499757033707006,repeated_random_split,5
+hungary:0149,Hungary,0,0,0.1388439442505712,0.11558523904652473,repeated_random_split,5
+cleveland:0104,Cleveland,0,0,0.20205431358343956,0.17748793146876163,repeated_random_split,5
+cleveland:0284,Cleveland,0,0,0.048096646841470414,0.034761792570684256,repeated_random_split,5
+switzerland:0067,Switzerland,1,3,0.9398006461800361,0.954561137653722,repeated_random_split,5
+cleveland:0282,Cleveland,0,0,0.07888882936155164,0.060787708018552995,repeated_random_split,5
+va_long_beach:0127,VA Long Beach,1,1,0.781724098918946,0.8036763142321065,repeated_random_split,5
+cleveland:0093,Cleveland,0,0,0.9019385841050114,0.9210855924743973,repeated_random_split,5
+cleveland:0043,Cleveland,0,0,0.21862849904368628,0.19425926747333055,repeated_random_split,5
+hungary:0287,Hungary,1,1,0.9607247313540611,0.9719072311043877,repeated_random_split,5
+cleveland:0121,Cleveland,1,3,0.8939138680272926,0.9137167949099363,repeated_random_split,5
+hungary:0240,Hungary,1,1,0.8923943768331069,0.912312077856938,repeated_random_split,5
+va_long_beach:0111,VA Long Beach,1,3,0.7647535529378355,0.7861508595544624,repeated_random_split,5
+hungary:0242,Hungary,1,1,0.6438995628955219,0.6570711602652847,repeated_random_split,5
+hungary:0156,Hungary,0,0,0.6177187921635475,0.6283983412382738,repeated_random_split,5
+cleveland:0064,Cleveland,0,0,0.052611016169876096,0.038459964323138626,repeated_random_split,5
+switzerland:0090,Switzerland,1,1,0.9647645613475376,0.9751318087847403,repeated_random_split,5
+cleveland:0233,Cleveland,1,1,0.6608569846121872,0.675538734665625,repeated_random_split,5
+cleveland:0081,Cleveland,0,0,0.7718755437525322,0.7935281473558972,repeated_random_split,5
+hungary:0139,Hungary,0,0,0.4329996274213733,0.4237925142565681,repeated_random_split,5
+hungary:0089,Hungary,0,0,0.10655066813492459,0.0854981063107242,repeated_random_split,5
+hungary:0275,Hungary,1,1,0.7901226057861579,0.8122791347679883,repeated_random_split,5
+va_long_beach:0155,VA Long Beach,1,2,0.8796547117110285,0.9004227897346794,repeated_random_split,5
+va_long_beach:0109,VA Long Beach,0,0,0.4968450767680584,0.4945667197851747,repeated_random_split,5
+cleveland:0277,Cleveland,0,0,0.20866594710209463,0.18415433973255513,repeated_random_split,5
+hungary:0209,Hungary,1,1,0.8797474219009335,0.900510010499021,repeated_random_split,5
+switzerland:0015,Switzerland,1,3,0.8435187199973354,0.8657228699049968,repeated_random_split,5
+va_long_beach:0054,VA Long Beach,0,0,0.49545492817021825,0.49302263157188847,repeated_random_split,5
+hungary:0121,Hungary,0,0,0.14137177575898568,0.11798933175899957,repeated_random_split,5
+switzerland:0110,Switzerland,0,0,0.8859353624351941,0.9063087321105179,repeated_random_split,5
+cleveland:0020,Cleveland,0,0,0.07864626714354765,0.060576052145218266,repeated_random_split,5
+va_long_beach:0165,VA Long Beach,1,1,0.8839540473035427,0.904456983822831,repeated_random_split,5
+hungary:0143,Hungary,0,0,0.1911297883287891,0.16654550719051084,repeated_random_split,5
+cleveland:0238,Cleveland,1,1,0.503567538628034,0.5020341980382904,repeated_random_split,5
+cleveland:0273,Cleveland,1,2,0.9570747147769576,0.9689557006062004,repeated_random_split,5
+va_long_beach:0016,VA Long Beach,0,0,0.6169611529967434,0.6275660256116061,repeated_random_split,5
+hungary:0001,Hungary,0,0,0.06998344062162835,0.05308073577455647,repeated_random_split,5
+va_long_beach:0106,VA Long Beach,1,3,0.9569815081110526,0.968879879746554,repeated_random_split,5
+va_long_beach:0099,VA Long Beach,1,1,0.6550000082454835,0.6691703369742072,repeated_random_split,5
+switzerland:0002,Switzerland,1,1,0.6896809962353491,0.7067049602821318,repeated_random_split,5
+va_long_beach:0085,VA Long Beach,1,4,0.9378588324713601,0.9529037443519897,repeated_random_split,5
+cleveland:0255,Cleveland,0,0,0.32542661600145356,0.3063039517655044,repeated_random_split,5
+hungary:0221,Hungary,1,1,0.34304672021011884,0.32530875725182373,repeated_random_split,5
+cleveland:0077,Cleveland,1,1,0.9546260980697406,0.9669566378004086,repeated_random_split,5
+hungary:0190,Hungary,1,1,0.483908679245994,0.48020044917242705,repeated_random_split,5
+cleveland:0187,Cleveland,0,0,0.1950843522418079,0.1704958703472348,repeated_random_split,5
+cleveland:0256,Cleveland,0,0,0.04998461265693042,0.036302871756473835,repeated_random_split,5
+hungary:0060,Hungary,0,0,0.06669020617259631,0.05026521310735723,repeated_random_split,5
+hungary:0254,Hungary,1,1,0.6497155218999722,0.663415070027289,repeated_random_split,5
+cleveland:0005,Cleveland,0,0,0.04329624687483571,0.030881039222080475,repeated_random_split,5
+hungary:0059,Hungary,0,0,0.25617943521785,0.23293977411411834,repeated_random_split,5
+cleveland:0207,Cleveland,1,3,0.979706418508709,0.9865993357037413,repeated_random_split,5
+va_long_beach:0161,VA Long Beach,1,4,0.9374437462029778,0.952548513704172,repeated_random_split,5
+hungary:0216,Hungary,1,1,0.9017953412125681,0.9209548090765408,repeated_random_split,5
+hungary:0109,Hungary,0,0,0.41766487763468146,0.40686947617485253,repeated_random_split,5
+va_long_beach:0080,VA Long Beach,1,1,0.8732764078040545,0.8943985757481362,repeated_random_split,5
+cleveland:0094,Cleveland,0,0,0.06777544005101467,0.051190884835203655,repeated_random_split,5
+va_long_beach:0151,VA Long Beach,0,0,0.8687130702314861,0.8900607226083629,repeated_random_split,5
+hungary:0211,Hungary,1,1,0.11659457270410234,0.09472507861643616,repeated_random_split,5
+hungary:0191,Hungary,1,1,0.12296049276468075,0.10063640699655603,repeated_random_split,5
+hungary:0091,Hungary,0,0,0.27901831442103475,0.25687446574576567,repeated_random_split,5
+cleveland:0055,Cleveland,1,1,0.8820299255234078,0.9026542092893022,repeated_random_split,5
+cleveland:0099,Cleveland,0,0,0.20771576390920035,0.1831943005315048,repeated_random_split,5
+va_long_beach:0003,VA Long Beach,1,2,0.8515809038008377,0.8735794824747501,repeated_random_split,5
+hungary:0224,Hungary,1,1,0.5852405289614661,0.5926121003099146,repeated_random_split,5
+hungary:0280,Hungary,1,1,0.8839244564656507,0.9044292924352368,repeated_random_split,5
+va_long_beach:0065,VA Long Beach,1,2,0.8456978010074753,0.867852466646879,repeated_random_split,5
+cleveland:0239,Cleveland,0,0,0.04632960380277179,0.033326868581179885,repeated_random_split,5
+cleveland:0101,Cleveland,0,0,0.1874762645248548,0.16290689580711853,repeated_random_split,5
+va_long_beach:0035,VA Long Beach,1,2,0.7654696517406239,0.7868940530940997,repeated_random_split,5
+switzerland:0032,Switzerland,1,3,0.845111115929032,0.8672795420075331,repeated_random_split,5
+hungary:0177,Hungary,0,0,0.21059357726801334,0.18610398254447955,repeated_random_split,5
+hungary:0218,Hungary,1,1,0.8176883846477189,0.8401568429517398,repeated_random_split,5
+hungary:0255,Hungary,1,1,0.8869598198768812,0.9072643394475084,repeated_random_split,5
+switzerland:0086,Switzerland,1,1,0.9351809103676127,0.9506062473345107,repeated_random_split,5
+switzerland:0025,Switzerland,1,2,0.9039941309401691,0.9229592584849259,repeated_random_split,5
+cleveland:0073,Cleveland,1,1,0.9758671973013713,0.9837315515695736,repeated_random_split,5
+cleveland:0197,Cleveland,0,0,0.6130746580491897,0.6232944041492458,repeated_random_split,5
+cleveland:0018,Cleveland,0,0,0.3965738836666213,0.38366910287871075,repeated_random_split,5
+switzerland:0118,Switzerland,1,3,0.9421015285780256,0.9565154178345624,repeated_random_split,5
+hungary:0112,Hungary,0,0,0.047968420600303464,0.03465742177002537,repeated_random_split,5
+cleveland:0196,Cleveland,1,3,0.9181688364792482,0.9357154370053737,repeated_random_split,5
+va_long_beach:0060,VA Long Beach,1,1,0.9395774375722685,0.9543709956059528,repeated_random_split,5
+hungary:0201,Hungary,1,1,0.8762123798176685,0.8971772859093372,repeated_random_split,5
+cleveland:0303,Cleveland,0,0,0.19617643392625114,0.171588948061496,repeated_random_split,5
+va_long_beach:0073,VA Long Beach,0,0,0.5909295768443137,0.5974964554489678,repeated_random_split,6
+va_long_beach:0171,VA Long Beach,1,1,0.963002454884132,0.9748471412944827,repeated_random_split,6
+va_long_beach:0125,VA Long Beach,1,1,0.5695076144281704,0.5734140529277499,repeated_random_split,6
+hungary:0035,Hungary,0,0,0.10193336869648376,0.07763185965932241,repeated_random_split,6
+switzerland:0044,Switzerland,1,1,0.8939646659220137,0.9157073495020851,repeated_random_split,6
+hungary:0112,Hungary,0,0,0.052545688115567875,0.03615907971803402,repeated_random_split,6
+cleveland:0077,Cleveland,1,1,0.958009180425431,0.970931640000431,repeated_random_split,6
+cleveland:0183,Cleveland,0,0,0.40265101410210397,0.3858082914329226,repeated_random_split,6
+switzerland:0082,Switzerland,1,3,0.975771234009439,0.9844768597361347,repeated_random_split,6
+hungary:0139,Hungary,0,0,0.4386090673773524,0.42594641397434707,repeated_random_split,6
+cleveland:0266,Cleveland,1,2,0.8455491952626817,0.8696916976686498,repeated_random_split,6
+cleveland:0216,Cleveland,0,0,0.574171507700729,0.5786628118077435,repeated_random_split,6
+cleveland:0248,Cleveland,1,1,0.8313441680660457,0.8556783359584965,repeated_random_split,6
+hungary:0012,Hungary,0,0,0.10899529121283064,0.08390137381621926,repeated_random_split,6
+va_long_beach:0040,VA Long Beach,0,0,0.7378273651010248,0.7590507526763565,repeated_random_split,6
+va_long_beach:0120,VA Long Beach,1,1,0.8413539846609442,0.865574864033797,repeated_random_split,6
+hungary:0036,Hungary,0,0,0.2216767284114448,0.19201692075249444,repeated_random_split,6
+va_long_beach:0025,VA Long Beach,1,2,0.5831840703474306,0.5887970773148632,repeated_random_split,6
+va_long_beach:0161,VA Long Beach,1,4,0.9339559110904735,0.951151801843977,repeated_random_split,6
+va_long_beach:0005,VA Long Beach,0,0,0.8543366641103654,0.8782532429191289,repeated_random_split,6
+hungary:0252,Hungary,1,1,0.8100441726706966,0.8342951878320002,repeated_random_split,6
+va_long_beach:0017,VA Long Beach,1,4,0.949588030257515,0.9641679321755047,repeated_random_split,6
+hungary:0096,Hungary,0,0,0.2624848108931065,0.2340561521907186,repeated_random_split,6
+cleveland:0296,Cleveland,0,0,0.05487915625096102,0.03800863405805685,repeated_random_split,6
+hungary:0106,Hungary,0,0,0.08941143314473626,0.06670307553256503,repeated_random_split,6
+va_long_beach:0126,VA Long Beach,1,4,0.5754840537635254,0.5801394397198839,repeated_random_split,6
+cleveland:0189,Cleveland,1,1,0.21490581366693157,0.18516632626111895,repeated_random_split,6
+hungary:0245,Hungary,1,1,0.5911500062671818,0.5977438812723581,repeated_random_split,6
+hungary:0118,Hungary,0,0,0.11865724971853545,0.09259516585156054,repeated_random_split,6
+va_long_beach:0165,VA Long Beach,1,1,0.858522045602606,0.8823006484155684,repeated_random_split,6
+cleveland:0260,Cleveland,1,1,0.18011974798134292,0.1506039371256113,repeated_random_split,6
+switzerland:0093,Switzerland,1,2,0.3314391472297583,0.30754355478996726,repeated_random_split,6
+va_long_beach:0028,VA Long Beach,1,1,0.883919717256367,0.9064070711533381,repeated_random_split,6
+cleveland:0295,Cleveland,1,1,0.40273972491307763,0.3859068993890847,repeated_random_split,6
+switzerland:0009,Switzerland,1,2,0.6816605037911889,0.6982829061658524,repeated_random_split,6
+cleveland:0264,Cleveland,0,0,0.08952811879760914,0.06680375210031854,repeated_random_split,6
+hungary:0008,Hungary,0,0,0.10515398086591367,0.08048194713904752,repeated_random_split,6
+cleveland:0203,Cleveland,0,0,0.5017945666505506,0.4970390912645948,repeated_random_split,6
+cleveland:0155,Cleveland,1,3,0.8966629104690059,0.9181809724332701,repeated_random_split,6
+cleveland:0162,Cleveland,1,4,0.8606717553579933,0.8843716461433018,repeated_random_split,6
+hungary:0150,Hungary,0,0,0.12485510549197193,0.09823920419792358,repeated_random_split,6
+va_long_beach:0114,VA Long Beach,1,1,0.7784405283497617,0.8018407350100116,repeated_random_split,6
+switzerland:0012,Switzerland,1,2,0.7752288822701917,0.7984985889205566,repeated_random_split,6
+va_long_beach:0097,VA Long Beach,0,0,0.5435265441592262,0.5441333191077844,repeated_random_split,6
+cleveland:0196,Cleveland,1,3,0.9024194461114832,0.9234218998009353,repeated_random_split,6
+va_long_beach:0145,VA Long Beach,0,0,0.5551954112584541,0.5572915489895515,repeated_random_split,6
+va_long_beach:0128,VA Long Beach,1,2,0.9368415124404781,0.9535954674741592,repeated_random_split,6
+cleveland:0174,Cleveland,0,0,0.20068884126111414,0.17090861153270914,repeated_random_split,6
+switzerland:0086,Switzerland,1,1,0.9189727320819273,0.9381976895012618,repeated_random_split,6
+switzerland:0117,Switzerland,1,1,0.8753391535333737,0.8983537743409798,repeated_random_split,6
+cleveland:0034,Cleveland,0,0,0.6041771757193363,0.6123502256485356,repeated_random_split,6
+cleveland:0302,Cleveland,1,1,0.0721148141988757,0.05204157318281283,repeated_random_split,6
+va_long_beach:0004,VA Long Beach,1,1,0.867714826206762,0.8911185338379781,repeated_random_split,6
+cleveland:0151,Cleveland,0,0,0.48475020584634065,0.477817694847918,repeated_random_split,6
+va_long_beach:0159,VA Long Beach,1,2,0.8272036508861895,0.851555312696414,repeated_random_split,6
+va_long_beach:0179,VA Long Beach,1,3,0.8811773665620896,0.9038438281164283,repeated_random_split,6
+va_long_beach:0024,VA Long Beach,0,0,0.6904138106420896,0.7078549420129883,repeated_random_split,6
+cleveland:0046,Cleveland,1,4,0.7082205062271195,0.727218480932963,repeated_random_split,6
+hungary:0268,Hungary,1,1,0.8211024245890595,0.8454496771038855,repeated_random_split,6
+hungary:0232,Hungary,1,1,0.691837188704302,0.7094082438343962,repeated_random_split,6
+switzerland:0016,Switzerland,1,4,0.9692662521243582,0.9796458552503542,repeated_random_split,6
+cleveland:0263,Cleveland,0,0,0.07214526668263083,0.052066905260273535,repeated_random_split,6
+cleveland:0122,Cleveland,1,4,0.9392844988123771,0.9556504156160367,repeated_random_split,6
+cleveland:0294,Cleveland,1,2,0.9826282182057066,0.9893664048251519,repeated_random_split,6
+hungary:0077,Hungary,0,0,0.4115302863685029,0.3956892587450873,repeated_random_split,6
+hungary:0224,Hungary,1,1,0.5448169863631864,0.545588921648111,repeated_random_split,6
+switzerland:0054,Switzerland,1,4,0.8921903498279022,0.914074953883262,repeated_random_split,6
+cleveland:0035,Cleveland,0,0,0.20633599835329686,0.17655094598371748,repeated_random_split,6
+va_long_beach:0095,VA Long Beach,0,0,0.7689976903350119,0.7919926611458594,repeated_random_split,6
+cleveland:0091,Cleveland,0,0,0.3823564587599888,0.36331325164006895,repeated_random_split,6
+hungary:0107,Hungary,0,0,0.1872526898741913,0.15760001375678226,repeated_random_split,6
+hungary:0069,Hungary,0,0,0.3443657144911865,0.3215991263858479,repeated_random_split,6
+cleveland:0247,Cleveland,1,2,0.5926335924025393,0.5994089389687702,repeated_random_split,6
+hungary:0240,Hungary,1,1,0.8469682778833229,0.8710800160539456,repeated_random_split,6
+cleveland:0165,Cleveland,0,0,0.3250826820249173,0.30066069640860094,repeated_random_split,6
+switzerland:0017,Switzerland,1,2,0.9275416554717657,0.945658969453992,repeated_random_split,6
+cleveland:0115,Cleveland,1,2,0.5220780019399451,0.51992981692071,repeated_random_split,6
+switzerland:0027,Switzerland,1,3,0.9495626824801966,0.9641472914780691,repeated_random_split,6
+cleveland:0217,Cleveland,0,0,0.020511060977548137,0.012347256991905276,repeated_random_split,6
+cleveland:0251,Cleveland,0,0,0.8626982903522519,0.8863190231310255,repeated_random_split,6
+cleveland:0240,Cleveland,0,0,0.05048213426550076,0.034534377072305035,repeated_random_split,6
+va_long_beach:0034,VA Long Beach,1,3,0.489696583223267,0.4833937596805945,repeated_random_split,6
+cleveland:0198,Cleveland,0,0,0.35184648338103713,0.32976728739268885,repeated_random_split,6
+va_long_beach:0067,VA Long Beach,1,3,0.6810453420737866,0.6976089596082802,repeated_random_split,6
+va_long_beach:0172,VA Long Beach,0,0,0.39644275214350805,0.3789131852966738,repeated_random_split,6
+cleveland:0235,Cleveland,0,0,0.0937701517738475,0.07047894727272154,repeated_random_split,6
+cleveland:0140,Cleveland,0,0,0.38797420127313414,0.3695269014817026,repeated_random_split,6
+cleveland:0182,Cleveland,1,2,0.8820751015561191,0.9046840424189001,repeated_random_split,6
+hungary:0293,Hungary,1,1,0.605893998009331,0.6142726111611858,repeated_random_split,6
+hungary:0119,Hungary,0,0,0.3786505814662417,0.35922015585468503,repeated_random_split,6
+hungary:0170,Hungary,0,0,0.7471824339014571,0.7690036053654896,repeated_random_split,6
+hungary:0175,Hungary,0,0,0.14011950806101306,0.11235039143173567,repeated_random_split,6
+cleveland:0104,Cleveland,0,0,0.14410537040146532,0.1160821847884247,repeated_random_split,6
+va_long_beach:0195,VA Long Beach,1,2,0.4418173703493656,0.42954204655804934,repeated_random_split,6
+cleveland:0010,Cleveland,1,1,0.9189855280981676,0.9382089315687928,repeated_random_split,6
+switzerland:0069,Switzerland,1,1,0.7087758233635953,0.7278198667688859,repeated_random_split,6
+cleveland:0132,Cleveland,0,0,0.5590722086945352,0.5616607619736742,repeated_random_split,6
+cleveland:0205,Cleveland,0,0,0.39343418818582127,0.3755759867129017,repeated_random_split,6
+switzerland:0099,Switzerland,1,3,0.9855429747466957,0.991368031097761,repeated_random_split,6
+switzerland:0076,Switzerland,1,1,0.9318760277680571,0.9493797421439726,repeated_random_split,6
+hungary:0125,Hungary,0,0,0.037008051582793834,0.024201014046276646,repeated_random_split,6
+cleveland:0262,Cleveland,1,3,0.12236359405907056,0.0959641790010131,repeated_random_split,6
+hungary:0250,Hungary,1,1,0.459965626229449,0.44991646447299444,repeated_random_split,6
+cleveland:0009,Cleveland,1,2,0.8385516196175327,0.8628145515758759,repeated_random_split,6
+hungary:0084,Hungary,0,0,0.4286800585301309,0.41483221750107896,repeated_random_split,6
+cleveland:0221,Cleveland,0,0,0.07177935224987476,0.05176263561511743,repeated_random_split,6
+va_long_beach:0156,VA Long Beach,1,2,0.7177496982671587,0.7375161801096854,repeated_random_split,6
+cleveland:0112,Cleveland,1,1,0.8664234063176065,0.889885886381784,repeated_random_split,6
+va_long_beach:0066,VA Long Beach,1,2,0.8433126946190772,0.8674993024394686,repeated_random_split,6
+va_long_beach:0020,VA Long Beach,0,0,0.9265335613313558,0.9447883228207372,repeated_random_split,6
+hungary:0216,Hungary,1,1,0.9154090369971168,0.9350555462184148,repeated_random_split,6
+switzerland:0092,Switzerland,1,2,0.9423828692111222,0.9582377088181413,repeated_random_split,6
+switzerland:0042,Switzerland,0,0,0.5619694966569193,0.56492511830553,repeated_random_split,6
+switzerland:0062,Switzerland,1,3,0.9809248369454022,0.9881739125699555,repeated_random_split,6
+va_long_beach:0018,VA Long Beach,1,1,0.8980219320318222,0.9194227811394481,repeated_random_split,6
+va_long_beach:0169,VA Long Beach,1,2,0.8100112027748909,0.8342617660852379,repeated_random_split,6
+cleveland:0261,Cleveland,0,0,0.13637828651097877,0.10886500195892336,repeated_random_split,6
+cleveland:0250,Cleveland,0,0,0.12270037069596826,0.09627121417523915,repeated_random_split,6
+va_long_beach:0178,VA Long Beach,1,2,0.7158936406680138,0.7355141574831008,repeated_random_split,6
+hungary:0258,Hungary,1,1,0.7921369349321159,0.816005347979069,repeated_random_split,6
+cleveland:0078,Cleveland,0,0,0.15101661710529615,0.12259695408918127,repeated_random_split,6
+va_long_beach:0043,VA Long Beach,1,3,0.9795218901064915,0.9871802233505497,repeated_random_split,6
+hungary:0146,Hungary,0,0,0.07287709198103365,0.052676214729682376,repeated_random_split,6
+cleveland:0184,Cleveland,0,0,0.7502177967677757,0.7722211652250852,repeated_random_split,6
+switzerland:0111,Switzerland,1,3,0.9353525968718776,0.9523367679008838,repeated_random_split,6
+va_long_beach:0013,VA Long Beach,1,1,0.9156015849207906,0.9352258833813624,repeated_random_split,6
+va_long_beach:0068,VA Long Beach,1,1,0.9695193305797822,0.9798368688920182,repeated_random_split,6
+hungary:0203,Hungary,1,1,0.7039108923808248,0.7225460949751585,repeated_random_split,6
+hungary:0179,Hungary,0,0,0.21403956678977523,0.18429263511562652,repeated_random_split,6
+cleveland:0120,Cleveland,1,2,0.9222390671870486,0.9410578066804287,repeated_random_split,6
+va_long_beach:0094,VA Long Beach,1,1,0.523539336811286,0.5215791835350011,repeated_random_split,6
+switzerland:0085,Switzerland,1,1,0.9475636532599641,0.9625144299153201,repeated_random_split,6
+va_long_beach:0049,VA Long Beach,1,2,0.8635609384763113,0.8871465013185439,repeated_random_split,6
+va_long_beach:0038,VA Long Beach,0,0,0.9626119027802259,0.9745436406351059,repeated_random_split,6
+va_long_beach:0154,VA Long Beach,1,1,0.9452569634209534,0.9606181137709634,repeated_random_split,6
+switzerland:0047,Switzerland,1,2,0.9657414741237016,0.97696183763712,repeated_random_split,6
+cleveland:0129,Cleveland,0,0,0.055437175544502885,0.038452829789502756,repeated_random_split,6
+cleveland:0025,Cleveland,1,4,0.9800640250554453,0.9875654019823428,repeated_random_split,6
+va_long_beach:0121,VA Long Beach,1,2,0.7390590569468378,0.7603642136584715,repeated_random_split,6
+va_long_beach:0177,VA Long Beach,1,4,0.8962383518302436,0.9177924679680473,repeated_random_split,6
+cleveland:0103,Cleveland,0,0,0.17338835960099644,0.14404759657484897,repeated_random_split,6
+hungary:0265,Hungary,1,1,0.9764339618349752,0.984959233042391,repeated_random_split,6
+hungary:0147,Hungary,0,0,0.06347731873597771,0.04493069629751296,repeated_random_split,6
+va_long_beach:0157,VA Long Beach,1,2,0.8684049896756233,0.8917764530572214,repeated_random_split,6
+cleveland:0045,Cleveland,1,1,0.08413035398847239,0.06217052501871652,repeated_random_split,6
+va_long_beach:0146,VA Long Beach,0,0,0.4381003338409617,0.4253764510195989,repeated_random_split,6
+hungary:0022,Hungary,0,0,0.08929423963358867,0.06660198352053252,repeated_random_split,6
+cleveland:0007,Cleveland,1,3,0.6967713050245241,0.7147855517049827,repeated_random_split,6
+cleveland:0099,Cleveland,0,0,0.1786052903722384,0.14912492495506444,repeated_random_split,6
+switzerland:0029,Switzerland,1,1,0.943196491162856,0.9589135199938612,repeated_random_split,6
+hungary:0115,Hungary,0,0,0.5090200321530304,0.5051922179691773,repeated_random_split,6
+cleveland:0180,Cleveland,0,0,0.5283796852222953,0.5270421914600025,repeated_random_split,6
+hungary:0114,Hungary,0,0,0.22214213915431347,0.19248919123127037,repeated_random_split,6
+cleveland:0095,Cleveland,0,0,0.04067689262769904,0.026964318538797605,repeated_random_split,6
+va_long_beach:0118,VA Long Beach,1,2,0.894559250543667,0.9162533538251351,repeated_random_split,6
+va_long_beach:0069,VA Long Beach,1,1,0.84398758636289,0.8681614462316143,repeated_random_split,6
+va_long_beach:0060,VA Long Beach,1,1,0.9485000647341936,0.9632805520611599,repeated_random_split,6
+hungary:0003,Hungary,0,0,0.05928465086149439,0.04153488597737825,repeated_random_split,6
+hungary:0178,Hungary,0,0,0.562169576043196,0.5651505152074444,repeated_random_split,6
+hungary:0087,Hungary,0,0,0.20678306726223464,0.1769988302336064,repeated_random_split,6
+cleveland:0283,Cleveland,1,3,0.8816588474119772,0.9042945928801789,repeated_random_split,6
+cleveland:0292,Cleveland,0,0,0.030700949811875766,0.01955002507075678,repeated_random_split,6
+hungary:0184,Hungary,0,0,0.24172700783454668,0.21251760000548772,repeated_random_split,6
+switzerland:0119,Switzerland,1,1,0.9696704721690673,0.9799508326321852,repeated_random_split,6
+va_long_beach:0055,VA Long Beach,1,1,0.6501042014245219,0.6635188999543186,repeated_random_split,6
+va_long_beach:0193,VA Long Beach,1,3,0.9097794671882008,0.9300475373405755,repeated_random_split,6
+hungary:0019,Hungary,0,0,0.15146298119879129,0.12301959544269685,repeated_random_split,6
+switzerland:0075,Switzerland,1,2,0.7953193622987831,0.8192753419390418,repeated_random_split,6
+hungary:0188,Hungary,0,0,0.2275658229758122,0.19800568200170232,repeated_random_split,6
+va_long_beach:0183,VA Long Beach,1,1,0.9408780316768982,0.9569837834896031,repeated_random_split,6
+hungary:0214,Hungary,1,1,0.39658369301828517,0.3790695901694589,repeated_random_split,6
+hungary:0141,Hungary,0,0,0.10974752281251147,0.08457349931407909,repeated_random_split,6
+hungary:0177,Hungary,0,0,0.22289344367156924,0.1932519401339275,repeated_random_split,6
+va_long_beach:0063,VA Long Beach,1,1,0.9278644511270483,0.9459373397092062,repeated_random_split,6
+va_long_beach:0191,VA Long Beach,0,0,0.5133281677138612,0.5100542342484549,repeated_random_split,6
+hungary:0037,Hungary,0,0,0.12448231283939759,0.09789828366846362,repeated_random_split,6
+hungary:0131,Hungary,0,0,0.1748540718723995,0.14547132407513855,repeated_random_split,6
+va_long_beach:0092,VA Long Beach,0,0,0.7459368908049512,0.7676816063935702,repeated_random_split,6
+va_long_beach:0181,VA Long Beach,1,1,0.5354351343249887,0.5350043622349395,repeated_random_split,6
+va_long_beach:0151,VA Long Beach,0,0,0.9012178358845788,0.9223320838581646,repeated_random_split,6
+switzerland:0105,Switzerland,1,3,0.8509577192952976,0.8749712434700117,repeated_random_split,6
+va_long_beach:0071,VA Long Beach,0,0,0.2373162290185282,0.20798114889393055,repeated_random_split,6
+va_long_beach:0087,VA Long Beach,1,3,0.8441379236607409,0.8683088779149339,repeated_random_split,6
+switzerland:0057,Switzerland,1,2,0.7751267183486802,0.798392148444579,repeated_random_split,6
+va_long_beach:0041,VA Long Beach,1,3,0.7638295886433631,0.7885054191157346,repeated_random_split,7
+cleveland:0288,Cleveland,0,0,0.5408457301992161,0.5425094410807009,repeated_random_split,7
+switzerland:0027,Switzerland,1,3,0.9392885920615658,0.9565213972835221,repeated_random_split,7
+switzerland:0081,Switzerland,1,3,0.9675355310786493,0.9788464559989977,repeated_random_split,7
+cleveland:0065,Cleveland,1,2,0.892184083213733,0.9153961869337673,repeated_random_split,7
+hungary:0241,Hungary,1,1,0.6749973550451456,0.6928822862615818,repeated_random_split,7
+cleveland:0244,Cleveland,1,2,0.7831377182489131,0.8086063850692806,repeated_random_split,7
+cleveland:0184,Cleveland,0,0,0.7979282245098349,0.8238005132509182,repeated_random_split,7
+hungary:0291,Hungary,1,1,0.3395529441340612,0.3165310802861738,repeated_random_split,7
+va_long_beach:0134,VA Long Beach,0,0,0.724504037258265,0.7467438670148303,repeated_random_split,7
+hungary:0234,Hungary,1,1,0.8347491940491525,0.8607589618806194,repeated_random_split,7
+va_long_beach:0034,VA Long Beach,1,3,0.47649469997549,0.46954638594767917,repeated_random_split,7
+switzerland:0100,Switzerland,1,1,0.8053547505612606,0.8313581913690183,repeated_random_split,7
+hungary:0060,Hungary,0,0,0.110953979616402,0.08507113050639692,repeated_random_split,7
+hungary:0130,Hungary,0,0,0.14005468218027634,0.11170288765400414,repeated_random_split,7
+cleveland:0279,Cleveland,1,1,0.13062301055956574,0.10294694549186553,repeated_random_split,7
+switzerland:0033,Switzerland,1,2,0.5466697564475379,0.5491095576287075,repeated_random_split,7
+cleveland:0115,Cleveland,1,2,0.5055097356256715,0.5024345107119328,repeated_random_split,7
+va_long_beach:0097,VA Long Beach,0,0,0.4986162298244328,0.4946165519955636,repeated_random_split,7
+hungary:0254,Hungary,1,1,0.6712750246679452,0.6887843858692974,repeated_random_split,7
+hungary:0091,Hungary,0,0,0.29379591582243614,0.26700237000201243,repeated_random_split,7
+cleveland:0079,Cleveland,0,0,0.09179948092508451,0.0682138686483836,repeated_random_split,7
+switzerland:0097,Switzerland,1,2,0.9613862493635426,0.9741841780182028,repeated_random_split,7
+hungary:0162,Hungary,0,0,0.11563696020700494,0.08927779091414974,repeated_random_split,7
+hungary:0264,Hungary,1,1,0.8496484497691602,0.8753190998524516,repeated_random_split,7
+hungary:0212,Hungary,1,1,0.3597110396443635,0.3386758419748891,repeated_random_split,7
+va_long_beach:0070,VA Long Beach,1,1,0.5415904437162791,0.5433535306542447,repeated_random_split,7
+va_long_beach:0193,VA Long Beach,1,3,0.8865597610842697,0.9102372851176984,repeated_random_split,7
+switzerland:0017,Switzerland,1,2,0.9178127012858504,0.9382729727323105,repeated_random_split,7
+va_long_beach:0044,VA Long Beach,0,0,0.6425308578654954,0.6569519905563012,repeated_random_split,7
+cleveland:0027,Cleveland,0,0,0.02106671326605802,0.01250790315589684,repeated_random_split,7
+va_long_beach:0196,VA Long Beach,1,1,0.22517090418828156,0.1951701294432976,repeated_random_split,7
+va_long_beach:0007,VA Long Beach,1,3,0.8025845588896303,0.8285448559696115,repeated_random_split,7
+hungary:0070,Hungary,0,0,0.15896901880160133,0.1295913031920106,repeated_random_split,7
+cleveland:0200,Cleveland,1,1,0.17801067590889272,0.14800942692360186,repeated_random_split,7
+hungary:0187,Hungary,0,0,0.20417413954145314,0.17392005434177654,repeated_random_split,7
+hungary:0209,Hungary,1,1,0.8649871357252231,0.8900408392879477,repeated_random_split,7
+va_long_beach:0144,VA Long Beach,1,4,0.9529970764585874,0.9676328082619228,repeated_random_split,7
+cleveland:0229,Cleveland,1,3,0.8072221821010782,0.8332507655867617,repeated_random_split,7
+hungary:0152,Hungary,0,0,0.29754472771427587,0.27101694180919605,repeated_random_split,7
+cleveland:0273,Cleveland,1,2,0.9644975911265796,0.976559047101591,repeated_random_split,7
+cleveland:0083,Cleveland,0,0,0.04650998688522877,0.031045466284798654,repeated_random_split,7
+cleveland:0106,Cleveland,0,0,0.11427978422626159,0.088055375246155,repeated_random_split,7
+cleveland:0025,Cleveland,1,4,0.9818727182481526,0.9891439975023664,repeated_random_split,7
+va_long_beach:0095,VA Long Beach,0,0,0.7848025076272374,0.8103257490095702,repeated_random_split,7
+cleveland:0135,Cleveland,0,0,0.05053143979685307,0.0341606817018851,repeated_random_split,7
+hungary:0197,Hungary,1,1,0.9112735570353766,0.9325405800937582,repeated_random_split,7
+hungary:0200,Hungary,1,1,0.874959524051461,0.8994547580466681,repeated_random_split,7
+cleveland:0033,Cleveland,1,1,0.0650872178631174,0.04576791777535182,repeated_random_split,7
+hungary:0186,Hungary,0,0,0.6917222358342234,0.7112173733597796,repeated_random_split,7
+va_long_beach:0025,VA Long Beach,1,2,0.5299889903277605,0.5302002789237207,repeated_random_split,7
+va_long_beach:0110,VA Long Beach,0,0,0.45500794808939066,0.4452422799739303,repeated_random_split,7
+va_long_beach:0029,VA Long Beach,1,1,0.9174289317378781,0.9379386678475504,repeated_random_split,7
+hungary:0121,Hungary,0,0,0.16088588388563385,0.13142745289531793,repeated_random_split,7
+switzerland:0053,Switzerland,1,1,0.7867474312846026,0.8123315485942709,repeated_random_split,7
+switzerland:0020,Switzerland,1,1,0.9745436919971682,0.9839922646008675,repeated_random_split,7
+switzerland:0010,Switzerland,1,1,0.9196798175792557,0.9398955726520025,repeated_random_split,7
+switzerland:0019,Switzerland,1,1,0.5603360296870853,0.5645850439088368,repeated_random_split,7
+cleveland:0176,Cleveland,1,1,0.9505019268287835,0.9656458396359533,repeated_random_split,7
+switzerland:0028,Switzerland,1,3,0.8352960455146211,0.8612976556522127,repeated_random_split,7
+va_long_beach:0171,VA Long Beach,1,1,0.9625826298414876,0.9751010935437932,repeated_random_split,7
+switzerland:0007,Switzerland,0,0,0.1786909206995126,0.14867452305671827,repeated_random_split,7
+va_long_beach:0051,VA Long Beach,1,1,0.9507841840836816,0.9658714453688877,repeated_random_split,7
+cleveland:0189,Cleveland,1,1,0.19554814869242235,0.16530453129641207,repeated_random_split,7
+hungary:0066,Hungary,0,0,0.05709372585239055,0.039332221902188234,repeated_random_split,7
+hungary:0089,Hungary,0,0,0.1048160236808551,0.07960677004042709,repeated_random_split,7
+va_long_beach:0016,VA Long Beach,0,0,0.639443174956459,0.6535144683121701,repeated_random_split,7
+hungary:0165,Hungary,0,0,0.4135284083004263,0.3985501623042821,repeated_random_split,7
+cleveland:0120,Cleveland,1,2,0.9397073661753287,0.9568675610655023,repeated_random_split,7
+va_long_beach:0155,VA Long Beach,1,2,0.878775829752664,0.9030225809857894,repeated_random_split,7
+cleveland:0221,Cleveland,0,0,0.050200587852462314,0.0339027896989747,repeated_random_split,7
+hungary:0285,Hungary,1,1,0.736683726775383,0.7597863600802113,repeated_random_split,7
+cleveland:0019,Cleveland,0,0,0.03651478149095553,0.02349970771951461,repeated_random_split,7
+switzerland:0043,Switzerland,1,1,0.7294513714969516,0.7520526729108479,repeated_random_split,7
+cleveland:0185,Cleveland,1,1,0.10460280102720913,0.0794179762091442,repeated_random_split,7
+hungary:0075,Hungary,0,0,0.2193333825368935,0.18922393732943554,repeated_random_split,7
+hungary:0109,Hungary,0,0,0.41939293481001827,0.40512838894962483,repeated_random_split,7
+cleveland:0270,Cleveland,0,0,0.0810507126312299,0.0590208436098521,repeated_random_split,7
+cleveland:0206,Cleveland,1,3,0.9507947448259781,0.9658798823874916,repeated_random_split,7
+va_long_beach:0056,VA Long Beach,1,2,0.9656321073915962,0.9774170205343201,repeated_random_split,7
+hungary:0231,Hungary,1,1,0.8393620590099284,0.8652929550027433,repeated_random_split,7
+cleveland:0197,Cleveland,0,0,0.5295712821410098,0.5297265766511949,repeated_random_split,7
+cleveland:0281,Cleveland,1,2,0.948316720320112,0.9638921776605818,repeated_random_split,7
+hungary:0047,Hungary,0,0,0.04546069276288233,0.030239758049072304,repeated_random_split,7
+va_long_beach:0094,VA Long Beach,1,1,0.5486406529228034,0.5513424811897655,repeated_random_split,7
+switzerland:0036,Switzerland,1,2,0.9276643859352487,0.9467599260586672,repeated_random_split,7
+hungary:0141,Hungary,0,0,0.11030740458234337,0.08449284745752932,repeated_random_split,7
+cleveland:0241,Cleveland,0,0,0.05347161467185938,0.03646466437048783,repeated_random_split,7
+hungary:0288,Hungary,1,1,0.8989250540120708,0.9215167092613065,repeated_random_split,7
+hungary:0024,Hungary,0,0,0.19894486350038515,0.1686888400995492,repeated_random_split,7
+switzerland:0106,Switzerland,1,1,0.6639426308483803,0.6806949933296502,repeated_random_split,7
+switzerland:0001,Switzerland,1,1,0.5755359773996968,0.581770917997741,repeated_random_split,7
+hungary:0262,Hungary,1,1,0.8542310390133359,0.8797468771547068,repeated_random_split,7
+hungary:0215,Hungary,1,1,0.5892534244968944,0.5972493059631111,repeated_random_split,7
+cleveland:0247,Cleveland,1,2,0.5781912042003982,0.5847695534240767,repeated_random_split,7
+switzerland:0039,Switzerland,1,2,0.9709879955564639,0.9814055256698209,repeated_random_split,7
+cleveland:0070,Cleveland,1,1,0.45659854168293024,0.44703928232645823,repeated_random_split,7
+cleveland:0074,Cleveland,1,1,0.7361679292609269,0.759235897190173,repeated_random_split,7
+cleveland:0051,Cleveland,0,0,0.04001994353593524,0.026112004526480204,repeated_random_split,7
+cleveland:0118,Cleveland,0,0,0.13247129999181526,0.10465379393489856,repeated_random_split,7
+cleveland:0095,Cleveland,0,0,0.033155369047238356,0.02103332829128926,repeated_random_split,7
+cleveland:0236,Cleveland,1,3,0.9661952092426698,0.9778412236074121,repeated_random_split,7
+cleveland:0293,Cleveland,1,2,0.8416552735839529,0.8675383681686434,repeated_random_split,7
+switzerland:0074,Switzerland,1,3,0.9001923047480475,0.9226594469466886,repeated_random_split,7
+hungary:0094,Hungary,0,0,0.10397249906930682,0.0788602980344313,repeated_random_split,7
+cleveland:0282,Cleveland,0,0,0.05202965927695515,0.03533200481986018,repeated_random_split,7
+hungary:0266,Hungary,1,1,0.11477237228829454,0.08849874473330041,repeated_random_split,7
+cleveland:0131,Cleveland,0,0,0.33784837879104684,0.3146668606800162,repeated_random_split,7
+hungary:0117,Hungary,0,0,0.05916125725277212,0.040982974851063995,repeated_random_split,7
+va_long_beach:0149,VA Long Beach,1,3,0.8846430368919377,0.9084686643488381,repeated_random_split,7
+va_long_beach:0015,VA Long Beach,1,1,0.9137068803483775,0.9346825608714285,repeated_random_split,7
+cleveland:0094,Cleveland,0,0,0.06308260437493368,0.044140598190144965,repeated_random_split,7
+va_long_beach:0108,VA Long Beach,1,1,0.8381448565494852,0.86409879261098,repeated_random_split,7
+va_long_beach:0045,VA Long Beach,1,4,0.7978897189223259,0.8237611999299242,repeated_random_split,7
+va_long_beach:0142,VA Long Beach,1,4,0.5813922221279845,0.5883830067418265,repeated_random_split,7
+hungary:0052,Hungary,0,0,0.38048911868617075,0.36167527815301415,repeated_random_split,7
+switzerland:0052,Switzerland,0,0,0.3958790117343555,0.3788098515162648,repeated_random_split,7
+hungary:0113,Hungary,0,0,0.1412302076277363,0.1128020905045287,repeated_random_split,7
+hungary:0033,Hungary,0,0,0.4385958605787498,0.42672534678512375,repeated_random_split,7
+hungary:0188,Hungary,0,0,0.2039791541923462,0.17372454480316946,repeated_random_split,7
+va_long_beach:0002,VA Long Beach,0,0,0.4886320227505382,0.48329724777463445,repeated_random_split,7
+va_long_beach:0003,VA Long Beach,1,2,0.8266812676137792,0.8527749450781715,repeated_random_split,7
+cleveland:0261,Cleveland,0,0,0.10953594029033739,0.08380367875123114,repeated_random_split,7
+va_long_beach:0010,VA Long Beach,1,1,0.32213094137561993,0.29754338199808605,repeated_random_split,7
+hungary:0095,Hungary,0,0,0.3621627869900234,0.3413809975889067,repeated_random_split,7
+cleveland:0287,Cleveland,1,2,0.9522872022923772,0.9670692196721288,repeated_random_split,7
+switzerland:0105,Switzerland,1,3,0.8418472855294081,0.8677261154740729,repeated_random_split,7
+cleveland:0004,Cleveland,0,0,0.221684384668554,0.19161525662863624,repeated_random_split,7
+va_long_beach:0072,VA Long Beach,1,2,0.9447310190775173,0.9609883126060746,repeated_random_split,7
+cleveland:0292,Cleveland,0,0,0.03163377226194972,0.019928940436401938,repeated_random_split,7
+cleveland:0296,Cleveland,0,0,0.047877326014675176,0.03209987199150237,repeated_random_split,7
+va_long_beach:0188,VA Long Beach,1,2,0.4441092373262244,0.432940418450156,repeated_random_split,7
+switzerland:0057,Switzerland,1,2,0.7123081439649682,0.7335954580385381,repeated_random_split,7
+hungary:0290,Hungary,1,1,0.884604253024904,0.908432823066903,repeated_random_split,7
+switzerland:0034,Switzerland,1,1,0.8621747624681161,0.887362997352923,repeated_random_split,7
+hungary:0281,Hungary,1,1,0.8588597371892863,0.8841939822782229,repeated_random_split,7
+va_long_beach:0075,VA Long Beach,1,3,0.7224199515359214,0.7445031212475808,repeated_random_split,7
+hungary:0028,Hungary,0,0,0.10540064349094945,0.08012476908953377,repeated_random_split,7
+va_long_beach:0080,VA Long Beach,1,1,0.851718723899668,0.8773224703340295,repeated_random_split,7
+hungary:0035,Hungary,0,0,0.14677245032148967,0.1180074008316999,repeated_random_split,7
+hungary:0279,Hungary,1,1,0.8833653087845788,0.9072867557237867,repeated_random_split,7
+cleveland:0172,Cleveland,0,0,0.7494123347635788,0.77331548540885,repeated_random_split,7
+hungary:0144,Hungary,0,0,0.06342924002183778,0.04442136758208562,repeated_random_split,7
+va_long_beach:0020,VA Long Beach,0,0,0.9358322192097345,0.9536492555306533,repeated_random_split,7
+cleveland:0215,Cleveland,1,1,0.3268135034174891,0.30263204881059735,repeated_random_split,7
+va_long_beach:0146,VA Long Beach,0,0,0.48208223192097166,0.47587517318003686,repeated_random_split,7
+hungary:0138,Hungary,0,0,0.9414091269360836,0.9582701091901471,repeated_random_split,7
+va_long_beach:0028,VA Long Beach,1,1,0.8551562634436196,0.8806378514847412,repeated_random_split,7
+hungary:0171,Hungary,0,0,0.5338994285439813,0.5346345601382207,repeated_random_split,7
+va_long_beach:0064,VA Long Beach,1,4,0.8253763030589896,0.8514772506866116,repeated_random_split,7
+cleveland:0119,Cleveland,1,3,0.9775712994807659,0.9861519507190664,repeated_random_split,7
+va_long_beach:0164,VA Long Beach,1,3,0.8128649404227766,0.8389498682021694,repeated_random_split,7
+va_long_beach:0133,VA Long Beach,1,1,0.6087922222136465,0.6192309661026564,repeated_random_split,7
+va_long_beach:0083,VA Long Beach,1,2,0.7843382781152672,0.8098465291246357,repeated_random_split,7
+cleveland:0008,Cleveland,0,0,0.1786083826923893,0.1485937977338616,repeated_random_split,7
+hungary:0275,Hungary,1,1,0.7955406757366679,0.8213604300867569,repeated_random_split,7
+cleveland:0258,Cleveland,0,0,0.19545014595268823,0.1652070483793334,repeated_random_split,7
+switzerland:0101,Switzerland,1,2,0.8822970748673457,0.9062968612784159,repeated_random_split,7
+cleveland:0216,Cleveland,0,0,0.620694599445583,0.6325761270145127,repeated_random_split,7
+hungary:0149,Hungary,0,0,0.15829269923529402,0.12894445223234216,repeated_random_split,7
+cleveland:0254,Cleveland,0,0,0.03975779076251577,0.02591531256292649,repeated_random_split,7
+hungary:0031,Hungary,0,0,0.05760013312294763,0.03973562613453589,repeated_random_split,7
+cleveland:0224,Cleveland,1,3,0.9780827796512936,0.9865126188748049,repeated_random_split,7
+switzerland:0026,Switzerland,1,1,0.6500237987286922,0.6652801031786264,repeated_random_split,7
+switzerland:0065,Switzerland,1,3,0.8968567522947802,0.9196462147533738,repeated_random_split,7
+hungary:0079,Hungary,0,0,0.3450418802187899,0.3225432292100229,repeated_random_split,7
+hungary:0180,Hungary,0,0,0.13643297157997458,0.10832720943964509,repeated_random_split,7
+hungary:0064,Hungary,0,0,0.07453424291005543,0.05355010310166891,repeated_random_split,7
+hungary:0072,Hungary,0,0,0.04699751015707449,0.03142083592729448,repeated_random_split,7
+cleveland:0042,Cleveland,0,0,0.4950948844085023,0.49062370886773826,repeated_random_split,7
+hungary:0077,Hungary,0,0,0.41599341679814855,0.40131408053945916,repeated_random_split,7
+cleveland:0105,Cleveland,1,3,0.8985666912266322,0.921193098256572,repeated_random_split,7
+switzerland:0022,Switzerland,1,3,0.789678843586312,0.8153487801896644,repeated_random_split,7
+hungary:0022,Hungary,0,0,0.07679570667705227,0.055439506477258496,repeated_random_split,7
+cleveland:0132,Cleveland,0,0,0.44255642009852864,0.43118938677903024,repeated_random_split,7
+hungary:0274,Hungary,1,1,0.880349748874969,0.9044882353144543,repeated_random_split,7
+switzerland:0013,Switzerland,1,1,0.747695625795755,0.7714971001589391,repeated_random_split,7
+switzerland:0090,Switzerland,1,1,0.9632890852469627,0.9756403583555141,repeated_random_split,7
+cleveland:0264,Cleveland,0,0,0.05891965227064538,0.04078956250209634,repeated_random_split,7
+hungary:0179,Hungary,0,0,0.2302472721746156,0.2003640077569508,repeated_random_split,7
+hungary:0051,Hungary,0,0,0.12421861776738347,0.0970676897408896,repeated_random_split,7
+hungary:0213,Hungary,1,1,0.34603868934005394,0.32363652141267624,repeated_random_split,7
+cleveland:0123,Cleveland,0,0,0.3669231607751128,0.3466402582058701,repeated_random_split,7
+hungary:0104,Hungary,0,0,0.056324683715999406,0.03872075745795628,repeated_random_split,7
+hungary:0228,Hungary,1,1,0.527872890412654,0.5311119784917965,repeated_random_split,8
+va_long_beach:0157,VA Long Beach,1,2,0.8644946137049152,0.8986993124946686,repeated_random_split,8
+va_long_beach:0156,VA Long Beach,1,2,0.7190848177458635,0.7509282621838639,repeated_random_split,8
+va_long_beach:0168,VA Long Beach,0,0,0.4219545158249215,0.4062974004607654,repeated_random_split,8
+hungary:0099,Hungary,0,0,0.11708341526786806,0.08354967633743074,repeated_random_split,8
+hungary:0179,Hungary,0,0,0.2071518278997936,0.16888237950161603,repeated_random_split,8
+va_long_beach:0086,VA Long Beach,1,2,0.8838575162734044,0.9161591978968222,repeated_random_split,8
+cleveland:0290,Cleveland,0,0,0.058843217551464634,0.03613474351099418,repeated_random_split,8
+va_long_beach:0163,VA Long Beach,1,3,0.9380558595878699,0.9610035937574515,repeated_random_split,8
+hungary:0240,Hungary,1,1,0.84352405245296,0.8790828215045223,repeated_random_split,8
+cleveland:0036,Cleveland,0,0,0.18053449601590263,0.1424441339941899,repeated_random_split,8
+cleveland:0118,Cleveland,0,0,0.12443192157210703,0.09003184631596468,repeated_random_split,8
+va_long_beach:0035,VA Long Beach,1,2,0.7779072335388914,0.8136925767879243,repeated_random_split,8
+cleveland:0061,Cleveland,1,2,0.6099653007614991,0.6274269049543092,repeated_random_split,8
+cleveland:0271,Cleveland,1,1,0.9347452371679382,0.9584649471755039,repeated_random_split,8
+hungary:0247,Hungary,1,1,0.879801627246115,0.9125572195185658,repeated_random_split,8
+switzerland:0049,Switzerland,1,2,0.8678312548352229,0.9017546201855794,repeated_random_split,8
+cleveland:0101,Cleveland,0,0,0.16010225678170448,0.12279808049418012,repeated_random_split,8
+cleveland:0099,Cleveland,0,0,0.1994928156437351,0.16118245400369172,repeated_random_split,8
+cleveland:0216,Cleveland,0,0,0.5519371906735434,0.5594977281150271,repeated_random_split,8
+cleveland:0177,Cleveland,0,0,0.9431507741150218,0.9648500747428556,repeated_random_split,8
+hungary:0162,Hungary,0,0,0.11270041995304707,0.07973073138514254,repeated_random_split,8
+hungary:0007,Hungary,0,0,0.08109679314219416,0.053336977911351856,repeated_random_split,8
+cleveland:0283,Cleveland,1,3,0.9008848580114637,0.9309380962679625,repeated_random_split,8
+va_long_beach:0183,VA Long Beach,1,1,0.9465831790467314,0.9673983160787877,repeated_random_split,8
+cleveland:0272,Cleveland,0,0,0.7036650459778647,0.7339573114067915,repeated_random_split,8
+hungary:0034,Hungary,0,0,0.1361679705211334,0.10058191367308054,repeated_random_split,8
+cleveland:0017,Cleveland,1,1,0.18598109594695728,0.14777922021504394,repeated_random_split,8
+cleveland:0259,Cleveland,0,0,0.09174729401299815,0.06199512094612823,repeated_random_split,8
+hungary:0148,Hungary,0,0,0.5001744985011903,0.49838232698041096,repeated_random_split,8
+hungary:0280,Hungary,1,1,0.9198210762487417,0.9466651167336343,repeated_random_split,8
+hungary:0208,Hungary,1,1,0.8104352323422033,0.8468056250316611,repeated_random_split,8
+va_long_beach:0104,VA Long Beach,1,1,0.7774935504142932,0.8132634754571086,repeated_random_split,8
+va_long_beach:0048,VA Long Beach,0,0,0.6621918251504765,0.6874424582831444,repeated_random_split,8
+va_long_beach:0127,VA Long Beach,1,1,0.7604539513886895,0.7954275242604513,repeated_random_split,8
+switzerland:0059,Switzerland,1,1,0.8003364140889092,0.8366624141317008,repeated_random_split,8
+cleveland:0107,Cleveland,1,2,0.8204343810012775,0.8567189065444596,repeated_random_split,8
+switzerland:0119,Switzerland,1,1,0.9739362458211027,0.9862381254922403,repeated_random_split,8
+hungary:0005,Hungary,0,0,0.04617484917077953,0.026961034267434167,repeated_random_split,8
+cleveland:0284,Cleveland,0,0,0.04920017022180952,0.029105978884691762,repeated_random_split,8
+switzerland:0117,Switzerland,1,1,0.880958466053769,0.9135876705790354,repeated_random_split,8
+va_long_beach:0179,VA Long Beach,1,3,0.881601922734348,0.914159769047467,repeated_random_split,8
+hungary:0083,Hungary,0,0,0.8627536406569343,0.8970977147030406,repeated_random_split,8
+va_long_beach:0090,VA Long Beach,1,1,0.5195882677651916,0.521325654814205,repeated_random_split,8
+cleveland:0202,Cleveland,0,0,0.19043153612312871,0.1521678364911269,repeated_random_split,8
+hungary:0272,Hungary,1,1,0.1281192233294917,0.09332085315665609,repeated_random_split,8
+cleveland:0185,Cleveland,1,1,0.08997182561585947,0.060534205402615844,repeated_random_split,8
+va_long_beach:0046,VA Long Beach,1,2,0.9505422849560984,0.9702923187938794,repeated_random_split,8
+switzerland:0036,Switzerland,1,2,0.9335443446100445,0.9575366903830028,repeated_random_split,8
+cleveland:0192,Cleveland,1,3,0.9969876234519589,0.998941545821147,repeated_random_split,8
+va_long_beach:0138,VA Long Beach,1,3,0.6385513532069151,0.6604458518546813,repeated_random_split,8
+va_long_beach:0115,VA Long Beach,1,1,0.715078077494553,0.7465370102094553,repeated_random_split,8
+cleveland:0030,Cleveland,1,3,0.9216482049775334,0.9481395000998898,repeated_random_split,8
+switzerland:0009,Switzerland,1,2,0.7193601751605785,0.7512295529027896,repeated_random_split,8
+cleveland:0042,Cleveland,0,0,0.4853051431434936,0.4808131968815859,repeated_random_split,8
+hungary:0194,Hungary,1,1,0.8791615959497052,0.9119860669932462,repeated_random_split,8
+switzerland:0085,Switzerland,1,1,0.9480037977632314,0.96844244150032,repeated_random_split,8
+hungary:0058,Hungary,0,0,0.1944862000422563,0.1561886481197759,repeated_random_split,8
+va_long_beach:0036,VA Long Beach,1,3,0.9360446064730921,0.9594649222651245,repeated_random_split,8
+hungary:0160,Hungary,0,0,0.43328197673605656,0.4195565083095952,repeated_random_split,8
+hungary:0241,Hungary,1,1,0.682282474466167,0.7101227307244252,repeated_random_split,8
+va_long_beach:0044,VA Long Beach,0,0,0.6414313939342697,0.6637509991695711,repeated_random_split,8
+hungary:0288,Hungary,1,1,0.9137955876038059,0.941747416794621,repeated_random_split,8
+va_long_beach:0045,VA Long Beach,1,4,0.7919371375908396,0.8281300878298724,repeated_random_split,8
+hungary:0147,Hungary,0,0,0.058860003479791166,0.03614722049652824,repeated_random_split,8
+switzerland:0122,Switzerland,1,1,0.23611847868812375,0.1986271783984935,repeated_random_split,8
+switzerland:0074,Switzerland,1,3,0.9029550714447134,0.9326953494233262,repeated_random_split,8
+cleveland:0244,Cleveland,1,2,0.816841637047736,0.8531722593981098,repeated_random_split,8
+cleveland:0161,Cleveland,0,0,0.19012110616106986,0.15186087605441106,repeated_random_split,8
+cleveland:0209,Cleveland,0,0,0.06045043845927524,0.03733304301667682,repeated_random_split,8
+switzerland:0024,Switzerland,1,1,0.9578779245949954,0.9755177770395321,repeated_random_split,8
+va_long_beach:0165,VA Long Beach,1,1,0.8782121033673234,0.9111373906258424,repeated_random_split,8
+va_long_beach:0126,VA Long Beach,1,4,0.53282008266665,0.5369532940594469,repeated_random_split,8
+cleveland:0111,Cleveland,1,1,0.6240741672487445,0.6437698237026139,repeated_random_split,8
+va_long_beach:0188,VA Long Beach,1,2,0.43175562218023356,0.4177677222950611,repeated_random_split,8
+hungary:0284,Hungary,1,1,0.9149200567257139,0.9426715022861876,repeated_random_split,8
+hungary:0002,Hungary,0,0,0.10072263195304164,0.06948314941041447,repeated_random_split,8
+hungary:0276,Hungary,1,1,0.3701732385727793,0.34628146071820803,repeated_random_split,8
+va_long_beach:0174,VA Long Beach,1,1,0.383823842409855,0.36199175947520246,repeated_random_split,8
+hungary:0291,Hungary,1,1,0.3202875301086505,0.2897518230890662,repeated_random_split,8
+va_long_beach:0199,VA Long Beach,0,0,0.7404236759353902,0.7740810471250501,repeated_random_split,8
+va_long_beach:0180,VA Long Beach,1,1,0.8904395234067721,0.9219391185216562,repeated_random_split,8
+va_long_beach:0143,VA Long Beach,1,2,0.4325198611757786,0.41866327989261704,repeated_random_split,8
+hungary:0114,Hungary,0,0,0.2348067448769311,0.1972599592650659,repeated_random_split,8
+hungary:0075,Hungary,0,0,0.24569014589873775,0.20865864846852916,repeated_random_split,8
+cleveland:0063,Cleveland,1,1,0.9939187603727372,0.9975665495085901,repeated_random_split,8
+hungary:0051,Hungary,0,0,0.12282429251850911,0.08860540817081725,repeated_random_split,8
+switzerland:0034,Switzerland,1,1,0.8676948649753139,0.9016300996226094,repeated_random_split,8
+hungary:0033,Hungary,0,0,0.4796814099180832,0.4741720666205763,repeated_random_split,8
+switzerland:0001,Switzerland,1,1,0.5866383508890077,0.6002382211786289,repeated_random_split,8
+cleveland:0033,Cleveland,1,1,0.06219049429508334,0.038638603300376356,repeated_random_split,8
+hungary:0271,Hungary,1,1,0.9336642838824656,0.9576295744075729,repeated_random_split,8
+hungary:0040,Hungary,0,0,0.367011909681787,0.3426563352871734,repeated_random_split,8
+va_long_beach:0099,VA Long Beach,1,1,0.6918129508316182,0.7207871398744569,repeated_random_split,8
+hungary:0224,Hungary,1,1,0.5474801635204817,0.55424639297442,repeated_random_split,8
+va_long_beach:0020,VA Long Beach,0,0,0.9372557514781412,0.9603928303750704,repeated_random_split,8
+cleveland:0233,Cleveland,1,1,0.7366287440874819,0.7699933748835198,repeated_random_split,8
+hungary:0258,Hungary,1,1,0.7728995340116056,0.8084855233209381,repeated_random_split,8
+cleveland:0103,Cleveland,0,0,0.17990795230892817,0.14183298807823289,repeated_random_split,8
+hungary:0210,Hungary,1,1,0.17963031839572025,0.1415623483608194,repeated_random_split,8
+hungary:0282,Hungary,1,1,0.2910925807139313,0.2574522544341685,repeated_random_split,8
+cleveland:0255,Cleveland,0,0,0.32191028785013354,0.29156572549765175,repeated_random_split,8
+switzerland:0045,Switzerland,1,1,0.9484598370272236,0.968776282442764,repeated_random_split,8
+va_long_beach:0130,VA Long Beach,0,0,0.7062829772877965,0.736851984803333,repeated_random_split,8
+va_long_beach:0026,VA Long Beach,1,2,0.9505205269414571,0.9702765509038479,repeated_random_split,8
+cleveland:0093,Cleveland,0,0,0.9264174107246591,0.951949787320946,repeated_random_split,8
+va_long_beach:0194,VA Long Beach,1,1,0.7304788295537196,0.7633411164411218,repeated_random_split,8
+switzerland:0022,Switzerland,1,3,0.8024117859921899,0.8387573747649474,repeated_random_split,8
+va_long_beach:0087,VA Long Beach,1,3,0.854620248856612,0.8895495727001816,repeated_random_split,8
+va_long_beach:0151,VA Long Beach,0,0,0.8964441387793686,0.9271389690552561,repeated_random_split,8
+cleveland:0224,Cleveland,1,3,0.9857203393203485,0.9932894969061945,repeated_random_split,8
+hungary:0025,Hungary,0,0,0.15230118616899055,0.11545835682668786,repeated_random_split,8
+switzerland:0039,Switzerland,1,2,0.9772712212119192,0.9883167741340241,repeated_random_split,8
+va_long_beach:0074,VA Long Beach,1,3,0.9324535432755773,0.9566901839337701,repeated_random_split,8
+hungary:0047,Hungary,0,0,0.03792129408122471,0.021270175878044972,repeated_random_split,8
+cleveland:0302,Cleveland,1,1,0.07897201918062807,0.05164080124604769,repeated_random_split,8
+cleveland:0080,Cleveland,1,3,0.808726377086494,0.8450983555936832,repeated_random_split,8
+hungary:0109,Hungary,0,0,0.34733489848210924,0.32021472186835537,repeated_random_split,8
+cleveland:0121,Cleveland,1,3,0.9379566285975044,0.9609279427950407,repeated_random_split,8
+cleveland:0040,Cleveland,0,0,0.48906461084586117,0.4852541673006738,repeated_random_split,8
+hungary:0001,Hungary,0,0,0.10936201192638273,0.0768463536545799,repeated_random_split,8
+hungary:0145,Hungary,0,0,0.10001528096231148,0.06888692045645924,repeated_random_split,8
+cleveland:0125,Cleveland,1,1,0.536049296875999,0.540764804829753,repeated_random_split,8
+hungary:0093,Hungary,0,0,0.05940015876251327,0.03654914947614715,repeated_random_split,8
+switzerland:0118,Switzerland,1,3,0.9426675626211154,0.9644885001004165,repeated_random_split,8
+cleveland:0029,Cleveland,0,0,0.31585216169580843,0.284803546275729,repeated_random_split,8
+hungary:0104,Hungary,0,0,0.0457748982438207,0.026679746732724562,repeated_random_split,8
+switzerland:0066,Switzerland,1,2,0.9770614140311219,0.9881877520940171,repeated_random_split,8
+cleveland:0146,Cleveland,1,1,0.06616864175623499,0.041654713242119314,repeated_random_split,8
+hungary:0100,Hungary,0,0,0.18347222398831348,0.14531676298895344,repeated_random_split,8
+hungary:0014,Hungary,0,0,0.20125850545667667,0.16295114857159249,repeated_random_split,8
+hungary:0064,Hungary,0,0,0.061099288251350733,0.03781888204507005,repeated_random_split,8
+hungary:0257,Hungary,1,1,0.06592539595654677,0.0414690638497753,repeated_random_split,8
+va_long_beach:0181,VA Long Beach,1,1,0.5503284762264637,0.5576027006451277,repeated_random_split,8
+cleveland:0148,Cleveland,0,0,0.04726840973267132,0.027732879515666494,repeated_random_split,8
+cleveland:0159,Cleveland,1,2,0.9142050549609668,0.9420842484328852,repeated_random_split,8
+hungary:0153,Hungary,0,0,0.09990556852062803,0.06879453515382254,repeated_random_split,8
+switzerland:0054,Switzerland,1,4,0.9104516916161072,0.9389825986194161,repeated_random_split,8
+hungary:0094,Hungary,0,0,0.07920732489171639,0.051828116167213986,repeated_random_split,8
+hungary:0281,Hungary,1,1,0.880389364667719,0.9130810500789639,repeated_random_split,8
+switzerland:0017,Switzerland,1,2,0.9340491735844599,0.9579273821914747,repeated_random_split,8
+va_long_beach:0028,VA Long Beach,1,1,0.8932081915933476,0.9243455412553091,repeated_random_split,8
+cleveland:0012,Cleveland,0,0,0.06651228263151561,0.04191725462936582,repeated_random_split,8
+switzerland:0010,Switzerland,1,1,0.9339260214729367,0.9578321367291635,repeated_random_split,8
+va_long_beach:0185,VA Long Beach,0,0,0.914503825087542,0.9423297794113749,repeated_random_split,8
+hungary:0084,Hungary,0,0,0.47663235953591454,0.4705726426946131,repeated_random_split,8
+switzerland:0100,Switzerland,1,1,0.8251337278133635,0.861331563436543,repeated_random_split,8
+va_long_beach:0155,VA Long Beach,1,2,0.8886195985192774,0.9203492144375204,repeated_random_split,8
+switzerland:0116,Switzerland,1,1,0.8918307204276199,0.9231501642907253,repeated_random_split,8
+hungary:0175,Hungary,0,0,0.14247478430668453,0.10634747068926927,repeated_random_split,8
+cleveland:0201,Cleveland,0,0,0.08363657164731578,0.05537830806324956,repeated_random_split,8
+hungary:0111,Hungary,0,0,0.6576382075429283,0.6822669238278215,repeated_random_split,8
+va_long_beach:0011,VA Long Beach,0,0,0.19080696966988642,0.15253924168760213,repeated_random_split,8
+hungary:0120,Hungary,0,0,0.12703517156524527,0.09235141802441416,repeated_random_split,8
+hungary:0056,Hungary,0,0,0.1437341423033484,0.10750653733720635,repeated_random_split,8
+hungary:0035,Hungary,0,0,0.10988103397773565,0.07729338262137336,repeated_random_split,8
+cleveland:0027,Cleveland,0,0,0.016916664284624103,0.008094111181038002,repeated_random_split,8
+cleveland:0098,Cleveland,1,3,0.8995396661824537,0.9297915058541806,repeated_random_split,8
+switzerland:0073,Switzerland,1,1,0.7498617137997415,0.7841882423587038,repeated_random_split,8
+switzerland:0086,Switzerland,1,1,0.9278735576183618,0.9531019007783046,repeated_random_split,8
+cleveland:0191,Cleveland,0,0,0.0713547676007954,0.0456498088695566,repeated_random_split,8
+hungary:0095,Hungary,0,0,0.3488654778713918,0.3219524113673302,repeated_random_split,8
+hungary:0244,Hungary,1,1,0.7919150603331682,0.8281075490114226,repeated_random_split,8
+hungary:0152,Hungary,0,0,0.32700188881482356,0.2972689417028322,repeated_random_split,8
+cleveland:0205,Cleveland,0,0,0.3845103631358562,0.3627842026592966,repeated_random_split,8
+hungary:0134,Hungary,0,0,0.06487336872026457,0.04066796392891968,repeated_random_split,8
+hungary:0144,Hungary,0,0,0.05209900982233522,0.03118898573804263,repeated_random_split,8
+va_long_beach:0141,VA Long Beach,0,0,0.9728080355569385,0.9855220315316712,repeated_random_split,8
+cleveland:0045,Cleveland,1,1,0.07246461049902857,0.0465137565457245,repeated_random_split,8
+va_long_beach:0191,VA Long Beach,0,0,0.5286249231331495,0.5320000729993629,repeated_random_split,8
+hungary:0242,Hungary,1,1,0.700572798220831,0.7305313609894849,repeated_random_split,8
+hungary:0203,Hungary,1,1,0.7393978922947613,0.7729774514766202,repeated_random_split,8
+hungary:0293,Hungary,1,1,0.5912487891382268,0.6056266959899044,repeated_random_split,8
+cleveland:0174,Cleveland,0,0,0.1874998652539279,0.14927396008241314,repeated_random_split,8
+va_long_beach:0107,VA Long Beach,1,1,0.9068001623799546,0.9359352398781023,repeated_random_split,8
+va_long_beach:0113,VA Long Beach,1,3,0.44478965991127534,0.4330621111824678,repeated_random_split,8
+hungary:0174,Hungary,0,0,0.36396647594067777,0.33916904526449065,repeated_random_split,8
+cleveland:0010,Cleveland,1,1,0.9291756859581484,0.9541275960667119,repeated_random_split,8
+cleveland:0106,Cleveland,0,0,0.1141843475626107,0.08101965550952173,repeated_random_split,8
+cleveland:0153,Cleveland,0,0,0.09915659410390729,0.06816450845623426,repeated_random_split,8
+cleveland:0047,Cleveland,0,0,0.13662554270386454,0.10099800323250585,repeated_random_split,8
+hungary:0159,Hungary,0,0,0.03862974786211814,0.021748904224434557,repeated_random_split,8
+va_long_beach:0195,VA Long Beach,1,2,0.4660445184214119,0.4580821032751982,repeated_random_split,8
+hungary:0060,Hungary,0,0,0.08058312918123814,0.05292595130887468,repeated_random_split,8
+hungary:0092,Hungary,0,0,0.04203227659733134,0.056443354681981486,repeated_random_split,9
+switzerland:0097,Switzerland,1,2,0.9720801441155383,0.9624309786945857,repeated_random_split,9
+switzerland:0102,Switzerland,1,3,0.9695568166670219,0.9593942574549101,repeated_random_split,9
+hungary:0124,Hungary,0,0,0.022530019859693145,0.03227383388980508,repeated_random_split,9
+hungary:0285,Hungary,1,1,0.7533600181388683,0.7378071539573207,repeated_random_split,9
+switzerland:0005,Switzerland,1,2,0.9451704550475527,0.9311992449126095,repeated_random_split,9
+cleveland:0148,Cleveland,0,0,0.03966364199364347,0.05359043825897106,repeated_random_split,9
+switzerland:0025,Switzerland,1,2,0.9691487735231634,0.9589058112401554,repeated_random_split,9
+va_long_beach:0116,VA Long Beach,1,3,0.9114353630378029,0.8944538198345069,repeated_random_split,9
+cleveland:0152,Cleveland,0,0,0.23622137239807006,0.2603870725344942,repeated_random_split,9
+hungary:0168,Hungary,0,0,0.12735130449388285,0.15114507274749234,repeated_random_split,9
+cleveland:0115,Cleveland,1,2,0.31594940268037974,0.3362727186601388,repeated_random_split,9
+hungary:0249,Hungary,1,1,0.98381005734233,0.9769951023045442,repeated_random_split,9
+cleveland:0083,Cleveland,0,0,0.08849224021460048,0.10952566001581787,repeated_random_split,9
+switzerland:0017,Switzerland,1,2,0.8940698969644134,0.8762186157364117,repeated_random_split,9
+switzerland:0009,Switzerland,1,2,0.8355423884653413,0.8170387943776305,repeated_random_split,9
+cleveland:0228,Cleveland,0,0,0.10507939054686942,0.1275277718240583,repeated_random_split,9
+cleveland:0005,Cleveland,0,0,0.012123667975441753,0.018473967066791715,repeated_random_split,9
+cleveland:0058,Cleveland,1,1,0.21872201475963438,0.24335451504713562,repeated_random_split,9
+cleveland:0142,Cleveland,1,1,0.524614944213918,0.5276163966571614,repeated_random_split,9
+hungary:0210,Hungary,1,1,0.09413784621111002,0.1156970655054872,repeated_random_split,9
+va_long_beach:0096,VA Long Beach,1,3,0.9830090973472578,0.9759718639786024,repeated_random_split,9
+cleveland:0022,Cleveland,0,0,0.1691761480321481,0.194142523270167,repeated_random_split,9
+switzerland:0020,Switzerland,1,1,0.9374983560195619,0.9226561799888039,repeated_random_split,9
+cleveland:0201,Cleveland,0,0,0.11114193221631496,0.13401485862439438,repeated_random_split,9
+switzerland:0100,Switzerland,1,1,0.8750616518426227,0.8566573197992411,repeated_random_split,9
+cleveland:0011,Cleveland,0,0,0.3406145097335994,0.3593025169309211,repeated_random_split,9
+hungary:0266,Hungary,1,1,0.11203235781302409,0.13496378662555253,repeated_random_split,9
+hungary:0022,Hungary,0,0,0.04516586748770976,0.060189308351805734,repeated_random_split,9
+switzerland:0004,Switzerland,1,1,0.9847468952951367,0.9781986101442235,repeated_random_split,9
+switzerland:0064,Switzerland,1,1,0.7321653957852458,0.7178612920708893,repeated_random_split,9
+hungary:0021,Hungary,0,0,0.048051612087629626,0.06361222674162456,repeated_random_split,9
+hungary:0287,Hungary,1,1,0.9419912884080857,0.9276435836257192,repeated_random_split,9
+switzerland:0087,Switzerland,1,3,0.9183503904919813,0.901828664110718,repeated_random_split,9
+hungary:0133,Hungary,0,0,0.3035657942716735,0.32464134864671684,repeated_random_split,9
+switzerland:0024,Switzerland,1,1,0.9008976944988175,0.883342977206605,repeated_random_split,9
+hungary:0102,Hungary,0,0,0.032680828517416105,0.04506068773941353,repeated_random_split,9
+cleveland:0039,Cleveland,1,3,0.8865396316610891,0.8684235940546949,repeated_random_split,9
+cleveland:0073,Cleveland,1,1,0.9506527806311411,0.9373870159483548,repeated_random_split,9
+hungary:0053,Hungary,0,0,0.032809730689978514,0.045219900783330595,repeated_random_split,9
+switzerland:0088,Switzerland,1,3,0.8852073083236783,0.8670508737777534,repeated_random_split,9
+hungary:0256,Hungary,1,1,0.43370168128822456,0.4449790811665277,repeated_random_split,9
+va_long_beach:0140,VA Long Beach,1,2,0.5818457698155923,0.5795627167030059,repeated_random_split,9
+hungary:0178,Hungary,0,0,0.6942295874840476,0.6825165443719159,repeated_random_split,9
+hungary:0265,Hungary,1,1,0.9676330185987796,0.957097450796696,repeated_random_split,9
+cleveland:0138,Cleveland,1,3,0.8108025419331722,0.7928088257431074,repeated_random_split,9
+hungary:0130,Hungary,0,0,0.05202268486607055,0.06828345680082595,repeated_random_split,9
+cleveland:0295,Cleveland,1,1,0.3401536651187916,0.3588737735471886,repeated_random_split,9
+cleveland:0094,Cleveland,0,0,0.031773089664408456,0.043937480441299435,repeated_random_split,9
+hungary:0245,Hungary,1,1,0.7745661748720986,0.7579357406298516,repeated_random_split,9
+va_long_beach:0122,VA Long Beach,1,3,0.955792937749342,0.9432594974445515,repeated_random_split,9
+switzerland:0057,Switzerland,1,2,0.7776127610410338,0.7608431852542888,repeated_random_split,9
+hungary:0202,Hungary,1,1,0.7100153930939835,0.697174251815057,repeated_random_split,9
+hungary:0087,Hungary,0,0,0.29186051386951506,0.31360035557431903,repeated_random_split,9
+cleveland:0043,Cleveland,0,0,0.1619960167403877,0.18686863806232587,repeated_random_split,9
+hungary:0047,Hungary,0,0,0.00928225745669559,0.014518065966432665,repeated_random_split,9
+switzerland:0001,Switzerland,1,1,0.5811150060844741,0.5788984757231331,repeated_random_split,9
+switzerland:0007,Switzerland,0,0,0.4035886829198856,0.4174342926925025,repeated_random_split,9
+va_long_beach:0032,VA Long Beach,1,3,0.8326612467189792,0.814196850063966,repeated_random_split,9
+va_long_beach:0071,VA Long Beach,0,0,0.3072833054096108,0.32813821436322194,repeated_random_split,9
+switzerland:0033,Switzerland,1,2,0.796455454541203,0.7789219273175354,repeated_random_split,9
+switzerland:0031,Switzerland,1,4,0.8982576823761668,0.8805816576884529,repeated_random_split,9
+cleveland:0065,Cleveland,1,2,0.8753828692605452,0.8569848239550588,repeated_random_split,9
+switzerland:0075,Switzerland,1,2,0.9203589218357044,0.9039842128586654,repeated_random_split,9
+va_long_beach:0124,VA Long Beach,0,0,0.6120246681681004,0.6070342663396123,repeated_random_split,9
+hungary:0155,Hungary,0,0,0.19098723453259084,0.21600428107306888,repeated_random_split,9
+va_long_beach:0039,VA Long Beach,1,1,0.8193669996445201,0.801153836922024,repeated_random_split,9
+hungary:0036,Hungary,0,0,0.1335743869778091,0.1576456716606124,repeated_random_split,9
+cleveland:0041,Cleveland,1,4,0.6191270962732371,0.6135132165538678,repeated_random_split,9
+cleveland:0188,Cleveland,1,2,0.522745396389209,0.525920617774217,repeated_random_split,9
+hungary:0293,Hungary,1,1,0.2097800037044083,0.23458671484547305,repeated_random_split,9
+hungary:0113,Hungary,0,0,0.04547966573991741,0.06056273075621321,repeated_random_split,9
+cleveland:0233,Cleveland,1,1,0.16197765091505145,0.18684998009929557,repeated_random_split,9
+hungary:0024,Hungary,0,0,0.1652291616783697,0.19014901133209006,repeated_random_split,9
+cleveland:0182,Cleveland,1,2,0.88179183707697,0.8635403402049,repeated_random_split,9
+cleveland:0256,Cleveland,0,0,0.02124860564993903,0.03061923034320046,repeated_random_split,9
+cleveland:0120,Cleveland,1,2,0.9596132096252095,0.9476734421152732,repeated_random_split,9
+cleveland:0191,Cleveland,0,0,0.05374054093830948,0.07029096988453704,repeated_random_split,9
+va_long_beach:0103,VA Long Beach,1,1,0.6560725408865649,0.6473290867441771,repeated_random_split,9
+cleveland:0245,Cleveland,0,0,0.12340683634094027,0.1470036502235615,repeated_random_split,9
+va_long_beach:0049,VA Long Beach,1,2,0.7086284176053819,0.695883705603196,repeated_random_split,9
+cleveland:0066,Cleveland,1,2,0.9911368170962215,0.9866438923290417,repeated_random_split,9
+cleveland:0199,Cleveland,0,0,0.03395570538466134,0.046632284713963724,repeated_random_split,9
+va_long_beach:0179,VA Long Beach,1,3,0.8410733942142309,0.8225106418995658,repeated_random_split,9
+va_long_beach:0120,VA Long Beach,1,1,0.8064639867624467,0.7885975808391581,repeated_random_split,9
+cleveland:0035,Cleveland,0,0,0.030747323421377492,0.042663885483806625,repeated_random_split,9
+switzerland:0019,Switzerland,1,1,0.7477554621081111,0.7325171343392777,repeated_random_split,9
+hungary:0261,Hungary,1,1,0.3652005925123994,0.38209938191556686,repeated_random_split,9
+hungary:0060,Hungary,0,0,0.03334784223271262,0.045883790279863286,repeated_random_split,9
+cleveland:0303,Cleveland,0,0,0.02500032621307652,0.035435358293099316,repeated_random_split,9
+hungary:0217,Hungary,1,1,0.34902907614361084,0.3671213156152759,repeated_random_split,9
+va_long_beach:0073,VA Long Beach,0,0,0.6218593538652117,0.6160072720319563,repeated_random_split,9
+cleveland:0264,Cleveland,0,0,0.02880335011627109,0.04023705193361545,repeated_random_split,9
+va_long_beach:0110,VA Long Beach,0,0,0.23473367630085448,0.2589452174137196,repeated_random_split,9
+hungary:0185,Hungary,0,0,0.9102544868229846,0.8932013000771475,repeated_random_split,9
+va_long_beach:0159,VA Long Beach,1,2,0.9061360948945563,0.8888479854523509,repeated_random_split,9
+switzerland:0039,Switzerland,1,2,0.9387811291826864,0.9240758030962092,repeated_random_split,9
+hungary:0231,Hungary,1,1,0.8576783030014101,0.8390738297666649,repeated_random_split,9
+cleveland:0053,Cleveland,1,2,0.7501657877512311,0.7347907491445093,repeated_random_split,9
+hungary:0269,Hungary,1,1,0.19147465303885186,0.2164890693459347,repeated_random_split,9
+switzerland:0055,Switzerland,1,2,0.9419751129293956,0.9276255504501354,repeated_random_split,9
+hungary:0050,Hungary,0,0,0.04767982368553012,0.06317261183913452,repeated_random_split,9
+va_long_beach:0196,VA Long Beach,1,1,0.5167364214564305,0.5204699830018301,repeated_random_split,9
+va_long_beach:0029,VA Long Beach,1,1,0.7510787575128789,0.7356525006593225,repeated_random_split,9
+va_long_beach:0168,VA Long Beach,0,0,0.693880354596001,0.6821929996309696,repeated_random_split,9
+switzerland:0022,Switzerland,1,3,0.7214290347370702,0.707815381945536,repeated_random_split,9
+cleveland:0255,Cleveland,0,0,0.24901075854765423,0.2727379870819897,repeated_random_split,9
+hungary:0174,Hungary,0,0,0.2869010444159438,0.30890781040171933,repeated_random_split,9
+cleveland:0196,Cleveland,1,3,0.8700143995037071,0.8515240733312415,repeated_random_split,9
+cleveland:0008,Cleveland,0,0,0.29711092730866706,0.3185586386955858,repeated_random_split,9
+va_long_beach:0197,VA Long Beach,0,0,0.42388506412079574,0.43601362003898475,repeated_random_split,9
+hungary:0007,Hungary,0,0,0.0650474799963122,0.08332472343745341,repeated_random_split,9
+hungary:0207,Hungary,1,1,0.5522648606913175,0.5526995208958202,repeated_random_split,9
+cleveland:0247,Cleveland,1,2,0.6890156644340208,0.677689254763033,repeated_random_split,9
+hungary:0041,Hungary,0,0,0.03978003005219504,0.05373107204029389,repeated_random_split,9
+hungary:0186,Hungary,0,0,0.893472927351003,0.8755983335025193,repeated_random_split,9
+cleveland:0130,Cleveland,0,0,0.13342406163799295,0.15748910837712524,repeated_random_split,9
+cleveland:0009,Cleveland,1,2,0.9114710782276672,0.8944917322412953,repeated_random_split,9
+cleveland:0213,Cleveland,0,0,0.056189178749526864,0.0731393802703094,repeated_random_split,9
+va_long_beach:0035,VA Long Beach,1,2,0.7015761467305351,0.6893298988136063,repeated_random_split,9
+va_long_beach:0091,VA Long Beach,1,3,0.9765937696250642,0.9679391330452463,repeated_random_split,9
+va_long_beach:0182,VA Long Beach,0,0,0.5151952031725731,0.5190719044127886,repeated_random_split,9
+switzerland:0104,Switzerland,1,1,0.9504783036615969,0.9371889297831704,repeated_random_split,9
+va_long_beach:0077,VA Long Beach,1,2,0.8084114805876623,0.7904866200454818,repeated_random_split,9
+va_long_beach:0051,VA Long Beach,1,1,0.8957678562445757,0.8779851415110347,repeated_random_split,9
+hungary:0282,Hungary,1,1,0.15563347366064928,0.18038838317838915,repeated_random_split,9
+switzerland:0003,Switzerland,1,3,0.9456703823069906,0.9317604839073904,repeated_random_split,9
+hungary:0118,Hungary,0,0,0.0885849836031122,0.10962743243214634,repeated_random_split,9
+hungary:0191,Hungary,1,1,0.03932290203432208,0.05317844289871871,repeated_random_split,9
+hungary:0140,Hungary,0,0,0.33003582281147076,0.34944632095168704,repeated_random_split,9
+hungary:0270,Hungary,1,1,0.6286304959115683,0.6221923003903688,repeated_random_split,9
+va_long_beach:0195,VA Long Beach,1,2,0.22083900263155606,0.2454236890086108,repeated_random_split,9
+hungary:0086,Hungary,0,0,0.0742919739004738,0.09377582339004242,repeated_random_split,9
+hungary:0004,Hungary,0,0,0.1302419390091877,0.1541695729187153,repeated_random_split,9
+hungary:0109,Hungary,0,0,0.34446621215132417,0.36288375603911865,repeated_random_split,9
+va_long_beach:0153,VA Long Beach,1,1,0.9482159055047408,0.9346274324082577,repeated_random_split,9
+cleveland:0024,Cleveland,1,3,0.8629547339213254,0.8443829909725085,repeated_random_split,9
+va_long_beach:0107,VA Long Beach,1,1,0.8123292549984101,0.7942932772773461,repeated_random_split,9
+hungary:0201,Hungary,1,1,0.9323621252862464,0.9170048274974877,repeated_random_split,9
+hungary:0239,Hungary,1,1,0.14442068777033407,0.1688839746873748,repeated_random_split,9
+hungary:0206,Hungary,1,1,0.9500010516803006,0.9366475006523824,repeated_random_split,9
+hungary:0161,Hungary,0,0,0.06747541271428152,0.08608617049709745,repeated_random_split,9
+va_long_beach:0021,VA Long Beach,1,2,0.8782858701137194,0.8599491725900866,repeated_random_split,9
+cleveland:0104,Cleveland,0,0,0.15147076256684194,0.17613027494340458,repeated_random_split,9
+switzerland:0114,Switzerland,1,2,0.7999337937045131,0.78227853899361,repeated_random_split,9
+va_long_beach:0057,VA Long Beach,1,2,0.7972088396675855,0.7796484131090856,repeated_random_split,9
+hungary:0065,Hungary,0,0,0.022240838686596515,0.03190134343301534,repeated_random_split,9
+cleveland:0018,Cleveland,0,0,0.16497888219628756,0.18989537200631015,repeated_random_split,9
+cleveland:0211,Cleveland,0,0,0.029939662388443825,0.041657750400293125,repeated_random_split,9
+cleveland:0134,Cleveland,0,0,0.2561984166439616,0.27964578245959193,repeated_random_split,9
+hungary:0037,Hungary,0,0,0.16417057093480522,0.18907587202848067,repeated_random_split,9
+cleveland:0292,Cleveland,0,0,0.0877896580606842,0.10875424283612231,repeated_random_split,9
+cleveland:0015,Cleveland,0,0,0.10060462312473875,0.12270918088791463,repeated_random_split,9
+cleveland:0103,Cleveland,0,0,0.6829125500088667,0.6720469659948322,repeated_random_split,9
+cleveland:0240,Cleveland,0,0,0.042532998561313436,0.057044043445331455,repeated_random_split,9
+va_long_beach:0160,VA Long Beach,1,1,0.8723277772386338,0.8538739087196273,repeated_random_split,9
+switzerland:0096,Switzerland,1,3,0.9307156756607994,0.9152039008428778,repeated_random_split,9
+cleveland:0260,Cleveland,1,1,0.15091436682986564,0.17555999594896948,repeated_random_split,9
+cleveland:0274,Cleveland,0,0,0.2654478854121414,0.28850170798481883,repeated_random_split,9
+va_long_beach:0042,VA Long Beach,1,1,0.8888517539922676,0.8708103407673097,repeated_random_split,9
+cleveland:0209,Cleveland,0,0,0.0715139862505424,0.09065293317148646,repeated_random_split,9
+hungary:0134,Hungary,0,0,0.06671268989369966,0.08521999926208092,repeated_random_split,9
+cleveland:0119,Cleveland,1,3,0.9731565448110002,0.9637352721204855,repeated_random_split,9
+hungary:0209,Hungary,1,1,0.9717968367131861,0.9620885978940384,repeated_random_split,9
+cleveland:0145,Cleveland,0,0,0.4353567080084676,0.4464894182860671,repeated_random_split,9
+hungary:0020,Hungary,0,0,0.04591477293803538,0.061080015060104284,repeated_random_split,9
+va_long_beach:0145,VA Long Beach,0,0,0.44721560355564016,0.45730236190608387,repeated_random_split,9
+hungary:0182,Hungary,0,0,0.6161955474305112,0.6108382781506224,repeated_random_split,9
+cleveland:0122,Cleveland,1,4,0.8323031304943633,0.813843998093578,repeated_random_split,9
+cleveland:0063,Cleveland,1,1,0.9775213681742233,0.969084561380691,repeated_random_split,9
+cleveland:0028,Cleveland,0,0,0.45510372340219746,0.4644865574248639,repeated_random_split,9
+va_long_beach:0063,VA Long Beach,1,1,0.9473832180291906,0.9336878765659019,repeated_random_split,9
+hungary:0111,Hungary,0,0,0.8754708339616486,0.857074527539485,repeated_random_split,9
+va_long_beach:0133,VA Long Beach,1,1,0.6311540054664341,0.6244989763084217,repeated_random_split,9
+hungary:0172,Hungary,0,0,0.302448560731545,0.3235895345692561,repeated_random_split,9
+cleveland:0210,Cleveland,1,1,0.4205505391331322,0.4329653215985098,repeated_random_split,9
+hungary:0243,Hungary,1,1,0.8994284033307506,0.8818051197011557,repeated_random_split,9
+cleveland:0289,Cleveland,0,0,0.07433056413016696,0.09381910246606218,repeated_random_split,9
+hungary:0142,Hungary,0,0,0.034197742289090886,0.04692989530405938,repeated_random_split,9
+cleveland:0222,Cleveland,0,0,0.07271526794084443,0.09200515748822156,repeated_random_split,9
+cleveland:0129,Cleveland,0,0,0.02497335171971716,0.03540102615345636,repeated_random_split,9
+hungary:0240,Hungary,1,1,0.8160744476675197,0.7979405262431079,repeated_random_split,9
+hungary:0294,Hungary,1,1,0.8594267597678628,0.8408305481086601,repeated_random_split,9
+cleveland:0023,Cleveland,1,1,0.29149216939741457,0.3132521404110319,repeated_random_split,9

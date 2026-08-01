@@ -1,0 +1,32 @@
+{
+  "captured_at_utc": "2026-07-29T12:02:54.639097+00:00",
+  "dataset_doi": "10.24432/C52P4X",
+  "files": {
+    "data/processed/cardioshift_cohort.csv": {
+      "bytes": 76914,
+      "sha256": "961eca9f38cd639e8d4be527326e3168d3c3c8af230fd4e154d5d6ea4da4f0e9"
+    },
+    "data/raw/heart+disease.zip": {
+      "bytes": 128894,
+      "sha256": "b17cd273da9ce1caa4710fce80227ea454d4dbf9fcbc8e6a9121672751563adc"
+    },
+    "data/raw/processed.cleveland.data": {
+      "bytes": 18461,
+      "sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+    },
+    "data/raw/processed.hungarian.data": {
+      "bytes": 10263,
+      "sha256": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796"
+    },
+    "data/raw/processed.switzerland.data": {
+      "bytes": 4109,
+      "sha256": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314"
+    },
+    "data/raw/processed.va.data": {
+      "bytes": 6737,
+      "sha256": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f"
+    }
+  },
+  "license": "CC BY 4.0",
+  "source_url": "https://archive.ics.uci.edu/static/public/45/heart+disease.zip"
+}

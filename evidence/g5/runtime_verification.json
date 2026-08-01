@@ -1,0 +1,46 @@
+{
+    "schema_version":  "1.0",
+    "status":  "pass",
+    "verified_at_utc":  "2026-08-01T00:44:24+00:00",
+    "tested_release_sha":  "6b7aadd9806f13ebedd6a3be4b09e5d8a48c440b",
+    "branch":  "codex/rc3-runtime-provenance",
+    "workspace":  "admin/cardioshift-final-submit",
+    "template":  "cardioshift-stage-a",
+    "template_version":  "rc3-3d99904-jupyter",
+    "docker_image":  "cardioshift-coder:rc3-3d99904",
+    "docker_image_digest":  "sha256:f400ef0649b9d50b785d9902f269d4714d59e6fb9fe1565b9b4fc9a48903a2d8",
+    "repository_origin":  "git@github.com:tansimin-crypto/byte-to-beat.git",
+    "github_deploy_key_mode":  "read_only_verified",
+    "cold_start":  {
+                       "coder_status":  "Started",
+                       "coder_healthy":  true,
+                       "exact_head":  true,
+                       "clean_worktree":  true,
+                       "release_marker_matches":  true,
+                       "tests_ok":  true,
+                       "jupyterlab_version":  "4.6.2",
+                       "jupyter_api_http_status":  200,
+                       "streamlit_health":  "ok",
+                       "services_ok":  true
+                   },
+    "restart":  {
+                    "stop_succeeded":  true,
+                    "start_succeeded":  true,
+                    "coder_status":  "Started",
+                    "coder_healthy":  true,
+                    "exact_head":  true,
+                    "clean_worktree":  true,
+                    "release_marker_matches":  true,
+                    "tests_ok":  true,
+                    "jupyterlab_version":  "4.6.2",
+                    "jupyter_api_http_status":  200,
+                    "streamlit_health":  "ok",
+                    "services_ok":  true
+                },
+    "release_marker_path":  "/workspace/.coder-status/release.sha",
+    "test_marker_path":  "/workspace/.coder-status/tests.ok",
+    "unresolved_blockers":  [
+
+                            ],
+    "service_marker_path":  "/workspace/.coder-status/services.ok"
+}

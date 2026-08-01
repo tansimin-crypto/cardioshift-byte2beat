@@ -1,0 +1,3555 @@
+{
+  "E6_robustness": {
+    "scenarios": {
+      "baseline:baseline:repeat=0": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.015384615384615385,
+            "accepted_n": 78,
+            "auprc": 0.8514411343199061,
+            "auroc": 0.8628268117213547,
+            "brier": 0.19415251393902344,
+            "ece_10": 0.18696881214068262,
+            "empirical_conformal_coverage": 0.9207920792079208,
+            "events": 139,
+            "full_coverage_error": 0.30033003300330036,
+            "log_loss": 0.5674780725866143,
+            "n": 303,
+            "safety_coverage": 0.25742574257425743,
+            "selective_risk": 0.11538461538461539,
+            "sensitivity": 0.9280575539568345,
+            "specificity": 0.5060975609756098
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.25925925925925924,
+            "accepted_n": 124,
+            "auprc": 0.849355638244434,
+            "auroc": 0.8911581694098756,
+            "brier": 0.1607318308613374,
+            "ece_10": 0.1859832799852184,
+            "empirical_conformal_coverage": 0.9625850340136054,
+            "events": 106,
+            "full_coverage_error": 0.21768707482993196,
+            "log_loss": 0.4948678437971766,
+            "n": 294,
+            "safety_coverage": 0.4217687074829932,
+            "selective_risk": 0.06451612903225806,
+            "sensitivity": 0.8773584905660378,
+            "specificity": 0.7287234042553191
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.06779661016949153,
+            "accepted_n": 62,
+            "auprc": 0.9693801039634838,
+            "auroc": 0.7369565217391304,
+            "brier": 0.17350197191661076,
+            "ece_10": 0.28905017721351073,
+            "empirical_conformal_coverage": 0.926829268292683,
+            "events": 115,
+            "full_coverage_error": 0.2601626016260163,
+            "log_loss": 0.5246361783733328,
+            "n": 123,
+            "safety_coverage": 0.5040650406504065,
+            "selective_risk": 0.08064516129032258,
+            "sensitivity": 0.7478260869565218,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.06666666666666667,
+            "accepted_n": 109,
+            "auprc": 0.8605464934093076,
+            "auroc": 0.7270693512304252,
+            "brier": 0.23888388736847,
+            "ece_10": 0.22898419534390999,
+            "empirical_conformal_coverage": 0.78,
+            "events": 149,
+            "full_coverage_error": 0.335,
+            "log_loss": 0.7493067975103546,
+            "n": 200,
+            "safety_coverage": 0.545,
+            "selective_risk": 0.14678899082568808,
+            "sensitivity": 0.6577181208053692,
+            "specificity": 0.6862745098039216
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.07468879668049792,
+          "accepted_n": 373,
+          "auprc": 0.8268546637329571,
+          "auroc": 0.7894731810381502,
+          "brier": 0.19043575001760263,
+          "ece_10": 0.08430031078742889,
+          "empirical_conformal_coverage": 0.9043478260869565,
+          "events": 509,
+          "full_coverage_error": 0.27608695652173915,
+          "log_loss": 0.5780745777305488,
+          "n": 920,
+          "safety_coverage": 0.40543478260869564,
+          "selective_risk": 0.10187667560321716,
+          "sensitivity": 0.7976424361493124,
+          "specificity": 0.6326034063260341
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.10927942027013235,
+              "low": 0.04303358768339313,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.862394847240711,
+              "low": 0.7886426599549144,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.8181390077102519,
+              "low": 0.7602419640489879,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.20561328647184288,
+              "low": 0.1766396445906926,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9223097826086956,
+              "low": 0.8858695652173914,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.3065217391304348,
+              "low": 0.2472554347826087,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.4397010869565217,
+              "low": 0.3739130434782609,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.13409269545168725,
+              "low": 0.07265594205754829,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8315347086323114,
+              "low": 0.7622295193229001,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.6759263088905292,
+              "low": 0.5853753101736973,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 0,
+        "scenario": "baseline",
+        "scenario_type": "baseline"
+      },
+      "grouped:basic_vitals_only:repeat=0": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": null,
+            "accepted_n": 0,
+            "auprc": 0.6702570914032099,
+            "auroc": 0.7083918231268644,
+            "brier": 0.25678548785341926,
+            "ece_10": 0.20058011138310736,
+            "empirical_conformal_coverage": 0.9636963696369637,
+            "events": 139,
+            "full_coverage_error": 0.43234323432343236,
+            "log_loss": 0.710640603136645,
+            "n": 303,
+            "safety_coverage": 0.0,
+            "selective_risk": null,
+            "sensitivity": 0.9856115107913669,
+            "specificity": 0.21341463414634146
+          },
+          "Hungary": {
+            "accepted_case_fnr": null,
+            "accepted_n": 0,
+            "auprc": 0.4371709897641707,
+            "auroc": 0.6061822561220394,
+            "brier": 0.3413708956004665,
+            "ece_10": 0.34345207118037396,
+            "empirical_conformal_coverage": 1.0,
+            "events": 106,
+            "full_coverage_error": 0.6394557823129252,
+            "log_loss": 0.8963340436755085,
+            "n": 294,
+            "safety_coverage": 0.0,
+            "selective_risk": null,
+            "sensitivity": 1.0,
+            "specificity": 0.0
+          },
+          "Switzerland": {
+            "accepted_case_fnr": null,
+            "accepted_n": 0,
+            "auprc": 0.920859761508063,
+            "auroc": 0.4391304347826087,
+            "brier": 0.15255849869670582,
+            "ece_10": 0.2636137098897582,
+            "empirical_conformal_coverage": 0.9024390243902439,
+            "events": 115,
+            "full_coverage_error": 0.14634146341463414,
+            "log_loss": 0.48843118859872015,
+            "n": 123,
+            "safety_coverage": 0.0,
+            "selective_risk": null,
+            "sensitivity": 0.9130434782608695,
+            "specificity": 0.0
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": null,
+            "accepted_n": 0,
+            "auprc": 0.7651077514927396,
+            "auroc": 0.541189630214502,
+            "brier": 0.2617417807833961,
+            "ece_10": 0.2582266343943306,
+            "empirical_conformal_coverage": 0.93,
+            "events": 149,
+            "full_coverage_error": 0.6,
+            "log_loss": 0.7179242490278008,
+            "n": 200,
+            "safety_coverage": 0.0,
+            "selective_risk": null,
+            "sensitivity": 0.28859060402684567,
+            "specificity": 0.7254901960784313
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": null,
+          "accepted_n": 0,
+          "auprc": 0.6237204486726253,
+          "auroc": 0.5460255546154618,
+          "brier": 0.27095880176358395,
+          "ece_10": 0.1785232516107262,
+          "empirical_conformal_coverage": 0.9597826086956521,
+          "events": 509,
+          "full_coverage_error": 0.4967391304347826,
+          "log_loss": 0.7418567365154408,
+          "n": 920,
+          "safety_coverage": 0.0,
+          "selective_risk": null,
+          "sensitivity": 0.768172888015717,
+          "specificity": 0.17518248175182483
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": null,
+              "low": null,
+              "valid_replicates": 0
+            },
+            "auprc": {
+              "high": 0.6706952666032141,
+              "low": 0.5770885994470175,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.5810821197018524,
+              "low": 0.5080173254018406,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.2843139781360383,
+              "low": 0.25810637554764365,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9706521739130435,
+              "low": 0.9461684782608696,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.5277445652173912,
+              "low": 0.46630434782608693,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.0,
+              "low": 0.0,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": null,
+              "low": null,
+              "valid_replicates": 0
+            },
+            "sensitivity": {
+              "high": 0.8022074850299401,
+              "low": 0.7295881721437882,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.21497584541062803,
+              "low": 0.13788873670641313,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 0,
+        "scenario": "basic_vitals_only",
+        "scenario_type": "grouped"
+      },
+      "grouped:no_ecg:repeat=0": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": null,
+            "accepted_n": 0,
+            "auprc": 0.7640218664870545,
+            "auroc": 0.7997017020529917,
+            "brier": 0.2145650080774041,
+            "ece_10": 0.16230072852505928,
+            "empirical_conformal_coverage": 0.9273927392739274,
+            "events": 139,
+            "full_coverage_error": 0.35973597359735976,
+            "log_loss": 0.6175645128770495,
+            "n": 303,
+            "safety_coverage": 0.0,
+            "selective_risk": null,
+            "sensitivity": 0.8920863309352518,
+            "specificity": 0.4268292682926829
+          },
+          "Hungary": {
+            "accepted_case_fnr": 1.0,
+            "accepted_n": 47,
+            "auprc": 0.7015256933159502,
+            "auroc": 0.8256222400642312,
+            "brier": 0.1846266996986182,
+            "ece_10": 0.15497243811856143,
+            "empirical_conformal_coverage": 0.9319727891156463,
+            "events": 106,
+            "full_coverage_error": 0.22789115646258504,
+            "log_loss": 0.5563641748037597,
+            "n": 294,
+            "safety_coverage": 0.1598639455782313,
+            "selective_risk": 0.06382978723404255,
+            "sensitivity": 0.7358490566037735,
+            "specificity": 0.7925531914893617
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.25,
+            "accepted_n": 4,
+            "auprc": 0.9671080075464211,
+            "auroc": 0.7521739130434782,
+            "brier": 0.15851206002184573,
+            "ece_10": 0.2950695240249338,
+            "empirical_conformal_coverage": 0.9024390243902439,
+            "events": 115,
+            "full_coverage_error": 0.16260162601626016,
+            "log_loss": 0.5027634589264804,
+            "n": 123,
+            "safety_coverage": 0.032520325203252036,
+            "selective_risk": 0.25,
+            "sensitivity": 0.8608695652173913,
+            "specificity": 0.5
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": null,
+            "accepted_n": 0,
+            "auprc": 0.8178335619389114,
+            "auroc": 0.6691669956573234,
+            "brier": 0.4193457029285247,
+            "ece_10": 0.4728659453343324,
+            "empirical_conformal_coverage": 0.52,
+            "events": 149,
+            "full_coverage_error": 0.635,
+            "log_loss": 1.192718764746335,
+            "n": 200,
+            "safety_coverage": 0.0,
+            "selective_risk": null,
+            "sensitivity": 0.19463087248322147,
+            "specificity": 0.8627450980392157
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.5714285714285714,
+          "accepted_n": 51,
+          "auprc": 0.7284863394435255,
+          "auroc": 0.6622450394122342,
+          "brier": 0.24202127296439038,
+          "ece_10": 0.1359015629522634,
+          "empirical_conformal_coverage": 0.8369565217391305,
+          "events": 509,
+          "full_coverage_error": 0.35108695652173916,
+          "log_loss": 0.7076921447731254,
+          "n": 920,
+          "safety_coverage": 0.05543478260869565,
+          "selective_risk": 0.0784313725490196,
+          "sensitivity": 0.6483300589390962,
+          "specificity": 0.6496350364963503
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 1.0,
+              "low": 0.15357142857142858,
+              "valid_replicates": 499
+            },
+            "auprc": {
+              "high": 0.7727560237730093,
+              "low": 0.6863354599210049,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.6983874136017224,
+              "low": 0.6275901602000588,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.25637702433815224,
+              "low": 0.22640925507005003,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.8597826086956522,
+              "low": 0.8135597826086957,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.38369565217391305,
+              "low": 0.31956521739130433,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.06956521739130435,
+              "low": 0.041820652173913044,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.14728997289972895,
+              "low": 0.016119791666666668,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.6930798720115914,
+              "low": 0.6064353234684886,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.6921522284391279,
+              "low": 0.6043672738130785,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 0,
+        "scenario": "no_ecg",
+        "scenario_type": "grouped"
+      },
+      "grouped:no_exercise:repeat=0": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 13,
+            "auprc": 0.7435546350352854,
+            "auroc": 0.7942182839094577,
+            "brier": 0.2131383421823233,
+            "ece_10": 0.1553588842601813,
+            "empirical_conformal_coverage": 0.9306930693069307,
+            "events": 139,
+            "full_coverage_error": 0.34983498349834985,
+            "log_loss": 0.6150642548317808,
+            "n": 303,
+            "safety_coverage": 0.0429042904290429,
+            "selective_risk": 0.23076923076923078,
+            "sensitivity": 0.8920863309352518,
+            "specificity": 0.4451219512195122
+          },
+          "Hungary": {
+            "accepted_case_fnr": 1.0,
+            "accepted_n": 56,
+            "auprc": 0.7005317851847835,
+            "auroc": 0.82557205941389,
+            "brier": 0.18657092494309113,
+            "ece_10": 0.15682505482033238,
+            "empirical_conformal_coverage": 0.9455782312925171,
+            "events": 106,
+            "full_coverage_error": 0.22789115646258504,
+            "log_loss": 0.5606791445067927,
+            "n": 294,
+            "safety_coverage": 0.19047619047619047,
+            "selective_risk": 0.125,
+            "sensitivity": 0.7641509433962265,
+            "specificity": 0.776595744680851
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.06666666666666667,
+            "accepted_n": 31,
+            "auprc": 0.9687385771534113,
+            "auroc": 0.7369565217391304,
+            "brier": 0.15836341310507615,
+            "ece_10": 0.29342490868395377,
+            "empirical_conformal_coverage": 0.9024390243902439,
+            "events": 115,
+            "full_coverage_error": 0.17073170731707318,
+            "log_loss": 0.5002616472773301,
+            "n": 123,
+            "safety_coverage": 0.25203252032520324,
+            "selective_risk": 0.0967741935483871,
+            "sensitivity": 0.8521739130434782,
+            "specificity": 0.5
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": null,
+            "accepted_n": 0,
+            "auprc": 0.8174201973084059,
+            "auroc": 0.6702197657586524,
+            "brier": 0.41558287383272924,
+            "ece_10": 0.4690924547584361,
+            "empirical_conformal_coverage": 0.515,
+            "events": 149,
+            "full_coverage_error": 0.615,
+            "log_loss": 1.1734613776503908,
+            "n": 200,
+            "safety_coverage": 0.0,
+            "selective_risk": null,
+            "sensitivity": 0.2214765100671141,
+            "specificity": 0.8627450980392157
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.1956521739130435,
+          "accepted_n": 100,
+          "auprc": 0.7274564714247624,
+          "auroc": 0.6633396909163045,
+          "brier": 0.24133483064454675,
+          "ece_10": 0.13747841913062528,
+          "empirical_conformal_coverage": 0.841304347826087,
+          "events": 509,
+          "full_coverage_error": 0.34456521739130436,
+          "log_loss": 0.7037267346132786,
+          "n": 920,
+          "safety_coverage": 0.10869565217391304,
+          "selective_risk": 0.13,
+          "sensitivity": 0.6601178781925344,
+          "specificity": 0.6496350364963503
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.3231956521739129,
+              "low": 0.08659261576971215,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.7705933647235617,
+              "low": 0.6819713322447584,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.6967746469045691,
+              "low": 0.6236533912536317,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.25671720565210665,
+              "low": 0.22769754481169222,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.8636141304347825,
+              "low": 0.8184782608695652,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.3810054347826087,
+              "low": 0.3130434782608696,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.12934782608695652,
+              "low": 0.0891304347826087,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.1991441441441441,
+              "low": 0.06697115384615385,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.700720551901439,
+              "low": 0.6131641718955881,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.6917296518939585,
+              "low": 0.603910066085624,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 0,
+        "scenario": "no_exercise",
+        "scenario_type": "grouped"
+      },
+      "mcar:mcar_10:repeat=0": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 82,
+            "auprc": 0.8128555198359878,
+            "auroc": 0.830101772240744,
+            "brier": 0.21143842072904606,
+            "ece_10": 0.19612708877318316,
+            "empirical_conformal_coverage": 0.9042904290429042,
+            "events": 139,
+            "full_coverage_error": 0.3201320132013201,
+            "log_loss": 0.6137510128674197,
+            "n": 303,
+            "safety_coverage": 0.2706270627062706,
+            "selective_risk": 0.08536585365853659,
+            "sensitivity": 0.9064748201438849,
+            "specificity": 0.4878048780487805
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.08333333333333333,
+            "accepted_n": 93,
+            "auprc": 0.8188102846310212,
+            "auroc": 0.8877960658370132,
+            "brier": 0.18231900226857362,
+            "ece_10": 0.20859573692001335,
+            "empirical_conformal_coverage": 0.9795918367346939,
+            "events": 106,
+            "full_coverage_error": 0.2687074829931973,
+            "log_loss": 0.5443708398927241,
+            "n": 294,
+            "safety_coverage": 0.3163265306122449,
+            "selective_risk": 0.043010752688172046,
+            "sensitivity": 0.9150943396226415,
+            "specificity": 0.6276595744680851
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.09090909090909091,
+            "accepted_n": 59,
+            "auprc": 0.9648123750451701,
+            "auroc": 0.7195652173913043,
+            "brier": 0.17462033030915253,
+            "ece_10": 0.29178311355601405,
+            "empirical_conformal_coverage": 0.9186991869918699,
+            "events": 115,
+            "full_coverage_error": 0.2845528455284553,
+            "log_loss": 0.5265617292493833,
+            "n": 123,
+            "safety_coverage": 0.4796747967479675,
+            "selective_risk": 0.11864406779661017,
+            "sensitivity": 0.7217391304347827,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.07792207792207792,
+            "accepted_n": 94,
+            "auprc": 0.8503512776435049,
+            "auroc": 0.7145677062771417,
+            "brier": 0.2425721483109414,
+            "ece_10": 0.23148968619242058,
+            "empirical_conformal_coverage": 0.78,
+            "events": 149,
+            "full_coverage_error": 0.35,
+            "log_loss": 0.7613004945750846,
+            "n": 200,
+            "safety_coverage": 0.47,
+            "selective_risk": 0.1702127659574468,
+            "sensitivity": 0.6375838926174496,
+            "specificity": 0.6862745098039216
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.06018518518518518,
+          "accepted_n": 328,
+          "auprc": 0.8034050633318177,
+          "auroc": 0.7660409466584448,
+          "brier": 0.2039786504761692,
+          "ece_10": 0.09491540893000609,
+          "empirical_conformal_coverage": 0.9032608695652173,
+          "events": 509,
+          "full_coverage_error": 0.30543478260869567,
+          "log_loss": 0.6119986689565001,
+          "n": 920,
+          "safety_coverage": 0.3565217391304348,
+          "selective_risk": 0.10365853658536585,
+          "sensitivity": 0.787819253438114,
+          "specificity": 0.5790754257907542
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.09546653723161261,
+              "low": 0.03022308512258261,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8402877938261728,
+              "low": 0.7681375885513971,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.7952216092873919,
+              "low": 0.7341371133157197,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.21873146944006902,
+              "low": 0.19041917640158462,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9228260869565217,
+              "low": 0.8842119565217391,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.33369565217391306,
+              "low": 0.2755163043478261,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.3831793478260869,
+              "low": 0.32608695652173914,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.1386016007114273,
+              "low": 0.0727844671884407,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8243512974051896,
+              "low": 0.754546357981523,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.6238125,
+              "low": 0.5301139233891338,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 0,
+        "scenario": "mcar_10",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_10:repeat=1": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.01818181818181818,
+            "accepted_n": 77,
+            "auprc": 0.8334933524887129,
+            "auroc": 0.8471661695034216,
+            "brier": 0.20588018399632274,
+            "ece_10": 0.2028658271156434,
+            "empirical_conformal_coverage": 0.900990099009901,
+            "events": 139,
+            "full_coverage_error": 0.3234323432343234,
+            "log_loss": 0.5949911418055464,
+            "n": 303,
+            "safety_coverage": 0.25412541254125415,
+            "selective_risk": 0.18181818181818182,
+            "sensitivity": 0.9496402877697842,
+            "specificity": 0.4451219512195122
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.13333333333333333,
+            "accepted_n": 85,
+            "auprc": 0.8498169256630277,
+            "auroc": 0.8875451625853071,
+            "brier": 0.182395667980044,
+            "ece_10": 0.22155682098770374,
+            "empirical_conformal_coverage": 0.9761904761904762,
+            "events": 106,
+            "full_coverage_error": 0.282312925170068,
+            "log_loss": 0.5408484319170357,
+            "n": 294,
+            "safety_coverage": 0.2891156462585034,
+            "selective_risk": 0.058823529411764705,
+            "sensitivity": 0.8962264150943396,
+            "specificity": 0.6170212765957447
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.12280701754385964,
+            "accepted_n": 60,
+            "auprc": 0.9690034235142488,
+            "auroc": 0.7326086956521739,
+            "brier": 0.18615425196044585,
+            "ece_10": 0.30353118606506013,
+            "empirical_conformal_coverage": 0.8861788617886179,
+            "events": 115,
+            "full_coverage_error": 0.2682926829268293,
+            "log_loss": 0.5538716491725387,
+            "n": 123,
+            "safety_coverage": 0.4878048780487805,
+            "selective_risk": 0.13333333333333333,
+            "sensitivity": 0.7391304347826086,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.1111111111111111,
+            "accepted_n": 98,
+            "auprc": 0.8645006138445641,
+            "auroc": 0.7161468614291354,
+            "brier": 0.25076460158365094,
+            "ece_10": 0.24466696051938805,
+            "empirical_conformal_coverage": 0.77,
+            "events": 149,
+            "full_coverage_error": 0.365,
+            "log_loss": 0.777273403541692,
+            "n": 200,
+            "safety_coverage": 0.49,
+            "selective_risk": 0.16326530612244897,
+            "sensitivity": 0.6174496644295302,
+            "specificity": 0.6862745098039216
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.09417040358744394,
+          "accepted_n": 320,
+          "auprc": 0.8165715645445979,
+          "auroc": 0.7653573869855975,
+          "brier": 0.20549556026617796,
+          "ece_10": 0.11117544173243428,
+          "empirical_conformal_coverage": 0.8945652173913043,
+          "events": 509,
+          "full_coverage_error": 0.3119565217391304,
+          "log_loss": 0.6118180962035323,
+          "n": 920,
+          "safety_coverage": 0.34782608695652173,
+          "selective_risk": 0.134375,
+          "sensitivity": 0.793713163064833,
+          "specificity": 0.5571776155717761
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.13622616554612582,
+              "low": 0.05651052004763795,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8490802001466936,
+              "low": 0.7799214970582476,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.7941714655947502,
+              "low": 0.7338824971160086,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.22126093717138112,
+              "low": 0.19036154957447077,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9141304347826087,
+              "low": 0.8755163043478261,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.33804347826086956,
+              "low": 0.28203804347826084,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.37774456521739125,
+              "low": 0.31956521739130433,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.17193600111544896,
+              "low": 0.09856730769230769,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8272349586222322,
+              "low": 0.7577477910681012,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.6050735981308412,
+              "low": 0.5099502487562189,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 1,
+        "scenario": "mcar_10",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_10:repeat=2": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.03278688524590164,
+            "accepted_n": 75,
+            "auprc": 0.8437387910222318,
+            "auroc": 0.8432181084400772,
+            "brier": 0.21157167426911325,
+            "ece_10": 0.198637059565438,
+            "empirical_conformal_coverage": 0.900990099009901,
+            "events": 139,
+            "full_coverage_error": 0.33993399339933994,
+            "log_loss": 0.6051279586565702,
+            "n": 303,
+            "safety_coverage": 0.24752475247524752,
+            "selective_risk": 0.14666666666666667,
+            "sensitivity": 0.9136690647482014,
+            "specificity": 0.4451219512195122
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.18518518518518517,
+            "accepted_n": 97,
+            "auprc": 0.8199983596464182,
+            "auroc": 0.8758530710558009,
+            "brier": 0.18677616068423492,
+            "ece_10": 0.20998878310094454,
+            "empirical_conformal_coverage": 0.9659863945578231,
+            "events": 106,
+            "full_coverage_error": 0.282312925170068,
+            "log_loss": 0.5539002516639944,
+            "n": 294,
+            "safety_coverage": 0.3299319727891156,
+            "selective_risk": 0.061855670103092786,
+            "sensitivity": 0.8962264150943396,
+            "specificity": 0.6170212765957447
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.08928571428571429,
+            "accepted_n": 58,
+            "auprc": 0.968076949631979,
+            "auroc": 0.7260869565217392,
+            "brier": 0.17935182755283133,
+            "ece_10": 0.2997656107983098,
+            "empirical_conformal_coverage": 0.9105691056910569,
+            "events": 115,
+            "full_coverage_error": 0.2682926829268293,
+            "log_loss": 0.5366590818269097,
+            "n": 123,
+            "safety_coverage": 0.4715447154471545,
+            "selective_risk": 0.10344827586206896,
+            "sensitivity": 0.7304347826086957,
+            "specificity": 0.75
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.0759493670886076,
+            "accepted_n": 95,
+            "auprc": 0.8803530616751076,
+            "auroc": 0.7536517962889855,
+            "brier": 0.22892691930706768,
+            "ece_10": 0.19619201830647517,
+            "empirical_conformal_coverage": 0.785,
+            "events": 149,
+            "full_coverage_error": 0.33,
+            "log_loss": 0.7041024470466511,
+            "n": 200,
+            "safety_coverage": 0.475,
+            "selective_risk": 0.14736842105263157,
+            "sensitivity": 0.6644295302013423,
+            "specificity": 0.6862745098039216
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.08071748878923767,
+          "accepted_n": 325,
+          "auprc": 0.8239762677515341,
+          "auroc": 0.7707446020296465,
+          "brier": 0.20311311651643282,
+          "ece_10": 0.10185726671381894,
+          "empirical_conformal_coverage": 0.8978260869565218,
+          "events": 509,
+          "full_coverage_error": 0.30978260869565216,
+          "log_loss": 0.6011195673219514,
+          "n": 920,
+          "safety_coverage": 0.3532608695652174,
+          "selective_risk": 0.11384615384615385,
+          "sensitivity": 0.7956777996070727,
+          "specificity": 0.559610705596107
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.11469236768332525,
+              "low": 0.04673044825941822,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8532860915394047,
+              "low": 0.7865838779967764,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.7980989319042038,
+              "low": 0.7354191872435858,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.2195654029612879,
+              "low": 0.18994608434781052,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9157880434782608,
+              "low": 0.8760869565217392,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.34135869565217386,
+              "low": 0.28369565217391307,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.38369565217391305,
+              "low": 0.3200815217391304,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.15218079969094067,
+              "low": 0.08089879252748074,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8264886916978551,
+              "low": 0.7592990408619105,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.6074893564761749,
+              "low": 0.511080253841907,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 2,
+        "scenario": "mcar_10",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_10:repeat=3": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.017543859649122806,
+            "accepted_n": 81,
+            "auprc": 0.8334307943589983,
+            "auroc": 0.8488331286190559,
+            "brier": 0.20397500492937262,
+            "ece_10": 0.1952933740288175,
+            "empirical_conformal_coverage": 0.9108910891089109,
+            "events": 139,
+            "full_coverage_error": 0.32673267326732675,
+            "log_loss": 0.590277302673984,
+            "n": 303,
+            "safety_coverage": 0.26732673267326734,
+            "selective_risk": 0.1111111111111111,
+            "sensitivity": 0.9496402877697842,
+            "specificity": 0.43902439024390244
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.03571428571428571,
+            "accepted_n": 104,
+            "auprc": 0.8223709387844383,
+            "auroc": 0.8895022079486151,
+            "brier": 0.18070360220511186,
+            "ece_10": 0.23615360213325118,
+            "empirical_conformal_coverage": 0.9761904761904762,
+            "events": 106,
+            "full_coverage_error": 0.2755102040816326,
+            "log_loss": 0.5407214851642865,
+            "n": 294,
+            "safety_coverage": 0.35374149659863946,
+            "selective_risk": 0.038461538461538464,
+            "sensitivity": 0.9150943396226415,
+            "specificity": 0.6170212765957447
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.10909090909090909,
+            "accepted_n": 58,
+            "auprc": 0.9675832431351244,
+            "auroc": 0.7304347826086957,
+            "brier": 0.18083083122347932,
+            "ece_10": 0.2968883750043109,
+            "empirical_conformal_coverage": 0.9024390243902439,
+            "events": 115,
+            "full_coverage_error": 0.2601626016260163,
+            "log_loss": 0.5411216964531699,
+            "n": 123,
+            "safety_coverage": 0.4715447154471545,
+            "selective_risk": 0.1206896551724138,
+            "sensitivity": 0.7478260869565218,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.0875,
+            "accepted_n": 98,
+            "auprc": 0.8333757080236655,
+            "auroc": 0.6794315041452823,
+            "brier": 0.2560738727323519,
+            "ece_10": 0.24737492068872852,
+            "empirical_conformal_coverage": 0.74,
+            "events": 149,
+            "full_coverage_error": 0.35,
+            "log_loss": 0.7887104512984464,
+            "n": 200,
+            "safety_coverage": 0.49,
+            "selective_risk": 0.16326530612244897,
+            "sensitivity": 0.6442953020134228,
+            "specificity": 0.6666666666666666
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.06818181818181818,
+          "accepted_n": 341,
+          "auprc": 0.8043537356932734,
+          "auroc": 0.764659486900033,
+          "brier": 0.20476983948789254,
+          "ece_10": 0.10268499425146783,
+          "empirical_conformal_coverage": 0.8934782608695652,
+          "events": 509,
+          "full_coverage_error": 0.3065217391304348,
+          "log_loss": 0.6110067372521159,
+          "n": 920,
+          "safety_coverage": 0.3706521739130435,
+          "selective_risk": 0.10557184750733138,
+          "sensitivity": 0.8074656188605108,
+          "specificity": 0.5523114355231143
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.10452606635071089,
+              "low": 0.035707025411061286,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8384693374884282,
+              "low": 0.7631880300531442,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.796843234442383,
+              "low": 0.7319633067054468,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.2210617862077552,
+              "low": 0.1897762427698657,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9136141304347826,
+              "low": 0.8733423913043478,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.3402173913043478,
+              "low": 0.27820652173913046,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.4,
+              "low": 0.3391304347826087,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.13809077079107504,
+              "low": 0.07073197840584312,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.842083763591083,
+              "low": 0.7736564103930915,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.5988027465377823,
+              "low": 0.497451220460199,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 3,
+        "scenario": "mcar_10",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_10:repeat=4": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.03125,
+            "accepted_n": 89,
+            "auprc": 0.8071076224496345,
+            "auroc": 0.8372521494999122,
+            "brier": 0.2129829740791409,
+            "ece_10": 0.20501023100463991,
+            "empirical_conformal_coverage": 0.900990099009901,
+            "events": 139,
+            "full_coverage_error": 0.34983498349834985,
+            "log_loss": 0.6157808683554638,
+            "n": 303,
+            "safety_coverage": 0.29372937293729373,
+            "selective_risk": 0.1797752808988764,
+            "sensitivity": 0.9136690647482014,
+            "specificity": 0.4268292682926829
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.1875,
+            "accepted_n": 107,
+            "auprc": 0.8079448064515999,
+            "auroc": 0.8666198313930149,
+            "brier": 0.18729946246901838,
+            "ece_10": 0.21946291315426267,
+            "empirical_conformal_coverage": 0.9659863945578231,
+            "events": 106,
+            "full_coverage_error": 0.2891156462585034,
+            "log_loss": 0.5552477414656763,
+            "n": 294,
+            "safety_coverage": 0.36394557823129253,
+            "selective_risk": 0.08411214953271028,
+            "sensitivity": 0.8962264150943396,
+            "specificity": 0.6063829787234043
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.06779661016949153,
+            "accepted_n": 63,
+            "auprc": 0.9777377391882656,
+            "auroc": 0.7641304347826087,
+            "brier": 0.17379814600502727,
+            "ece_10": 0.29419112552594795,
+            "empirical_conformal_coverage": 0.9024390243902439,
+            "events": 115,
+            "full_coverage_error": 0.2682926829268293,
+            "log_loss": 0.5219122431182512,
+            "n": 123,
+            "safety_coverage": 0.5121951219512195,
+            "selective_risk": 0.07936507936507936,
+            "sensitivity": 0.7391304347826086,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.07692307692307693,
+            "accepted_n": 93,
+            "auprc": 0.8778477593858207,
+            "auroc": 0.7290432951704172,
+            "brier": 0.24412870320826344,
+            "ece_10": 0.2136556236938541,
+            "empirical_conformal_coverage": 0.785,
+            "events": 149,
+            "full_coverage_error": 0.36,
+            "log_loss": 0.7431257290585112,
+            "n": 200,
+            "safety_coverage": 0.465,
+            "selective_risk": 0.13978494623655913,
+            "sensitivity": 0.6174496644295302,
+            "specificity": 0.7058823529411765
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.07725321888412018,
+          "accepted_n": 352,
+          "auprc": 0.8128154003291549,
+          "auroc": 0.761748383118466,
+          "brier": 0.20630738664363277,
+          "ece_10": 0.10332476340418262,
+          "empirical_conformal_coverage": 0.8967391304347826,
+          "events": 509,
+          "full_coverage_error": 0.3217391304347826,
+          "log_loss": 0.6115704248020233,
+          "n": 920,
+          "safety_coverage": 0.3826086956521739,
+          "selective_risk": 0.12215909090909091,
+          "sensitivity": 0.7838899803536346,
+          "specificity": 0.5474452554744526
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.11403508771929824,
+              "low": 0.043379446640316205,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8511116957999734,
+              "low": 0.7767388012588703,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.7921987518642121,
+              "low": 0.731906061981046,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.2217696834563682,
+              "low": 0.19063198238081144,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9173913043478261,
+              "low": 0.8771739130434782,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.35,
+              "low": 0.2907336956521739,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.41304347826086957,
+              "low": 0.35,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.15341654018794199,
+              "low": 0.08554248402027771,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8190206349671793,
+              "low": 0.7449799196787149,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.5989488451528951,
+              "low": 0.5005459770114943,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 4,
+        "scenario": "mcar_10",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_30:repeat=0": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.06,
+            "accepted_n": 69,
+            "auprc": 0.7824295877307885,
+            "auroc": 0.8118090893139147,
+            "brier": 0.2231459263561353,
+            "ece_10": 0.1997075975105896,
+            "empirical_conformal_coverage": 0.8844884488448845,
+            "events": 139,
+            "full_coverage_error": 0.35313531353135313,
+            "log_loss": 0.6425650434799257,
+            "n": 303,
+            "safety_coverage": 0.22772277227722773,
+            "selective_risk": 0.14492753623188406,
+            "sensitivity": 0.9064748201438849,
+            "specificity": 0.4268292682926829
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.13636363636363635,
+            "accepted_n": 54,
+            "auprc": 0.7695678666733619,
+            "auroc": 0.8368125250903252,
+            "brier": 0.23777361066796154,
+            "ece_10": 0.2709741703173555,
+            "empirical_conformal_coverage": 0.9761904761904762,
+            "events": 106,
+            "full_coverage_error": 0.3979591836734694,
+            "log_loss": 0.668877198692301,
+            "n": 294,
+            "safety_coverage": 0.1836734693877551,
+            "selective_risk": 0.1111111111111111,
+            "sensitivity": 0.9150943396226415,
+            "specificity": 0.425531914893617
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.11904761904761904,
+            "accepted_n": 47,
+            "auprc": 0.9670844479771155,
+            "auroc": 0.7347826086956522,
+            "brier": 0.16904896883547313,
+            "ece_10": 0.2960579277446808,
+            "empirical_conformal_coverage": 0.8943089430894309,
+            "events": 115,
+            "full_coverage_error": 0.21951219512195122,
+            "log_loss": 0.5128673604815708,
+            "n": 123,
+            "safety_coverage": 0.3821138211382114,
+            "selective_risk": 0.14893617021276595,
+            "sensitivity": 0.7913043478260869,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 24,
+            "auprc": 0.843650474736559,
+            "auroc": 0.6993025398078694,
+            "brier": 0.2593007722362062,
+            "ece_10": 0.26135595757726604,
+            "empirical_conformal_coverage": 0.77,
+            "events": 149,
+            "full_coverage_error": 0.4,
+            "log_loss": 0.7773643242131735,
+            "n": 200,
+            "safety_coverage": 0.12,
+            "selective_risk": 0.041666666666666664,
+            "sensitivity": 0.5704697986577181,
+            "specificity": 0.6862745098039216
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.08148148148148149,
+          "accepted_n": 194,
+          "auprc": 0.7666977188456606,
+          "auroc": 0.7139135464318663,
+          "brier": 0.22844764656118927,
+          "ece_10": 0.128087380580812,
+          "empirical_conformal_coverage": 0.8902173913043478,
+          "events": 509,
+          "full_coverage_error": 0.35978260869565215,
+          "log_loss": 0.6629376682302413,
+          "n": 920,
+          "safety_coverage": 0.2108695652173913,
+          "selective_risk": 0.12371134020618557,
+          "sensitivity": 0.7838899803536346,
+          "specificity": 0.46228710462287104
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.12851107226107225,
+              "low": 0.041832983193277315,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8045584889443548,
+              "low": 0.7258291073431178,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.7479397930408359,
+              "low": 0.6794503250190627,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.24535693175466322,
+              "low": 0.21323061977645694,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9097826086956522,
+              "low": 0.8684782608695653,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.38804347826086955,
+              "low": 0.3282608695652174,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.2358695652173913,
+              "low": 0.18478260869565216,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.16866027898158178,
+              "low": 0.07748598738864979,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8169430726867234,
+              "low": 0.7468690110424968,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.5122443181818181,
+              "low": 0.4120997319791226,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 0,
+        "scenario": "mcar_30",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_30:repeat=1": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.07407407407407407,
+            "accepted_n": 71,
+            "auprc": 0.7962741490189404,
+            "auroc": 0.7986488857694333,
+            "brier": 0.23679061384101313,
+            "ece_10": 0.21437537613965688,
+            "empirical_conformal_coverage": 0.8910891089108911,
+            "events": 139,
+            "full_coverage_error": 0.39933993399339934,
+            "log_loss": 0.6687621281479511,
+            "n": 303,
+            "safety_coverage": 0.23432343234323433,
+            "selective_risk": 0.1267605633802817,
+            "sensitivity": 0.9064748201438849,
+            "specificity": 0.34146341463414637
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.038461538461538464,
+            "accepted_n": 62,
+            "auprc": 0.7556813426045305,
+            "auroc": 0.8181955038137295,
+            "brier": 0.2497528392974689,
+            "ece_10": 0.2785008275529004,
+            "empirical_conformal_coverage": 0.9727891156462585,
+            "events": 106,
+            "full_coverage_error": 0.3979591836734694,
+            "log_loss": 0.694849014562137,
+            "n": 294,
+            "safety_coverage": 0.2108843537414966,
+            "selective_risk": 0.06451612903225806,
+            "sensitivity": 0.9339622641509434,
+            "specificity": 0.4148936170212766
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.11363636363636363,
+            "accepted_n": 44,
+            "auprc": 0.9701995480791328,
+            "auroc": 0.7358695652173913,
+            "brier": 0.17769458699943064,
+            "ece_10": 0.3018687670624705,
+            "empirical_conformal_coverage": 0.9024390243902439,
+            "events": 115,
+            "full_coverage_error": 0.22764227642276422,
+            "log_loss": 0.5351090093285938,
+            "n": 123,
+            "safety_coverage": 0.35772357723577236,
+            "selective_risk": 0.11363636363636363,
+            "sensitivity": 0.782608695652174,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 29,
+            "auprc": 0.8896552148789404,
+            "auroc": 0.73081984471641,
+            "brier": 0.2447197812872617,
+            "ece_10": 0.23475760820680522,
+            "empirical_conformal_coverage": 0.795,
+            "events": 149,
+            "full_coverage_error": 0.385,
+            "log_loss": 0.7199405109724146,
+            "n": 200,
+            "safety_coverage": 0.145,
+            "selective_risk": 0.06896551724137931,
+            "sensitivity": 0.5704697986577181,
+            "specificity": 0.7450980392156863
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.06666666666666667,
+          "accepted_n": 206,
+          "auprc": 0.7818337935758158,
+          "auroc": 0.7062103547340093,
+          "brier": 0.2347557404409404,
+          "ece_10": 0.135921987460317,
+          "empirical_conformal_coverage": 0.8978260869565218,
+          "events": 509,
+          "full_coverage_error": 0.37282608695652175,
+          "log_loss": 0.6703554841869537,
+          "n": 920,
+          "safety_coverage": 0.22391304347826088,
+          "selective_risk": 0.0970873786407767,
+          "sensitivity": 0.7858546168958742,
+          "specificity": 0.4306569343065693
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.10653433892715103,
+              "low": 0.03173379293662312,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.815326493764418,
+              "low": 0.7480118794462312,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.73720184310607,
+              "low": 0.6756419130305652,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.24903208374293453,
+              "low": 0.22015682277722307,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9195652173913044,
+              "low": 0.8782608695652174,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.40274456521739127,
+              "low": 0.3429076086956522,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.250570652173913,
+              "low": 0.19782608695652174,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.13691906792436573,
+              "low": 0.06127302275189599,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8236240421244613,
+              "low": 0.748984213530697,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.47854548411579745,
+              "low": 0.3852655666195899,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 1,
+        "scenario": "mcar_30",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_30:repeat=2": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.09615384615384616,
+            "accepted_n": 79,
+            "auprc": 0.8040443224769488,
+            "auroc": 0.8030356202842605,
+            "brier": 0.2371566522658419,
+            "ece_10": 0.2170882298522023,
+            "empirical_conformal_coverage": 0.8679867986798679,
+            "events": 139,
+            "full_coverage_error": 0.37293729372937295,
+            "log_loss": 0.6702460344036134,
+            "n": 303,
+            "safety_coverage": 0.2607260726072607,
+            "selective_risk": 0.189873417721519,
+            "sensitivity": 0.9064748201438849,
+            "specificity": 0.3902439024390244
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.1,
+            "accepted_n": 53,
+            "auprc": 0.7489996625019104,
+            "auroc": 0.8266258530710557,
+            "brier": 0.2517122269455003,
+            "ece_10": 0.2836638909800771,
+            "empirical_conformal_coverage": 0.9727891156462585,
+            "events": 106,
+            "full_coverage_error": 0.42857142857142855,
+            "log_loss": 0.7015446950648515,
+            "n": 294,
+            "safety_coverage": 0.18027210884353742,
+            "selective_risk": 0.1320754716981132,
+            "sensitivity": 0.9433962264150944,
+            "specificity": 0.3617021276595745
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.1276595744680851,
+            "accepted_n": 48,
+            "auprc": 0.9799908376730936,
+            "auroc": 0.767391304347826,
+            "brier": 0.1678230841875278,
+            "ece_10": 0.29122453977398877,
+            "empirical_conformal_coverage": 0.9105691056910569,
+            "events": 115,
+            "full_coverage_error": 0.23577235772357724,
+            "log_loss": 0.5101026734082514,
+            "n": 123,
+            "safety_coverage": 0.3902439024390244,
+            "selective_risk": 0.125,
+            "sensitivity": 0.7739130434782608,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.041666666666666664,
+            "accepted_n": 33,
+            "auprc": 0.8669051759473181,
+            "auroc": 0.7187787866824583,
+            "brier": 0.253907588583344,
+            "ece_10": 0.22654183372589382,
+            "empirical_conformal_coverage": 0.77,
+            "events": 149,
+            "full_coverage_error": 0.37,
+            "log_loss": 0.7667100664384608,
+            "n": 200,
+            "safety_coverage": 0.165,
+            "selective_risk": 0.18181818181818182,
+            "sensitivity": 0.5973154362416108,
+            "specificity": 0.7254901960784313
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.09803921568627451,
+          "accepted_n": 213,
+          "auprc": 0.7800990125841997,
+          "auroc": 0.7128523558908025,
+          "brier": 0.23618001894593688,
+          "ece_10": 0.15157508178357643,
+          "empirical_conformal_coverage": 0.8858695652173914,
+          "events": 509,
+          "full_coverage_error": 0.3717391304347826,
+          "log_loss": 0.6798079683589874,
+          "n": 920,
+          "safety_coverage": 0.23152173913043478,
+          "selective_risk": 0.1596244131455399,
+          "sensitivity": 0.793713163064833,
+          "specificity": 0.4233576642335766
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.147239263803681,
+              "low": 0.05242537313432836,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.818485439576351,
+              "low": 0.7429258004502551,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.7457897988302966,
+              "low": 0.680656748683813,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.25188167132375744,
+              "low": 0.22125181633701155,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.907608695652174,
+              "low": 0.8619565217391304,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.3994836956521739,
+              "low": 0.3450815217391304,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.2581793478260869,
+              "low": 0.20326086956521738,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.2160327111613876,
+              "low": 0.11536009307737057,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8253538976566236,
+              "low": 0.7618555493063367,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.4692660073370901,
+              "low": 0.3704324573276186,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 2,
+        "scenario": "mcar_30",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_30:repeat=3": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.057692307692307696,
+            "accepted_n": 75,
+            "auprc": 0.7885830983831521,
+            "auroc": 0.8067204772767151,
+            "brier": 0.23555446905835656,
+            "ece_10": 0.22201456112913956,
+            "empirical_conformal_coverage": 0.8844884488448845,
+            "events": 139,
+            "full_coverage_error": 0.37293729372937295,
+            "log_loss": 0.6722754747200075,
+            "n": 303,
+            "safety_coverage": 0.24752475247524752,
+            "selective_risk": 0.16,
+            "sensitivity": 0.9280575539568345,
+            "specificity": 0.3719512195121951
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.08333333333333333,
+            "accepted_n": 44,
+            "auprc": 0.7765896308611075,
+            "auroc": 0.8542753914090727,
+            "brier": 0.23987415160606496,
+            "ece_10": 0.27964977980107275,
+            "empirical_conformal_coverage": 0.9761904761904762,
+            "events": 106,
+            "full_coverage_error": 0.40816326530612246,
+            "log_loss": 0.6732734236465442,
+            "n": 294,
+            "safety_coverage": 0.14965986394557823,
+            "selective_risk": 0.11363636363636363,
+            "sensitivity": 0.9622641509433962,
+            "specificity": 0.3829787234042553
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.06818181818181818,
+            "accepted_n": 46,
+            "auprc": 0.9703669439652071,
+            "auroc": 0.7369565217391304,
+            "brier": 0.167319508236781,
+            "ece_10": 0.2945163933675823,
+            "empirical_conformal_coverage": 0.9105691056910569,
+            "events": 115,
+            "full_coverage_error": 0.22764227642276422,
+            "log_loss": 0.5187602287643266,
+            "n": 123,
+            "safety_coverage": 0.37398373983739835,
+            "selective_risk": 0.08695652173913043,
+            "sensitivity": 0.782608695652174,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.08333333333333333,
+            "accepted_n": 28,
+            "auprc": 0.8467620985429446,
+            "auroc": 0.6883142518752468,
+            "brier": 0.2626361046678118,
+            "ece_10": 0.2594064576002353,
+            "empirical_conformal_coverage": 0.765,
+            "events": 149,
+            "full_coverage_error": 0.385,
+            "log_loss": 0.7881229595467645,
+            "n": 200,
+            "safety_coverage": 0.14,
+            "selective_risk": 0.14285714285714285,
+            "sensitivity": 0.5637583892617449,
+            "specificity": 0.7647058823529411
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.06944444444444445,
+          "accepted_n": 193,
+          "auprc": 0.7656456856505608,
+          "auroc": 0.7111530169838288,
+          "brier": 0.23369948385168646,
+          "ece_10": 0.14001329656394618,
+          "empirical_conformal_coverage": 0.8913043478260869,
+          "events": 509,
+          "full_coverage_error": 0.3673913043478261,
+          "log_loss": 0.6772542993908819,
+          "n": 920,
+          "safety_coverage": 0.20978260869565218,
+          "selective_risk": 0.12953367875647667,
+          "sensitivity": 0.7956777996070727,
+          "specificity": 0.4306569343065693
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.11607699943278502,
+              "low": 0.031030622562472916,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8038719187650631,
+              "low": 0.7252784893491725,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.7408507525948413,
+              "low": 0.6781511086673453,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.25075326317696595,
+              "low": 0.21969123879053432,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9119565217391304,
+              "low": 0.8706521739130435,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.40165760869565215,
+              "low": 0.3407336956521739,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.2353532608695652,
+              "low": 0.18203804347826089,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.17767893976897686,
+              "low": 0.0852743537065571,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.827593671131819,
+              "low": 0.7565658852194528,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.47512129175721435,
+              "low": 0.38469085743487413,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 3,
+        "scenario": "mcar_30",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_30:repeat=4": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.061224489795918366,
+            "accepted_n": 75,
+            "auprc": 0.7511221716520147,
+            "auroc": 0.7744779785927356,
+            "brier": 0.24405693569017686,
+            "ece_10": 0.21584886462843839,
+            "empirical_conformal_coverage": 0.8679867986798679,
+            "events": 139,
+            "full_coverage_error": 0.39603960396039606,
+            "log_loss": 0.6947307830591538,
+            "n": 303,
+            "safety_coverage": 0.24752475247524752,
+            "selective_risk": 0.2,
+            "sensitivity": 0.8920863309352518,
+            "specificity": 0.3597560975609756
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.09090909090909091,
+            "accepted_n": 56,
+            "auprc": 0.7778493138780467,
+            "auroc": 0.8380670413488557,
+            "brier": 0.2456005578385133,
+            "ece_10": 0.28759459747382865,
+            "empirical_conformal_coverage": 0.9795918367346939,
+            "events": 106,
+            "full_coverage_error": 0.3979591836734694,
+            "log_loss": 0.6868264912533912,
+            "n": 294,
+            "safety_coverage": 0.19047619047619047,
+            "selective_risk": 0.08928571428571429,
+            "sensitivity": 0.9528301886792453,
+            "specificity": 0.40425531914893614
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.023809523809523808,
+            "accepted_n": 43,
+            "auprc": 0.977131054488434,
+            "auroc": 0.7456521739130435,
+            "brier": 0.16375560229837216,
+            "ece_10": 0.2857458184375631,
+            "empirical_conformal_coverage": 0.9349593495934959,
+            "events": 115,
+            "full_coverage_error": 0.24390243902439024,
+            "log_loss": 0.49758468338129186,
+            "n": 123,
+            "safety_coverage": 0.34959349593495936,
+            "selective_risk": 0.023255813953488372,
+            "sensitivity": 0.7739130434782608,
+            "specificity": 0.5
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 29,
+            "auprc": 0.8828111545993667,
+            "auroc": 0.7572048953809711,
+            "brier": 0.23170594062944233,
+            "ece_10": 0.23862150489288167,
+            "empirical_conformal_coverage": 0.8,
+            "events": 149,
+            "full_coverage_error": 0.335,
+            "log_loss": 0.7031254196889222,
+            "n": 200,
+            "safety_coverage": 0.145,
+            "selective_risk": 0.06896551724137931,
+            "sensitivity": 0.6241610738255033,
+            "specificity": 0.7843137254901961
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.04666666666666667,
+          "accepted_n": 203,
+          "auprc": 0.7721809580224881,
+          "auroc": 0.7157538993972247,
+          "brier": 0.23112928557308124,
+          "ece_10": 0.12782405835105537,
+          "empirical_conformal_coverage": 0.8978260869565218,
+          "events": 509,
+          "full_coverage_error": 0.3630434782608696,
+          "log_loss": 0.6676721909664174,
+          "n": 920,
+          "safety_coverage": 0.22065217391304348,
+          "selective_risk": 0.11330049261083744,
+          "sensitivity": 0.7996070726915521,
+          "specificity": 0.43552311435523117
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.08367654201068475,
+              "low": 0.01433453237410072,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8120175077047432,
+              "low": 0.7327357574466506,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.750096830974193,
+              "low": 0.6828602650410447,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.2471572502045409,
+              "low": 0.21405079205440236,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9152173913043479,
+              "low": 0.8771739130434782,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.39353260869565215,
+              "low": 0.33152173913043476,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.2516576086956521,
+              "low": 0.1934782608695652,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.1623062148442859,
+              "low": 0.07034259611724401,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.837709503909509,
+              "low": 0.7668800517121502,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.4842127919073071,
+              "low": 0.391464149280047,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 4,
+        "scenario": "mcar_30",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_50:repeat=0": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.030303030303030304,
+            "accepted_n": 56,
+            "auprc": 0.7250119490767724,
+            "auroc": 0.7413581330057905,
+            "brier": 0.2585176861713101,
+            "ece_10": 0.21226398824518916,
+            "empirical_conformal_coverage": 0.8415841584158416,
+            "events": 139,
+            "full_coverage_error": 0.41254125412541254,
+            "log_loss": 0.7244323318162733,
+            "n": 303,
+            "safety_coverage": 0.1848184818481848,
+            "selective_risk": 0.14285714285714285,
+            "sensitivity": 0.8992805755395683,
+            "specificity": 0.3231707317073171
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.05555555555555555,
+            "accepted_n": 23,
+            "auprc": 0.7071144364267403,
+            "auroc": 0.7735598153352067,
+            "brier": 0.31645664100855353,
+            "ece_10": 0.3529419564707421,
+            "empirical_conformal_coverage": 0.9863945578231292,
+            "events": 106,
+            "full_coverage_error": 0.5476190476190477,
+            "log_loss": 0.8511745987747041,
+            "n": 294,
+            "safety_coverage": 0.0782312925170068,
+            "selective_risk": 0.13043478260869565,
+            "sensitivity": 0.9716981132075472,
+            "specificity": 0.1595744680851064
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.2,
+            "accepted_n": 21,
+            "auprc": 0.9739855723021477,
+            "auroc": 0.7184782608695652,
+            "brier": 0.16490011084044076,
+            "ece_10": 0.29227700649383437,
+            "empirical_conformal_coverage": 0.9186991869918699,
+            "events": 115,
+            "full_coverage_error": 0.18699186991869918,
+            "log_loss": 0.5056879775382411,
+            "n": 123,
+            "safety_coverage": 0.17073170731707318,
+            "selective_risk": 0.23809523809523808,
+            "sensitivity": 0.8347826086956521,
+            "specificity": 0.5
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 2,
+            "auprc": 0.8509549285527415,
+            "auroc": 0.666140281616002,
+            "brier": 0.2718846398280711,
+            "ece_10": 0.26615708083344997,
+            "empirical_conformal_coverage": 0.805,
+            "events": 149,
+            "full_coverage_error": 0.415,
+            "log_loss": 0.8087306849257659,
+            "n": 200,
+            "safety_coverage": 0.01,
+            "selective_risk": 0.0,
+            "sensitivity": 0.5302013422818792,
+            "specificity": 0.7450980392156863
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.0821917808219178,
+          "accepted_n": 102,
+          "auprc": 0.7114732835647692,
+          "auroc": 0.6287673459242157,
+          "brier": 0.267422557571098,
+          "ece_10": 0.17620330445891688,
+          "empirical_conformal_coverage": 0.8902173913043478,
+          "events": 509,
+          "full_coverage_error": 0.4260869565217391,
+          "log_loss": 0.7540153117417943,
+          "n": 920,
+          "safety_coverage": 0.1108695652173913,
+          "selective_risk": 0.1568627450980392,
+          "sensitivity": 0.7917485265225933,
+          "specificity": 0.30413625304136255
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.14483695652173914,
+              "low": 0.0273972602739726,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.7511198789628133,
+              "low": 0.6725113840997196,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.6614426042097511,
+              "low": 0.5969066104676686,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.28424928240380803,
+              "low": 0.2521085549910785,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9103532608695651,
+              "low": 0.8684782608695653,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.45869565217391306,
+              "low": 0.3967391304347826,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.13100543478260868,
+              "low": 0.09130434782608696,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.22917391304347823,
+              "low": 0.09219576719576719,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8264652984662915,
+              "low": 0.7549773755656108,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.3503032729928039,
+              "low": 0.2603647658489965,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 0,
+        "scenario": "mcar_50",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_50:repeat=1": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.04,
+            "accepted_n": 40,
+            "auprc": 0.7263371156522119,
+            "auroc": 0.7421916125636077,
+            "brier": 0.2588459198005516,
+            "ece_10": 0.2237935478773682,
+            "empirical_conformal_coverage": 0.8415841584158416,
+            "events": 139,
+            "full_coverage_error": 0.40924092409240925,
+            "log_loss": 0.7253879168549353,
+            "n": 303,
+            "safety_coverage": 0.132013201320132,
+            "selective_risk": 0.15,
+            "sensitivity": 0.920863309352518,
+            "specificity": 0.31097560975609756
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.0625,
+            "accepted_n": 25,
+            "auprc": 0.7293801521114223,
+            "auroc": 0.797872340425532,
+            "brier": 0.3164725284419461,
+            "ece_10": 0.36295985855619656,
+            "empirical_conformal_coverage": 0.9795918367346939,
+            "events": 106,
+            "full_coverage_error": 0.564625850340136,
+            "log_loss": 0.8507294064161506,
+            "n": 294,
+            "safety_coverage": 0.08503401360544217,
+            "selective_risk": 0.12,
+            "sensitivity": 0.9905660377358491,
+            "specificity": 0.12234042553191489
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.125,
+            "accepted_n": 17,
+            "auprc": 0.9825287536773506,
+            "auroc": 0.8184782608695652,
+            "brier": 0.15067933165907935,
+            "ece_10": 0.28845434954305454,
+            "empirical_conformal_coverage": 0.926829268292683,
+            "events": 115,
+            "full_coverage_error": 0.18699186991869918,
+            "log_loss": 0.4775260436051921,
+            "n": 123,
+            "safety_coverage": 0.13821138211382114,
+            "selective_risk": 0.11764705882352941,
+            "sensitivity": 0.8260869565217391,
+            "specificity": 0.625
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 1,
+            "auprc": 0.8187150233961364,
+            "auroc": 0.6379786814054481,
+            "brier": 0.28483956383127085,
+            "ece_10": 0.29070099826998164,
+            "empirical_conformal_coverage": 0.775,
+            "events": 149,
+            "full_coverage_error": 0.47,
+            "log_loss": 0.8252414878601562,
+            "n": 200,
+            "safety_coverage": 0.005,
+            "selective_risk": 0.0,
+            "sensitivity": 0.4697986577181208,
+            "specificity": 0.7058823529411765
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.06896551724137931,
+          "accepted_n": 83,
+          "auprc": 0.7096561552617722,
+          "auroc": 0.6297209833699015,
+          "brier": 0.2684507691541524,
+          "ece_10": 0.1861111144036625,
+          "empirical_conformal_coverage": 0.8826086956521739,
+          "events": 509,
+          "full_coverage_error": 0.4423913043478261,
+          "log_loss": 0.754011940466156,
+          "n": 920,
+          "safety_coverage": 0.09021739130434783,
+          "selective_risk": 0.13253012048192772,
+          "sensitivity": 0.7819253438113949,
+          "specificity": 0.2798053527980535
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.14285714285714285,
+              "low": 0.015498798076923078,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.7482272354683707,
+              "low": 0.6716189360375622,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.6640327287994097,
+              "low": 0.5938792384893891,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.28531058712847235,
+              "low": 0.2512681266088219,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9032608695652173,
+              "low": 0.8619565217391304,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.47013586956521736,
+              "low": 0.4097826086956522,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.10978260869565218,
+              "low": 0.07282608695652174,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.2073170731707317,
+              "low": 0.06628205128205128,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8169017013232515,
+              "low": 0.7458685196893063,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.32183220248445793,
+              "low": 0.23994941250166094,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 1,
+        "scenario": "mcar_50",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_50:repeat=2": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.0625,
+            "accepted_n": 45,
+            "auprc": 0.7160124598285249,
+            "auroc": 0.7471486225653623,
+            "brier": 0.2623030962719126,
+            "ece_10": 0.23863038893007696,
+            "empirical_conformal_coverage": 0.8481848184818482,
+            "events": 139,
+            "full_coverage_error": 0.41254125412541254,
+            "log_loss": 0.7454873809643064,
+            "n": 303,
+            "safety_coverage": 0.1485148514851485,
+            "selective_risk": 0.15555555555555556,
+            "sensitivity": 0.9280575539568345,
+            "specificity": 0.29878048780487804
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.07692307692307693,
+            "accepted_n": 18,
+            "auprc": 0.6248195893470403,
+            "auroc": 0.7555700521878763,
+            "brier": 0.3164514963306814,
+            "ece_10": 0.3512836773204659,
+            "empirical_conformal_coverage": 0.9761904761904762,
+            "events": 106,
+            "full_coverage_error": 0.5340136054421769,
+            "log_loss": 0.8622185335922975,
+            "n": 294,
+            "safety_coverage": 0.061224489795918366,
+            "selective_risk": 0.2222222222222222,
+            "sensitivity": 0.9811320754716981,
+            "specificity": 0.17553191489361702
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.10526315789473684,
+            "accepted_n": 19,
+            "auprc": 0.9569534577133549,
+            "auroc": 0.6043478260869565,
+            "brier": 0.16377229148677083,
+            "ece_10": 0.26947597123465117,
+            "empirical_conformal_coverage": 0.9024390243902439,
+            "events": 115,
+            "full_coverage_error": 0.21138211382113822,
+            "log_loss": 0.5019953494541705,
+            "n": 123,
+            "safety_coverage": 0.15447154471544716,
+            "selective_risk": 0.10526315789473684,
+            "sensitivity": 0.8260869565217391,
+            "specificity": 0.25
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.3333333333333333,
+            "accepted_n": 4,
+            "auprc": 0.8320468704454574,
+            "auroc": 0.6682458218186603,
+            "brier": 0.2644370981514612,
+            "ece_10": 0.2670164217225801,
+            "empirical_conformal_coverage": 0.805,
+            "events": 149,
+            "full_coverage_error": 0.415,
+            "log_loss": 0.7605971398249181,
+            "n": 200,
+            "safety_coverage": 0.02,
+            "selective_risk": 0.5,
+            "sensitivity": 0.5436241610738255,
+            "specificity": 0.7058823529411765
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.08955223880597014,
+          "accepted_n": 86,
+          "auprc": 0.6894466553903553,
+          "auroc": 0.6261741212912108,
+          "brier": 0.26689781475519014,
+          "ece_10": 0.1695600442713277,
+          "empirical_conformal_coverage": 0.8869565217391304,
+          "events": 509,
+          "full_coverage_error": 0.425,
+          "log_loss": 0.7535215013653989,
+          "n": 920,
+          "safety_coverage": 0.09347826086956522,
+          "selective_risk": 0.1744186046511628,
+          "sensitivity": 0.8035363457760314,
+          "specificity": 0.291970802919708
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.16346011131725416,
+              "low": 0.028169014084507043,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.7303392481584123,
+              "low": 0.6430769190518791,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.6610373129817576,
+              "low": 0.5883033237205966,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.2839820094363264,
+              "low": 0.2512427359108729,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.907608695652174,
+              "low": 0.866820652173913,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.45600543478260863,
+              "low": 0.3934782608695652,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.11144021739130433,
+              "low": 0.07608695652173914,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.2625,
+              "low": 0.10422509671179885,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8386818580259041,
+              "low": 0.767859200368706,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.3313619823254202,
+              "low": 0.2509324114177023,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 2,
+        "scenario": "mcar_50",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_50:repeat=3": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.07142857142857142,
+            "accepted_n": 49,
+            "auprc": 0.6970959825805245,
+            "auroc": 0.7124495525530794,
+            "brier": 0.27209816040410995,
+            "ece_10": 0.23740705734037426,
+            "empirical_conformal_coverage": 0.8415841584158416,
+            "events": 139,
+            "full_coverage_error": 0.41254125412541254,
+            "log_loss": 0.7621483557811803,
+            "n": 303,
+            "safety_coverage": 0.1617161716171617,
+            "selective_risk": 0.20408163265306123,
+            "sensitivity": 0.9280575539568345,
+            "specificity": 0.29878048780487804
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.06666666666666667,
+            "accepted_n": 26,
+            "auprc": 0.6335895639990686,
+            "auroc": 0.7309313528703332,
+            "brier": 0.3209973056157538,
+            "ece_10": 0.3475499675967898,
+            "empirical_conformal_coverage": 0.9693877551020408,
+            "events": 106,
+            "full_coverage_error": 0.5306122448979592,
+            "log_loss": 0.8709275299819366,
+            "n": 294,
+            "safety_coverage": 0.08843537414965986,
+            "selective_risk": 0.11538461538461539,
+            "sensitivity": 0.9528301886792453,
+            "specificity": 0.19680851063829788
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.05263157894736842,
+            "accepted_n": 19,
+            "auprc": 0.96773452208023,
+            "auroc": 0.6847826086956522,
+            "brier": 0.1460823400373948,
+            "ece_10": 0.26123489347550544,
+            "empirical_conformal_coverage": 0.9186991869918699,
+            "events": 115,
+            "full_coverage_error": 0.17886178861788618,
+            "log_loss": 0.4631835978188109,
+            "n": 123,
+            "safety_coverage": 0.15447154471544716,
+            "selective_risk": 0.05263157894736842,
+            "sensitivity": 0.8521739130434782,
+            "specificity": 0.375
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 4,
+            "auprc": 0.8620248529221176,
+            "auroc": 0.6950256612712199,
+            "brier": 0.26234663254369045,
+            "ece_10": 0.2553170626795759,
+            "empirical_conformal_coverage": 0.76,
+            "events": 149,
+            "full_coverage_error": 0.405,
+            "log_loss": 0.758183118279713,
+            "n": 200,
+            "safety_coverage": 0.02,
+            "selective_risk": 0.25,
+            "sensitivity": 0.5436241610738255,
+            "specificity": 0.7450980392156863
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.06349206349206349,
+          "accepted_n": 98,
+          "auprc": 0.6995216565362397,
+          "auroc": 0.6239967686270012,
+          "brier": 0.2687569617247984,
+          "ece_10": 0.17374884962401443,
+          "empirical_conformal_coverage": 0.875,
+          "events": 509,
+          "full_coverage_error": 0.41739130434782606,
+          "log_loss": 0.7560780997870037,
+          "n": 920,
+          "safety_coverage": 0.10652173913043478,
+          "selective_risk": 0.15306122448979592,
+          "sensitivity": 0.8035363457760314,
+          "specificity": 0.30900243309002434
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.13559322033898305,
+              "low": 0.0,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.7409322422186175,
+              "low": 0.6588227495160891,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.6582836754348401,
+              "low": 0.5886837335143079,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.28692718595652306,
+              "low": 0.2514619422856252,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.8956521739130435,
+              "low": 0.8543478260869565,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.45,
+              "low": 0.38529891304347824,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.12608695652173912,
+              "low": 0.08747282608695653,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.23314814814814808,
+              "low": 0.08329896907216496,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8362919132149902,
+              "low": 0.7684308355351315,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.3516106179583475,
+              "low": 0.2678080503833516,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 3,
+        "scenario": "mcar_50",
+        "scenario_type": "mcar"
+      },
+      "mcar:mcar_50:repeat=4": {
+        "by_site": {
+          "Cleveland": {
+            "accepted_case_fnr": 0.08,
+            "accepted_n": 41,
+            "auprc": 0.7154366632382675,
+            "auroc": 0.7605281628355852,
+            "brier": 0.24929620493460433,
+            "ece_10": 0.22045173117906117,
+            "empirical_conformal_coverage": 0.8613861386138614,
+            "events": 139,
+            "full_coverage_error": 0.38283828382838286,
+            "log_loss": 0.7069133096121976,
+            "n": 303,
+            "safety_coverage": 0.1353135313531353,
+            "selective_risk": 0.3170731707317073,
+            "sensitivity": 0.9496402877697842,
+            "specificity": 0.3353658536585366
+          },
+          "Hungary": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 16,
+            "auprc": 0.7013022327917512,
+            "auroc": 0.8001806503412285,
+            "brier": 0.3038157277080355,
+            "ece_10": 0.34547584677126425,
+            "empirical_conformal_coverage": 0.9795918367346939,
+            "events": 106,
+            "full_coverage_error": 0.54421768707483,
+            "log_loss": 0.8218765175747982,
+            "n": 294,
+            "safety_coverage": 0.05442176870748299,
+            "selective_risk": 0.125,
+            "sensitivity": 0.9716981132075472,
+            "specificity": 0.16489361702127658
+          },
+          "Switzerland": {
+            "accepted_case_fnr": 0.05555555555555555,
+            "accepted_n": 19,
+            "auprc": 0.9690611888988236,
+            "auroc": 0.6978260869565218,
+            "brier": 0.1592230741303393,
+            "ece_10": 0.2791400030504959,
+            "empirical_conformal_coverage": 0.926829268292683,
+            "events": 115,
+            "full_coverage_error": 0.21951219512195122,
+            "log_loss": 0.4941110001961416,
+            "n": 123,
+            "safety_coverage": 0.15447154471544716,
+            "selective_risk": 0.05263157894736842,
+            "sensitivity": 0.808695652173913,
+            "specificity": 0.375
+          },
+          "VA Long Beach": {
+            "accepted_case_fnr": 0.0,
+            "accepted_n": 3,
+            "auprc": 0.8264753723814566,
+            "auroc": 0.6545598105013818,
+            "brier": 0.2813427375618594,
+            "ece_10": 0.2696128225713953,
+            "empirical_conformal_coverage": 0.77,
+            "events": 149,
+            "full_coverage_error": 0.435,
+            "log_loss": 0.8105694218682737,
+            "n": 200,
+            "safety_coverage": 0.015,
+            "selective_risk": 0.3333333333333333,
+            "sensitivity": 0.5100671140939598,
+            "specificity": 0.7254901960784313
+          }
+        },
+        "pooled": {
+          "accepted_case_fnr": 0.05660377358490566,
+          "accepted_n": 79,
+          "auprc": 0.7105375448904643,
+          "auroc": 0.6458157065760353,
+          "brier": 0.2616429996432078,
+          "ece_10": 0.17620281924298653,
+          "empirical_conformal_coverage": 0.8880434782608696,
+          "events": 509,
+          "full_coverage_error": 0.42391304347826086,
+          "log_loss": 0.7377347460622463,
+          "n": 920,
+          "safety_coverage": 0.08586956521739131,
+          "selective_risk": 0.21518987341772153,
+          "sensitivity": 0.793713163064833,
+          "specificity": 0.30656934306569344
+        },
+        "pooled_bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.11904761904761904,
+              "low": 0.0,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.7513866950320769,
+              "low": 0.6677532793975848,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.681093164210339,
+              "low": 0.6105483532688445,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.2771294249593024,
+              "low": 0.24691293776935785,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9065217391304348,
+              "low": 0.8695652173913043,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.4543478260869565,
+              "low": 0.39182065217391304,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.10434782608695652,
+              "low": 0.06790760869565217,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.3019538681039949,
+              "low": 0.12783961835529306,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8287411764705882,
+              "low": 0.7597215208137941,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.34965034965034963,
+              "low": 0.26244285967399006,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "repeat": 4,
+        "scenario": "mcar_50",
+        "scenario_type": "mcar"
+      }
+    },
+    "subgroup_claim": "Descriptive only; these analyses do not establish fairness.",
+    "subgroups": {
+      "age_50_59": {
+        "bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.12160014781966,
+              "low": 0.019794117647058823,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8804972251663334,
+              "low": 0.7861630101045645,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.8209201205270581,
+              "low": 0.734025610494628,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.2202410313138912,
+              "low": 0.17664160295504347,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9333333333333333,
+              "low": 0.8746666666666667,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.33866666666666667,
+              "low": 0.25066666666666665,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.4666666666666667,
+              "low": 0.368,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.16666666666666666,
+              "low": 0.06506916996047431,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8540220588235293,
+              "low": 0.7481629319468089,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.6559527256183307,
+              "low": 0.504210745176314,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "definition": "age_50_59",
+        "descriptive_only": true,
+        "metrics": {
+          "accepted_case_fnr": 0.0673076923076923,
+          "accepted_n": 156,
+          "auprc": 0.8372595541700872,
+          "auroc": 0.778502289456906,
+          "brier": 0.19654717681234965,
+          "ece_10": 0.09098759120231475,
+          "empirical_conformal_coverage": 0.9066666666666666,
+          "events": 213,
+          "full_coverage_error": 0.2906666666666667,
+          "log_loss": 0.5910787078518489,
+          "n": 375,
+          "safety_coverage": 0.416,
+          "selective_risk": 0.11538461538461539,
+          "sensitivity": 0.8075117370892019,
+          "specificity": 0.5802469135802469
+        },
+        "small_or_single_class_reason": null
+      },
+      "age_60_69": {
+        "bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.05668539325842694,
+              "low": 0.0,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.9238042778091711,
+              "low": 0.8117562981750747,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.7929277724013253,
+              "low": 0.6470668629100084,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.2268950635297905,
+              "low": 0.16198826811256137,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9099099099099099,
+              "low": 0.8243243243243243,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.35135135135135137,
+              "low": 0.23637387387387387,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.5135135135135135,
+              "low": 0.3738738738738739,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.15384615384615385,
+              "low": 0.04040404040404041,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8702561327561327,
+              "low": 0.7454950992711736,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.5233826688947242,
+              "low": 0.2803333333333333,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "definition": "age_60_69",
+        "descriptive_only": true,
+        "metrics": {
+          "accepted_case_fnr": 0.022222222222222223,
+          "accepted_n": 99,
+          "auprc": 0.8676189048548552,
+          "auroc": 0.7225746074659457,
+          "brier": 0.1952324068963627,
+          "ece_10": 0.12769591614375533,
+          "empirical_conformal_coverage": 0.8693693693693694,
+          "events": 163,
+          "full_coverage_error": 0.2972972972972973,
+          "log_loss": 0.5868965369703877,
+          "n": 222,
+          "safety_coverage": 0.44594594594594594,
+          "selective_risk": 0.09090909090909091,
+          "sensitivity": 0.8098159509202454,
+          "specificity": 0.4067796610169492
+        },
+        "small_or_single_class_reason": null
+      },
+      "age_ge_70": {
+        "bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.34583333333333277,
+              "low": 0.0,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.9375190273148049,
+              "low": 0.5803325380383335,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.7460927206851119,
+              "low": 0.31830357142857146,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.41343085391652673,
+              "low": 0.1970609131312215,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9032258064516129,
+              "low": 0.5806451612903226,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.6451612903225806,
+              "low": 0.2903225806451613,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.6451612903225806,
+              "low": 0.2903225806451613,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.42857142857142855,
+              "low": 0.0,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8571428571428571,
+              "low": 0.4421111111111111,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.5555555555555556,
+              "low": 0.0,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "definition": "age_ge_70",
+        "descriptive_only": true,
+        "metrics": {
+          "accepted_case_fnr": 0.15384615384615385,
+          "accepted_n": 14,
+          "auprc": 0.7441723407998683,
+          "auroc": 0.51010101010101,
+          "brier": 0.31288605718916757,
+          "ece_10": 0.2707018902706254,
+          "empirical_conformal_coverage": 0.7419354838709677,
+          "events": 22,
+          "full_coverage_error": 0.4838709677419355,
+          "log_loss": 0.9450640755643992,
+          "n": 31,
+          "safety_coverage": 0.45161290322580644,
+          "selective_risk": 0.21428571428571427,
+          "sensitivity": 0.6363636363636364,
+          "specificity": 0.2222222222222222
+        },
+        "small_or_single_class_reason": null
+      },
+      "age_lt_50": {
+        "bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.35008342602892084,
+              "low": 0.08505434782608695,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8773902007430128,
+              "low": 0.7222024353930068,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.8941978609625669,
+              "low": 0.7944488814403196,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.18689794762319187,
+              "low": 0.1465134442453552,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9709760273972602,
+              "low": 0.9178082191780822,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.2705479452054795,
+              "low": 0.17123287671232876,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.4143835616438356,
+              "low": 0.3047945205479452,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.12871287128712872,
+              "low": 0.029411764705882353,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8695577843628903,
+              "low": 0.7203364817001181,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.8328757225433526,
+              "low": 0.7073308504034761,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "definition": "age_lt_50",
+        "descriptive_only": true,
+        "metrics": {
+          "accepted_case_fnr": 0.20588235294117646,
+          "accepted_n": 104,
+          "auprc": 0.8020450098437372,
+          "auroc": 0.8455029615250609,
+          "brier": 0.1659405363277623,
+          "ece_10": 0.14218477085883355,
+          "empirical_conformal_coverage": 0.9452054794520548,
+          "events": 111,
+          "full_coverage_error": 0.2191780821917808,
+          "log_loss": 0.5157057483484216,
+          "n": 292,
+          "safety_coverage": 0.3561643835616438,
+          "selective_risk": 0.07692307692307693,
+          "sensitivity": 0.7927927927927928,
+          "specificity": 0.7734806629834254
+        },
+        "small_or_single_class_reason": null
+      },
+      "sex_0": {
+        "bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.7030882352941176,
+              "low": 0.17901069518716578,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.796750634702571,
+              "low": 0.5249419955430159,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.8444687422540175,
+              "low": 0.6510009485483557,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.23625344516826594,
+              "low": 0.18205143275162536,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9536082474226805,
+              "low": 0.8814432989690721,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.36868556701030913,
+              "low": 0.2422680412371134,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.33505154639175255,
+              "low": 0.21649484536082475,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.20454545454545456,
+              "low": 0.03506773399014779,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8524260508562532,
+              "low": 0.6050662878787879,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.7612445835339432,
+              "low": 0.6101024718397998,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "definition": "sex_0",
+        "descriptive_only": true,
+        "metrics": {
+          "accepted_case_fnr": 0.42857142857142855,
+          "accepted_n": 53,
+          "auprc": 0.6694595690724339,
+          "auroc": 0.752638888888889,
+          "brier": 0.20806522936902588,
+          "ece_10": 0.25261991766594044,
+          "empirical_conformal_coverage": 0.9226804123711341,
+          "events": 50,
+          "full_coverage_error": 0.29896907216494845,
+          "log_loss": 0.6116835621565865,
+          "n": 194,
+          "safety_coverage": 0.27319587628865977,
+          "selective_risk": 0.11320754716981132,
+          "sensitivity": 0.74,
+          "specificity": 0.6875
+        },
+        "small_or_single_class_reason": null
+      },
+      "sex_1": {
+        "bootstrap": {
+          "method": "patient-level percentile bootstrap",
+          "metrics": {
+            "accepted_case_fnr": {
+              "high": 0.0846423611111111,
+              "low": 0.027076198630136987,
+              "valid_replicates": 500
+            },
+            "auprc": {
+              "high": 0.8845334920236939,
+              "low": 0.8090579381947364,
+              "valid_replicates": 500
+            },
+            "auroc": {
+              "high": 0.8143618727654321,
+              "low": 0.7452883573356776,
+              "valid_replicates": 500
+            },
+            "brier": {
+              "high": 0.20364268724267978,
+              "low": 0.16947482283538373,
+              "valid_replicates": 500
+            },
+            "empirical_conformal_coverage": {
+              "high": 0.9208333333333333,
+              "low": 0.878064738292011,
+              "valid_replicates": 500
+            },
+            "full_coverage_error": {
+              "high": 0.3023760330578512,
+              "low": 0.23829201101928374,
+              "valid_replicates": 500
+            },
+            "safety_coverage": {
+              "high": 0.47796143250688705,
+              "low": 0.40285812672176313,
+              "valid_replicates": 500
+            },
+            "selective_risk": {
+              "high": 0.1344118159280431,
+              "low": 0.0720130545046356,
+              "valid_replicates": 500
+            },
+            "sensitivity": {
+              "high": 0.8358862144420132,
+              "low": 0.7656666163939371,
+              "valid_replicates": 500
+            },
+            "specificity": {
+              "high": 0.6618202496826069,
+              "low": 0.5429969284774023,
+              "valid_replicates": 500
+            }
+          },
+          "replicates": 500
+        },
+        "definition": "sex_1",
+        "descriptive_only": true,
+        "metrics": {
+          "accepted_case_fnr": 0.05286343612334802,
+          "accepted_n": 320,
+          "auprc": 0.8511162743666243,
+          "auroc": 0.7812701443457116,
+          "brier": 0.18572484231212588,
+          "ece_10": 0.0587302330232095,
+          "empirical_conformal_coverage": 0.8994490358126722,
+          "events": 459,
+          "full_coverage_error": 0.2699724517906336,
+          "log_loss": 0.5690936645368143,
+          "n": 726,
+          "safety_coverage": 0.44077134986225897,
+          "selective_risk": 0.1,
+          "sensitivity": 0.803921568627451,
+          "specificity": 0.602996254681648
+        },
+        "small_or_single_class_reason": null
+      }
+    }
+  },
+  "E7_runtime": {
+    "by_fold": {
+      "Cleveland": {
+        "batch_100_ms": {
+          "median": 114.5407,
+          "p95": 148.084645
+        },
+        "batch_1_ms": {
+          "median": 110.94489999999999,
+          "p95": 138.96182999999996
+        },
+        "cold_load_ms": {
+          "max": 24.7184,
+          "median": 20.8313,
+          "min": 18.3761
+        },
+        "peak_process_memory_bytes": null,
+        "peak_python_traced_allocation_bytes": 402623,
+        "serialized_model_bytes": 9044378,
+        "serialized_model_sha256": "d50ed5eae0a996f5fb6a068121bd571b68aa725ce49841ac07b6588fcbb2dfb3"
+      },
+      "Hungary": {
+        "batch_100_ms": {
+          "median": 16.01925,
+          "p95": 19.132095
+        },
+        "batch_1_ms": {
+          "median": 15.1295,
+          "p95": 18.580894999999998
+        },
+        "cold_load_ms": {
+          "max": 9.9004,
+          "median": 7.544,
+          "min": 6.2818
+        },
+        "peak_process_memory_bytes": null,
+        "peak_python_traced_allocation_bytes": 334569,
+        "serialized_model_bytes": 4610657,
+        "serialized_model_sha256": "b444cac15c4fe379c66d6afa72d373a9754c6efdc49f827891a0452f043e8a8a"
+      },
+      "Switzerland": {
+        "batch_100_ms": {
+          "median": 117.42255,
+          "p95": 125.638495
+        },
+        "batch_1_ms": {
+          "median": 108.4409,
+          "p95": 112.66105499999999
+        },
+        "cold_load_ms": {
+          "max": 51.9501,
+          "median": 20.5581,
+          "min": 18.2261
+        },
+        "peak_process_memory_bytes": null,
+        "peak_python_traced_allocation_bytes": 403156,
+        "serialized_model_bytes": 11117315,
+        "serialized_model_sha256": "4ab77299d55651338b8dc1d67c4fffb31e7a4bdb86c02fdccd9775a1bc6cadde"
+      },
+      "VA Long Beach": {
+        "batch_100_ms": {
+          "median": 114.65115,
+          "p95": 124.67382999999998
+        },
+        "batch_1_ms": {
+          "median": 107.01445000000001,
+          "p95": 115.98253999999999
+        },
+        "cold_load_ms": {
+          "max": 54.1561,
+          "median": 16.4574,
+          "min": 12.6584
+        },
+        "peak_process_memory_bytes": null,
+        "peak_python_traced_allocation_bytes": 399511,
+        "serialized_model_bytes": 6409561,
+        "serialized_model_sha256": "e449679cb53b4982fff9b93e4fe48d857e47415927db9d545b31076cfaecd3e0"
+      }
+    },
+    "claim_scope": "research runtime profile; not medical-device performance",
+    "cold_load_repeats": 5,
+    "environment": {
+      "cpu": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "os": "Windows-11-10.0.22621-SP0",
+      "python": "3.12.10",
+      "scikit_learn": "1.9.0"
+    },
+    "measurement_repeats": 30,
+    "warmup_repeats": 5
+  },
+  "artifacts": {
+    "models": {
+      "Cleveland": {
+        "path": "outputs/models/cleveland.pkl",
+        "sha256": "d50ed5eae0a996f5fb6a068121bd571b68aa725ce49841ac07b6588fcbb2dfb3"
+      },
+      "Hungary": {
+        "path": "outputs/models/hungary.pkl",
+        "sha256": "b444cac15c4fe379c66d6afa72d373a9754c6efdc49f827891a0452f043e8a8a"
+      },
+      "Switzerland": {
+        "path": "outputs/models/switzerland.pkl",
+        "sha256": "4ab77299d55651338b8dc1d67c4fffb31e7a4bdb86c02fdccd9775a1bc6cadde"
+      },
+      "VA Long Beach": {
+        "path": "outputs/models/va_long_beach.pkl",
+        "sha256": "e449679cb53b4982fff9b93e4fe48d857e47415927db9d545b31076cfaecd3e0"
+      }
+    },
+    "predictions": {
+      "path": "outputs/predictions/robustness_predictions.csv",
+      "rows": 17480,
+      "sha256": "3500b24c47423a3ef684a43e669998b3269dad34cfa8d4554f88c9e62f709e7e"
+    }
+  },
+  "fold_metadata": {
+    "Cleveland": {
+      "candidate": {
+        "family": "random_forest",
+        "parameters": {
+          "class_weight": "balanced",
+          "max_depth": null,
+          "min_samples_leaf": 2,
+          "n_estimators": 400
+        }
+      },
+      "ood_threshold_source": "outer-training in-sample score quantile",
+      "outer_test_patient_ids_sha256": "b2067470eab91055c86355bce5353e95ce47d15c71fd07b3f926b10dfb9a759b",
+      "selection_source": "accepted E2 selected_candidate",
+      "thresholds": {
+        "conformal_alpha": 0.1,
+        "conformal_class_0": 0.7919234779264124,
+        "conformal_class_1": 0.5653140929405849,
+        "missing_fraction_quantile": 0.975,
+        "missing_fraction_threshold": 0.5384615384615384,
+        "ood_quantile": 0.975,
+        "ood_threshold": 0.5714219222922821,
+        "ood_threshold_source": "outer-training in-sample score quantile",
+        "probability_ambiguity_band": [
+          0.4,
+          0.6
+        ]
+      }
+    },
+    "Hungary": {
+      "candidate": {
+        "family": "logistic_regression",
+        "parameters": {
+          "C": 0.1,
+          "class_weight": null,
+          "max_iter": 2000
+        }
+      },
+      "ood_threshold_source": "outer-training in-sample score quantile",
+      "outer_test_patient_ids_sha256": "0903f80b61f0d8d986719635e25144971abe64592ced8d326d9a19df61f97d38",
+      "selection_source": "accepted E2 selected_candidate",
+      "thresholds": {
+        "conformal_alpha": 0.1,
+        "conformal_class_0": 0.8851605799000407,
+        "conformal_class_1": 0.5715299607643776,
+        "missing_fraction_quantile": 0.975,
+        "missing_fraction_threshold": 0.5384615384615384,
+        "ood_quantile": 0.975,
+        "ood_threshold": 0.5721910658925309,
+        "ood_threshold_source": "outer-training in-sample score quantile",
+        "probability_ambiguity_band": [
+          0.4,
+          0.6
+        ]
+      }
+    },
+    "Switzerland": {
+      "candidate": {
+        "family": "random_forest",
+        "parameters": {
+          "class_weight": "balanced",
+          "max_depth": null,
+          "min_samples_leaf": 2,
+          "n_estimators": 400
+        }
+      },
+      "ood_threshold_source": "outer-training in-sample score quantile",
+      "outer_test_patient_ids_sha256": "9e5ac7c7f31de8869dc33b165f4f6a7c8236a5639442702eb633d86e9fc819f0",
+      "selection_source": "accepted E2 selected_candidate",
+      "thresholds": {
+        "conformal_alpha": 0.1,
+        "conformal_class_0": 0.6366594644078735,
+        "conformal_class_1": 0.6994753297612746,
+        "missing_fraction_quantile": 0.975,
+        "missing_fraction_threshold": 0.5384615384615384,
+        "ood_quantile": 0.975,
+        "ood_threshold": 0.5780911500946656,
+        "ood_threshold_source": "outer-training in-sample score quantile",
+        "probability_ambiguity_band": [
+          0.4,
+          0.6
+        ]
+      }
+    },
+    "VA Long Beach": {
+      "candidate": {
+        "family": "random_forest",
+        "parameters": {
+          "class_weight": "balanced",
+          "max_depth": null,
+          "min_samples_leaf": 8,
+          "n_estimators": 400
+        }
+      },
+      "ood_threshold_source": "outer-training in-sample score quantile",
+      "outer_test_patient_ids_sha256": "b1dce9477ca689530298dcb7e2116f7c0c20b42a12c70d43c4e685481b67671e",
+      "selection_source": "accepted E2 selected_candidate",
+      "thresholds": {
+        "conformal_alpha": 0.1,
+        "conformal_class_0": 0.678439181239001,
+        "conformal_class_1": 0.738684844019911,
+        "missing_fraction_quantile": 0.975,
+        "missing_fraction_threshold": 0.3076923076923077,
+        "ood_quantile": 0.975,
+        "ood_threshold": 0.5795455408208261,
+        "ood_threshold_source": "outer-training in-sample score quantile",
+        "probability_ambiguity_band": [
+          0.4,
+          0.6
+        ]
+      }
+    }
+  },
+  "frozen_e1_e5_manifest_sha256": "c62c5114941a0cf37dc5341f51a1a863eb877c9b7730175d2a1003573155b02e",
+  "generated_at_utc": "2026-07-29T15:04:54.194645+00:00",
+  "protocol": {
+    "bootstrap_replicates": 500,
+    "grouped": {
+      "basic_vitals_only": [
+        "age",
+        "sex",
+        "trestbps",
+        "chol"
+      ],
+      "no_ecg": [
+        "restecg",
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope"
+      ],
+      "no_exercise": [
+        "thalach",
+        "exang",
+        "oldpeak",
+        "slope"
+      ]
+    },
+    "mcar_fractions": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "mcar_repeats": 5,
+    "mcar_seed_formula": "root_seed + 1_000_000 + fold_index*100_000 + int(fraction*1000)*100 + repeat",
+    "model_selection": "none; accepted E2 candidate reused per LOHO fold",
+    "perturbation_scope": "copied outer-test features only",
+    "threshold_source_sha256": "f10ba94744c0afae21308202fed26f347ac93a038090f61b1bef8e6d7a8ec54c"
+  },
+  "schema_version": "1.0",
+  "status": "complete"
+}

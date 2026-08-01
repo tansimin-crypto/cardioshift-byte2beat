@@ -1,0 +1,54 @@
+{
+  "artifact_hashes": {
+    "coder/.terraform.lock.hcl": "e8c8f342015b1f1fb389246d9edbf140aabc8b67dd1e23d2f73593d7af4e60e7",
+    "coder/Dockerfile": "4b6051a8de126ba7b63f474b7d5c8439b5aa416f67c85a8098f5f97327d36965",
+    "coder/README_CODER.md": "3bd3b972fba2ef5dbb59d22f8be8653439e99e8c3a11a12973da662ab67344ab",
+    "coder/known_hosts": "6233fddbb0a29afc8c4e8c699733c1a188c3a41f2fb63a2640653dc4aea624ce",
+    "coder/main.tf": "451cd5525f01e0b25404d60343c2332d3007335f957c113d5a07de33e8d10c49",
+    "coder/startup.sh": "0f0a796d7a77e0dcb235aea70bee7b5b1d044c4d1541a7a7c26a373ee70c3f7d"
+  },
+  "docker_build": {
+    "status": "verified_local_image_and_real_coder_workspace"
+  },
+  "runtime_evidence_path": "evidence/g5/runtime_verification.json",
+  "runtime_verified": true,
+  "schema_version": "1.0",
+  "static_checks": {
+    "credentials_absent": true,
+    "exact_release_sha_fail_closed": true,
+    "github_external_auth_required": true,
+    "jupyter_healthcheck_fail_closed": true,
+    "loopback_agent_mapping": true,
+    "persistent_clone_refreshed": true,
+    "provider_major_versions_bounded": true,
+    "repo_ref_and_expected_sha_parameters": true,
+    "required_app_guard": true,
+    "streamlit_healthcheck_fail_closed": true,
+    "tests_before_services": true
+  },
+  "status": "pass",
+  "terraform_checks": {
+    "all_passed": false,
+    "available": false,
+    "commands": [
+      {
+        "command": "terraform -chdir=coder fmt -check",
+        "returncode": null,
+        "status": "not_run_terraform_unavailable"
+      },
+      {
+        "command": "terraform -chdir=coder init -backend=false -input=false",
+        "returncode": null,
+        "status": "not_run_terraform_unavailable"
+      },
+      {
+        "command": "terraform -chdir=coder validate -no-color",
+        "returncode": null,
+        "status": "not_run_terraform_unavailable"
+      }
+    ]
+  },
+  "tested_release_sha": "6b7aadd9806f13ebedd6a3be4b09e5d8a48c440b",
+  "unresolved_blockers": [],
+  "verified_at_utc": "2026-08-01T00:44:24+00:00"
+}

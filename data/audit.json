@@ -1,0 +1,151 @@
+{
+  "columns": [
+    "patient_id",
+    "site",
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "num",
+    "target"
+  ],
+  "exact_duplicate_rows_ignoring_patient_id": 4,
+  "failures": [],
+  "invalid_values": {
+    "ca": [],
+    "cp": [],
+    "exang": [],
+    "fbs": [],
+    "restecg": [],
+    "sex": [],
+    "slope": [],
+    "thal": []
+  },
+  "missing_by_feature": {
+    "age": 0,
+    "ca": 611,
+    "chol": 30,
+    "cp": 0,
+    "exang": 55,
+    "fbs": 90,
+    "oldpeak": 62,
+    "restecg": 2,
+    "sex": 0,
+    "slope": 309,
+    "thal": 486,
+    "thalach": 55,
+    "trestbps": 59
+  },
+  "notes": [
+    "Exact duplicates are reported, not silently removed.",
+    "No imputation, encoding, scaling, or feature selection was performed."
+  ],
+  "output": {
+    "bytes": 76914,
+    "path": "data/processed/cardioshift_cohort.csv",
+    "sha256": "961eca9f38cd639e8d4be527326e3168d3c3c8af230fd4e154d5d6ea4da4f0e9"
+  },
+  "rows": 920,
+  "sites": {
+    "Cleveland": {
+      "events": 139,
+      "missing_by_feature": {
+        "age": 0,
+        "ca": 4,
+        "chol": 0,
+        "cp": 0,
+        "exang": 0,
+        "fbs": 0,
+        "oldpeak": 0,
+        "restecg": 0,
+        "sex": 0,
+        "slope": 0,
+        "thal": 2,
+        "thalach": 0,
+        "trestbps": 0
+      },
+      "missing_cells": 6,
+      "missing_fraction": 0.0015232292460015233,
+      "n": 303,
+      "prevalence": 0.45874587458745875
+    },
+    "Hungary": {
+      "events": 106,
+      "missing_by_feature": {
+        "age": 0,
+        "ca": 291,
+        "chol": 23,
+        "cp": 0,
+        "exang": 1,
+        "fbs": 8,
+        "oldpeak": 0,
+        "restecg": 1,
+        "sex": 0,
+        "slope": 190,
+        "thal": 266,
+        "thalach": 1,
+        "trestbps": 1
+      },
+      "missing_cells": 782,
+      "missing_fraction": 0.20460491889063318,
+      "n": 294,
+      "prevalence": 0.36054421768707484
+    },
+    "Switzerland": {
+      "events": 115,
+      "missing_by_feature": {
+        "age": 0,
+        "ca": 118,
+        "chol": 0,
+        "cp": 0,
+        "exang": 1,
+        "fbs": 75,
+        "oldpeak": 6,
+        "restecg": 1,
+        "sex": 0,
+        "slope": 17,
+        "thal": 52,
+        "thalach": 1,
+        "trestbps": 2
+      },
+      "missing_cells": 273,
+      "missing_fraction": 0.17073170731707318,
+      "n": 123,
+      "prevalence": 0.9349593495934959
+    },
+    "VA Long Beach": {
+      "events": 149,
+      "missing_by_feature": {
+        "age": 0,
+        "ca": 198,
+        "chol": 7,
+        "cp": 0,
+        "exang": 53,
+        "fbs": 7,
+        "oldpeak": 56,
+        "restecg": 0,
+        "sex": 0,
+        "slope": 102,
+        "thal": 166,
+        "thalach": 53,
+        "trestbps": 56
+      },
+      "missing_cells": 698,
+      "missing_fraction": 0.2684615384615385,
+      "n": 200,
+      "prevalence": 0.745
+    }
+  },
+  "status": "pass",
+  "target_events": 509,
+  "target_prevalence": 0.5532608695652174
+}
